@@ -38,3 +38,5 @@ ISA extensions:
 E-300: SSE4a, SSE4.1, SSE4.2, AVX (seems v2 compatible)
 
 C-50: SSE3, SSE4a (v1/partial v2 support)
+
+https://github.com/EI2030/Low-power-E-Paper-OS/blob/master/Hyperlinks%20and%20Scratchpad.md#devuan
