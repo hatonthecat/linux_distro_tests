@@ -29,3 +29,10 @@ https://www.cnet.com/reviews/acer-aspire-one-522-review/
 
 https://www.notebookcheck.net/AMD-C-50-Notebook-Processor.40960.0.html
 "Inside the C-50 two Bobcat cores can access 512KB level 2 cache per core. In comparison to the Atom processors, the Bobcat architecture uses an "out-of-order" execution and is therefore faster at the same clock speed. However, the performance is far worse than similar clocked Penryn (Celeron) or Danube (Athlon II) cores."
+
+Compared to other netbooks with the E-300 series, it is lacking in AVX (and may or may not be x86_64 v2 compatible, which is being phased out on some distros: https://www.youtube.com/watch?v=TnCkYthXUAc
+
+https://www.cpu-monkey.com/en/compare_cpu-amd_e_300-vs-amd_c_50 
+ISA extensions: 
+E-300: SSE4a, SSE4.1, SSE4.2, AVX (seems v2 compatible)
+C-50: SSE3, SSE4a (v1/partial v2 support)
