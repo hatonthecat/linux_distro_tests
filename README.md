@@ -34,5 +34,7 @@ Compared to other netbooks with the E-300 series, it is lacking in AVX (and may 
 
 https://www.cpu-monkey.com/en/compare_cpu-amd_e_300-vs-amd_c_50 
 ISA extensions: 
+
 E-300: SSE4a, SSE4.1, SSE4.2, AVX (seems v2 compatible)
+
 C-50: SSE3, SSE4a (v1/partial v2 support)
