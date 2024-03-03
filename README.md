@@ -5,7 +5,7 @@ A test of various linux live USBs
 Devuan Daedalus 5.0 
 --
 
-Tested Devuan on a 2011 era dual core Acer Aspire, with impressive results: https://www.youtube.com/watch?v=9Fqaq7cLIfk 
+Tested Devuan on a 2011 era dual core Acer Aspire netbook (AMD C-50 1.0Ghz, 4GB RAM), with impressive results: https://www.youtube.com/watch?v=9Fqaq7cLIfk 
 
 Reference material
 
