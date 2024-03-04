@@ -71,7 +71,8 @@ A Google speed test garnered around 18mbps down and 14mbps up (this is a 2010 pr
 
 (page 2- MPEG-2 decoding only, but far better than nothing)
 
-Playing back a 720p video (seems to be only 30fps though instead of the native 60fps due to the codec) from Youtube (via mpv player) https://en.wikipedia.org/wiki/Mpv_(media_player) (while I have used these before- it is interesting to see their optimization on netbooks, some more than 15 yrs) I sold my EEE PC 700 4G Surf around 2010 and had an Eee 1005HA for a short while after that- it used an Atom N270) https://en.wikipedia.org/wiki/Asus_Eee_PC#Specifications
+Playing back a 720p video (seems to be only 30fps though instead of the native 60fps due to the codec) from Youtube (via mpv player) https://en.wikipedia.org/wiki/Mpv_(media_player) (while I have used these before- it is interesting to see their optimization on netbooks, some more than 15 yrs) I sold my EEE PC 700 4G Surf around 2010 and had an Eee PC X101 for a short while after that- it used an Atom N455) https://en.wikipedia.org/wiki/Asus_Eee_PC#Specifications
+https://newatlas.com/asus-eee-pc-x101-netbook/19442/ It is approximate in performance to the Sylvania with N450 (1 core, 2 threads)
 
 ![snapshot1](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/d40558a2-3135-42fe-bb44-275fe8059710)
 
