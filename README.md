@@ -78,7 +78,13 @@ https://newatlas.com/asus-eee-pc-x101-netbook/19442/ It is approximate in perfor
 
 https://github.com/trizen/pipe-viewer 
 
+Uses only 262MB RAM without anything running:
+
+![snapshotvv1](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/81aa2477-c0a6-411f-ba7a-96d2f4a6f345)
+
+
 My next tests will be Void Linux and Star Linux. https://voidlinux.org/download/#i686 https://distrowatch.com/table.php?distribution=star I tested void linux last year on a Raspberry pi zero- the furthest I got was the command line https://www.youtube.com/watch?v=3O8irqB0vQ0 due to a USB driver issue. One thing would be nice would be to locate the touchpad driver that my Sylvania netbook uses. I recall it was listed in the Windows 7 device manager but may have forgotten the password for it and may take a while to dig. The USB mouse works fine, but the Sylvania has a simple to use touchpad that doesn't get slimy and makes the netbook far more portable than it typically requires.
+
 
 
 
