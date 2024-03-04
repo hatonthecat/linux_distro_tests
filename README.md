@@ -41,7 +41,7 @@ C-50: SSE3, SSE4a (v1/partial v2 support)
 
 https://github.com/EI2030/Low-power-E-Paper-OS/blob/master/Hyperlinks%20and%20Scratchpad.md#devuan
 
-On an Atom N450 1.66Ghz (2 threads) with 1GB of DDR2 RAM
+Devuan on an Atom N450 1.66Ghz (2 threads) with 1GB of DDR2 RAM
 ---
 Runs significantly slower on a single core, hyperthreaded [Atom N450](https://ark.intel.com/content/www/us/en/ark/products/42503/intel-atom-processor-n450-512k-cache-1-66-ghz.html) from 2010 - Libre Office is barely able to load, and the image loaded into RAM is decreased from ~1.4GB on the C-50 to ~300MB on the Atom 
 ![P1020060](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/9f17083c-b12a-451d-a49a-e36669098e81)
