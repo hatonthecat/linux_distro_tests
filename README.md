@@ -62,6 +62,8 @@ GNU/LINUX (Devuan GNU/Linux with Trinity Desktop)
 
 ![snapshot2](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/fefaf96b-8784-4638-956c-05b8ab34a468)
 
+https://exegnulinux.net/
+
 A Google speed test garnered around 18mbps down and 14mbps up (this is a 2010 processor and 100Mbps modem). Its ability to stream video is ameliorated by GTK + Pipe, which has a built in Youtube/URL streamer. This is ideal since Firefox is not able to load very well on 1GB of RAM. Pages load, but html5 heavy pages are slow to load, if at all.
 
 My next tests will be Void Linux and Star Linux. https://voidlinux.org/download/#i686 https://distrowatch.com/table.php?distribution=star I tested void linux last year on a Raspberry pi zero- the furthest I got was the command line https://www.youtube.com/watch?v=3O8irqB0vQ0 due to a USB driver issue. 
