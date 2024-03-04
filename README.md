@@ -40,3 +40,16 @@ E-300: SSE4a, SSE4.1, SSE4.2, AVX (seems v2 compatible)
 C-50: SSE3, SSE4a (v1/partial v2 support)
 
 https://github.com/EI2030/Low-power-E-Paper-OS/blob/master/Hyperlinks%20and%20Scratchpad.md#devuan
+
+On an Atom N450 1.66Ghz (2 threads) with 1GB of DDR2 RAM
+---
+Runs significantly slower on a single core, hyperthreaded [Atom N450](https://ark.intel.com/content/www/us/en/ark/products/42503/intel-atom-processor-n450-512k-cache-1-66-ghz.html) from 2010 - Libre Office is barely able to load, and the image loaded into RAM is decreased from ~1.4GB on the C-50 to ~300MB on the Atom 
+![P1020060](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/9f17083c-b12a-451d-a49a-e36669098e81)
+
+Running no programs leaves a little under 300MB left (not including video RAM)
+
+![P1020061](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/bd110993-b379-47c7-b846-84088a7e13cd)
+
+Loading Firefox uses all 1GB of the RAM (needs around 370MB according to the previous video- best to use a lighter browser, and the task managers can't be run if it is to load a page at all): 
+
+![P1020062](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/4c427e63-b0ec-47e5-8676-0ec6922a7542)
