@@ -64,9 +64,11 @@ GNU/LINUX (Devuan GNU/Linux with Trinity Desktop)
 
 https://exegnulinux.net/
 
-A Google speed test garnered around 18mbps down and 14mbps up (this is a 2010 processor and 100Mbps modem). Its ability to stream video is ameliorated by GTK + Pipe, which has a built in Youtube/URL streamer. This is ideal since Firefox is not able to load very well on 1GB of RAM. Pages load, but html5 heavy pages are slow to load, if at all.
+A Google speed test garnered around 18mbps down and 14mbps up (this is a 2010 processor and 100Mbps modem). Its ability to stream video is ameliorated by GTK+ Pipe, which has a built in Youtube/URL streamer. This is ideal since Firefox is not able to load very well on 1GB of RAM. Pages load, but html5 heavy pages are slow to load, if at all. After running a test, GTK+ Pipe is able to stream evebn 1080p with a buffer. The 720p is more than the resolution of this netbook (1024x600), thus is more than sufficiently fast to play. Over all, an excellent and optimized distro. 10/10 stars.
 
-My next tests will be Void Linux and Star Linux. https://voidlinux.org/download/#i686 https://distrowatch.com/table.php?distribution=star I tested void linux last year on a Raspberry pi zero- the furthest I got was the command line https://www.youtube.com/watch?v=3O8irqB0vQ0 due to a USB driver issue. 
+https://github.com/trizen/pipe-viewer
+
+My next tests will be Void Linux and Star Linux. https://voidlinux.org/download/#i686 https://distrowatch.com/table.php?distribution=star I tested void linux last year on a Raspberry pi zero- the furthest I got was the command line https://www.youtube.com/watch?v=3O8irqB0vQ0 due to a USB driver issue. One thing would be nice would be to locate the touchpad driver that my Sylvania netbook uses. I recall it was listed in the Windows 7 device manager but may have forgotten the password for it and may take a while to dig. The USB mouse works fine, but the Sylvania has a simple to use touchpad that doesn't get slimy and makes the netbook far more portable than it typically requires.
 
 
 
