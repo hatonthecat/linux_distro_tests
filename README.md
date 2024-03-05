@@ -60,11 +60,7 @@ GNU/LINUX (Devuan GNU/Linux with Trinity Desktop)
 
 "Exe GNU/Linux (originating from Exmouth, in south-west England) is a "Live Linux image" preconfigured with a selection of applications for general desktop use."
 
-![snapshot2](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/fefaf96b-8784-4638-956c-05b8ab34a468)
-
-https://exegnulinux.net/
-
-A Google speed test garnered around 18mbps down and 14mbps up (this is a 2010 processor and 100Mbps modem). Its ability to stream video is ameliorated by GTK+ Pipe, which has a built in Youtube/URL streamer. This is ideal since Firefox is not able to load very well on 1GB of RAM. Pages load, but html5 heavy pages are slow to load, if at all. After running a test, GTK+ Pipe is able to stream even 1080p with a buffer. The 720p is more than the resolution of this netbook (1024x600), thus is more than sufficiently fast to play. Over all, an excellent and optimized distro. 10/10 stars. The video actually decodes quite well as it is an NM10 chipset, has the [3150](https://www.dell.com/community/en/conversations/laptops-general-locked-topics/netbook-gpu-question-intel-nm10-express-vs-intel-graphics-media-accelerator-3150/647f0591f4ccf8a8debf8b94), only integrated: https://www.intel.com/content/www/us/en/products/sku/47610/intel-nm10-express-chipset/specifications.html
+An earlier Google speed test garnered around 18mbps down and 14mbps up (this is a 2010 processor and 100Mbps modem), but later shown to be around 32Mbps^. Its ability to stream video is ameliorated by GTK+ Pipe, which has a built in Youtube/URL streamer. This is ideal since Firefox is not able to load very well on 1GB of RAM. Pages load, but html5 heavy pages are slow to load, if at all. After running a test, GTK+ Pipe is able to stream even 1080p with a buffer. The 720p is more than the resolution of this netbook (1024x600), thus is more than sufficiently fast to play. Over all, an excellent and optimized distro. 10/10 stars. The video actually decodes quite well as it is an NM10 chipset, has the [3150](https://www.dell.com/community/en/conversations/laptops-general-locked-topics/netbook-gpu-question-intel-nm10-express-vs-intel-graphics-media-accelerator-3150/647f0591f4ccf8a8debf8b94), only integrated: https://www.intel.com/content/www/us/en/products/sku/47610/intel-nm10-express-chipset/specifications.html
 [https://en.wikipedia.org/wiki/Intel_GMA](https://en.wikipedia.org/wiki/Intel_GMA#GMA_3150) https://www.intel.com/content/dam/develop/external/us/en/documents/09nn-graphics-4a-182369.pdf
 
 ![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/7227a7c7-db17-40eb-93b2-c2972d9c755c) 
@@ -82,8 +78,20 @@ Uses only 262MB RAM without anything running:
 
 ![snapshotvv1](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/81aa2477-c0a6-411f-ba7a-96d2f4a6f345)
 
+https://youtu.be/jMUeePXx8Ek 
+
+![snapshot2](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/fefaf96b-8784-4638-956c-05b8ab34a468)
+
+https://exegnulinux.net/
+
+https://youtu.be/jMUeePXx8Ek A test of various applications, all running on less than 1GB of RAM. A distro download showed an average of 30Mbps download speed (3.8 MB/s) when connected to Ethernet:
+
+![vlcsnap-2024-03-05-02h13m04s567](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/17b06de8-2ffb-4eb3-b9d6-3a8bb76115c2)
+
+The 57 is transmit number for data (likely KB/s or Kb/s upload during iso download)
 
 My next tests will be Void Linux and Star Linux. https://voidlinux.org/download/#i686 https://distrowatch.com/table.php?distribution=star I tested void linux last year on a Raspberry pi zero- the furthest I got was the command line https://www.youtube.com/watch?v=3O8irqB0vQ0 due to a USB driver issue. One thing would be nice would be to locate the touchpad driver that my Sylvania netbook uses. I recall it was listed in the Windows 7 device manager but may have forgotten the password for it and may take a while to dig. The USB mouse works fine, but the Sylvania has a simple to use touchpad that doesn't get slimy and makes the netbook far more portable than it typically requires.
+
 
 
 
