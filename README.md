@@ -1,4 +1,4 @@
-/.;l# linux_distro_tests
+# linux_distro_tests
 A test of various linux live USBs
 
 
