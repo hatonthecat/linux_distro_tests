@@ -92,6 +92,15 @@ The 57 is transmit number for data (likely KB/s or Kb/s upload during iso downlo
 
 My next tests will be Void Linux and Star Linux. https://voidlinux.org/download/#i686 https://distrowatch.com/table.php?distribution=star I tested void linux last year on a Raspberry pi zero- the furthest I got was the command line https://www.youtube.com/watch?v=3O8irqB0vQ0 due to a USB driver issue. One thing would be nice would be to locate the touchpad driver that my Sylvania netbook uses. I recall it was listed in the Windows 7 device manager but may have forgotten the password for it and may take a while to dig. The USB mouse works fine, but the Sylvania has a simple to use touchpad that doesn't get slimy and makes the netbook far more portable than it typically requires.
 
+Nanolinux
+--
+
+https://youtu.be/soMkG-Wmwk4 
+
+https://sourceforge.net/p/nanolinux/wiki/Home/
+
+https://en.wikipedia.org/wiki/Nanolinux
+
 
 
 
