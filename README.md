@@ -147,7 +147,7 @@ I also discovered that my AMD C-50 Netbook, the Acer Aspire 522, supports virtua
 PCem
 --
 
-Moving on to 90s era-Linux distros, I have been interested in testing the Linux 1.x kernels- Slackware, SLS, and other floppy-based boots require a slightly different emulation system, ones that VirtualBox isn't exactly designed for. The minimum RAM, for example, is 4MB. Thus, running 386 and 486s is more tailored for this. It also allows me to accurately set the clock speed based on the system they were designed for- 16MHz, 20 MHz, 33, and 40MHz, for example.
+Moving on to 90s era-Linux distros, I have been interested in testing the Linux 1.x kernels- Slackware, SLS, and other floppy-based boots require a slightly different emulation system, ones that VirtualBox isn't exactly designed for. The minimum RAM in VirtualBox, for example, is 4MB. Thus, running 386 and 486s on PCem so that it can run on 1MB-16MB is more tailored for this. It also allows me to accurately set the clock speed based on the system they were designed for- 16MHz, 20 MHz, 33, and 40MHz, for example.
 
 https://pcem-emulator.co.uk/downloads.html Having used a 486 SX in the past, wanted to test the 386SX as it would be the minimum to run linux as designed by the early kernels.
 
