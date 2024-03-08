@@ -142,7 +142,7 @@ A short video is uploaded.
 
 https://github.com/hatonthecat/linux_distro_tests/assets/76194453/79c350fd-3e89-44ba-91ce-a6f1ac8eec4d
 
-I also discovered that my AMD C-50 Netbook, the Acer Aspire 522, supports virtualization, which allows me to test VirtualBox 5.2.44 (the last 32-bit version) as I am running a 32-bit version of Windows 10 on my netbook. 
+I also discovered that my AMD C-50 Netbook, the Acer Aspire 522, supports virtualization, which allows me to test VirtualBox 5.2.44 (the last 32-bit version) as I am running a 32-bit version of Windows 10 on my netbook. 800x600 resolutions works best (the display is 1280x720)
 
 
 
