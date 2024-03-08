@@ -109,6 +109,41 @@ Having used this before, I discovered what might have caused many of my Ventoy I
 
 If using a legacy version of a bootloader that only supports BIOS, need to format disk to exFAT- of course I remember this now, but it is not obvioous with newer and multi-feature bootloaders, although the non-legacy version supports both modes: https://pendrivelinux.com/yumi-multiboot-usb-creator/#YUMI-exFAT
 
+VirtualBox
+--
+
+I installed VirtualBox to run a laundry list of distros that I had been trying to test on my Atom N450 netbook, but after getting frustrated with 5 multi-bootloaders that can't simply copy and paste ISO files (with limited luck with Ventoy), I decided to just use virtualization to test the distros I had intended to. While I do like the extra customizability, such as testing linux distros in under 64MB of RAM, I realize it it not always ideal for "real world" conditions. That said, a tutorial out there pointed out a very nice thing, to disable the option to enable virtual disk, which is great because 1: I am booting from RAM and don't need a virtual disk (such as a virtual HDD or SSD), and 2: I have wasted lots of precious disk space on virtual machines that I forgot to delete after testing. Thus using the system RAM for the VM RAM accomplishes what I am intending. Anyways, the first test was simple enough, Damn Small Linux, dsl-4.4.10.iso, which uses Linux Version 2.4.31 and is available on Distrowatch and the DSL website: 
+
+The tutorial I used was from one of the USB Multiboot sites: https://pendrivelinux.com/run-iso-from-windows/
+
+Intelligently, they boldly highlight not to use Virtual Disk (I would have never caught that before). After pressing Start to load the ISO, I got a simple error about virtualization not being enabled. I had an idea how to solve it (BIOS), and enabled it before, but I searched Google for the exact error message to be sure:
+
+"When the error 'not in a hypervisor partition (hvp=0) (verr_nem_not_available)' appears, it means that your computer has the virtualization disabled at the BIOS level and you need to enable this technology to set up a new virtual machine."
+https://www.partitionwizard.com/partitionmanager/not-in-a-hypervisor-partition.html
+
+Simple enough- I checked my ASRock UEFI screen, and found SVM, which is another word for AMD-V (Virtualization), disabled. Enabling it and saving the UEFI changes allowed me to load DSL in VirtualBox without the error.
+
+After getting a pop-up about how the Host Key works, I noted Right-Ctrl toggles between the in-VM mouse and the host-mouse.
+
+Having gotten it running, a screenshot:
+
+![VirtualBox_dsl_07_03_2024_23_01_13](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/95a18eaa-e170-44f2-acd2-584dfc19d310)
+
+The version of VirtualBox I am running is VirtualBox 7.0.14r161095 (Qt5.15.2) https://www.virtualbox.org/wiki/Downloads
+
+![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/5595b889-bfdd-466f-b871-0e93e236ca60)
+
+Loading Firefox on 32MB caused it to freeze  when I tried to search Google News. 
+
+https://distrowatch.com/table.php?distribution=damnsmall  
+https://www.damnsmalllinux.org/2024-download.html
+
+A short video is uploaded. 
+
+https://github.com/hatonthecat/linux_distro_tests/assets/76194453/79c350fd-3e89-44ba-91ce-a6f1ac8eec4d
+
+I also discovered that my AMD C-50 Netbook, the Acer Aspire 522, supports virtualization, which allows me to test VirtualBox 5.2.44 (the last 32-bit version) as I am running a 32-bit version of Windows 10 on my netbook. 
+
 
 
 
