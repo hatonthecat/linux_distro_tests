@@ -151,10 +151,10 @@ Moving on to 90s era-Linux distros, I have been interested in testing the Linux 
 
 https://pcem-emulator.co.uk/downloads.html Having used a 486 SX in the past, wanted to test the 386SX as it would be the minimum to run linux as designed by the early kernels.
 
-Some additional resources: https://github.com/EI2030/Low-power-E-Paper-OS/blob/master/Hyperlinks%20and%20Scratchpad.md#rtoslinuxlegacy-os-development I was able to set the RAM and CPU speed, but am still working on loading the Slackware floppies in sequence or in a single image to simulate the process of multi-disk install (potentially a single floppy without the disk size limit isn't checked in some emulation versions?)
+Some additional [resources](https://github.com/EI2030/Low-power-E-Paper-OS/blob/master/Hyperlinks%20and%20Scratchpad.md#rtoslinuxlegacy-os-development). I was able to set the RAM and CPU speed, but am still working on loading the Slackware floppies in sequence or in a single image to simulate the process of multi-disk install (potentially a single floppy without the disk size limit isn't checked in some emulation versions?)
 
 ![Screenshot from 2024-03-08 14-25-47](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/a902917a-3799-453c-af46-794a19454455)
 
-Slackware 1.1.2 on 3MB RAM (1994) w/ TCP/IP support running at 40Mhz on a 386SX (Linux kernel 0.99.15)
+Slackware 1.1.2 on 3MB RAM (1994) w/ TCP/IP support running at 40Mhz on a 386SX (Linux kernel 0.99.15):
 
 https://www.youtube.com/watch?v=5DBPuZHWEXc https://mirrors.slackware.com/slackware/slackware-1.1.2/ mirror of slackware files. https://en.wikipedia.org/wiki/Slackware If it can run on 4MB of RAM on a real PC, I'd like to emulate that since all the disks appear to be obtainable and can be virtualized.
