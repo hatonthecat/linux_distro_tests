@@ -101,6 +101,14 @@ https://sourceforge.net/p/nanolinux/wiki/Home/
 
 https://en.wikipedia.org/wiki/Nanolinux
 
+YUMI multibootloader
+--
+Having used this before, I discovered what might have caused many of my Ventoy ISOs to not load
+
+![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/d8f51a8e-a45e-4b4a-bac6-0838af261688)
+
+If using a legacy version of a bootloader that only supports BIOS, need to format disk to exFAT- of course I remember this now, but it is not obvioous with newer and multi-feature bootloaders, although the non-legacy version supports both modes: https://pendrivelinux.com/yumi-multiboot-usb-creator/#YUMI-exFAT
+
 
 
 
