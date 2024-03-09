@@ -157,4 +157,15 @@ Some additional [resources](https://github.com/EI2030/Low-power-E-Paper-OS/blob/
 
 Slackware 1.1.2 on 3MB RAM (1994) w/ TCP/IP support running at 40Mhz on a 386SX (Linux kernel 0.99.15):
 
-https://www.youtube.com/watch?v=5DBPuZHWEXc https://mirrors.slackware.com/slackware/slackware-1.1.2/ mirror of slackware files. https://en.wikipedia.org/wiki/Slackware If it can run on 4MB of RAM on a real PC, I'd like to emulate that since all the disks appear to be obtainable and can be virtualized.
+https://www.youtube.com/watch?v=5DBPuZHWEXc https://mirrors.slackware.com/slackware/slackware-1.1.2/ mirror of slackware files. https://en.wikipedia.org/wiki/Slackware If it can run on 4MB of RAM on a real PC, I'd like to emulate that since all the disks appear to be obtainable and can be virtualized. 
+
+I have also been made aware of Linux 0.1.1: https://github.com/Retro-Linux/Oldest-Linux-Ever 
+
+using Bochs: https://www.youtube.com/watch?v=9ccU0SFKGHs 
+
+https://www.osnews.com/story/19123/dusting-off-the-001-linux-kernel/ "Submitted by mariuz  2008-01-07  Linux  26 Comments
+Abdel Benamrouche announced that he has updated the original 0.01 Linux kernel to compile with GCC-4.x, allowing it to run on emulators such as QEMU and Bochs. After applying his series of small patches, Abdel explains that the 0.01 kernel can be built on a system running the 2.6 Linux kernel. He added that he’s successfully ported bash-3.2, portions of coreutils-6.9, dietlibc-0.31 (instead of glibc), bin86-0.16.17, make-3.81, ncurses-2.0.7, and vim-7.1 all to run on his modified 0.01 kernel."
+
+I might try to reproduce those results (as in downloading Bochs to see if I can run the same OS, then latching X server onto 0.1.1. Just kidding. Maybe fbdev or SVGAlib- or LVGL something possibly similar?).
+https://unix.stackexchange.com/questions/14388/are-there-any-guis-for-linux-that-doesnt-use-x11 https://www.svgalib.org/ 
+https://lvgl.io/
