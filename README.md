@@ -175,3 +175,17 @@ https://lvgl.io/
 Linux 4.1 on RISCV64 (needs at least 36MB of RAM to run in JSLinux-39-40 far better)
 --
 https://bellard.org/jslinux/vm.html?cpu=riscv64&url=buildroot-riscv64-xwin.cfg&graphic=1&mem=39
+
+RePalm
+--
+https://dmitry.gr/?r=05.Projects&proj=27.%20rePalm 
+
+https://dmitry.gr/?r=05.Projects&proj=27.%20rePalm#_TOC_f4ed5002aeb6070729ce9b6df22517aa
+
+"Um, but now we need a kernel...
+Need a kernel? Why not Linux?
+PalmOS needs a kernel with a particular set of primitives. We already discussed some (but definitely not all) reasons why Linux is a terrible choice. Add to that the fact that Cortex-M3 compatible linux is slow AND huge, it was simply not an option. So, what is?
+
+I ended up writing my own kernel. It is simple, and works well. It will run on any Cortex-M class CPU, supports multithreading with priorities, precise timers, mutexes, semaphores, event groups, mailboxes, and all the primitives PalmOS wants like ability to force-pause threads, and ability to disable task switching. It also takes advantage of the MPU to add some basic safety like stack guards. Also, there is great (& fast) support for thread local storage, which comes in handy later. Why write my own kernel, aren't there enough out there? None of the ones out there really had the primitives I needed and bolting them on would take just as long."
+
+A hybrid linux kernel may be explored, as has in the past: https://en.wikipedia.org/wiki/Palm_OS#Modernization
