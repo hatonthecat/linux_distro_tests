@@ -144,6 +144,11 @@ https://github.com/hatonthecat/linux_distro_tests/assets/76194453/79c350fd-3e89-
 
 I also discovered that my AMD C-50 Netbook, the Acer Aspire 522, supports virtualization, which allows me to test VirtualBox 5.2.44 (the last 32-bit version) as I am running a 32-bit version of Windows 10 on my netbook. 800x600 resolutions works best (the display is 1280x720)
 
+PXE on SliTaz (4-8MB test)
+--
+
+[ PXE on SliTaz](https://www.youtube.com/watch?v=OqpwSDJH8rw) video
+
 PCem
 --
 
