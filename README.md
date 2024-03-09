@@ -159,6 +159,8 @@ Slackware 1.1.2 on 3MB RAM (1994) w/ TCP/IP support running at 40Mhz on a 386SX 
 
 https://www.youtube.com/watch?v=5DBPuZHWEXc https://mirrors.slackware.com/slackware/slackware-1.1.2/ mirror of slackware files. https://en.wikipedia.org/wiki/Slackware If it can run on 4MB of RAM on a real PC, I'd like to emulate that since all the disks appear to be obtainable and can be virtualized. 
 
+Linux 0.1.1
+--
 I have also been made aware of Linux 0.1.1: https://github.com/Retro-Linux/Oldest-Linux-Ever 
 
 using Bochs: https://www.youtube.com/watch?v=9ccU0SFKGHs 
