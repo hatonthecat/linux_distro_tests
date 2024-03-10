@@ -205,6 +205,12 @@ Changed VRAM from 9 to 1 (minimum needed, it appears)
 
 ![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/4320fdc0-c000-4a6c-bb4c-bb9d93d9096b)
 
+Test with 1MB VRAM:
+
+Test showing OS failing to boot after removing VRAM and display controller (2 separate tests):
+
+
+
  
 PCem
 --
