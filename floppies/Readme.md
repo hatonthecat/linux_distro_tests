@@ -123,3 +123,4 @@ Original-site:
 Platforms:	386/486/pentium with at least 8 MB RAM, 1.44 MB floppy boot.
 Copying-policy: GPL
 End
+https://www.ibiblio.org/pub/Linux/system/recovery/images/cramdisk-2.0.lynx.lsm
