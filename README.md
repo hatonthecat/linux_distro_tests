@@ -246,7 +246,7 @@ https://www.youtube.com/watch?v=5DBPuZHWEXc https://mirrors.slackware.com/slackw
 PCem (Day 2)
 --
 
-I was able to get PCem to recognize my SliTaz floppy as a hard drive. Even if it's not "correct" I'll take it for now.
+I was able to get PCem to recognize my SliTaz floppy as a 2.88MB drive. It appears HDD 1 and 2 are listed beside Floppy drive 1 and 2, leading me to think C and D were floppy drive letters.  
 
 ![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/36c88adb-f715-4c94-a84f-e05516625e20) (Select (Y)) 
 
