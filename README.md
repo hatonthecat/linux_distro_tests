@@ -284,6 +284,8 @@ SliTaz Test on 386 in PCem (4MB)
 --
 I was able to get the 386 to load SliTaz, after configuring the PCEm settings. The floppies did not get recognized in the bootup screen, which suggests PCem fed the floppies using a virtualization drive instead. I did not need to enter the BIOS settings, although I had enough time to press "DEL" to access it. It seems it recognized the 1.44MB image as a 2.8MB disk, although when I tried to update that the BIOS would not load as usual, and resetting to the defaults did not seem to take effect, even after restarting PCEm. The original test accomplished the basic boot, so I might return to this when I decide what software I want to run on it, possibly under the same amount of RAM- perhaps a NanoEditor or something. 
 
+Video [link](https://github.com/hatonthecat/linux_distro_tests/blob/main/SliTaz%20on%20386SX%2033MHz%20in%20PCem%20v17%20with%204MB%20RAM.mp4)
+
 After testing the CLI for commands that don't work, I created a stress-test induced error, or some error that doesn't appear on newer machines:
 
 ![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/91eb919d-b525-4804-a37d-4c4b33366403)
