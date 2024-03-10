@@ -264,6 +264,9 @@ Here it shows 2080k/4096k available:
 
 Next test: 4 bottles of 1MB RAM on the wall, 4 bottles of 1MB. You take one down, you pass it around, 3MB bottles of 1MB on the wall:
 
+SliTaz Test on 386 in PCem on 4MB (Part 2 of Day 2)
+--
+
 Result: While more than 2MB was available, it did not let me mount fs with just 2MB+640K.
 
 ![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/b6946059-7ea9-4d6f-81d2-e5b4fcc199de)
@@ -293,11 +296,7 @@ Video posted (placeholder).
 
 Perhaps there are smaller images that only require 2MB RAM? Perhaps (that's not even including write-in-place).
 
-
-
-SliTaz Test on 386 in PCem on 4MB (Part 2 of Day 2)
---
-I was able to get the 386 to load SliTaz, after configuring the PCEm settings. The floppies did not get recognized in the bootup screen, which suggests PCem fed the floppies using a virtualization drive instead. I did not need to enter the BIOS settings, although I had enough time to press "DEL" to access it. It seems it recognized the 1.44MB image as a 2.8MB disk, although when I tried to update that the BIOS would not load as usual, and resetting to the defaults did not seem to take effect, even after restarting PCEm. The original test accomplished the basic boot, so I might return to this when I decide what software I want to run on it, possibly under the same amount of RAM- perhaps a NanoEditor or something. 
+(Note: Some of this will be out of order). I was able to get the 386 to load SliTaz, after configuring the PCEm settings. The floppies did not get recognized in the bootup screen, which suggests PCem fed the floppies using a virtualization drive instead. I did not need to enter the BIOS settings, although I had enough time to press "DEL" to access it. It seems it recognized the 1.44MB image as a 2.8MB disk, although when I tried to update that the BIOS would not load as usual, and resetting to the defaults did not seem to take effect, even after restarting PCEm. The original test accomplished the basic boot, so I might return to this when I decide what software I want to run on it, possibly under the same amount of RAM- perhaps a NanoEditor or something. 
 
 Video [link](https://github.com/hatonthecat/linux_distro_tests/blob/main/SliTaz%20on%20386SX%2033MHz%20in%20PCem%20v17%20with%204MB%20RAM.mp4)
 
