@@ -217,7 +217,7 @@ Not sure why. But it deletes it and there it doesn't allow much time to keep the
 
 Using the tiny.slitaz site instead, I recreated the ISO, but also created a smaller 1.44MB floppy, which I had intended to make anyways:
 
-![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/efd8e7a7-bb57-4deb-aad5-683b9d5ce1db)
+![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/efd8e7a7-bb57-4deb-aad5-683b9d5ce1db) (Floppy boots will be covered more in the next section, PCem: Day 2)
 
 https://elinux.org/Linux_Tiny 
 
@@ -242,6 +242,70 @@ Some additional [resources](https://github.com/EI2030/Low-power-E-Paper-OS/blob/
 Slackware 1.1.2 on 3MB RAM (1994) w/ TCP/IP support running at 40Mhz on a 386SX (Linux kernel 0.99.15):
 
 https://www.youtube.com/watch?v=5DBPuZHWEXc https://mirrors.slackware.com/slackware/slackware-1.1.2/ mirror of slackware files. https://en.wikipedia.org/wiki/Slackware If it can run on 4MB of RAM on a real PC, I'd like to emulate that since all the disks appear to be obtainable and can be virtualized. 
+
+PCem (Day 2)
+--
+
+I was able to get PCem to recognize my SliTaz floppy as a hard drive. Even if it's not "correct" I'll take it for now.
+
+![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/36c88adb-f715-4c94-a84f-e05516625e20) (Select (Y)) 
+
+![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/ec2fbb8e-dc98-42c4-8736-2c2b3e0311c6)
+
+Loading with a 486 seems to work.
+
+![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/96a2eaa4-cd6a-42cf-928c-73eab5bde6b3)
+
+Video posted (placeholder.
+
+Here it shows 2080k/4096k available:
+
+![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/5c0e31f6-e91c-496f-acf6-1899b588210e)
+
+Next test: 4 bottles of 1MB RAM on the wall, 4 bottles of 1MB. You take one down, you pass it around, 3MB bottles of 1MB on the wall:
+
+Result: While more than 2MB was available, it did not let me mount fs with just 2MB+640K.
+
+This error occured even when adding the 40MB HD that others have been able to run Linux 0.1.1 on:
+
+![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/62f8a7ae-2066-4883-aa05-646a2ee7fde6)
+
+The idea was that by having the HDD and the floppy there, perhaps it might load less ramdisk onto RAM. Without knowing how to configure what is loaded, I didn't bother to check, at least yet. Why did I use this HDD? It was the only HDD image I already had, and didn't need to download or create another one.
+
+Video posted (placeholder) .
+
+![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/6326b6eb-052d-4bc5-8b67-66cb9f424b6c)
+
+Perhaps there are smaller images that only require 2MB RAM? Perhaps (that's not even including write-in-place).
+
+##Part 2 of Day 2
+
+SliTaz Test on 386 in PCem (4MB)
+--
+I was able to get the 386 to load SliTaz, after configuring the PCEm settings. The floppies did not get recognized in the bootup screen, which suggests PCem fed the floppies using a virtualization drive instead. I did not need to enter the BIOS settings, although I had enough time to press "DEL" to access it. It seems it recognized the 1.44MB image as a 2.8MB disk, although when I tried to update that the BIOS would not load as usual, and resetting to the defaults did not seem to take effect, even after restarting PCEm. The original test accomplished the basic boot, so I might return to this when I decide what software I want to run on it, possibly under the same amount of RAM- perhaps a NanoEditor or something. 
+
+After testing the CLI for commands that don't work, I created a stress-test induced error, or some error that doesn't appear on newer machines:
+
+![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/91eb919d-b525-4804-a37d-4c4b33366403)
+
+https://www.bhanage.com/2020/06/linux-kernel-crash-debugging-bug.html It seems like something where a test is run before another scheduled task is not complete
+
+""Scheduling while atomic" indicates that you've tried to sleep somewhere that you shouldn't - like within a spinlock-protected critical section or an interrupt handler.
+
+Things to check:
+
+1. In this case you should check if you are actually returning from some code that could cause the lock not to be released or actually sleeping in some part of the code.
+"
+
+https://e2e.ti.com/support/processors-group/processors/f/processors-forum/250383/linux-kernel-3-8-bug-scheduling-while-atomic-using-tun-module It was present as late as linux 3.8 but I am not too interested in this bug, although I will not be surprised if I encounter it frequently. 
+
+Creating a new PCem config for the 386 reset the config (a copy), or deleting the old one and adding a new one with the same name (386)
+
+![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/8c0c13d8-1f8d-4f75-a600-8a8993ecb836)
+
+![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/f8aa9aca-76f6-4261-ad08-91452e8655d0)
+
+The 40MHz CPU only takes less than a couple minutes to load the console.
 
 Linux 0.1.1
 --
