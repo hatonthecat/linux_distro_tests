@@ -195,6 +195,12 @@ Recording settings in VirtualBox:
 
 (minimum is 32KBps at 8 fps)
 
+[3-screen0.webm](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/101c0127-1c0a-4763-8d0b-55edc251a688)
+
+![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/2f19bb96-8049-4f85-947c-557680872ae5)
+
+Less blurry, 110Kbps at 1024x768 is slightly more tolerable video, and for a 386, 9 frames per second is likely to capture each still of CLI logs. With a faster virtualization (e.g. PII), it might need more fps to capture each overlapping frame.
+
  
 PCem
 --
