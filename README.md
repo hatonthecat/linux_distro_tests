@@ -205,7 +205,7 @@ Changed VRAM from 9 to 1 (minimum needed, it appears)
 
 ![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/4320fdc0-c000-4a6c-bb4c-bb9d93d9096b)
 
-[Test with 1MB VRAM](https://github.com/hatonthecat/linux_distro_tests/blob/main/SliTaz%20386%20with%201MB%20VRAM.mp4) (Files larger than 10MB were uploaded sue to embedding limits in GH)
+[Test with 1MB VRAM](https://github.com/hatonthecat/linux_distro_tests/blob/main/SliTaz%20386%20with%201MB%20VRAM.mp4) (Files larger than 10MB were uploaded due to embedding limits in GitHub)
 
 [Video](https://github.com/hatonthecat/linux_distro_tests/blob/main/SliTaz%20386%200MB%20VRAM%20and%20then%20no%20display%20controller.mp4) showing OS failing to boot after removing VRAM and then readding 1MB, but removing display controller (2 separate tests)
 
