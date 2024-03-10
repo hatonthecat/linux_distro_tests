@@ -1,0 +1,596 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://www.mail-archive.com/tomsrtbt@toms.net/msg00091.html
+Subject: Re: [tomsrtbt] 1.7.134
+Date: Sun, 10 Mar 2024 17:22:55 -0500
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--zmHCUQeS1XN5TM7wY3loZsyUc8YulHDjeRKkEOs87k----"
+
+
+------MultipartBoundary--zmHCUQeS1XN5TM7wY3loZsyUc8YulHDjeRKkEOs87k----
+Content-Type: text/html
+Content-ID: <frame-72A1E82C2F8ADD9F48DAA9895D88C8A5@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.mail-archive.com/tomsrtbt@toms.net/msg00091.html
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8">
+<title>Re: [tomsrtbt] 1.7.134</title>
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1"=
+>
+<link rel=3D"apple-touch-icon" sizes=3D"114x114" href=3D"https://www.mail-a=
+rchive.com/apple-touch-icon-114x114.png">
+<link rel=3D"apple-touch-icon" sizes=3D"72x72" href=3D"https://www.mail-arc=
+hive.com/apple-touch-icon-72x72.png">
+<link rel=3D"apple-touch-icon" sizes=3D"57x57" href=3D"https://www.mail-arc=
+hive.com/apple-touch-icon-57x57.png">
+<link rel=3D"shortcut icon" href=3D"https://www.mail-archive.com/favicon.ic=
+o">
+<link rel=3D"contents" href=3D"https://www.mail-archive.com/tomsrtbt@toms.n=
+et/thrd9.html#00091" id=3D"c">
+<link rel=3D"index" href=3D"https://www.mail-archive.com/tomsrtbt@toms.net/=
+mail9.html#00091" id=3D"i">
+<link rel=3D"prev" href=3D"https://www.mail-archive.com/tomsrtbt@toms.net/m=
+sg00081.html" id=3D"p">
+<link rel=3D"next" href=3D"https://www.mail-archive.com/tomsrtbt@toms.net/m=
+sg00101.html" id=3D"n">
+<link rel=3D"canonical" href=3D"https://www.mail-archive.com/tomsrtbt@toms.=
+net/msg00091.html">
+<link rel=3D"stylesheet" href=3D"https://www.mail-archive.com/normalize.css=
+" media=3D"screen">
+<link rel=3D"stylesheet" href=3D"https://www.mail-archive.com/master.css" m=
+edia=3D"screen">
+
+<!--[if lt IE 9]>
+<link rel=3D"stylesheet" href=3D"/ie.css" media=3D"screen">
+<![endif]-->
+</head>
+<body>
+
+<div itemscope=3D"" itemtype=3D"http://schema.org/Article" class=3D"contain=
+er">
+<div class=3D"skipLink">
+<a href=3D"https://www.mail-archive.com/tomsrtbt@toms.net/msg00091.html#nav=
+">Skip to site navigation (Press enter)</a>
+</div>
+<div class=3D"content" role=3D"main">
+<div class=3D"msgHead">
+<h1>
+<span class=3D"subject"><a href=3D"https://www.mail-archive.com/search?l=3D=
+tomsrtbt@toms.net&amp;q=3Dsubject:%22Re%5C%3A+%5C%5Btomsrtbt%5C%5D+1.7.134%=
+22&amp;o=3Dnewest" rel=3D"nofollow"><span itemprop=3D"name">Re: [tomsrtbt] =
+1.7.134</span></a></span>
+</h1>
+<p class=3D"darkgray font13">
+<span class=3D"sender pipe"><a href=3D"https://www.mail-archive.com/search?=
+l=3Dtomsrtbt@toms.net&amp;q=3Dfrom:%22Tom+Oehser%22" rel=3D"nofollow"><span=
+ itemprop=3D"author" itemscope=3D"" itemtype=3D"http://schema.org/Person"><=
+span itemprop=3D"name">Tom Oehser</span></span></a></span>
+<span class=3D"date"><a href=3D"https://www.mail-archive.com/search?l=3Dtom=
+srtbt@toms.net&amp;q=3Ddate:19990612" rel=3D"nofollow">Sat, 12 Jun 1999 08:=
+23:49 -0700</a></span>
+</p>
+</div>
+<div itemprop=3D"articleBody" class=3D"msgBody">
+<!--X-Body-of-Message-->
+<pre>
+&gt; Now I have some questions about what I am allowed to do with this
+&gt; disk (licenses....).
+
+Money is not an issue.  What you must do is meet my requirements and the
+various GPL/BSD/etc. requirements.  The way I worded it in the FAQ is:
+
+***************************************************************************=
+****
+* If you base something on it, use any of the scripts, distribute binaries =
+or *
+* libraries from it, or distribute customized versions of it: You must cred=
+it *
+* tomsrtbt and include a pointer to <a href=3D"http://www.toms.net/rb/">htt=
+p://www.toms.net/rb/</a> and [EMAIL PROTECTED], *
+* and include this notice verbatim. Copyright Tom Oehser 1998. This notice =
+in *
+* no way supercedes or nullifies any other protections on the component par=
+ts *
+* such as the BSD and GPL copyrights which apply to practically everything!=
+!! *
+***************************************************************************=
+****
+
+What it boils down to is,
+
+(1) Anything based on any of my original work or using files I create must
+    say something like "This work is based on or uses stuff from tomsrtbt,
+    available from <a href=3D"http://www.toms.net/rb/">http://www.toms.net/=
+rb/</a>, by Tom Oehser, [EMAIL PROTECTED]".
+    This notice needs to be relatively although not burdensomely prominent.
+    (Meaning, a user must see it at some point in their installation and
+    use, but it doesn't have to be displayed every time they boot).  This
+    condition includes using the structural concepts I created (such as
+    splitting the diskette into 3 sections, raw-gzip-bzip2) as well as any
+    files I generated (compiled binaries, scripts, libraries, manpages, etc=
+.).
+    Inclusion of the above asterisk-bordered notice does not need to be
+    prominent, it is enough that it is there somewhere.
+
+(2) By redistributing anything on my diskette that is GPL or BSD, etc., you
+    take on any burdens and requirements of that copyright.  That is, say,
+    by including a compiled Gnu "ls" on tomsrtbt, I take on an obligation
+    under the terms of the GPL to make source code available to you if you
+    request it.  In practice, in most cases, that means I can tell you wher=
+e
+    to find it on Sunsite/Metalab if you have trouble.  If you redistribute
+    my binaries and libraries, etc., I expect you to handle this completely=
+.
+    In other words, I will not like it if I get a request saying "I need th=
+e
+    source code for Bob's handy dandy backup system, he said to talk to you=
+".
+    I have enough GPL responsibility arising from my own distribution of it=
+.
+
+(3) You should read and understand the GPL itself before you redistribute i=
+t.
+
+In other words,
+
+(A) Don't use it without crediting me.
+(B) Everything GPL etc. still applies.
+
+-Tom
+</pre>
+
+
+</div>
+<div class=3D"msgButtons margintopdouble">
+<ul class=3D"overflow">
+<li class=3D"msgButtonItems"><a class=3D"button buttonleft " accesskey=3D"p=
+" href=3D"https://www.mail-archive.com/tomsrtbt@toms.net/msg00081.html">Pre=
+vious message</a></li>
+<li class=3D"msgButtonItems textaligncenter"><a class=3D"button" accesskey=
+=3D"c" href=3D"https://www.mail-archive.com/tomsrtbt@toms.net/thrd9.html#00=
+091">View by thread</a></li>
+<li class=3D"msgButtonItems textaligncenter"><a class=3D"button" accesskey=
+=3D"i" href=3D"https://www.mail-archive.com/tomsrtbt@toms.net/mail9.html#00=
+091">View by date</a></li>
+<li class=3D"msgButtonItems textalignright"><a class=3D"button buttonright =
+" accesskey=3D"n" href=3D"https://www.mail-archive.com/tomsrtbt@toms.net/ms=
+g00101.html">Next message</a></li>
+</ul>
+</div>
+<a name=3D"tslice"></a>
+<div class=3D"tSliceList margintopdouble">
+<ul class=3D"icons monospace">
+<li class=3D"icons-email"><span class=3D"subject"><a href=3D"https://www.ma=
+il-archive.com/tomsrtbt@toms.net/msg00081.html">[tomsrtbt] 1.7.134</a></spa=
+n> <span class=3D"sender italic">Tom Oehser</span></li>
+<li><ul>
+<li class=3D"icons-email tSliceCur"><span class=3D"subject"></span> <span c=
+lass=3D"sender italic">Tom Oehser</span></li>
+</ul>
+</li></ul>
+</div>
+<div class=3D"overflow msgActions margintopdouble">
+<div class=3D"msgReply">
+<h2>
+					Reply via email to
+</h2>
+<form method=3D"POST" action=3D"https://www.mail-archive.com/mailto.php">
+
+
+
+<input type=3D"submit" value=3D" Tom Oehser ">
+</form>
+</div>
+</div>
+</div>
+<div class=3D"aside" role=3D"complementary">
+<div class=3D"logo">
+<a href=3D"https://www.mail-archive.com/"><img src=3D"https://www.mail-arch=
+ive.com/logo.png" width=3D"247" height=3D"88" alt=3D"The Mail Archive"></a>
+</div>
+<form class=3D"overflow" action=3D"https://www.mail-archive.com/search" met=
+hod=3D"get">
+
+<label class=3D"hidden" for=3D"q">Search the site</label>
+<input class=3D"submittext" type=3D"text" id=3D"q" name=3D"q" placeholder=
+=3D"Search tomsrtbt">
+<input class=3D"submitbutton" name=3D"submit" type=3D"image" src=3D"https:/=
+/www.mail-archive.com/submit.png" alt=3D"Submit">
+</form>
+<div class=3D"nav margintop" id=3D"nav" role=3D"navigation">
+<ul class=3D"icons font16">
+<li class=3D"icons-home"><a href=3D"https://www.mail-archive.com/">The Mail=
+ Archive home</a></li>
+<li class=3D"icons-list"><a href=3D"https://www.mail-archive.com/tomsrtbt@t=
+oms.net/">tomsrtbt - all messages</a></li>
+<li class=3D"icons-about"><a href=3D"https://www.mail-archive.com/tomsrtbt@=
+toms.net/info.html">tomsrtbt - about the list</a></li>
+<li class=3D"icons-expand"><a href=3D"https://www.mail-archive.com/search?l=
+=3Dtomsrtbt@toms.net&amp;q=3Dsubject:%22Re%5C%3A+%5C%5Btomsrtbt%5C%5D+1.7.1=
+34%22&amp;o=3Dnewest&amp;f=3D1" title=3D"e" id=3D"e">Expand</a></li>
+<li class=3D"icons-prev"><a href=3D"https://www.mail-archive.com/tomsrtbt@t=
+oms.net/msg00081.html" title=3D"p">Previous message</a></li>
+<li class=3D"icons-next"><a href=3D"https://www.mail-archive.com/tomsrtbt@t=
+oms.net/msg00101.html" title=3D"n">Next message</a></li>
+</ul>
+</div>
+<div class=3D"listlogo margintopdouble">
+
+</div>
+<div class=3D"margintopdouble">
+
+</div>
+</div>
+</div>
+<div class=3D"footer" role=3D"contentinfo">
+<ul>
+<li><a href=3D"https://www.mail-archive.com/">The Mail Archive home</a></li=
+>
+<li><a href=3D"https://www.mail-archive.com/faq.html#newlist">Add your mail=
+ing list</a></li>
+<li><a href=3D"https://www.mail-archive.com/faq.html">FAQ</a></li>
+<li><a href=3D"https://www.mail-archive.com/faq.html#support">Support</a></=
+li>
+<li><a href=3D"https://www.mail-archive.com/faq.html#privacy">Privacy</a></=
+li>
+<li class=3D"darkgray">Pine.LNX.3.95.990612114513.25979F-100000@toms.net</l=
+i>
+</ul>
+</div>
+
+
+</body></html>
+------MultipartBoundary--zmHCUQeS1XN5TM7wY3loZsyUc8YulHDjeRKkEOs87k----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.mail-archive.com/normalize.css
+
+@charset "utf-8";
+
+[hidden] { display: none; }
+
+html { font-family: sans-serif; text-size-adjust: 100%; }
+
+body { margin: 0px; }
+
+a:focus { outline: dotted thin; }
+
+a:active, a:hover { outline: 0px; }
+
+h1 { font-size: 2em; }
+
+b, strong { font-weight: bold; }
+
+code, kbd, pre, samp { font-family: monospace, serif; font-size: 1em; }
+
+pre { white-space: pre-wrap; overflow-wrap: break-word; }
+
+img { border: 0px; }
+
+button, input, select, button, input { line-height: normal; }
+
+button, html input[type=3D"button"], input[type=3D"reset"], input[type=3D"s=
+ubmit"] { appearance: button; cursor: pointer; }
+
+button[disabled], input[disabled] { cursor: default; }
+
+input[type=3D"search"] { appearance: textfield; box-sizing: content-box; }
+
+table { border-collapse: collapse; border-spacing: 0px; }
+------MultipartBoundary--zmHCUQeS1XN5TM7wY3loZsyUc8YulHDjeRKkEOs87k----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.mail-archive.com/master.css
+
+@charset "utf-8";
+
+pre, code, kbd, samp, tt { margin: 0px; font-family: courier, "courier new"=
+, monospace; font-size: 1em; }
+
+body { margin: 0px; border-top: 5px solid rgb(160, 30, 30); padding: 0px; c=
+olor: rgb(0, 0, 0); background: rgb(255, 255, 255); font: 87.5% / 1.4 helve=
+tica, arial, sans-serif; }
+
+h1, h2, h3, h4, h5, h6 { margin: 0px; color: rgb(160, 30, 30); line-height:=
+ 1.2; }
+
+h2 { margin: 0px 0px 5px; }
+
+img { display: block; max-width: 100%; }
+
+pre { margin: 0px; font-family: courier, "courier new", monospace; }
+
+ul { margin: 0px; padding: 0px; list-style: none; }
+
+blockquote { margin: 0px; padding: 0px 0px 0px 20px; color: rgb(160, 30, 30=
+); border-left: 3px solid rgb(160, 30, 30); }
+
+iframe { border: none; }
+
+a:link { color: rgb(0, 80, 150); }
+
+a:visited { color: rgb(160, 30, 30); }
+
+a:focus { color: rgb(0, 0, 0); }
+
+a:hover { color: rgb(57, 115, 66); }
+
+a:active { color: rgb(160, 30, 30); }
+
+h1, .font24 { font-size: 171.429%; }
+
+h2, .font16 { font-size: 114.286%; }
+
+.font13 { font-size: 92.8571%; }
+
+.italic { font-style: italic; }
+
+.monospace { font-family: courier, "courier new", monospace; }
+
+.darkgray { color: rgb(102, 102, 102); }
+
+.darkgray a:link, .darkgray a:visited { text-decoration: none; color: rgb(1=
+02, 102, 102); }
+
+.subject a:link, .subject a:visited { text-decoration: none; color: rgb(160=
+, 30, 30); }
+
+.tSliceList .subject a:visited { color: rgb(102, 102, 102); }
+
+.lightgray { color: rgb(187, 187, 187); }
+
+.white { color: rgb(255, 255, 255); }
+
+.black { color: rgb(0, 0, 0); }
+
+.margintopdouble { margin-top: 2em; }
+
+.margintop { margin-top: 1em; }
+
+.marginbottom { margin-bottom: 1em; }
+
+.hidden { display: none; }
+
+.overflow { overflow: hidden; zoom: 1; }
+
+.icons { color: rgb(102, 102, 102); }
+
+.icons li { padding: 0.2em 0px 0.2em 20px; }
+
+.tSliceList .icons li { padding: 0px 0px 0px 20px; }
+
+.icons-home { background: url("/icons.png") 0px 5px no-repeat; }
+
+.icons-list { background: url("/icons.png") 0px -95px no-repeat; }
+
+.icons-about { background: url("/icons.png") 0px -195px no-repeat; }
+
+.icons-prev { background: url("/icons.png") 0px -295px no-repeat; }
+
+.icons-next { background: url("/icons.png") 0px -395px no-repeat; }
+
+.icons-email { background: url("/icons.png") 0px -495px no-repeat; }
+
+.icons-expand { background: url("/icons.png") 0px -795px no-repeat; }
+
+.tSliceList .icons li .icons-email { padding: 0.2em 0px 0.2em 1.5em; }
+
+.tSliceCur { color: rgb(0, 0, 0); background-color: rgb(244, 245, 245); }
+
+.skipLink a { position: absolute; left: -1000px; z-index: 2; margin: 0px; p=
+adding: 0.5em; background: rgb(255, 255, 255); font-size: 200%; font-weight=
+: bold; text-decoration: none; }
+
+.skipLink a:active, .skipLink a:focus, .skipLink a:hover { display: inline;=
+ top: 0px; left: 0px; color: rgb(255, 255, 255); background: rgb(0, 0, 0); =
+}
+
+.footer li { display: inline; margin: 0px 0.7em 0px 0px; padding: 0px 0.7em=
+ 0px 0px; border-right: 1px solid rgb(51, 51, 51); }
+
+.footer li:last-child { margin: 0px; padding: 0px; border-right: none; }
+
+.footer a:link, .footer a:visited { color: rgb(255, 255, 255); }
+
+.footer a:focus { color: rgb(0, 0, 0); background: rgb(255, 255, 255); }
+
+.footer a:hover { color: rgb(255, 255, 255); background: rgb(57, 115, 66); =
+}
+
+.footer a:active { color: rgb(255, 255, 255); background: rgb(160, 30, 30);=
+ }
+
+.msgActions { padding-top: 20px; border-top: 2px solid rgb(221, 221, 221); =
+}
+
+.submittext { float: left; width: 228px; height: 20px; margin: 0px; border:=
+ 1px solid rgb(153, 153, 153); border-radius: 4px 0px 0px 4px; padding: 3px=
+ 10px; }
+
+.submitbutton { float: left; }
+
+::-webkit-input-placeholder { color: rgb(119, 119, 119); }
+
+.pipe { margin-right: 0.5em; border-right: 1px solid rgb(221, 221, 221); pa=
+dding-right: 0.8em; }
+
+@media screen and (max-width: 400px) {
+  .content, .aside, .submitform { float: none; }
+  .content { margin: 20px 10% 0px; width: 80%; }
+  .aside { margin: 30px 10%; width: 80%; }
+  .msgReply { margin: 20px 0px 0px; }
+  .submittext { width: 60%; }
+  .submitbutton { width: 32px; }
+  .logo, .bannersquare, .bannertower { display: none; }
+  .footer { clear: both; padding: 10px 10%; border-top: 5px solid rgb(160, =
+30, 30); background: rgb(0, 0, 0); }
+}
+
+@media screen and (min-width: 700px) {
+  .textaligncenter { text-align: center; }
+  .textalignright { text-align: right; }
+  .msgReply { float: right; width: 49%; text-align: right; margin: 0px !imp=
+ortant; }
+  .msgShare { float: left; width: 49%; }
+  .msgButtonItems { float: left; width: 24.5%; }
+  .button { display: inline-block; border-radius: 4px; border: 1px solid rg=
+b(187, 187, 187); padding: 4px 12px; background-color: rgb(238, 238, 238); =
+background-image: linear-gradient(rgb(255, 255, 255), rgb(221, 221, 221)); =
+text-decoration: none; line-height: 1; }
+  a.button:link, a.button:visited { color: rgb(51, 51, 51); }
+  a.button:focus { border: 1px solid rgb(85, 85, 85); color: rgb(255, 255, =
+255); background-color: rgb(0, 0, 0); background-image: linear-gradient(rgb=
+(68, 68, 68), rgb(34, 34, 34)); }
+  a.button:hover { border: 1px solid rgb(72, 131, 66); color: rgb(255, 255,=
+ 255); background-color: rgb(57, 115, 66); background-image: linear-gradien=
+t(rgb(72, 131, 66), rgb(43, 100, 66)); }
+  a.button:active { border: 1px solid rgb(174, 43, 30); color: rgb(255, 255=
+, 255); background-color: rgb(160, 30, 30); background-image: linear-gradie=
+nt(rgb(174, 43, 30), rgb(144, 6, 30)); }
+  .buttonleft { background-color: rgb(238, 238, 238); background-image: url=
+("/icons.png"), linear-gradient(rgb(255, 255, 255), rgb(221, 221, 221)); ba=
+ckground-repeat: no-repeat, repeat; background-position: 0px -297px, 0px 0p=
+x; padding: 4px 12px 4px 16px; }
+  .buttonright { background-color: rgb(238, 238, 238); background-image: ur=
+l("/icons.png"), linear-gradient(rgb(255, 255, 255), rgb(221, 221, 221)); b=
+ackground-repeat: no-repeat, repeat; background-position: 100% -397px, 0px =
+0px; padding: 4px 16px 4px 12px; }
+  a.buttonleft:focus, a.buttonright:focus { border: 1px solid rgb(85, 85, 8=
+5); color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); background-i=
+mage: url("/icons.png"), linear-gradient(rgb(68, 68, 68), rgb(34, 34, 34));=
+ }
+  a.buttonleft:hover, a.buttonright:hover { border: 1px solid rgb(72, 131, =
+66); color: rgb(255, 255, 255); background-color: rgb(57, 115, 66); backgro=
+und-image: url("/icons.png"), linear-gradient(rgb(72, 131, 66), rgb(43, 100=
+, 66)); }
+  a.buttonleft:active, a.buttonright:active { border: 1px solid rgb(174, 43=
+, 30); color: rgb(255, 255, 255); background-color: rgb(160, 30, 30); backg=
+round-image: url("/icons.png"), linear-gradient(rgb(174, 43, 30), rgb(144, =
+6, 30)); }
+  .buttondisabled { background-color: rgb(187, 187, 187); background-image:=
+ url("/icons.png"), linear-gradient(rgb(204, 204, 204), rgb(170, 170, 170))=
+; }
+  .icons ul { margin: 5px 0px 0px; padding: 0px 0px 0px 1em; color: rgb(102=
+, 102, 102); }
+  .icons li ul { margin: 5px 0px 0px; padding: 0px 0px 0px 1em; }
+}
+
+@media screen and (min-width: 400px) and (max-width: 800px) {
+  .content, .aside { float: none; }
+  .content { margin: 20px 5% 0px; width: 90%; }
+  .aside { margin: 30px 5%; width: 90%; }
+  .msgReply { margin: 20px 0px 0px; }
+  .submittext { width: 70%; }
+  .submitbutton { width: 32px; }
+  .logo { display: none; }
+  .bannertower { clear: both; }
+  .footer { clear: both; padding: 10px 5%; border-top: 5px solid rgb(160, 3=
+0, 30); background: rgb(0, 0, 0); }
+}
+
+@media screen and (min-width: 800px) {
+  .container { width: 1020px; }
+  .logo { position: relative; top: -5px; }
+  .content, .aside { float: left; padding: 0px 0px 20px; }
+  .content { margin: 20px 0px 0px 20px; width: 680px; }
+  .aside { margin: 0px 0px 0px 20px; width: 300px; }
+  .submittext { width: 228px; }
+  .submitbutton { width: 32px; }
+  .footer { clear: both; padding: 10px 20px; border-top: 5px solid rgb(160,=
+ 30, 30); background: rgb(0, 0, 0); }
+}
+------MultipartBoundary--zmHCUQeS1XN5TM7wY3loZsyUc8YulHDjeRKkEOs87k----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.mail-archive.com/icons.png
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAMwCAYAAAApt+DKAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAL
+EwAACxMBAJqcGAAAAAd0SU1FB94FBwYANnrgiR0AAAI4SURBVHja7dxNS+tAFAZgf372lwt369b/
+4aLQXReuXAiCikoLfktl5ATSRk3SpFMvmj4PHBLCnDeTD11k0IODH6soihSV1bxVyOfmQSFtzb1C
+NjV3hvRtbgwZ2tw6k6xL6Hp0+xQAAAAAAMBvcHR0lPpWa0AfMW46nabsgC8hQwIaL6ceEJ++q229
+msIGz6BXQNsMPs/EDMY9g60Dtim/CAEAAAAAtvBz11iavmb3XmNp+iTea42lK2Dwp/G25u//OL9p
+aeD/XcK+Bmz6Ox5rLAAAAAAA/Hx//v5LUVnNW4X80uadBIw4xI8UAAAAAAAjZ3lghyH7utaU/SIB
+AAAAAMC3OTw8TDlVBry8vKSHh4e0XC5b6+3tbVWPj49pPp+vA6I5thcXF+X+5eVlurq6StfX1+n2
+9rYcvFgsyhPF8Rh7dna2Dnh9fS2bYj+2cYZ6493dXTnm5uZmNSaOfwiIQVVInCXOFsfu7+/LS4jA
+qjmONwbUQ+Js1fV/bu4MmEwmq5C4J1FV8/HxcXNANd34d25xc6JpNputHlXsn5+fp9PT01XIh4Cn
+p6eyOQbF1KuqnkRU7EdwFVLNsgyItBgQNyweYzyFqAiOen5+/lDxdE5OTtYBWW8iAAAAAACMS0qp
+rKzmrUJ+afNOAkYcAgAAAAAAI2d5YIch+7rWlP0iAQAAAADAtymKItVr8JiuxragLwfr267mxnH1
+A12XsGnMQduAvpc3tvdi0D3Ifgo7eQ+y38Ssn4Vc7+uKZRjfE2FqAAAAAElFTkSuQmCC
+
+------MultipartBoundary--zmHCUQeS1XN5TM7wY3loZsyUc8YulHDjeRKkEOs87k----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.mail-archive.com/logo.png
+
+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
+
+------MultipartBoundary--zmHCUQeS1XN5TM7wY3loZsyUc8YulHDjeRKkEOs87k----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.mail-archive.com/submit.png
+
+iVBORw0KGgoAAAANSUhEUgAAACAAAAAcCAMAAAA3HE0QAAAAwFBMVEWKioqhoqLi4uPu7+/o6ery
+8vN5eXnT09OcnJy1tbVubm7m5uewsLCoqKi5ubmGhobBwcGkpaaRkZF/f3/IyclycnJ1dXXq6uvc
+3N3s7e1oaGjOzs5qamrn5+iCgoKUlJTOz9HY2Njl5eXa2trX19jx8fLn6On39/ft7u7q6+z19fX0
+9PTr7O1nZ2epq63o6Ojw8PH3+Pjj5OXl5ub5+vri4+Td3t/e3+D9/f3g4eL6+vv8/Pzf4OGdn6Jm
+Zmb///8KtkKPAAABNElEQVQokYXT2XKCQBAF0IuyyMQoIiKiuC+445qQpNv//6toYUZiqibn6d5+
+665qkMomveCiEtVSvCsNN/hUI3yoEY45ydt8dvyNsJMGGrpV10t2eYTZXatcFWvm0CydZjmExZ1t
+rtlHvcNis108EJaZIcJQawcD2+SGZSwlgpFxTO4NEsPQXxtc3hoSYZKpCXZWt2DV2Q0mEiHJaIK9
++BZGXcYokQjFjO1zrXALFZ+1tCgR4kzQZb9yiON2NWSvFUuEVaZZEmyi5F737AWtlUSY3417gkMR
+MnecaP5A0H+MK+gwr3mtBfoDYSoVLMuzrvdoOPvHkPCS04zmw+uhuiNdjgiHJ5HbCWkgK2H/RO/X
+hR3ISjg9KzjtOJKNkP5x3k9PshC+1AhvSv0NziptLcV/r/cNuQiWLXEl+6MAAAAASUVORK5CYII=
+
+------MultipartBoundary--zmHCUQeS1XN5TM7wY3loZsyUc8YulHDjeRKkEOs87k------

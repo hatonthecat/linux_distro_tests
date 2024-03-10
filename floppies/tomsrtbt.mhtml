@@ -1,0 +1,170 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://static.lwn.net/1998/0910/tomsrtbt.html
+Subject: tomsrtbt
+Date: Sun, 10 Mar 2024 17:04:02 -0500
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--iYC7A4fZbtVZZuWajzLsLxjuZswt6kakDSNMxUOeLv----"
+
+
+------MultipartBoundary--iYC7A4fZbtVZZuWajzLsLxjuZswt6kakDSNMxUOeLv----
+Content-Type: text/html
+Content-ID: <frame-FE5E7DB4824D2E042636E319E0BC017C@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://static.lwn.net/1998/0910/tomsrtbt.html
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3DUTF-8"><title>tomsrtbt</title></head>
+<body bgcolor=3D"#ffffff" text=3D"#000000" link=3D"#0000FF" vlink=3D"#551A8=
+B" alink=3D"#FF0000" background=3D"https://static.lwn.net/1998/0910/tomsrtb=
+t.html">
+<p align=3D"center">
+<a href=3D"https://static.lwn.net/lwn/">
+<img src=3D"https://static.lwn.net/images/lwn.banner.gif" alt=3D"[LWN Logo]=
+" height=3D"70" width=3D"450"></a>
+</p>
+<pre>Date: Thu, 03 Sep 1998 13:50:58 -0400
+From: Tom Oehser &lt;Tom@Toms.Net&gt;
+To: lwn@eklektix.com
+Subject: tomsrtbt
+
+I don't know if it qualifies as news or an announcement or whatever.
+
+I've made several recent improvements to the 'tomsrtbt' packagek,
+which is either a rescue diskette or a distribution depending on
+how you look at it (I put it in the system/recovery folder on Sunsite,
+but linux-hq calls it a 'single floppy distribution'.)
+
+Recent enhancements include command history overtop ash, support
+for tulip cards, easier customization, a way to install it from DOS.
+
+Here is the current .lsm file...
+
+Begin3
+Title:          tomsrtbt
+Version:        1.6.263
+Entered-date:   13AUG98
+Description:    "The most Linux on one floppy."  (distribution or panic
+disk).
+                1.72MB boot/root rescue disk with a lot of hardware and
+tools.
+                Supports ide, scsi, tape, network adaptors, PCMCIA, much
+more.
+                About 100 utility programs and tools for fixing and
+restoring.
+                See 'Read-Features' for the lists of what is included.
+Not a
+                script, just the diskette image packed up chock full of
+stuff.
+                Easy to customize startup and scripts for complete
+rebuilding.
+                Also good as learn-unix-on-a-floppy as it has mostly
+what you
+                expect- vi, emacs, awk, sed, sh, manpages- loaded on
+ramdisks.
+Keywords:       rescue, recovery, emergency, floppy, panic, bootdisk,
+tomsrtbt
+Author:         tom@toms.net (Tom Oehser)
+Maintained-by:  tom@toms.net (Tom Oehser)
+Primary-site:   sunsite.unc.edu /pub/Linux/system/recovery
+                1722 kB tomsrtbt-1.6.263.tar.gz
+                1 kB tomsrtbt-1.6.263.lsm
+Alternate-site: <a href=3D"http://www.toms.net/~toehser/rb/">http://www.tom=
+s.net/~toehser/rb/</a>
+                1722 kB tomsrtbt-current.tar.gz
+Copying-policy: GPL
+End
+
+</pre>
+</body></html>
+------MultipartBoundary--iYC7A4fZbtVZZuWajzLsLxjuZswt6kakDSNMxUOeLv----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://static.lwn.net/images/lwn.banner.gif
+
+R0lGODlhwgFGAOcAAP//////zP//mf//Zv//M///AP/M///MzP/Mmf/MZv/MM//MAP+Z//+ZzP+Z
+mf+ZZv+ZM/+ZAP9m//9mzP9mmf9mZv9mM/9mAP8z//8zzP8zmf8zZv8zM/8zAP8A//8AzP8Amf8A
+Zv8AM/8AAMz//8z/zMz/mcz/Zsz/M8z/AMzM/8zMzMzMmczMZszMM8zMAMyZ/8yZzMyZmcyZZsyZ
+M8yZAMxm/8xmzMxmmcxmZsxmM8xmAMwz/8wzzMwzmcwzZswzM8wzAMwA/8wAzMwAmcwAZswAM8wA
+AJn//5n/zJn/mZn/Zpn/M5n/AJnM/5nMzJnMmZnMZpnMM5nMAJmZ/5mZzJmZmZmZZpmZM5mZAJlm
+/5lmzJlmmZlmZplmM5lmAJkz/5kzzJkzmZkzZpkzM5kzAJkA/5kAzJkAmZkAZpkAM5kAAGb//2b/
+zGb/mWb/Zmb/M2b/AGbM/2bMzGbMmWbMZmbMM2bMAGaZ/2aZzGaZmWaZZmaZM2aZAGZm/2ZmzGZm
+mWZmZmZmM2ZmAGYz/2YzzGYzmWYzZmYzM2YzAGYA/2YAzGYAmWYAZmYAM2YAADP//zP/zDP/mTP/
+ZjP/MzP/ADPM/zPMzDPMmTPMZjPMMzPMADOZ/zOZzDOZmTOZZjOZMzOZADNm/zNmzDNmmTNmZjNm
+MzNmADMz/zMzzDMzmTMzZjMzMzMzADMA/zMAzDMAmTMAZjMAMzMAAAD//wD/zAD/mQD/ZgD/MwD/
+AADM/wDMzADMmQDMZgDMMwDMAACZ/wCZzACZmQCZZgCZMwCZAABm/wBmzABmmQBmZgBmMwBmAAAz
+/wAzzAAzmQAzZgAzMwAzAAAA/wAAzAAAmQAAZgAAMwAAAP//////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////yH+Dk1hZGUgd2l0aCBHSU1Q
+ACwAAAAAwgFGAEAI/gABCBxIsKDBgwgTKlzIsKHDhxAjSpxIsaLFixgzatzIsaPHjyBDihxJsqTJ
+kyhTqqRo5ZrLlzBXAqjA4UgFhhWAjLgps2QADjkM1gyQsAJPgUAUHnBwlGSACg4gIuBgoOQBDg0M
+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
+
+------MultipartBoundary--iYC7A4fZbtVZZuWajzLsLxjuZswt6kakDSNMxUOeLv------

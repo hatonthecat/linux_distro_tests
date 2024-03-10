@@ -1,0 +1,19 @@
+
+Nearly 8M is used for the kernel, ramdisks, and bunzip2ing.
+
+A 4M machine boots with only the / ramdisk, and 300K free.
+
+You can get at /usr even with 4M by following this procedure:
+
+1) Use fdisk to make partitions sized ~1M, ~4M, ~8M.
+2) Mount /dev/fd0H1722 on /mnt
+3) . /mnt/settings.s # sets O1, O2
+4) dd if=/dev/ram0 of= ~1M
+5) Reboot with root= ~1M
+6) Mkswap & swapon the ~8M
+7) mkfs.minix the ~4M
+8) mount the ~4M on /usr
+9) dd if=/dev/fd0H1722 skip=$O2 | bzip2 -ds | cpio -Vim
+
+Then you'll have everything and can proceed at will...
+

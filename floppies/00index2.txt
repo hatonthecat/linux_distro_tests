@@ -1,0 +1,24 @@
+
+        Date/Time of
+   Size File Arrival Filename           Description
+------- ------------ ------------       -----------
+   1527 000720 17:51 00index.txt        This file you are reading.
+    427 Oct  8 03:03 lilo-22.3.3.lsm    LINux LOader v. 22.3.3 Linux Software 
+                                        Map entry.
+ 369359 Aug 30 14:39 lilo-22.3.3.tar.gz LInux LOader v. 22.3.3, by John Coffman
+                                        and Werner Almesberger.  A generic
+                                        boot loader for Intel x86 systems,
+                                        capable of booting pretty much any
+                                        x86 OS, and offering a boot-time menu
+                                        of up to 16 bootable choices.  Now
+                                        supports disks > 1024 cylinders using
+                                        a new "lba32" option.  From
+                                        http://brun.dyndns.org/pub/linux/lilo 
+   1119 May  4 07:54 tomsrtbt-2.0.103.lsm
+                                        Tom's root-boot disk image, v 2.0.103,
+                                        Linux Software Map entry.
+1829836 May  4 07:54 tomsrtbt-2.0.103.tar.gz
+                                        Tom's root-boot disk image, 2.0.103,
+                                        a 4MB RAMdisk-based maintenance floppy.
+                                        Has just about everything.  From:
+                                        http://www.toms.net/

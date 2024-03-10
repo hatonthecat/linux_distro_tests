@@ -1,0 +1,12 @@
+Dumping file boot1 
+  ADDR   0  1  2  3  4  5  6  7   8  9  A  B  C  D  E  F  ASCII  printable
+000000  8D 36 25 7C B4 0E 8A 04  3C 00 74 05 CD 10 46 EB  .6%|....<.t...F.
+000010  F5 B4 00 CD 16 B8 40 00  8E D8 C7 06 72 00 00 00  ......@.....r...
+000020  EA 00 00 FF FF 57 65 6C  63 6F 6D 65 2C 20 49 20  .....Welcome, I 
+000030  68 61 76 65 20 63 6F 6E  74 72 6F 6C 20 6F 66 20  have control of 
+000040  74 68 65 20 63 6F 6D 70  75 74 65 72 2E 0D 0A 50  the computer...P
+000050  72 65 73 73 20 61 6E 79  20 6B 65 79 20 74 6F 20  ress any key to 
+000060  72 65 62 6F 6F 74 2E 0D  0A 28 61 66 74 65 72 20  reboot...(after 
+000070  72 65 6D 6F 76 69 6E 67  20 74 68 65 20 66 6C 6F  removing the flo
+000080  70 70 79 29 0D 0A 00 0F                           ppy)....        
+end of dump of boot1   136 bytes

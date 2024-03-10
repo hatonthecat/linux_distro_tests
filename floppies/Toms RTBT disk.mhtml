@@ -1,0 +1,174 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://lists.ethernal.org/oldarchives/cantlug-0502/msg00780.html
+Subject: Toms RTBT disk
+Date: Sun, 10 Mar 2024 17:39:58 -0500
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--SiDFGp8sB78tAuBQtKieZnbgmT25cA191SnvuCFQ5k----"
+
+
+------MultipartBoundary--SiDFGp8sB78tAuBQtKieZnbgmT25cA191SnvuCFQ5k----
+Content-Type: text/html
+Content-ID: <frame-1E615063733D4F1B580FF2829D45A78E@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://lists.ethernal.org/oldarchives/cantlug-0502/msg00780.html
+
+<!-- MHonArc v2.6.18 --><!--X-Subject: Toms RTBT disk --><!--X-From-R13: eb=
+o &#60;jbbqfrl007Nkgen.pb.am> --><!--X-Date: Thu, 17 Feb 2005 11:31:19 +130=
+0 --><!--X-Message-Id: 1108592184.7213.12.camel@localhost.localdomain --><!=
+--X-Content-Type: text/plain --><!--X-Head-End--><!DOCTYPE html PUBLIC "-//=
+W3C//DTD HTML//EN"><html><head><meta http-equiv=3D"Content-Type" content=3D=
+"text/html; charset=3Dwindows-1252">
+<title>Toms RTBT disk</title>
+<link rev=3D"made" href=3D"mailto:woodsey007@HIDDEN">
+</head>
+<body bgcolor=3D"#ffffff">
+	<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"5">
+	<tbody><tr><td width=3D"100%" bgcolor=3D"#99CCFF" align=3D"CENTER"><b>
+	<font color=3D"#000000" size=3D"+1">rob on Thu, 17 Feb 2005 11:31:19 +1300
+	</font></b></td></tr></tbody></table>
+<p>
+<!--X-Body-Begin-->
+<!--X-User-Header-->
+<!--X-User-Header-End-->
+<!--X-TopPNI-->
+</p><p><br>
+[<a href=3D"http://lists.ethernal.org/oldarchives/cantlug-0502/msg00779.htm=
+l">Date Prev</a>] [<a href=3D"http://lists.ethernal.org/oldarchives/cantlug=
+-0502/msg00781.html">Date Next</a>] [<a href=3D"http://lists.ethernal.org/o=
+ldarchives/cantlug-0502/msg00802.html">Thread Prev</a>] [<a href=3D"http://=
+lists.ethernal.org/oldarchives/cantlug-0502/msg00785.html">Thread Next</a>]=
+ [<a href=3D"http://lists.ethernal.org/oldarchives/cantlug-0502/maillist.ht=
+ml#00780">Date Index</a>] [<a href=3D"http://lists.ethernal.org/oldarchives=
+/cantlug-0502/threads.html#00780">Thread Index</a>]
+
+<!--X-TopPNI-End-->
+<!--X-MsgBody-->
+<!--X-Subject-Header-Begin-->
+</p><p>
+	</p><table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"5"=
+>
+	<tbody><tr><td width=3D"100%" bgcolor=3D"#FFF0D0"><font color=3D"#000000">
+        <b>Toms RTBT disk</b>
+	</font></td></tr> </tbody></table>
+<p>
+<!--X-Subject-Header-End-->
+<!--X-Head-of-Message-->
+</p><ul>
+<li><em>To</em>: CLUG &lt;<a href=3D"mailto:linux-users@DOMAIN.HIDDEN">linu=
+x-users@HIDDEN</a>&gt;</li>
+<li><em>Subject</em>: Toms RTBT disk</li>
+<li><em>From</em>: rob &lt;<a href=3D"mailto:woodsey007@DOMAIN.HIDDEN">wood=
+sey007@HIDDEN</a>&gt;</li>
+<li><em>Date</em>: Thu, 17 Feb 2005 11:16:24 +1300</li>
+<li><em>Comments</em>: University of Canterbury Linux Users Group</li>
+<li><em>List-subscribe</em>:  &lt;<a href=3D"mailto:mailserv@it.canterbury.=
+ac.nz?body=3Dsubscribe%20linux-users">mailto:mailserv@it.canterbury.ac.nz?b=
+ody=3Dsubscribe%20linux-users</a>&gt;</li>
+<li><em>List-unsubscribe</em>:  &lt;<a href=3D"mailto:mailserv@it.canterbur=
+y.ac.nz?body=3Dunsubscribe%20linux-users">mailto:mailserv@it.canterbury.ac.=
+nz?body=3Dunsubscribe%20linux-users</a>&gt;</li>
+<li><em>Reply-to</em>: <a href=3D"mailto:linux-users@DOMAIN.HIDDEN">linux-u=
+sers@HIDDEN</a></li>
+</ul>
+<!--X-Head-of-Message-End-->
+<!--X-Head-Body-Sep-Begin-->
+<hr>
+<!--X-Head-Body-Sep-End-->
+<!--X-Body-of-Message-->
+<pre>Greetings,
+Some time ago, someone on the list recommended Toms RTBT disk for
+gaining CD ROM access via a floppy boot for installing Linux on a
+machine that won't boot from CD ROM.
+
+I have been trying to use this disk but have come up against a few
+problems:
+
+/mnt/cdrom gave the message:
+
+"cdrom not found in /fstab or /mtab"
+
+I entered an appropriate line in /etc/fstab to enable the CD ROM to be
+mounted and tried to mount it then got the message:=20
+
+"fs type udf,iso9660 not supported by kernel"
+
+I deleted the udf, bit and tried again but got the message:
+
+"special device /dev/cdrom does not exist"
+
+I tried to look in /dev for a cdrom entry but the screen scrolled too
+far down to enable me to see it. The old DOS /p page at a time switch
+does not work.  Is there an alternative for Linux?
+
+Any advice as to where I am going wrong would be valuable.
+
+Cheers - Woodsey
+
+
+
+
+</pre>
+<!--X-Body-of-Message-End-->
+<!--X-MsgBody-End-->
+<!--X-Follow-Ups-->
+<hr>
+<ul><li><strong>Follow-Ups</strong>:
+<ul>
+<li><strong><a name=3D"00785" href=3D"http://lists.ethernal.org/oldarchives=
+/cantlug-0502/msg00785.html">Re: Toms RTBT disk</a></strong>
+<ul><li><em>From:</em> Nick Rout</li></ul></li>
+<li><strong><a name=3D"00792" href=3D"http://lists.ethernal.org/oldarchives=
+/cantlug-0502/msg00792.html">Re: Toms RTBT disk</a></strong>
+<ul><li><em>From:</em> Christopher Sawtell</li></ul></li>
+<li><strong><a name=3D"00795" href=3D"http://lists.ethernal.org/oldarchives=
+/cantlug-0502/msg00795.html">Re: Toms RTBT disk</a></strong>
+<ul><li><em>From:</em> Christopher Sawtell</li></ul></li>
+<li><strong><a name=3D"00798" href=3D"http://lists.ethernal.org/oldarchives=
+/cantlug-0502/msg00798.html">Re: Toms RTBT disk</a></strong>
+<ul><li><em>From:</em> Douglas Royds</li></ul></li>
+<li><strong><a name=3D"00799" href=3D"http://lists.ethernal.org/oldarchives=
+/cantlug-0502/msg00799.html">Re: Toms RTBT disk</a></strong>
+<ul><li><em>From:</em> yuri</li></ul></li>
+</ul></li></ul>
+<!--X-Follow-Ups-End-->
+<!--X-References-->
+<!--X-References-End-->
+<!--X-BotPNI-->
+<ul>
+<li>Prev by Date:
+<strong><a href=3D"http://lists.ethernal.org/oldarchives/cantlug-0502/msg00=
+779.html">RE: FW: UBS Broadband connection delays</a></strong>
+</li>
+<li>Next by Date:
+<strong><a href=3D"http://lists.ethernal.org/oldarchives/cantlug-0502/msg00=
+781.html">Re: UBS Broadband connection delays</a></strong>
+</li>
+<li>Previous by thread:
+<strong><a href=3D"http://lists.ethernal.org/oldarchives/cantlug-0502/msg00=
+802.html">Re: Konquerer</a></strong>
+</li>
+<li>Next by thread:
+<strong><a href=3D"http://lists.ethernal.org/oldarchives/cantlug-0502/msg00=
+785.html">Re: Toms RTBT disk</a></strong>
+</li>
+<li>Index(es):
+<ul>
+<li><a href=3D"http://lists.ethernal.org/oldarchives/cantlug-0502/maillist.=
+html#00780"><strong>Date</strong></a></li>
+<li><a href=3D"http://lists.ethernal.org/oldarchives/cantlug-0502/threads.h=
+tml#00780"><strong>Thread</strong></a></li>
+</ul>
+</li>
+</ul>
+
+<!--X-BotPNI-End-->
+<!--X-User-Footer-->
+<!--X-User-Footer-End-->
+
+
+
+
+</body></html>
+------MultipartBoundary--SiDFGp8sB78tAuBQtKieZnbgmT25cA191SnvuCFQ5k------

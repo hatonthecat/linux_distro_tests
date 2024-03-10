@@ -1,0 +1,1248 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://thestarman.pcministry.com/linux/index.html
+Subject: Linux Console Commands with tomsrtbt Boot Disk
+Date: Sun, 10 Mar 2024 16:59:06 -0500
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--wekB5xnnzLtzmNqqwPGgW61VQO1oN2dCfBnpLVOIVu----"
+
+
+------MultipartBoundary--wekB5xnnzLtzmNqqwPGgW61VQO1oN2dCfBnpLVOIVu----
+Content-Type: text/html
+Content-ID: <frame-667E1897BF232D45496F7E74B763BC8D@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://thestarman.pcministry.com/linux/index.html
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3DUTF-8">
+
+<meta http-equiv=3D"keywords" content=3D"Linux, console, commands, tomsrtbt=
+, UNIX, Linux boot disk">
+<meta name=3D"keywords" content=3D"Linux, console, commands, tomsrtbt, UNIX=
+, Linux boot disk">
+<meta http-equiv=3D"description" content=3D"Learn Linux / UNIX commands usi=
+ng 'tomsrtbt' Boot Disk.">
+<meta name=3D"description" content=3D"Learn Linux / UNIX commands using 'to=
+msrtbt' Boot Disk.">
+<meta name=3D"COPYRIGHT" content=3D"=C2=A9 2002 Daniel B. Sedory">
+<meta name=3D"robots" content=3D"ALL">
+<meta name=3D"distribution" content=3D"Global">
+<meta name=3D"robots" content=3D"INDEX">
+<title>Linux Console Commands with tomsrtbt Boot Disk</title>
+</head>
+<body bgcolor=3D"#FFFFFF">
+<center><div>Sponsoring website: <a href=3D"https://www.prime-expert.com/em=
+bootkit/">Emergency Boot Kit</a></div></center><hr>
+
+<h1 align=3D"center"><font size=3D"7">An Introduction to</font><br>
+  <font size=3D"7" face=3D"Times New Roman, Times, serif">Linux Console Com=
+mands<br>
+  using "tomsrtbt" Boot Disk</font></h1>
+<h2 align=3D"center"><font face=3D"Times New Roman, Times, serif">Copyright=
+ =C2=A9=20
+  2002 by Daniel B. Sedory</font></h2>
+<h2 align=3D"center"><b><font face=3D"Arial,Helvetica" size=3D"5" color=3D"=
+#FF0000">You may copy this page for Personal use only!<br>
+  Any other use must have the author's permission!</font></b></h2>
+<h2 align=3D"center"><font face=3D"Verdana">Once you've decided to study Li=
+nux with<br>
+  this page, you need to read these:</font></h2>
+<p align=3D"center"><font face=3D"Arial" size=3D"4"><b>[</b>=20
+  <a href=3D"https://thestarman.pcministry.com/linux/tomsrtbt.htm" target=
+=3D"toms"><b>How to Download</b> and <b>Install</b>=20
+  &nbsp;<b>tomsrtbt</b>&nbsp; Boot Disk</a> <b>]</b></font></p>
+<p align=3D"center"><font face=3D"Arial" size=3D"4"><b>[</b>
+  <a href=3D"https://thestarman.pcministry.com/linux/rtbtbootup.htm" target=
+=3D"toms">What Happens when you first <b>Boot Up</b>=20
+  with &nbsp;<b>tomsrtbt</b>&nbsp; Disk ?</a> <b>]<br>
+  ( Includes: How to Login and get a Command Prompt . ) </b></font></p>
+<p align=3D"center"><font face=3D"Arial, Helvetica" size=3D"4"><font color=
+=3D"#009900"><img src=3D"https://thestarman.pcministry.com/img/new_rain.gif=
+" width=3D"36" height=3D"12">=20
+  NEW:</font> <b>[</b> <a href=3D"https://thestarman.pcministry.com/linux/T=
+rtbtBochs.htm" target=3D"bochs">How to Setup the=20
+  <b>Bochs Emulator</b> for <b>tomsrtbt</b></a> <b>]<br>
+  <font face=3D"Times New Roman, Times, serif">I highly recommend using thi=
+s FREE=20
+  emulator to simulate running<br>
+  tomsrtbt boot diskette in a <i>window</i> while reading these web pages i=
+n<br>
+  a different <i>window! </i>You'll be able to have a 'hands on' Linux lear=
+ning<br>
+  experience while still having access to this page and any other helps.</f=
+ont></b></font></p>
+<p align=3D"center"><font face=3D"Arial,Helvetica" size=3D"2">( Although th=
+is page was created mainly for those unfamiliar with <b>UNIX/Linux commands=
+</b>, some of the<br>
+  examples here examine the inner workings of "<b>tomsrtbt</b>" boot disk; =
+which may interest even an expert. )</font></p>
+<p align=3D"center"><font face=3D"Arial,Helvetica" size=3D"5" color=3D"#FF0=
+0FF"><b>This=20
+  is a new project at <font color=3D"#0000FF">The Starman's Realm</font>...=
+<br>
+  I intend to continue adding information here,<br>
+  and your <font color=3D"#0000FF">feedback</font> and questions would be<b=
+r>
+  appreciated at this time. Although this page is<br>
+  <i><font color=3D"#0000FF">helpful</font></i> for Windows users who want =
+to have<br>
+  some knowledge of <font color=3D"#0000FF">Linux</font> and <font color=3D=
+"#0000FF">UNIX</font>=20
+  commands<br>
+  <i><font color=3D"#0000FF">without</font> <font color=3D"#FF0000">having =
+to do a=20
+  Linux HDD install,</font></i> I'm<br>
+  sure there are quite a few Linux users that have<br>
+  become somewhat <font color=3D"#FF0000"> GUI</font> (Gnome/KDE etc.)<br>
+  <font color=3D"#FF0000">dependent</font> too and could benefit from learn=
+ing<br>
+  How to use one of the ultimate Linux Rescue<br>
+  diskettes available today !!!</b></font></p>
+<p align=3D"center"><b><font face=3D"Geneva, Arial, Helvetica, san-serif" s=
+ize=3D"4" color=3D"#339999">Every=20
+  Computer Tech should have one of these<br>
+  diskettes in their toolkit !!!</font></b></p>
+<hr>
+<br>
+<table width=3D"98%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=
+=3D"center">
+  <tbody><tr>
+    <td align=3D"top" height=3D"52">
+      <div align=3D"center">
+        <p><font face=3D"Courier New" size=3D"5"><b>What kind of Linux Comm=
+ands are=20
+          these?</b><br>
+          </font></p>
+        <p>&nbsp;</p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td align=3D"top" height=3D"168">
+      <p><font face=3D"Arial,Helvetica" size=3D"3">You might be thinking, <=
+b>"</b><font face=3D"Times New Roman">Hey,=20
+        what's this <b>UNIX</b> stuff? I thought we were learning <b>Linux<=
+/b>?</font><b>"</b>=20
+        Well, here's a tiny history lesson: <b>Linux</b> was started as an =
+<b>open=20
+        source</b> project in <b>1991</b> by <b>Linus Torvalds</b>, when he=
+ was=20
+        a computer science student at the University of Helsinki, in Finlan=
+d.=20
+        Having become quite familiar with <b><font face=3D"Times New Roman"=
+>UNIX</font></b> at the University, he and many contributors=20
+        to Linux wanted a <i>UNIX-like OS</i> for their PCs at home. So, Li=
+nux=20
+        was purposely designed to include many useful <font face=3D"Times N=
+ew Roman">UNIX</font> commands.</font><font face=3D"Arial,Helvetica"><br>
+        </font></p>
+      <p><font face=3D"Arial,Helvetica"><b><font size=3D"3">The major diffe=
+rences</font></b><font size=3D"3">=20
+        between these two OSs are:</font><br>
+        <b><font size=3D"4">1)</font></b> Their <b><font size=3D"4">file sy=
+stems.=20
+        </font></b><font face=3D"Times New Roman" size=3D"3">UNIX</font><fo=
+nt size=3D"3">=20
+        basically seems to use either NFS or HP-UX although another <i>UNIX=
+-like=20
+        OS</i> called <font face=3D"Times New Roman"><b>BSD</b>, distribute=
+d as=20
+        FreeBSD or OpenBSD, </font>uses UFS, <b><i>whereas</i></b> Linux mi=
+ght=20
+        use the older <b>Minix</b> -- which <b>tomsrtbt</b> uses (to save s=
+pace),=20
+        <b>ext2</b> or a "journaling" <b>ext3</b> and a few different=20
+        <b>Reiser</b> file systems; plus a couple other file systems just f=
+or=20
+        swap files! </font><font size=3D"4"><i>And</i>...<br>
+        <b>2)</b> </font><font size=3D"3"> Just <i>exactly</i> </font><font=
+ size=3D"4">how</font>=20
+        <b>Linux</b> <font size=3D"3">carries out its functions on a PC usi=
+ng its=20
+        <b>kernel</b> <b>software</b> (the heart of the Linux OS); which is=
+ definitely=20
+        beyond our scope here!</font></font></p>
+      <p>&nbsp;</p>
+    </td>
+  </tr>
+</tbody></table>
+<div align=3D"center">
+  <h2><font face=3D"Times New Roman, Times, serif">Conventions used in this=
+ Document</font></h2>
+  <p align=3D"left"><font face=3D"Arial,Helvetica"><b><font size=3D"3">1)</=
+font></b><font size=3D"3">=20
+    Commands which you are to ENTER at the prompt (type in at the command l=
+ine=20
+    and then press the ENTER key), will be shown in a bold, blue font like =
+this:=20
+    </font><b><font face=3D"Courier New,Helvetica" size=3D"4" color=3D"#000=
+0FF">command</font></b><font face=3D"Arial,Helvetica">.<br>
+    <b><font size=3D"3">2)</font></b> <font size=3D"3">"Tom" refers to Tom=
+=20
+    Oehser, the creator of the <b>tomsrtbt</b> boot disk (see D/L page).</f=
+ont></font></font></p>
+  <p align=3D"left">&nbsp;</p>
+  <div align=3D"left"></div>
+ <table width=3D"100%" border=3D"1" cellspacing=3D"2" cellpadding=3D"5" bgc=
+olor=3D"#CCFFCC" align=3D"center">
+  <tbody><tr>
+      <td>
+        <p><font face=3D"Arial,Helvetica"><b><font size=3D"3">tomsrtbt</fon=
+t></b><font size=3D"3">=20
+          will also allow you to access MS-DOS and Windows file systems (<b=
+>FAT12</b>,=20
+          <b>FAT16</b> and yes, <b>FAT32</b> and <b>NTFS</b> too) on your h=
+ard=20
+          drives! Not just to check what files are there, but with full <b>=
+read=20
+          and write</b></font><b><font size=3D"4" color=3D"#FF0000">*</font=
+></b> <font size=3D"3">capabilities.=20
+          <b>"</b><font face=3D"Times New Roman">But,</font></font><font fa=
+ce=3D"Arial,Helvetica" size=3D"3"><b>"</b></font><font face=3D"Times New Ro=
+man" size=3D"3">=20
+          </font><font face=3D"Arial,Helvetica" size=3D"3">you might say, <=
+b>"</b></font><font face=3D"Times New Roman" size=3D"3">my=20
+          computer's BIOS can't access the drives without a BIOS overlay!</=
+font><font size=3D"3"><b>"</b>=20
+          Well, <b>Linux don't care... <i>it don't need no stinkin' BIOS da=
+ta=20
+          to manage large drives!</i></b> &nbsp;( I exchange files between =
+my=20
+          Linux and Win98 drives all the time, even though Windows couldn't=
+ use=20
+          all of that 40GB drive without having WD's EZ-DRIVE loaded on it!=
+) With=20
+          all of these capabilities, shouldn't<b> every tech learn how to u=
+se=20
+          tomsrtbt</b>?!</font></font></p>
+        <p><font face=3D"Arial,Helvetica"><b><font size=3D"4" color=3D"#FF0=
+000">*</font><font size=3D"3">Note:</font></b><font size=3D"3">=20
+          According to Tom, <b>"NTFS</b> is in the current version [ <b>2.0=
+.103</b>=20
+          of <b>tomsrtbt </b>]. But, it is <b>read-only</b>. Just use <b>mo=
+unt=20
+          -t ntfs </b>to mount NTFS drives. The <b>NTFS</b> drivers in Linu=
+x are=20
+          not safe <b><i>for write access</i></b>, anyway.<b>"</b></font></=
+font>=20
+        </p>
+      </td>
+  </tr>
+ </tbody></table>
+  <p align=3D"left"><br>
+    <b><font size=3D"4" face=3D"Arial,Helvetica">Reminder: </font></b><font=
+ face=3D"Verdana"><b><font size=3D"3">Many</font></b><font size=3D"3">=20
+    computer programs are<b> not</b> perfect!<b> </b>People program them, a=
+nd=20
+    people make mistakes! <b>tomsrtbt</b> does have some 'bugs.' See the "<=
+b>ToDo</b>"=20
+    list at the end of <b>tomsrtbt.FAQ</b> file. However, most of our examp=
+les=20
+    here deal only with files in Memory or on a floppy diskette, so there s=
+houldn't=20
+    be any data loss problems at all. But, don't blame me for something you=
+ tried=20
+    on your hard drive and got it messed up! (I'll still try to help you re=
+cover=20
+    your data in any case.)</font></font></p>
+  <table width=3D"100%" border=3D"1" cellspacing=3D"3" cellpadding=3D"5" al=
+ign=3D"center" bgcolor=3D"#CCFFFF">
+    <tbody><tr>
+      <td>
+        <p><font face=3D"Arial,Helvetica"><b><font size=3D"4">tomsrtbt</fon=
+t></b>=20
+          <font size=3D"3">uses (as of this writing)</font> <b><font size=
+=3D"4">Linux=20
+          kernel</font></b><font size=3D"4"> version <b>2.2.20</b></font><f=
+ont size=3D"3">=20
+          with <b>ext3</b> <b>support</b>, but in order to keep its size to=
+ a=20
+          minimum, the console commands are sometimes mere shadows (script =
+files)=20
+          or <i>trimmed-down</i> versions (all lumped together into a singl=
+e executable;=20
+          like the one from<b> BusyBox</b>) and a few programmed by Tom him=
+self,=20
+          rather than those you'd normally find in a full Linux distributio=
+n!=20
+          <b><i>However</i></b>, <b>tomsrtbt</b> <b><i>along with these pag=
+es</i></b>=20
+          and many other online documents, gives you <b><i>a practical way =
+to=20
+          learn</i></b> how to use many common <b>Linux</b>/<font face=3D"T=
+imes New Roman"><b>UNIX</b></font></font>=20
+          <font size=3D"3"><b>commands</b> <i><b>without</b></i><b> having =
+to <i>install</i>=20
+          a Linux OS </b>on your hard drive!</font></font></p>
+        </td>
+    </tr>
+  </tbody></table>
+  <br>
+  <br>
+  <hr>
+  <b><font face=3D"Courier New, Courier, mono" size=3D"6">Session 1</font><=
+/b><br>
+  <br>
+  <table width=3D"96%" border=3D"1" cellspacing=3D"5" cellpadding=3D"5" bor=
+dercolor=3D"#0000FF">
+    <tbody><tr>
+      <td height=3D"50"><b><font face=3D"Arial,Helvetica" color=3D"#FF00FF"=
+ size=3D"3">TIP:=20
+        </font></b><font face=3D"Arial,Helvetica" size=3D"3">If you return =
+to your=20
+        computer and see a <b>blank screen</b> (this will happen very often=
+ in=20
+        the <a href=3D"https://thestarman.pcministry.com/linux/TrtbtBochs.h=
+tm" target=3D"bochs">Bochs Emulator</a> window!),=20
+        pressing either of the <b>CTRL </b>(Control) or <b>Shift </b>keys i=
+s the=20
+        safest way to turn it on again.</font></td>
+    </tr>
+    <tr>
+      <td height=3D"50">
+        <p><b><font face=3D"Times New Roman" size=3D"5" color=3D"#FF0000">B=
+ugs me too</font><font face=3D"Arial,Helvetica" size=3D"4" color=3D"#FF0000=
+">:</font><font color=3D"#FF00FF"><font face=3D"Arial,Helvetica" size=3D"4"=
+>=20
+          </font></font></b><font face=3D"Arial,Helvetica" size=3D"3">There=
+'s one=20
+          thing about <b>tomsrtbt</b> that gets me a bit upset at times... =
+You=20
+          can only use the <b>RIGHT</b> and <b>LEFT ARROW</b> keys for movi=
+ng=20
+          the cursor and then the <b>BACKSPACE</b> key to delete any mis-ty=
+ped=20
+          characters! At least the <b>UP</b> and <b>DOWN ARROW</b> keys giv=
+e you=20
+          access to a reasonably sized command-line history (previous comma=
+nds=20
+          you've already entered).<br>
+          &nbsp; &nbsp; &nbsp;Most <b>Linux</b> installations have the <b>B=
+ash</b>=20
+          shell which allows use of the <b>DELete</b> key; and may even use=
+ the=20
+          <b>Home</b> and <b>End</b> keys for jumpimg to the beginning and =
+end=20
+          of the command line. Whereas, <b>tomsrtbt</b> uses the smaller <b=
+>Ash</b>=20
+          for its <b>shell</b>.</font></p>
+        </td>
+    </tr>
+  </tbody></table>
+  <p align=3D"left">&nbsp;</p>
+</div>
+<h1 align=3D"center"><b><font face=3D"Verdana">Some Basic Commands</font></=
+b></h1>
+<p><font face=3D"Arial,Helvetica"><br>
+  <font size=3D"3">&nbsp; &nbsp; If you haven't read the page, </font></fon=
+t><font face=3D"Arial" size=3D"4"><a href=3D"https://thestarman.pcministry.=
+com/linux/rtbtbootup.htm" target=3D"toms">What=20
+  Happens when you first <b>Boot Up</b> with &nbsp;<b>tomsrtbt</b>&nbsp; Di=
+sk=20
+  ?</a></font><font face=3D"Arial,Helvetica" size=3D"3">,&nbsp;at least ski=
+m it. There's=20
+  some important information on the page!</font></p>
+<p><font face=3D"Arial,Helvetica"> <font size=3D"3">&nbsp; &nbsp; Now that =
+you finally=20
+  have a command prompt (</font><font face=3D"Courier New" size=3D"4"><b>#_=
+</b></font>=20
+  <font size=3D"3">) on your screen, we can get started.</font></font><font=
+ face=3D"Arial,Helvetica" size=3D"3">=20
+  Let's try the command, </font><font face=3D"Arial,Helvetica"><b><font fac=
+e=3D"Courier New,Helvetica" size=3D"4" color=3D"#0000FF">ls</font></b><font=
+ size=3D"3">=20
+  (which basically means to <b>list</b> files and directories). After enter=
+ing=20
+  this command, you should see this on your screen:</font></font></p>
+<table width=3D"560" border=3D"2" cellspacing=3D"5" cellpadding=3D"5" align=
+=3D"center" bgcolor=3D"#000000" height=3D"150">
+ <tbody><tr>
+    <td height=3D"133">
+      <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" bgcolor=3D"#0=
+00000" width=3D"560" height=3D"106">
+        <tbody><tr>
+          <td width=3D"114"><font color=3D"#CCCCCC" face=3D"Terminal" size=
+=3D"3">#ls</font></td>
+        </tr>
+	    <tr>
+          <td width=3D"114" height=3D"31"><font color=3D"#0000FF" face=3D"T=
+erminal" size=3D"3">bin</font></td>
+          <td width=3D"99" height=3D"31"><font color=3D"#0000FF" face=3D"Te=
+rminal" size=3D"3">etc</font></td>
+          <td width=3D"107" height=3D"31"><font color=3D"#0000FF" face=3D"T=
+erminal" size=3D"3">mnt</font></td>
+          <td width=3D"169" height=3D"31"><font color=3D"#00FFFF" face=3D"T=
+erminal" size=3D"3">sbin</font></td>
+          <td width=3D"71" height=3D"31"><font color=3D"#0000FF" face=3D"Te=
+rminal" size=3D"3">usr</font></td>
+        </tr>
+        <tr>
+          <td width=3D"114" height=3D"28"><font color=3D"#0000FF" face=3D"T=
+erminal" size=3D"3">cdrom</font></td>
+          <td width=3D"99" height=3D"28"><font color=3D"#0000FF" face=3D"Te=
+rminal" size=3D"3">fl</font></td>
+          <td width=3D"107" height=3D"28"><font color=3D"#0000FF" face=3D"T=
+erminal" size=3D"3">not</font></td>
+          <td width=3D"169" height=3D"28"><font color=3D"#0000FF" face=3D"T=
+erminal" size=3D"3">tmp</font></td>
+          <td width=3D"71" height=3D"28"><font color=3D"#0000FF" face=3D"Te=
+rminal" size=3D"3">var</font></td>
+        </tr>
+        <tr>
+          <td width=3D"114" height=3D"28"><font color=3D"#0000FF" face=3D"T=
+erminal" size=3D"3">dev</font></td>
+          <td width=3D"99" height=3D"28"><font color=3D"#0000FF" face=3D"Te=
+rminal" size=3D"3">lib</font></td>
+          <td width=3D"107" height=3D"28"><font color=3D"#0000FF" face=3D"T=
+erminal" size=3D"3">proc</font></td>
+          <td width=3D"169" height=3D"28"><font color=3D"#0000FF" face=3D"T=
+erminal" size=3D"3"><font color=3D"#00FF00">tomsrtbt.FAQ</font></font></td>
+          <td width=3D"71" height=3D"28">&nbsp;</td>
+        </tr>
+        <tr>
+          <td width=3D"114" height=3D"28"><font color=3D"#CCCCCC" face=3D"T=
+erminal" size=3D"3">#_</font></td>
+          <td width=3D"99" height=3D"28">&nbsp;</td>
+          <td width=3D"107" height=3D"28">&nbsp;</td>
+          <td width=3D"169" height=3D"28">&nbsp;</td>
+          <td width=3D"71" height=3D"28">&nbsp;</td>
+        </tr>
+      </tbody></table>
+  </td>
+ </tr>
+</tbody></table><center>
+  <font face=3D"Times" size=3D"3"><i>Idealized version --</i> using data fr=
+om tomsrtbt=20
+  <b>1722</b> kb diskette.</font>=20
+</center>
+<p><font face=3D"Arial,Helvetica" size=3D"3">In the display above, the item=
+s in <b><font color=3D"#0000FF">blue</font></b>=20
+  are <b><font color=3D"#000000">directories</font></b> (the actual color d=
+isplayed=20
+  by tomsrtbt is dark blue to violet). Items colored in <b>cyan</b> (such a=
+s the=20
+  <font face=3D"Terminal" color=3D"#00FFFF"><span style=3D"background-color=
+: black">sbin</span></font>=20
+  directory) are <i><b>soft</b></i> <b>links: </b>Rather than being the act=
+ual=20
+  file or directory, a <b><i>soft</i> link</b> is simply an alternate name =
+which=20
+  <b><i>points to </i></b>the real directory or file. The item, </font><fon=
+t face=3D"Arial,Helvetica"><font face=3D"Terminal">/sbin</font><font size=
+=3D"3">,=20
+  in <b>tomsrtbt</b> is just a link to the</font> <font face=3D"Terminal">/=
+bin</font>=20
+  <font size=3D"3">directory. If you performed an</font> <b><font face=3D"C=
+ourier New,Helvetica" size=3D"4">ls</font></b>=20
+  <font size=3D"3">command on <font face=3D"Terminal">/sbin</font>, you'd s=
+imply see=20
+  a listing of everything in the <font face=3D"Terminal">/bin</font> direct=
+ory.=20
+  The display is slightly different (only a couple extra files) for the <b>=
+2880</b>=20
+  <b>kb</b> version of <b>tomsrtbt</b> :</font></font></p>
+  <div align=3D"center">
+  <table width=3D"460" border=3D"2" cellspacing=3D"0" cellpadding=3D"0" ali=
+gn=3D"center" height=3D"120">
+    <tbody><tr>
+      <td height=3D"125">=20
+        <div align=3D"center"><img scr=3D"2880dirs.gif" src=3D"https://thes=
+tarman.pcministry.com/linux/2880dirs.gif" width=3D"456" height=3D"116" bord=
+er=3D"0"><br>
+          <font face=3D"Times" size=3D"3"><i>Capture</i> of Bochs Emulator =
+screen=20
+          using tomsrtbt <b>2880</b> kb image file.</font></div>
+      </td></tr></tbody></table>
+  <br>
+</div>
+
+<p><font face=3D"Arial,Helvetica"><b><font size=3D"3">[</font></b> <font fa=
+ce=3D"Times New Roman" size=3D"3">NOTE:=20
+  As long as we <b>remain in</b> the</font> <font size=3D"3"><b>root direct=
+ory</b>=20
+  (<font face=3D"Terminal">/</font>),<font face=3D"Times New Roman"> it doe=
+sn't matter=20
+  if we use a</font></font> <font face=3D"Terminal" size=3D"3">/<font face=
+=3D"Arial,Helvetica">=20
+  <font face=3D"Times New Roman">in front of these directories or not when =
+entering=20
+  a command. But once we</font></font></font><font face=3D"Terminal"><font =
+face=3D"Arial,Helvetica">=20
+  </font></font><b><font face=3D"Courier New,Helvetica" size=3D"4">cd</font=
+></b> <font size=3D"3">(<b>c</b>hange=20
+  <b>d</b>irectory) <font face=3D"Times New Roman">into a directory below t=
+he root,=20
+  you'll need to begin a reference to files or directories outside of that =
+directory=20
+  with a</font></font> <font face=3D"Terminal" size=3D"3">/</font><font siz=
+e=3D"3">;=20
+  <font face=3D"Times New Roman"><i><b>unless</b></i> it's a file inside th=
+at directory=20
+  or in some subdirectory below it. Thus, </font></font><font face=3D"Arial=
+,Helvetica" size=3D"3"><font face=3D"Terminal">/bin</font></font><font face=
+=3D"Times New Roman" size=3D"3">=20
+  was necessary in the text above to uniquely identify that directory; espe=
+cially=20
+  since there's also a <font face=3D"Terminal">/usr/bin</font> directory in=
+ most=20
+  Linux installations.</font><font size=3D"3"><b> ]</b></font></font></p>
+<p><font face=3D"Arial,Helvetica" size=3D"3">Items listed in <b>green</b>, =
+such as=20
+  <b><font face=3D"Courier New" color=3D"#00FF00"><span style=3D"background=
+-color: black">tomsrtbt.FAQ</span></font></b>=20
+  refer to a file that has at least one of its <b><i>executable access bits=
+</i></b>=20
+  turned on (we'll learn more about this below when covering <b>Permissions=
+</b>).=20
+  However, just because a file is marked as an executable, doesn't mean tha=
+t it's=20
+  a program (or even a script file)! In reality, tomsrtbt.FAQ is just a pla=
+in=20
+  text file; which would normally have a light-gray color (as does any file=
+ that=20
+  isn't a link, executable or a couple other things you haven't seen yet). =
+The</font><font face=3D"Arial,Helvetica">=20
+  <b><font face=3D"Courier New,Helvetica" size=3D"4">cat<font face=3D"Arial=
+,Helvetica">=20
+  </font></font></b><font size=3D"3">command (short for "con<b>cat</b>enate=
+=20
+  files to stdout") is often used to display short text files on the screen=
+,=20
+  but if you enter</font> <b><font face=3D"Courier New,Helvetica" size=3D"4=
+" color=3D"#0000FF">cat</font><font face=3D"Courier New,Helvetica" size=3D"=
+4"><font face=3D"Arial,Helvetica">=20
+  <b><font face=3D"Courier New,Helvetica" color=3D"#0000FF" size=3D"4">toms=
+rtbt.FAQ</font></b>=20
+  </font></font></b></font><font face=3D"Arial,Helvetica" size=3D"3">to vie=
+w Tom's=20
+  FAQ, you won't even be able to use the <code><b>SHIFT</b></code><b> </b>a=
+nd=20
+  <code><b>PageUp</b></code> key combination to see all of it! <b>( </b>Rem=
+ember,=20
+  the screen buffer works fine for things you may have missed just a handfu=
+l of=20
+  screens back. <b>)</b> So, how are you going to read all of it?</font></p=
+>
+<p><font face=3D"Arial,Helvetica"> <font size=3D"3">Well, the best way to v=
+iew any=20
+  large text file in Linux, including Tom's "FAQ" file, is by using=20
+  the</font> <b><font face=3D"Courier New,Helvetica" size=3D"4">less</font>=
+</b> <font size=3D"3">command.=20
+  In <b>tomsrtbt</b>, the</font> <b><font face=3D"Courier New,Helvetica" si=
+ze=3D"4">more</font></b>=20
+  and <b><font face=3D"Courier New,Helvetica" size=3D"4">less</font></b> <f=
+ont size=3D"3">commands=20
+  are just links to the same binary program (proof for that is found below)=
+, so=20
+  you could just as well use the</font> <b><font face=3D"Courier New,Helvet=
+ica" size=3D"4">more</font></b>=20
+  <font size=3D"3">command (which some DOS/Windows users might might be mor=
+e familiar=20
+  with). <b><i>But</i></b> in a full install of Linux,</font> <b><font face=
+=3D"Courier New,Helvetica" size=3D"4">less</font></b>=20
+  <font size=3D"3">is always better than</font> <b><font face=3D"Courier Ne=
+w,Helvetica" size=3D"4">more</font></b><font size=3D"3">!=20
+  So, you should practice using the </font><b><font face=3D"Courier New,Hel=
+vetica" size=3D"4">less</font></b>=20
+  <font size=3D"3">command like this instead:</font><br>
+  <b><font face=3D"Courier New,Helvetica" color=3D"#0000FF" size=3D"4">less=
+ tomsrtbt.FAQ</font></b>=20
+  <font size=3D"4">( </font><font size=3D"3">By the way, you <b><i>must </i=
+></b>use=20
+  the capital letters 'FAQ' here, </font><font size=3D"4" color=3D"#CC0000"=
+>because=20
+  <b>all</b> <b>names</b> in Linux and <font face=3D"Times New Roman"><b>UN=
+IX</b></font>=20
+  are <b>case sensitive !</b></font><font size=3D"4"> )</font></font></p>
+<p><font face=3D"Arial,Helvetica" size=3D"3">After entering the command fol=
+lowed by=20
+  a text file's name, you'll notice a 'highlighted' area in the lower-left =
+corner=20
+  of the display similar to this: <font face=3D"Terminal"><span style=3D"ba=
+ckground-color: #CCCCCC">--More--(2%)</span></font>.=20
+  If you press the <b><font face=3D"Courier New">ENTER</font></b> key, the =
+text=20
+  will scroll down one line at a time, and soon you'll see that the <font f=
+ace=3D"Terminal">2%</font>=20
+  changes to <font face=3D"Terminal">3%</font>, <font face=3D"Terminal">4%<=
+/font>,=20
+  etc. which refers to the percentage of the file's contents you've already=
+ moved=20
+  into. To jump forward by a full screen, press the <font face=3D"Courier N=
+ew"><b>SPACE=20
+  BAR</b></font> or the <b>F</b>-key (for <b>f</b>orwards). Unless you've a=
+lready=20
+  scrolled past the end of the file, you can always press the <b>B</b>-key =
+to=20
+  move <b>b</b>ackwards by a full screen! If you want to <b>quit</b>, just =
+press=20
+  the <b>Q</b>-key. There are other commands you can use inside of</font><f=
+ont face=3D"Arial,Helvetica">=20
+  <b><font face=3D"Courier New,Helvetica" size=3D"4">more</font></b><font s=
+ize=3D"3">,=20
+  but this should be more or less (pun intended) enough of them for now!</f=
+ont></font></p>
+<p><font face=3D"Arial,Helvetica" size=3D"3">Oh, there is one more key that=
+ might=20
+  be helpful in a large file: If you press the forward slash key (<font fac=
+e=3D"Terminal">/</font>)=20
+  followed by a word, it will <b>search</b> for that word. Unfortunately, i=
+t <b><i>won't</i></b>=20
+  highlight it as it does when using</font><font face=3D"Arial,Helvetica"> =
+<b><font face=3D"Courier New,Helvetica" size=3D"4">less</font></b>=20
+  <font size=3D"3">on most Linux workstations. To see other <i>function-key=
+s</i>=20
+  for</font> <b><font face=3D"Courier New,Helvetica" size=3D"4">less</font>=
+</b><font size=3D"3">,=20
+  press the <b>h</b>-key (for<b> h</b>elp).</font></font></p>
+<p><font face=3D"Arial,Helvetica" size=3D"3">The</font><font face=3D"Arial,=
+Helvetica">=20
+  <b><font face=3D"Courier New" size=3D"4">-l<font face=3D"Arial,Helvetica"=
+> </font></font></b>=20
+  <font size=3D"3">option (meaning "<b>l</b>ong" or verbose) of the</font>=
+=20
+  <b><font face=3D"Courier New,Helvetica" size=3D"4">ls</font></b> <font si=
+ze=3D"3">command=20
+  will be a bit daunting at first, because it adds even more data than you'=
+ll=20
+  find with the DOS <b>dir</b> command! But unlike <b>dir</b>, you can use =
+<i>multiple</i>=20
+  <i>filenames</i> and/or <i>directories </i>as parameters such as this exa=
+mple=20
+  here:</font></font></p>
+  <center>
+  <img src=3D"https://thestarman.pcministry.com/linux/multi-dir.gif" width=
+=3D"596" height=3D"164">=20
+</center>
+<p align=3D"left"><font face=3D"Arial,Helvetica" size=3D"3">For each file o=
+r directory,=20
+  the beginning of the first column is its "file type;" either a "-"=20
+  or one of the letters <b>b</b>, <b>c</b>, <b>d</b>, or <font face=3D"Cour=
+ier,Helvetica"><b>l</b></font>=20
+  which indicates if it's a <b>b</b>lock <i>device</i>, <b>c</b>haracter <i=
+>device</i>,=20
+  <b>d</b>irectory or <i>soft</i> <font face=3D"Courier,Helvetica"><b>l</b>=
+ink</font>.=20
+  The next 9 characters show the "<b><i>permissions</i></b>" for <b>r</b>ea=
+ding,=20
+  <b>w</b>riting and e<b>x</b>ecuting the file for three classes of user: i=
+ts=20
+  owner <i>(<b>user</b>),</i> <b><i>group</i></b><i> </i>and all <b><i>othe=
+rs</i></b>.=20
+  A column of digits follows it, most often with just the number 1. This in=
+dicates=20
+  how many <b><i>hard </i></b> <font face=3D"Courier,Helvetica"><b>links </=
+b></font>there=20
+  are to the same physical file. Thus, a "2" appearing in this column=20
+  means there are two hard links to the same physical file and this is one =
+of=20
+  them. Thus, <b><i>both</i></b> the <b>more</b> and <b>less</b> commands (=
+see=20
+  above) must each have a "<b>2</b>" in this column. Once a hard link=20
+  is made to another file, there's no longer an 'original' name; as far as =
+Linux=20
+  is concerned, there are just <b>two</b> hard links. The next two columns =
+are=20
+  the file's owner and group names. Many files in <b>tomsrtbt</b> are set t=
+o "root"=20
+  because that's the name you logged in under. The "<b>505</b>" and=20
+  "<b>100</b>" are <i>names </i>that were set by Tom. The next column=20
+  contains the <b>file's size in bytes</b> (e.g., 17,845 bytes for the more=
+/less=20
+  file); with one execption: If the item listed isn't really a file at all,=
+ but=20
+  a <b>device</b>. Devices, which are found in the <font face=3D"Times New =
+Roman"><font face=3D"Terminal">/dev</font></font>=20
+  directory, will be listed as either<b> b</b><i><b>lock</b></i> or <b>c</b=
+><i><b>haracter</b></i>=20
+  devices, are all colored <b>yellow</b> and show their <b><i>major</i></b>=
+ and=20
+  <b><i>minor</i></b> <b>device numbers</b> (separated by a comma "<b>,</b>=
+")=20
+  instead of a filesize (like</font><font face=3D"Arial,Helvetica"> </font>=
+<font color=3D"#CCCCCC" face=3D"Terminal" size=3D"2"><font color=3D"#FFFF00=
+"><span style=3D"background-color: black"><font size=3D"3">dev/hda1</font><=
+/span></font></font>=20
+  <font face=3D"Arial,Helvetica" size=3D"3">in the listing above; which has=
+ a <b>major</b>,=20
+  <b>minor</b> designation of: <b>03:01</b>). Finally, the column before th=
+e filename=20
+  itself is its <b>timestamp</b>. By default, this would be the <b>time</b>=
+ the=20
+  file was last modified. For files that are over 6 months old, however, th=
+is=20
+  will contain the <b>year</b> <b><i>instead of the time of day.</i></b> La=
+stly,=20
+  <b><i>soft</i></b> <b>links</b> in a listing using the</font><font face=
+=3D"Arial,Helvetica">=20
+  <b><font face=3D"Courier New" size=3D"4">-l<font face=3D"Arial,Helvetica"=
+> </font></font></b>=20
+  <font size=3D"3">option, also list the file or directory they are linked =
+to! Thus=20
+  the last item above is listed as: <span style=3D"background-color: black"=
+><font color=3D"#CCCCCC" face=3D"Terminal"><font color=3D"#00FFFF">usr/bin<=
+/font>=20
+  -&gt; ../bin</font></span> , showing that this is simply a <b>link</b> to=
+ the=20
+  <font face=3D"Terminal">/bin</font> directory (the <span style=3D"backgro=
+und-color: black"><font color=3D"#CCCCCC" face=3D"Terminal">../</font></spa=
+n>=20
+  means to first go back up to the parent of the <font face=3D"Terminal">us=
+r</font>=20
+  directory, then look for the bin directory there).</font></font></p>
+<p align=3D"left"><font face=3D"Arial,Helvetica" size=3D"3">Now it's your t=
+urn to do=20
+  a few 'listings' and try to find out some things about the files and dire=
+ctories=20
+  under <b>tomsrtbt</b>... which, technically, is a collection of some</fon=
+t><font face=3D"Arial,Helvetica">=20
+  </font><font color=3D"#CCCCCC" face=3D"Terminal" size=3D"2"><font color=
+=3D"#FFFF00"><span style=3D"background-color: black"><font size=3D"3">dev/r=
+am</font></span></font></font>=20
+  <font face=3D"Arial,Helvetica" size=3D"3">devices in Memory now that you'=
+ve booted=20
+  the diskette! Enter just</font><font face=3D"Arial,Helvetica"><b><font fa=
+ce=3D"Courier New,Helvetica" size=3D"4" color=3D"#0000FF">=20
+  ls /dev </font></b><font size=3D"3">and <b><i>briefly</i></b> note the va=
+riety=20
+  of entries there. Some of the "devices" you'll see aren't related=20
+  to any physical hardware at all, but are rather useful as <b><i>devices</=
+i></b>=20
+  anyway! For example, we'll be using both the <b>null</b> and <b>zero</b> =
+<i>devices</i>=20
+  later in these lessons. Next try the command:</font><b><font face=3D"Cour=
+ier New,Helvetica" size=3D"4" color=3D"#0000FF">=20
+  ls -l /etc</font></b> . Note the variety of files. Be careful about looki=
+ng=20
+  inside of files that are binary executables (using <b>cat</b>)! If you do=
+ so,=20
+  most likely a bunch of graphics and control characters will go flying by,=
+ you'll=20
+  hear beeps and your command prompt will end up looking like <b><i>Hierogl=
+yphics</i></b><i><b>!</b></i>=20
+  That's when you need to try the command: <b><font face=3D"Courier New,Hel=
+vetica" size=3D"4" color=3D"#0000FF">=20
+  reset</font></b> while looking at the keyboard, press ENTER and hope that=
+ fixes=20
+  it!</font></p>
+<p align=3D"left">&nbsp;</p>
+<h2 align=3D"center"><font face=3D"Verdana">Some</font><font face=3D"Verdan=
+a"> Details=20
+  about <i>Permissions</i><br>
+  and<br>
+  How to Create a New File</font></h2>
+<p align=3D"left"><font face=3D"Arial,Helvetica" size=3D"3">Looking at the =
+<font face=3D"Terminal">/etc/issue</font>=20
+  file in the listing above, you'll see its permissions are set to: <font f=
+ace=3D"Terminal">rw-r--r--</font>.=20
+  This means that only a person with "<b>user</b> <i>(owner)</i> privileges=
+"=20
+  can change (<b>w</b>rite to) that file, anyone else can only <b>r</b>ead =
+the=20
+  file. Permissions also apply to directories in Linux/UNIX. If the<b> </b>=
+<font face=3D"Terminal">/etc</font>=20
+  directory were set to, <font face=3D"Terminal">rw-------</font>, then no =
+one but=20
+  its owner could access the <b>issue</b> file, no matter what the settings=
+ were=20
+  on the file itself. Likewise, for you to be able to execute a program, it=
+ must=20
+  not only have an e<b>x</b>ecute permission that applies to you, but must =
+also=20
+  reside in a directory that has its permissions set correctly as well. Thi=
+s is=20
+  why all the directories under <b>tomsrtbt</b> have a minimum setting of <=
+font face=3D"Terminal">r-xr-xr-x</font>.=20
+  Internet servers have their <b>cgi-bin</b> directories set to <font face=
+=3D"Terminal">rwx--x--x</font>=20
+  (or even <font face=3D"Terminal">--x--x--x</font>), so the files can be e=
+xecuted=20
+  by anyone needing to do so, such as running a search program, but the act=
+ual=20
+  contents of the files can only be accessed by the owner (in this case som=
+eone=20
+  who has "root" or System admin. rights!).</font></p>
+
+<p align=3D"left"><font face=3D"Arial,Helvetica" size=3D"3">&nbsp; <b>"</b>=
+So, how does
+  one change these permissions?!<b>"</b> There's a special command=20
+  called <b><font face=3D"Courier New,Helvetica" size=3D"4">chmod</font></b=
+>=20
+  ("<b>ch</b>ange <b>mod</b>e") for doing this. It accepts=20
+  either of what I'll call the <i>character</i> or the <i><b>Octal</b></i> =
+options.=20
+  The <i>character</i> option is easier for most people to remember. It con=
+sists=20
+  of three parts: <b>1)</b> Who is affected: <b>u</b> - user (owner), <b>g<=
+/b>=20
+  - group, <b>o</b> - <b>o</b>thers or an <b>a</b> - for <b>all</b> three o=
+f them.=20
+  <b>2)</b> Action: <b>+</b> (for add) or <b>-</b> (minus: remove). <b>3)</=
+b>=20
+  Permissions: <b>r</b> - <b>r</b>ead, <b>w</b> - <b>w</b>rite, <b>x</b> - =
+e<b>x</b>ecute=20
+  [ there's also an <b>s</b> and <b>t</b>, but they won't be discussed at t=
+his=20
+  time]. If you wanted to remove all the '<b>x</b>'s from the permissions o=
+f Tom's=20
+  FAQ file (since it's not really an executable), you would enter: <b><font=
+ face=3D"Courier New, Courier, mono" size=3D"4" color=3D"#0000FF">chmod=20
+  a-x tomsrtbt.FAQ</font></b> at the root prompt. In order to carry out a c=
+omplex
+  change under <b>tomsrtbt</b>, you can separate each "action set" by only
+  a <b>comma</b> (<b><i>no spaces</i></b>) between them like this:<br>
+  <b><font face=3D"Courier New, Courier, mono" size=3D"4" color=3D"#0000FF"=
+>chmod a+x,go-rw=20
+  filename</font></b> (which would <b><i>allow</i></b> the file to be e<b>x=
+</b>ecuted=20
+  by <b>a</b>ll users and <b><i>remove</i></b> both <b>r</b>ead and <b>w</b=
+>rite=20
+  capability from the <b>g</b>roup and <b>o</b>thers). Those who enjoy numb=
+ers;=20
+  especially seeing Octal as Binary in their minds, might like using the <b=
+><i>Octal</i></b>=20
+  option instead. This is a <b>base 8</b> number which always has the form =
+of=20
+  three Octal digits standing for the permissions bits of the <b>u</b>ser, =
+<b>g</b>roup=20
+  and <b>o</b>thers in that order ("yo<b>u</b> <b>go</b>..."). Thus,=20
+  <b>chmod 755 </b> (used quite often), stands for: <b>111 101 101</b> (in =
+binary),=20
+  or for the permissions: <font face=3D"Terminal">rwxr-xr-x</font> (can you=
+ <i>see</i>=20
+  the digits?). To set a file with the permissions, <font face=3D"Terminal"=
+>rw-r--r--</font>,=20
+  you would enter: <b><font face=3D"Courier New, Courier, mono" size=3D"4" =
+color=3D"#0000FF">chmod=20
+  644 filename</font></b> (which is 110 100 100 in binary). The Octal numbe=
+r may=20
+  be preceded by a leading "0" (<b>zero</b>) to indicate that there's=20
+  really a <b><i>four digit</i></b> Octal number involved here; the first O=
+ctal=20
+  digit in the machine is for the <b><i>suid</i></b>, <b><i>guid</i></b> an=
+d <b><i>sticky</i></b>=20
+  bits in that order. [ Another session will explain how to use these three=
+ bits.]</font></p>
+
+<h2 align=3D"center"><font face=3D"Georgia, Times New Roman, Times, serif">=
+Creating=20
+  New Files</font></h2>
+
+<p align=3D"left"><font face=3D"Arial,Helvetica" size=3D"3">&nbsp; &nbsp; "=
+If we=20
+  create a new file under a Linux or UNIX system, what will its permissions=
+ be?"=20
+  All such systems must have a pre-defined default for this occurance. Unde=
+r any=20
+  <b><font size=3D"4">*</font>nix</b> system, entering the command: <b><fon=
+t face=3D"Courier New, Courier, mono" size=3D"4" color=3D"#0000FF">umask</f=
+ont></b>=20
+  (with no parameters) will show you what that default is in a '<b><i>negat=
+ive</i></b>=20
+  way.' For example, <b>tomsrtbt</b> will reply with: <font size=3D"4" face=
+=3D"Terminal">0022</font>=20
+  which means that both the <b>g</b>roup and <b>o</b>thers will have their =
+permissions=20
+  set to <b>r</b>ead only (the '<b>4</b>' bit) for any new files created by=
+ the=20
+  owner. This seems a bit odd at first glance (since the opposite of a <b>2=
+</b>-bit=20
+  here would be both a 4 <i>and a</i> 1 -- both <b>r</b>ead and e<b>x</b>ec=
+ute),=20
+  <b>but</b> you need to understand that for <b><i>any file</i></b> to be e=
+xecutable=20
+  on a *nix system it <b><i>must be explicitly set as such after being crea=
+ted=20
+  </i></b><u>or a very serious security flaw would exist</u>! If, however, =
+the=20
+  owner creates a <b>new <i>directory</i></b>, then things make more sense:=
+ with=20
+  a mask of <font size=3D"4" face=3D"Terminal">022</font>, a new directory'=
+s permissions=20
+  will be: <font face=3D"Terminal">rwxr-xr-x</font> (no masking on the owne=
+r, and=20
+  the <b>2</b>-bit <b><i>masked</i></b> for group and others). You can chan=
+ge=20
+  your mask to a </font><font face=3D"Arial,Helvetica" size=3D"3">state man=
+y prefer=20
+  by entering: <b><font face=3D"Courier New, Courier, mono" size=3D"4" colo=
+r=3D"#0000FF">umask=20
+  026 </font></b> (which masks <i>both</i> the <b>4</b>- and <b>2</b>-bits =
+for=20
+  <b>o</b>thers) and gives a new directory these permissions: <font face=3D=
+"Terminal">rwxr-x--x</font>.=20
+  Finally, a mask of <font size=3D"4" face=3D"Terminal">077</font> would co=
+mpletely=20
+  hide all new files <i>and</i> directoies from all but the owner (and, of =
+course,=20
+  root and anyone else having SysAdmin priveleges). [Summary: A mask of 000=
+ would=20
+  turn on every permissions bit; not very safe. Masks <b>022, </b>023, <b>0=
+26</b>,=20
+  027, 033, 037, 066 and even 077 might all be useful at some point, but an=
+y with=20
+  a 4 or 5 are worthless; figure out why?]</font></p>
+<p align=3D"left"><font face=3D"Arial, Helvetica, sans-serif" size=3D"3"><b=
+><font size=3D"4">So,=20
+  how do you make</font></b><font size=3D"4"> a new <b>directory</b> or <b>=
+file</b>?</font>=20
+  Making a new directory is easy! Just use the command: <b><font face=3D"Co=
+urier New, Courier, mono" size=3D"4" color=3D"#0000FF">mkdir=20
+  <i>dirname</i></font></b> . But before you try it, let's <b><font color=
+=3D"#0000FF">cd</font></b>=20
+  to the <font face=3D"Terminal" color=3D"#0000FF">/tmp</font> directory fi=
+rst! There's=20
+  more room to play around here than anywhere else in the <b>tomsrtbt <i>ra=
+m</i></b>=20
+  <b><i>devices</i></b>. Of course, you could still create a directory ther=
+e from=20
+  <b> <i>root</i></b> by using: <b><font face=3D"Courier New, Courier, mono=
+" size=3D"4" color=3D"#0000FF">mkdir /tmp/<i>name</i></font></b>.=20
+  Small <b>files</b> can easily be created by doing the following:<br>
+  <b>1)</b> Enter the command: <b><font face=3D"Courier New, Courier, mono"=
+ size=3D"4" color=3D"#0000FF">cat=20
+  &gt; <i>filename</i></font></b><br>
+  <b>2)</b> Enter some text on the blank line underneath it. You can add as=
+ many=20
+  lines as you want by pressing the ENTER key after each one...<br>
+  <b>3)</b> When you are finished, press the ENTER key one more time so the=
+re's=20
+  a completely blank line at the bottom, then press a CTRL key followed by =
+the=20
+  "D" key before releasing the CTRL key.<br>
+  </font></p>
+<p align=3D"left"><font face=3D"Arial, Helvetica, sans-serif" size=3D"3">Al=
+though the=20
+  command, <b>touch</b>, is often used to create <b><i>zero-length files</i=
+></b>=20
+  under Linux, that command appears to be broken for such purposes in <b>to=
+msrtbt</b>.=20
+  No problem, you can still use <b>cat</b> for this purpose as well: Just f=
+ollow=20
+  step 1) above and then immediately press the CTRL plus "D" keys to=20
+  create a zero-length file! Try it out, because we'll be using it in the n=
+ext=20
+  session. </font></p>
+<p align=3D"left"><font face=3D"Arial, Helvetica, sans-serif" size=3D"3">In=
+ the next=20
+  session we'll learn how to edit files and read files from a <i>mounted</i=
+> floppy=20
+  disk!</font></p>
+<p align=3D"left">&nbsp;</p>
+
+<h2 align=3D"center"><font face=3D"Verdana, Arial, Helvetica, sans-serif"><=
+/font><font face=3D"Verdana, Arial, Helvetica, sans-serif">How=20
+  should I <i>shut down</i> tomsrtbt ?</font></h2>
+ =20
+<p align=3D"left"><font face=3D"Arial, Helvetica, sans-serif" size=3D"3">&n=
+bsp; &nbsp;=20
+  Since we've only changed things in your computer's memory so far, the sho=
+rt=20
+  answer would be: Just turn off the power switch. <b>However</b>, once you=
+ start=20
+  <i><b>mounting</b> </i>devices,<i> </i>such as a floppy drive, and <i><b>=
+especially=20
+  if you are working with a Linux installation on a hard disk</b></i>, you =
+<b><i>must</i></b><i>=20
+  </i>always make sure that data is <i><b>flushed</b> </i>(written) to any =
+<i>writeable</i>=20
+  devices, then <b>umount </b>(un-mount) them and shut down the file system=
+ itself=20
+  in the proper sequence. Many Linux installations have programs that take =
+care=20
+  of all these things for you, but don't assume that unless you've checked.=
+ You=20
+  can begin practicing correct shut down habits by using the command: <b><f=
+ont face=3D"Courier New,Helvetica" size=3D"4" color=3D"#0000FF">halt</font>=
+</b>=20
+  (or &nbsp;<b><font face=3D"Courier New, Courier, mono" size=3D"4" color=
+=3D"#0000FF">poweroff<font face=3D"Arial, Helvetica, sans-serif" size=3D"3"=
+>=20
+  </font></font></b>; they do the same thing under tomsrtbt) to end your <b=
+>tomsrtbt</b>=20
+  sessions! You can even reboot your machine with: <b><font face=3D"Courier=
+ New, Courier, mono" size=3D"4" color=3D"#0000FF">reboot=20
+  </font></b> which uses the same binary file as halt. On a full Linux inst=
+all,=20
+  I suggest using: <b>shutdown now</b> and observe what happens, followed b=
+y <b>halt</b>=20
+  (the command <b>poweroff </b> exists on full Linux installations as well)=
+. Here's=20
+  an example of what you might see under <b>tomsrtbt</b> :</font></p><ul><p=
+re><b># <font color=3D"blue">poweroff</font>
+
+The system is going down NOW !!
+Sending SIGTERM to all processes.
+Sending SIGKILL to all processes.
+Trace/breakpoint trap
+Trace/breakpoint trap
+The system is halted. Press CTRL-ALT-DEL or turn off power
+RB_POWER_OFF
+Power down.</b></pre></ul>
+<table width=3D"99%" border=3D"1" cellspacing=3D"2" cellpadding=3D"5" align=
+=3D"center" bordercolor=3D"#000000"><tbody><tr>
+  <td>
+      <p> <font face=3D"Arial,Helvetica" size=3D"3"><font face=3D"Arial,Hel=
+vetica"><b><font size=3D"4" color=3D"#009999">The=20
+        Facts </font></b><font size=3D"4">about</font><b><font size=3D"4" c=
+olor=3D"#009999">=20
+        <font size=3D"4" color=3D"#0000FF" face=3D"Courier New, Courier, mo=
+no">ls</font>=20
+        </font></b><font size=3D"4">and</font><b><font size=3D"4" color=3D"=
+#009999">=20
+        <i><font color=3D"#cc66cc">color</font></i> :</font></b><font size=
+=3D"3"><br>
+        If you look up the "man page" for <b>ls</b>, you'll find that=20
+        the listed items are only supposed to be colorized if you add the o=
+ption=20
+        "<b>-- color</b>=3D" (either <font face=3D"Courier, mono">auto</fon=
+t>=20
+        or <font face=3D"Courier,mono">always</font>) on the command line. =
+So, why=20
+        are we seeing color in <b>tomsrtbt</b> without that option? The rea=
+son=20
+        is because Tom <i>defined</i> <b>ls </b>as a <i><b>function</b></i>=
+ in=20
+        his&nbsp;<b><font face=3D"Courier New,Helvetica">/etc/profile</font=
+></b>
+        &nbsp;file as follows:<br><br>
+        <font face=3D"Courier,Helvetica">ls () { /usr/bin/ls <font size=3D"=
+3" face=3D"Verdana"><b>--color=3Dauto</b></font>=20
+        "$@";}</font><br><br>this means that anyone using <b>ls</b>=20
+        at a prompt will have the option "<b>--color</b>=3D<b>auto</b>"=20
+        applied every time; the "<b><font face=3D"Courier New,Helvetica">$<=
+font face=3D"Courier,Helvetica">@</font></font></b>"=20
+        simply means that whatever else was entered after <b>ls</b> on the =
+same=20
+        line, should also be passed along to the real</font></font><font fa=
+ce=3D"Courier New"><font face=3D"Arial,Helvetica">=20
+        <b><font face=3D"Courier New,Helvetica" size=3D"4">ls</font></b> <f=
+ont size=3D"3">command=20
+        program at <font face=3D"Courier New,Helvetica"><b>/usr/bin/ls</b><=
+/font>.=20
+        This <b>profile</b> file in the </font><font face=3D"Terminal">/etc=
+</font></font></font></font>=20
+        <font face=3D"Arial,Helvetica" size=3D"3">directory is 'exectued' b=
+y <b>tomsrtbt</b>=20
+        <b>ash</b> <i><b>shell</b></i> every time you login to one of the f=
+our=20
+        consoles.<br>&nbsp; &nbsp;
+        On most Linux distributions, if color isn't always active, you can =
+use=20
+        a command called <b>alias</b> inside of a configuration file, rathe=
+r=20
+        than doing what Tom did above. Each user often has their own "bashr=
+c"=20
+        file in which you could enter a line such as:<br>
+        <font face=3D"Courier,Helvetica">alias ll=3D'ls -l --color=3Dtty'</=
+font> and simply
+        enter '<font face=3D"Courier,Helvetical">ll</font>' at the prompts.=
+</font></p>
+    </td>
+  </tr>
+</tbody></table>
+<h1 align=3D"center"><font face=3D"Times New Roman, Times, serif">More Help=
+ for
+ the Curious:</font></h1>
+<p><font face=3D"Arial,Helvetica" size=3D"3">Enter the commands: &nbsp; <b>=
+<font face=3D"Courier New,Helvetica" size=3D"4" color=3D"#0000FF">man ls</f=
+ont></b>&nbsp;
+ and&nbsp; <b><font face=3D"Courier New,Helvetica" size=3D"4" color=3D"#000=
+0FF">
+ man cat</font></b> and skim the files, noting what you've already learned
+ about these commands. Read other "<i><b>manual</b></i> pages" as
+ your curiosity gets the better of you; or better yet, you can review a lis=
+t
+ of all the commands and files that are documented in <b>tomsrtbt</b> by en=
+tering:
+ <b><font color=3D"#0000FF" face=3D"Courier New,Helvetica"><font size=3D"4"=
+>ls</font>=20
+ <font size=3D"3">/usr/man</font></font></b> at any prompt. Sometimes
+ these 'help' pages won't be much help at all, and
+ may contain information that doesn't specifically apply to <b>tomsrtbt</b>
+ (<i>but</i> will be useful to Network Administrators and/or be found on
+ systems with a full Linux install).<br>
+  <b>[ NOTE:</b> In <b>tomsrtbt</b>, the <b>man</b> pages are nothing more=
+=20
+  than text files, but it's the only single diskette distribution of Linux
+  I know of that even bothers to include documentation like this! Under a
+  full Linux install, man pages will make use of <b>bold</b> (or colored)
+  text and have a special format that requires a real <b>man</b> program to
+  read them. The <b>man</b> on Tom's diskette is just a <i>very short</i>
+ script: &nbsp;<code>more /usr/man/$1</code> &nbsp;<b>]</b></font></p>
+<p>&nbsp;</p>
+<h1 align=3D"center"><font face=3D"Times New Roman, Times, serif">Next Sess=
+ion:</font></h1>
+<h2 align=3D"center"><font face=3D"Verdana"><a href=3D"https://thestarman.p=
+cministry.com/linux/vi/linuxMvi.htm">Using the "vi"=20
+  Text Editor and <i>Mounting</i></a></font></h2>
+<p align=3D"left">&nbsp;</p>
+<h2><b><i><font face=3D"Arial" size=3D"5">Last Updated: </font></i><font fa=
+ce=3D"Arial" size=3D"5">25=20
+  JAN 2003.</font></b></h2>
+<hr><p>&nbsp;</p>
+<p align=3D"center"><img src=3D"https://thestarman.pcministry.com/img/left.=
+gif" width=3D"33" height=3D"14">
+<font face=3D"Verdana" size=3D"5">
+<a href=3D"https://thestarman.pcministry.com/index.html"><b>The Starman's I=
+ndex Page</b></a></font></p>
+<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p></body></html>
+------MultipartBoundary--wekB5xnnzLtzmNqqwPGgW61VQO1oN2dCfBnpLVOIVu----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://thestarman.pcministry.com/img/new_rain.gif
+
+R0lGODdhJAAMAPcAAP//////zP//mf//Zv//M///AP/M///MzP/Mmf/MZv/MM//MAP+Z//+ZzP+Z
+mf+ZZv+ZM/+ZAP9m//9mzP9mmf9mZv9mM/9mAP8z//8zzP8zmf8zZv8zM/8zAP8A//8AzP8Amf8A
+Zv8AM/8AAMz//8z/zMz/mcz/Zsz/M8z/AMzM/8zMzMzMmczMZszMM8zMAMyZ/8yZzMyZmcyZZsyZ
+M8yZAMxm/8xmzMxmmcxmZsxmM8xmAMwz/8wzzMwzmcwzZswzM8wzAMwA/8wAzMwAmcwAZswAM8wA
+AJn//5n/zJn/mZn/Zpn/M5n/AJnM/5nMzJnMmZnMZpnMM5nMAJmZ/5mZzJmZmZmZZpmZM5mZAJlm
+/5lmzJlmmZlmZplmM5lmAJkz/5kzzJkzmZkzZpkzM5kzAJkA/5kAzJkAmZkAZpkAM5kAAGb//2b/
+zGb/mWb/Zmb/M2b/AGbM/2bMzGbMmWbMZmbMM2bMAGaZ/2aZzGaZmWaZZmaZM2aZAGZm/2ZmzGZm
+mWZmZmZmM2ZmAGYz/2YzzGYzmWYzZmYzM2YzAGYA/2YAzGYAmWYAZmYAM2YAADP//zP/zDP/mTP/
+ZjP/MzP/ADPM/zPMzDPMmTPMZjPMMzPMADOZ/zOZzDOZmTOZZjOZMzOZADNm/zNmzDNmmTNmZjNm
+MzNmADMz/zMzzDMzmTMzZjMzMzMzADMA/zMAzDMAmTMAZjMAMzMAAAD//wD/zAD/mQD/ZgD/MwD/
+AADM/wDMzADMmQDMZgDMMwDMAACZ/wCZzACZmQCZZgCZMwCZAABm/wBmzABmmQBmZgBmMwBmAAAz
+/wAzzAAzmQAzZgAzMwAzAAAA/wAAzAAAmQAAZgAAM+4AAN0AALsAAKoAAIgAAHcAAFUAAEQAACIA
+ABEAAADuAADdAAC7AACqAACIAAB3AABVAABEAAAiAAARAAAA7gAA3QAAuwAAqgAAiAAAdwAAVQAA
+RAAAIgAAEe7u7t3d3bu7u6qqqoiIiHd3d1VVVURERCIiIhEREQAAACwAAAAAJAAMAAcI/wBHdLhw
+YYHBAimaNIlTKReuW7hs2apFS5cuYMaYGZMmzZUiRUKEePggsEOECAcLKKzUMNetl7Uo0gKGMSOz
+jq7MmBH5YeDJBQUK/PvXpNJQXEOT/tM11NhQZkMVmRk6sqdJlAuSxhmaayhMikOBNR3qylVSDyMH
+FjSolatXiWD/iZVLVtFQnj1/Zv231a3SfxX/kjX7Dy8Iggb3Nkna9V/EiYH/ZRza0W7hkR4O/xya
+cKjRfy9vxaQV1um/m2V1Gr4QoYDixf8aK408+V/lu1U/gMAKNGHRhg8fy6RpLCNHaZZ5Zg7B+mCK
+FHEYOgw92iJGjag/mkH7Qfdu1wihSxHH9VD08JrMsoM0DCIEQAABAQA7
+
+------MultipartBoundary--wekB5xnnzLtzmNqqwPGgW61VQO1oN2dCfBnpLVOIVu----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://thestarman.pcministry.com/linux/2880dirs.gif
+
+R0lGODdhyAF0APcAAAAAAIAAAACAAICAAAAAgIAAgACAgICAgMDAwP8AAAD/AP//AAAA//8A/wD/
+/////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAAyAF0AAAI/wABCBxI
+sKDBgwgTKlzIsKHDhxAjSpxIsaLFixgzatzIsaPHjyBDihxJsqTJkyhTqlzJsqXLlzBjypxJs6bN
+mzhz6tzJs6fPn0CDCh1KtKjRo0iTKl3KtKnTp1CjSp1KtarVq1izat3KtavXr2DDih3LFYFZsmjT
+qvV49ixDt2vjyp37FgEAuArx0t3Ld63Zv3oP4gVst6/hw1rbFl4It/FixJAjO1XccPBjyZgzI6Vc
+t+BfzaBDAyUc2GDp0qJTq4bJmfFix6tjy27ZOiHggYRn697Nu7fv38CDCx9OvLjx48iTK1/OvLnz
+rgyiI5RONjqDgtaf/7wembpB72Glg/8HMF47zvJ90aulzn2gevM039O13l5gdvvX72dVL39/fvb/
+tUefgPRJNSB394kX4FgKYlcfgP6h159/+OH3H3kEYuhefU+Bd2CDGoaH4IMkVkjhQRNiBWGIIGqY
+4lIeXgjii1StaKKJNMLI4YbVjXjjjS1WFaOLF4YIlo1GsrhjjUsmeaSPTnoXJJMENThjk1ohOaST
+QjaZI5VKOsijlFgqZaWMRX4Z1YBV6odkl+UVKBabGI5HZ51qDpUgmniWCd+fba6WJ6DPDSqXoYQu
+J2doiybq6KOQRirppJRWKpF+Iu5Ipp+9KfCTpyaBKpACpCIkakKkplrqQKcCoGqrISH/2qGmJRq3
+Kk+3jpSrq7Dy2tCqt6bKqqi7giSrUxMem1mxODH70a7MOltQsKN6CiyxvU50J54VuinnnkzZGaOy
+QpUqbLXnoqpqteyie+267oJ6rrS8WmvvqxG9iu2818bLLr/w1rtvuqZaO+zBwWYbEZndEshnwwfq
++F2J5AYlrLnYqouwvBwf3O7HGOtbcLv9TpRrwgKLTDLGHm9MEL3DovxvxhjFCWWYDJ8psZg8cklV
+vzC37LHM056KMsvOlix0vkZnjLS9BikNbccfK2RuzOsSbZHNQHKY88NJcd1zxZ+2GnTVK788tdou
+s3yQ0r5WdLLTUL/LdtRmUx33QmvP/7w0RWIzHGjDRO48OI6cOtU3Q8XCXfXcbUP9tt5nW9105Hvv
+HW3eICt8d8tIZ17R113zXPiURomNuFaLQ9553FLTrXndks+eNtoOPY15wI77DbvsQrdOe+UM3Zmd
+guKCizpRjS66rVUB+/t5yjH/TnC9WHfsdub4pkx80QNrP/y7vabbffWfRy/z+ZZO+n1a77efXO+G
+XS8/oNHfr//+/Pfv//8AFBTZwkMWBxgQIQcMIEkG+BUGHiWBBoGgAmOVuPRU8CoSnOBJnPetWllF
+eQvq0wWZYsASDqSEDiiICQVywBVCxUZ0Qh6D0pShLX3wQ2H6EVYgmMAWppAgEuzhD/9ntTrEFamB
+UMKhDbt0ups50CcZBIAQgThEKf4wijsT3OCeGJQVqc5na+ITDEfoFBdakYVVDOIVq9gULS1RREXk
+GRfPI0YnkvEpPFwjFfd4xhferGdghE4SM2ShOyJFZ2MMJFTyiMZGnjCNevRjHN+UKSVhSpFhbOKP
+LmkVFA7Rk1RkZB/9SMM9zVGDqEylKlfJyla68pWwjKUsZ0lLVxqyOn0p3+RqqZBTTsWXSmlc+TxX
+S2Bmci/C5GVCYmi8Rt2wThsyJSercr7uqUxl6NrYvqwHM/Z5ZEgchCYcSwdIY8bHR1o0Z02ORjPR
+uZN74rvdO19nLA8a6Xi3bGPENpn/TzOhk5CYlMrUqgmrzd3NbVqzXEnAGc6AMhFF9twKhNLZT6SY
+L1vJxNtBJTc3YmZTJOOyI1r4E9Es/bOcFU0K/dxp0KFxtKAexV1HJirSHqG0cDp8aItIhxV2gq52
+24On72KXvnbW04sAneElvTVNMAFoqeqcCUGvR9WO0ox84Sua2uz3kXERKarKFE78wkpWXemtrGh9
+Sf7Syta2uvWtcI2rXOeanNrQ9a4YsSte9yoR0lyGr4B1iF4DS9i82AU1hU0sQQar2Mb6tbGQ9cxh
+/xpZxTK2spjNrGYR4lfKbvaunf2saEdL2tKa9rSoTa1qV8va1rr2tbCNrWxnS9vaCNr2trglS0AA
+ADs=
+
+------MultipartBoundary--wekB5xnnzLtzmNqqwPGgW61VQO1oN2dCfBnpLVOIVu----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://thestarman.pcministry.com/linux/multi-dir.gif
+
+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
+
+------MultipartBoundary--wekB5xnnzLtzmNqqwPGgW61VQO1oN2dCfBnpLVOIVu----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://thestarman.pcministry.com/img/left.gif
+
+R0lGODlhIQAOAKIGAAAAAAAAgL+/v4CAgAAA/////8zMzAAAACH5BAEAAAYALAAAAAAhAA4AAANq
+aLrc/jCCSWe8qpbNiwCYQwlfZ35LRaXTRgLeBwhnRdx4xpHD/P4mFwCXM/hkqtiE1nkRbyxQSuib
+7QS9JwFDoZK+g2yAMA5wvZ8BLwwok7fcpWcS7lEC+HwINgfULRl5ensqgAyFIYkRCQAh/h0AACH/
+CwA7
+
+------MultipartBoundary--wekB5xnnzLtzmNqqwPGgW61VQO1oN2dCfBnpLVOIVu------
