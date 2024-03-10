@@ -215,7 +215,19 @@ Note: Windows thinks the base.iso file generated from https://pizza.slitaz.org/t
 
 Not sure why. But it deletes it and there it doesn't allow much time to keep the file.  If you are able to scan the file and determine if it is a real virus, or an overactive anti-virus scan, feel free to let me know.
 
- 
+Using the tiny.slitaz site instead, I recreated the ISO, but also created a smaller 1.44MB floppy, which I had intended to make anyways:
+
+![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/efd8e7a7-bb57-4deb-aad5-683b9d5ce1db)
+
+https://elinux.org/Linux_Tiny 
+
+I loaded the floppy as a hard drive but it didn't seem to recognize any of the drives (tried 1.44MB too)
+
+![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/bda03acd-8ad3-4dee-b2a1-957dbab3c63e)
+
+It's possible I might need to use the autoconfigure within the BIOS, or some other setting within PCem is not correct. I can also try Bosh. 
+
+
 PCem
 --
 
