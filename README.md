@@ -278,9 +278,9 @@ Video posted (placeholder) .
 
 Perhaps there are smaller images that only require 2MB RAM? Perhaps (that's not even including write-in-place).
 
-##Part 2 of Day 2
 
-SliTaz Test on 386 in PCem (4MB)
+
+SliTaz Test on 386 in PCem on 4MB (Part 2 of Day 2)
 --
 I was able to get the 386 to load SliTaz, after configuring the PCEm settings. The floppies did not get recognized in the bootup screen, which suggests PCem fed the floppies using a virtualization drive instead. I did not need to enter the BIOS settings, although I had enough time to press "DEL" to access it. It seems it recognized the 1.44MB image as a 2.8MB disk, although when I tried to update that the BIOS would not load as usual, and resetting to the defaults did not seem to take effect, even after restarting PCEm. The original test accomplished the basic boot, so I might return to this when I decide what software I want to run on it, possibly under the same amount of RAM- perhaps a NanoEditor or something. 
 
