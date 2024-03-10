@@ -20,7 +20,7 @@ It probably won't work on systems with 4 mb of ram since it uses a 3 mb ram
 disk.
 Keywords: compressed ramdisk, lilo
 Author:         
-Maintained-by:  John Comyns (jcomyns@panix.com)
+Maintained-by:  John Comyns (jcomyns @ panix . com)
 Primary-site:   sunsite.unc.edu /pub/Linux/system/Recovery
 Alternate-site: 
 Original-site:  
@@ -97,4 +97,29 @@ to a machine with 2 megabytes:
    loadlinx scsi root=b: ramdisk=0
             ^^^^      ^^
             ||||      This should be the drive you put the disk in.
-            This is the name of the kernel you selected.
+            This is the name of the kernel you selected. [this schematic is viewable in editor mode]
+
+   Begin3
+Title:          
+Title:		cramdisk-2.0.lynx.tgz - bootable compressed ramdisk 
+Version:	2.0
+Entered-date:	19OCT96
+Description:	cramdisk-2.0.lynx contains a bootable floppy image that fits 
+		on a single 1.44 MB floppy. The kernel (2.0.23) includes 
+		math emulation and networking (PPP and dialin script, 
+		NE2000, 3C509), and the file system contains pppd, rlogin, 
+		tar and a color version of the network browser lynx (2.6). 
+		The floppy image will boot on a 3/4/586 with 8MB RAM. 
+		For networking, the IP addresses and/or ppp dialin 
+		sequence need to be set. A method for modifying the 
+		floppy image is included.  
+Keywords:	kernel, ramdisk, networking, compress, bootdisk, lynx
+Author:		rob@retina.anatomy.upenn.edu 
+Maintained-by:  
+Primary-site:	sunsite.unc.edu /pub/Linux/kernel/images/
+		1511523 cramdisk-2.0.lynx.tgz
+Alternate-site:	retina.anatomy.upenn.edu /pub/rob/
+Original-site:  
+Platforms:	386/486/pentium with at least 8 MB RAM, 1.44 MB floppy boot.
+Copying-policy: GPL
+End
