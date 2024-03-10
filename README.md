@@ -270,6 +270,7 @@ SliTaz Test on 386 in PCem on 4MB (Part 2 of Day 2)
 Result: While more than 2MB was available, it did not let me mount fs with just 2MB+640K.
 
 ![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/b6946059-7ea9-4d6f-81d2-e5b4fcc199de)
+
 That was able to be corrected in the BIOS, and once autoconfig/defaults was selected, saving to CMOS allowed it to reattempt boot on just 2.6MB extended memory (3.3MB):
 
 ![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/a3c4a0e2-77e0-44cf-8d8f-0680e41d12c8)
@@ -278,9 +279,11 @@ That was able to be corrected in the BIOS, and once autoconfig/defaults was sele
 
 Pressing F1 allows it to continue.
 
+So, less than 4MB is possible, but 3MB is not enough. The absolute minimum to reach console is around 3.2MB, and even then, it has to drop processes.
+
 ![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/c7cf0ae6-0082-4ba5-b908-01365504f6eb)
 
-So it appears even with just a little over 2MB of extended RAM, it can still attempt to boot, until it fails:
+With just a little over 2MB of extended RAM, it attempts to boot, until it fails:
 
 ![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/5bd997c5-d21c-4d2b-b9d4-823d12ddfb8b)
 
