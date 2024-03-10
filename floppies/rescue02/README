@@ -1,0 +1,27 @@
+This is a Linux rescue floppy. It will allow you to boot to either
+an existing linux partition or to a ram disk image contained on
+this floppy. Thank to the excellent work of all the Linux kernel
+hackers a lot more information can be squeezed on to one disk. And
+thanks to the authors of lilo and the vfat file system you can boot
+dos to the second hard drive and use Linux to back up Win95 partitions.
+
+This floppy should work with ide and either adaptec 1542 or ncr53c7,8xx.
+It can also be used as a starting point for your own recovery floppy.
+
+
+To create a boot floppy you can use the command
+cat kernel.img ramdisk.gz > /dev/fd0 
+to a formatted 3 inch floppy. 
+
+To create a boot floppy from dos you can use the command
+copy /b kernel.img+ramdisk.gz image
+and then use rawrite to write image to a floppy.	
+
+For more information on the Linux ramdisk feature you can read the Linux 
+kernel docs. It tells you how to make your own rescue floppy. You can 
+modify ramdrive.gz by extracting it to /dev/ram and mounting it as an ext2
+file system.
+
+John Comyns
+jcomyns@panix.com
+
