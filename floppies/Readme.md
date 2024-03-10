@@ -114,11 +114,11 @@ Description:	cramdisk-2.0.lynx contains a bootable floppy image that fits
 		sequence need to be set. A method for modifying the 
 		floppy image is included.  
 Keywords:	kernel, ramdisk, networking, compress, bootdisk, lynx
-Author:		rob@retina.anatomy.upenn.edu 
+Author:		rob@ retina. anatomy. upenn. edu 
 Maintained-by:  
 Primary-site:	sunsite.unc.edu /pub/Linux/kernel/images/
 		1511523 cramdisk-2.0.lynx.tgz
-Alternate-site:	retina.anatomy.upenn.edu /pub/rob/
+Alternate-site:	retina. anatomy.upenn.edu /pub/rob/
 Original-site:  
 Platforms:	386/486/pentium with at least 8 MB RAM, 1.44 MB floppy boot.
 Copying-policy: GPL
