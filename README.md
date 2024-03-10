@@ -282,9 +282,7 @@ Pressing F1 allows it to continue.
 SliTaz on 3MB*
 --
 
-So, less than 4MB is possible, but 3MB is not really enough. The absolute minimum to reach console is around 3.4MB, and even then, it has to drop processes:
-
-![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/c7cf0ae6-0082-4ba5-b908-01365504f6eb)
+So, less than 4MB is possible, but 3MB is not really enough. The absolute minimum to reach console is around 3.4MB, and even then, it has to drop processes.
 
 *This is with 3.456MB (which displays around 2432+640 when it boots):
 
@@ -300,8 +298,9 @@ https://github.com/hatonthecat/linux_distro_tests/assets/76194453/8f5cad1d-b0b3-
 
 ![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/593dba4c-4977-4524-b0dd-5f2fab056b3c)
 
-
 With just a little over 2MB of extended RAM, it attempts to boot, until it fails:
+
+![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/c7cf0ae6-0082-4ba5-b908-01365504f6eb)
 
 ![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/5bd997c5-d21c-4d2b-b9d4-823d12ddfb8b)
 
