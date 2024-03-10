@@ -1,0 +1,19 @@
+
+Begin3
+Title:          BRD - Brunnis Rescue Diskset
+Version:        2.0
+Entered-date:   21NOV01
+Description:    Remote rescue via telnet/modem/ISDN (telnetd,hisax,mgetty).
+                rz/sz included. Precompiled modular 2.4.17 kernel. Manpages,
+                pico editor, Basic networking (ifconfig,route,ftp,ping,telnet)
+                and all you need to repair your system (hopefully :)
+Keywords:       rescue
+Author:         brunni@netestate.de (Michael Brunnbauer)
+Maintained-by:  brunni@netestate.de (Michael Brunnbauer)
+Primary-site:   sunsite.unc.edu
+		5029kB brd-2.0.tar.gz
+Alternate-site: 
+Original-site:  
+Platforms:      
+Copying-policy: GPL
+End

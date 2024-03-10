@@ -1,0 +1,48 @@
+Begin3
+Title:           RamFloppy
+Version:         1.20
+Entered-date:    18JUN2003
+Description:     Small Linux system for the purpose of system booting
+                 or repairing, a boot/rescue system.
+                 You can put this system on a 1.44MB formatted floppy.
+		 It's more or less designed for non-networked, stand-alone,
+		 home pc hard drive boot/rescue/backup/maintenance!
+		 It has large file support, you can use all the programs
+		 with files larger than 2GB!
+		 You can only have files larger than 2GB on a ext2/3,
+		 reiserfs, jfs, or xfs partition.
+                 The programs e2fsck, mke2fs, and tune2fs have ext3
+                 filesystem support.
+                 It includes the fat16/32, ext2/3, reiserfs, and ntfs
+		 resizing programs (parted, ntfsresize).
+		 It also includes the reiserfs check/repair program
+		 `reiserfsck'.
+		 It has support for these filesystems:
+                 ext2     <Linux filesystem, read-write>
+                 iso9660  <Cdrom filesystem + joliet extensions, read-only>
+                 msdos    <Dos filesystem, read-write>
+                 ntfs     <Windows NT filesystem, read-only>
+                 reiserfs <Linux filesystem, read-write>
+                 ufs      <FreeBSD, NetBSD, OpenBSD, & Sun/Solaris
+		           filesystems, Only UFS1!, read-write>
+		 vfat     <Win9x filesystem fat16 and 32, read-write>
+                 The kernel is version 2.4.21, it just has support
+		 for IDE hard drives.
+		 You need at least 8mb of RAM and a 486dx CPU to boot it.
+                 Use `fdformat' or `superformat' to format a floppy
+		 to 1.44MB, if not already. 
+		 # fdformat -n /dev/fd0u1440
+		 Then write it to the floppy.
+		 # cat ramf-120.img.bin > /dev/fd0
+                 If you want a larger CD version of the rescue system, get
+		 `rip-54.iso.bin' from the site below!
+Keywords:        Single Floppy Linux Boot/Rescue System!
+Author:          robotti@godmail.com (Kent Robotti)
+Maintained-by:
+Primary-site:    http://www.tux.org/pub/people/kent-robotti/looplinux/rip
+                 ftp://ftp.tux.org/pub/people/kent-robotti/looplinux/rip
+                 ramf-120.img.bin 1440Kb
+Alternate-site:  ftp://ibiblio.org/pub/Linux/system/recovery
+Platforms:       Linux
+Copying-policy:  GPL
+End

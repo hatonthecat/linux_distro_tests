@@ -1,0 +1,14 @@
+Begin4
+Title: BanShee-Linux Rescue Disks
+Version: 0.61
+Entered-date: 10/27/2002
+Description: BanShee Linux is a small rescue system based on uClibc and Busybox
+Keywords: BanShee Linux Rescue BusyBox 
+Author: Sean Rima <sean@banshee-linux.org>
+Maintained-by: Sean Rima <sean@banshee-linux.org>
+Primary-site: http://www.banshee-linux.org
+Alternate-site: 
+Original-site: 
+Platforms: i386
+Copying-policy: GPL
+End

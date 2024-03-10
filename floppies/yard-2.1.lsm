@@ -1,0 +1,13 @@
+Begin4
+Title:           Yard
+Version: 	 2.1
+Entered-date:    May 2001
+Description: Yard is a suite of Perl scripts for creating custom boot/rescue disks.  Yard is also useful for creating mini-distributions, or Linux-on-a-floppy systems.  You specify a basic set of files and utilities for inclusion and Yard handles many of the details.
+Keywords: rescue, ramdisk, bootdisk, recovery, boot
+Author: fawcett@croftj.net (Tom Fawcett)
+Maintained-by: fawcett@croftj.net (Tom Fawcett)
+Primary-site: http://www.croftj.net/~fawcett/yard/
+              171K yard-2.1.tar.gz
+Platforms: Perl 5
+Copying-policy: GPL
+End

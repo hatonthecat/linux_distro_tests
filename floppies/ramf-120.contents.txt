@@ -1,0 +1,349 @@
+#
+# This is the contents of rescue.gz from ramf-120.img.bin.
+#
+rescue:
+total 16
+drwxr-xr-x   13 root     root         1024 Jun 17 17:07 .
+drwxr-xr-x    4 root     root         4096 Jun 17 17:07 ..
+drwxr-xr-x    2 root     root         1024 Jun 17 16:24 bin
+drwxr-xr-x    2 root     root         1024 Jan  9  2002 boot
+drwxr-xr-x    3 root     root         1024 Mar 21  2002 etc
+drwxr-xr-x    2 root     root         1024 Jan 25  2002 lib
+drwxr-xr-x    9 root     root         1024 Jul 25  2000 mnt
+drwxr-xr-x    2 root     root         1024 Aug 15  1998 proc
+drwxr-xr-x    2 root     root         1024 Jun 16 11:46 root
+drwxr-xr-x    2 root     root         1024 Jun 17 16:22 sbin
+drwxrwxrwt    2 root     root         1024 Jan  9  1999 tmp
+drwxr-xr-x    5 root     root         1024 Jun 16 11:44 usr
+drwxr-xr-x    5 root     root         1024 Jul 25  2000 var
+
+rescue/bin:
+total 1543
+drwxr-xr-x    2 root     root         1024 Jun 17 16:24 .
+drwxr-xr-x   13 root     root         1024 Jun 17 17:07 ..
+lrwxrwxrwx    1 root     root            9 Jun 17 17:05 ash -> crunchbox
+lrwxrwxrwx    1 root     root            9 Jun 17 17:05 cat -> crunchbox
+lrwxrwxrwx    1 root     root            9 Jun 17 17:05 chgrp -> crunchbox
+lrwxrwxrwx    1 root     root            9 Jun 17 17:05 chmod -> crunchbox
+lrwxrwxrwx    1 root     root            9 Jun 17 17:05 chown -> crunchbox
+lrwxrwxrwx    1 root     root            9 Jun 17 17:05 chroot -> crunchbox
+lrwxrwxrwx    1 root     root            9 Jun 17 17:05 cp -> crunchbox
+lrwxrwxrwx    1 root     root            9 Jun 17 17:05 cpio -> crunchbox
+-rwxr-xr-x    1 root     root      1569300 Jun 17 15:03 crunchbox
+lrwxrwxrwx    1 root     root            9 Jun 17 17:05 cut -> crunchbox
+lrwxrwxrwx    1 root     root            9 Jun 17 17:05 date -> crunchbox
+lrwxrwxrwx    1 root     root            9 Jun 17 17:05 dd -> crunchbox
+lrwxrwxrwx    1 root     root            9 Jun 17 17:05 df -> crunchbox
+lrwxrwxrwx    1 root     root            9 Jun 17 17:05 dmesg -> crunchbox
+lrwxrwxrwx    1 root     root            9 Jun 17 17:05 du -> crunchbox
+lrwxrwxrwx    1 root     root            9 Jun 17 17:05 free -> crunchbox
+lrwxrwxrwx    1 root     root            9 Jun 17 17:05 gunzip -> crunchbox
+lrwxrwxrwx    1 root     root            9 Jun 17 17:05 gzip -> crunchbox
+lrwxrwxrwx    1 root     root            9 Jun 17 17:05 kill -> crunchbox
+lrwxrwxrwx    1 root     root            9 Jun 17 17:05 killall -> crunchbox
+lrwxrwxrwx    1 root     root            9 Jun 17 17:05 ln -> crunchbox
+lrwxrwxrwx    1 root     root            9 Jun 17 17:05 ls -> crunchbox
+lrwxrwxrwx    1 root     root            9 Jun 17 17:05 mkdir -> crunchbox
+lrwxrwxrwx    1 root     root            9 Jun 17 17:05 mknod -> crunchbox
+-rwxr-xr-x    1 root     root          933 Aug 17  2002 more
+lrwxrwxrwx    1 root     root            9 Jun 17 17:05 mount -> crunchbox
+lrwxrwxrwx    1 root     root            9 Jun 17 17:05 mt -> crunchbox
+lrwxrwxrwx    1 root     root            9 Jun 17 17:05 mv -> crunchbox
+lrwxrwxrwx    1 root     root            9 Jun 17 17:05 pidof -> crunchbox
+lrwxrwxrwx    1 root     root            9 Jun 17 17:05 ps -> crunchbox
+lrwxrwxrwx    1 root     root            9 Jun 17 17:05 rm -> crunchbox
+lrwxrwxrwx    1 root     root            9 Jun 17 17:05 rmdir -> crunchbox
+lrwxrwxrwx    1 root     root            9 Jun 17 17:05 sh -> crunchbox
+lrwxrwxrwx    1 root     root            9 Jun 17 17:05 sleep -> crunchbox
+lrwxrwxrwx    1 root     root            9 Jun 17 17:05 sync -> crunchbox
+lrwxrwxrwx    1 root     root            9 Jun 17 17:05 tar -> crunchbox
+lrwxrwxrwx    1 root     root            9 Jun 17 17:05 touch -> crunchbox
+lrwxrwxrwx    1 root     root            9 Jun 17 17:05 tty -> crunchbox
+lrwxrwxrwx    1 root     root            9 Jun 17 17:05 umount -> crunchbox
+lrwxrwxrwx    1 root     root            9 Jun 17 17:05 uname -> crunchbox
+lrwxrwxrwx    1 root     root            9 Jun 17 17:05 zcat -> crunchbox
+
+rescue/boot:
+total 6
+drwxr-xr-x    2 root     root         1024 Jan  9  2002 .
+drwxr-xr-x   13 root     root         1024 Jun 17 17:07 ..
+-rw-r--r--    1 root     root          446 Jan  9  2002 mbr.nopacket
+-rw-r--r--    1 root     root          446 Jan  9  2002 mbr.packet
+-rw-r--r--    1 root     root         1255 Jan  9  2002 mbr.txt
+
+rescue/dev: !!! The contents of the /dev directory are not listed !!!
+
+rescue/etc:
+total 14
+drwxr-xr-x    3 root     root         1024 Mar 21  2002 .
+drwxr-xr-x   13 root     root         1024 Jun 17 17:07 ..
+-rw-r--r--    1 root     root           37 Jun  7  2002 fstab
+-rw-r--r--    1 root     root          462 Feb 22  2000 group
+drwxr-xr-x    2 root     root         1024 May 26  2002 init.d
+-rw-r--r--    1 root     root         1031 Feb 25  2002 inittab
+-rw-r--r--    1 root     root          444 Jun 16 11:56 issue
+-rw-r--r--    1 root     root           56 Mar 11  1999 localtime
+-rw-r--r--    1 root     root           24 Apr  1  1999 mtab
+-rw-r--r--    1 root     root           29 Apr 23  2001 passwd
+-rw-r--r--    1 root     root          242 Jun 16 11:55 profile
+-rw-r--r--    1 root     root         2038 Dec  9  2000 termcap
+
+rescue/etc/init.d:
+total 3
+drwxr-xr-x    2 root     root         1024 May 26  2002 .
+drwxr-xr-x    3 root     root         1024 Mar 21  2002 ..
+-rwxr-xr-x    1 root     root          678 Jun 14 16:31 rcS
+
+rescue/lib:
+total 2
+drwxr-xr-x    2 root     root         1024 Jan 25  2002 .
+drwxr-xr-x   13 root     root         1024 Jun 17 17:07 ..
+
+rescue/mnt:
+total 9
+drwxr-xr-x    9 root     root         1024 Jul 25  2000 .
+drwxr-xr-x   13 root     root         1024 Jun 17 17:07 ..
+drwxr-xr-x    2 root     root         1024 Dec 14  1998 cdrom
+drwxr-xr-x    2 root     root         1024 Jan 28  1999 dos
+drwxr-xr-x    2 root     root         1024 Nov 15  1998 floppy
+drwxr-xr-x    2 root     root         1024 Jan 19  1999 linux
+drwxr-xr-x    2 root     root         1024 Jan 28  1999 loop
+drwxr-xr-x    2 root     root         1024 Dec  6  1999 temp
+drwxr-xr-x    2 root     root         1024 Jan 28  1999 win
+
+rescue/mnt/cdrom:
+total 2
+drwxr-xr-x    2 root     root         1024 Dec 14  1998 .
+drwxr-xr-x    9 root     root         1024 Jul 25  2000 ..
+
+rescue/mnt/dos:
+total 2
+drwxr-xr-x    2 root     root         1024 Jan 28  1999 .
+drwxr-xr-x    9 root     root         1024 Jul 25  2000 ..
+
+rescue/mnt/floppy:
+total 2
+drwxr-xr-x    2 root     root         1024 Nov 15  1998 .
+drwxr-xr-x    9 root     root         1024 Jul 25  2000 ..
+
+rescue/mnt/linux:
+total 2
+drwxr-xr-x    2 root     root         1024 Jan 19  1999 .
+drwxr-xr-x    9 root     root         1024 Jul 25  2000 ..
+
+rescue/mnt/loop:
+total 2
+drwxr-xr-x    2 root     root         1024 Jan 28  1999 .
+drwxr-xr-x    9 root     root         1024 Jul 25  2000 ..
+
+rescue/mnt/temp:
+total 2
+drwxr-xr-x    2 root     root         1024 Dec  6  1999 .
+drwxr-xr-x    9 root     root         1024 Jul 25  2000 ..
+
+rescue/mnt/win:
+total 2
+drwxr-xr-x    2 root     root         1024 Jan 28  1999 .
+drwxr-xr-x    9 root     root         1024 Jul 25  2000 ..
+
+rescue/proc:
+total 2
+drwxr-xr-x    2 root     root         1024 Aug 15  1998 .
+drwxr-xr-x   13 root     root         1024 Jun 17 17:07 ..
+
+rescue/root:
+total 2
+drwxr-xr-x    2 root     root         1024 Jun 16 11:46 .
+drwxr-xr-x   13 root     root         1024 Jun 17 17:07 ..
+
+rescue/sbin:
+total 3
+drwxr-xr-x    2 root     root         1024 Jun 17 16:22 .
+drwxr-xr-x   13 root     root         1024 Jun 17 17:07 ..
+lrwxrwxrwx    1 root     root           16 Jun 17 17:05 badblocks -> ../bin/crunchbox
+lrwxrwxrwx    1 root     root           16 Jun 17 17:05 dosfsck -> ../bin/crunchbox
+lrwxrwxrwx    1 root     root           16 Jun 17 17:05 dumpe2fs -> ../bin/crunchbox
+lrwxrwxrwx    1 root     root           16 Jun 17 17:05 e2fsck -> ../bin/crunchbox
+lrwxrwxrwx    1 root     root           16 Jun 17 17:05 fdisk -> ../bin/crunchbox
+lrwxrwxrwx    1 root     root           16 Jun 17 17:05 freeramdisk -> ../bin/crunchbox
+lrwxrwxrwx    1 root     root           16 Jun 17 17:05 fsck.ext2 -> ../bin/crunchbox
+lrwxrwxrwx    1 root     root           16 Jun 17 17:05 fsck.ext3 -> ../bin/crunchbox
+lrwxrwxrwx    1 root     root           16 Jun 17 17:05 gpart -> ../bin/crunchbox
+lrwxrwxrwx    1 root     root           16 Jun 17 17:05 halt -> ../bin/crunchbox
+lrwxrwxrwx    1 root     root           16 Jun 17 17:05 hdparm -> ../bin/crunchbox
+lrwxrwxrwx    1 root     root           16 Jun 17 17:05 init -> ../bin/crunchbox
+lrwxrwxrwx    1 root     root           16 Jun 17 17:05 klogd -> ../bin/crunchbox
+lrwxrwxrwx    1 root     root           16 Jun 17 17:05 losetup -> ../bin/crunchbox
+lrwxrwxrwx    1 root     root           16 Jun 17 17:05 mkdosfs -> ../bin/crunchbox
+lrwxrwxrwx    1 root     root           16 Jun 17 17:05 mke2fs -> ../bin/crunchbox
+lrwxrwxrwx    1 root     root           16 Jun 17 17:05 mkfs.ext2 -> ../bin/crunchbox
+lrwxrwxrwx    1 root     root           16 Jun 17 17:05 mkfs.ext3 -> ../bin/crunchbox
+lrwxrwxrwx    1 root     root           16 Jun 17 17:05 mkswap -> ../bin/crunchbox
+-rwxr-xr-x    1 root     root           17 Mar  2  2000 modprobe
+lrwxrwxrwx    1 root     root           16 Jun 17 17:05 pivot_root -> ../bin/crunchbox
+lrwxrwxrwx    1 root     root           16 Jun 17 17:05 poweroff -> ../bin/crunchbox
+lrwxrwxrwx    1 root     root           16 Jun 17 17:05 rdev -> ../bin/crunchbox
+lrwxrwxrwx    1 root     root           16 Jun 17 17:05 reboot -> ../bin/crunchbox
+lrwxrwxrwx    1 root     root           16 Jun 17 17:05 reiserfsck -> ../bin/crunchbox
+lrwxrwxrwx    1 root     root           16 Jun 17 17:05 swapoff -> ../bin/crunchbox
+lrwxrwxrwx    1 root     root           16 Jun 17 17:05 swapon -> ../bin/crunchbox
+lrwxrwxrwx    1 root     root           16 Jun 17 17:05 tune2fs -> ../bin/crunchbox
+
+rescue/tmp:
+total 2
+drwxrwxrwt    2 root     root         1024 Jan  9  1999 .
+drwxr-xr-x   13 root     root         1024 Jun 17 17:07 ..
+
+rescue/usr:
+total 5
+drwxr-xr-x    5 root     root         1024 Jun 16 11:44 .
+drwxr-xr-x   13 root     root         1024 Jun 17 17:07 ..
+drwxr-xr-x    2 root     root         1024 Jun 17 15:34 bin
+drwxr-xr-x    2 root     root         1024 Jun 16 11:28 lib
+drwxr-xr-x    6 root     root         1024 Jun 16 11:44 share
+
+rescue/usr/bin:
+total 34
+drwxr-xr-x    2 root     root         1024 Jun 17 15:34 .
+drwxr-xr-x    5 root     root         1024 Jun 16 11:44 ..
+lrwxrwxrwx    1 root     root           19 Jun 17 17:05 ar -> ../../bin/crunchbox
+lrwxrwxrwx    1 root     root           19 Jun 17 17:05 basename -> ../../bin/crunchbox
+lrwxrwxrwx    1 root     root           19 Jun 17 17:05 clear -> ../../bin/crunchbox
+lrwxrwxrwx    1 root     root           19 Jun 17 17:05 dirname -> ../../bin/crunchbox
+lrwxrwxrwx    1 root     root           19 Jun 17 17:05 dos2unix -> ../../bin/crunchbox
+-rwxr-xr-x    1 root     root        12805 May 13 13:23 e3
+lrwxrwxrwx    1 root     root            2 Jun 17 17:05 e3em -> e3
+lrwxrwxrwx    1 root     root            2 Jun 17 17:05 e3ne -> e3
+lrwxrwxrwx    1 root     root            2 Jun 17 17:05 e3pi -> e3
+lrwxrwxrwx    1 root     root            2 Jun 17 17:05 e3vi -> e3
+lrwxrwxrwx    1 root     root            2 Jun 17 17:05 e3ws -> e3
+lrwxrwxrwx    1 root     root           19 Jun 17 17:05 egrep -> ../../bin/crunchbox
+-rwxr-xr-x    1 root     root          111 May 22  2002 emacs
+lrwxrwxrwx    1 root     root           19 Jun 17 17:05 env -> ../../bin/crunchbox
+lrwxrwxrwx    1 root     root           19 Jun 17 17:05 expr -> ../../bin/crunchbox
+lrwxrwxrwx    1 root     root           19 Jun 17 17:05 fdformat -> ../../bin/crunchbox
+lrwxrwxrwx    1 root     root           19 Jun 17 17:05 find -> ../../bin/crunchbox
+lrwxrwxrwx    1 root     root           19 Jun 17 17:05 grep -> ../../bin/crunchbox
+lrwxrwxrwx    1 root     root           19 Jun 17 17:05 head -> ../../bin/crunchbox
+-rwxr-xr-x    1 root     root           39 Jun 16 11:31 help
+-rwxrwxrwx    1 root     root         2918 Apr 29  2002 kmap
+-rwxr-xr-x    1 root     root          517 Jan 31  2002 ldd
+-rwxr-xr-x    1 root     root          933 Aug 17  2002 less
+lrwxrwxrwx    1 root     root           19 Jun 17 17:05 loadkmap -> ../../bin/crunchbox
+-rwxr-xr-x    1 root     root         5033 Jun 17  2002 mbr
+lrwxrwxrwx    1 root     root           19 Jun 17 17:05 ntfsresize -> ../../bin/crunchbox
+lrwxrwxrwx    1 root     root           19 Jun 17 17:05 parted -> ../../bin/crunchbox
+-rwxr-xr-x    1 root     root          111 May 22  2002 pico
+lrwxrwxrwx    1 root     root           19 Jun 17 17:05 reset -> ../../bin/crunchbox
+lrwxrwxrwx    1 root     root           19 Jun 17 17:05 rpmunpack -> ../../bin/crunchbox
+lrwxrwxrwx    1 root     root           19 Jun 17 17:05 sort -> ../../bin/crunchbox
+lrwxrwxrwx    1 root     root           19 Jun 17 17:05 split -> ../../bin/crunchbox
+-rwxr-xr-x    1 root     root          305 Aug 21  2001 strings
+lrwxrwxrwx    1 root     root           19 Jun 17 17:05 tail -> ../../bin/crunchbox
+lrwxrwxrwx    1 root     root           19 Jun 17 17:05 tee -> ../../bin/crunchbox
+lrwxrwxrwx    1 root     root           19 Jun 17 17:05 tr -> ../../bin/crunchbox
+-rwxr-xr-x    1 root     root         1106 May 21  2002 undeb
+lrwxrwxrwx    1 root     root           19 Jun 17 17:05 uniq -> ../../bin/crunchbox
+lrwxrwxrwx    1 root     root           19 Jun 17 17:05 unix2dos -> ../../bin/crunchbox
+-rwxr-xr-x    1 root     root          887 Jun 16 11:41 unrpm
+-rwxr-xr-x    1 root     root          111 May 22  2002 vi
+lrwxrwxrwx    1 root     root           19 Jun 17 17:05 wc -> ../../bin/crunchbox
+
+rescue/usr/lib:
+total 2
+drwxr-xr-x    2 root     root         1024 Jun 16 11:28 .
+drwxr-xr-x    5 root     root         1024 Jun 16 11:44 ..
+lrwxrwxrwx    1 root     root           17 Jun 17 17:05 terminfo -> ../share/terminfo
+
+rescue/usr/share:
+total 6
+drwxr-xr-x    6 root     root         1024 Jun 16 11:44 .
+drwxr-xr-x    5 root     root         1024 Jun 16 11:44 ..
+drwxr-xr-x    2 root     root         1024 Jun 17 15:05 doc
+drwxr-xr-x    2 root     root         1024 Apr 29  2002 keymaps
+drwxr-xr-x    2 root     root         1024 Jun 17 12:36 man
+drwxr-xr-x    3 root     root         1024 Aug 15  1998 terminfo
+
+rescue/usr/share/doc:
+total 90
+drwxr-xr-x    2 root     root         1024 Jun 17 15:05 .
+drwxr-xr-x    6 root     root         1024 Jun 16 11:44 ..
+-rw-r--r--    1 root     root        13955 Jun 17 16:56 help.txt
+-rw-r--r--    1 root     root         5293 May 31 18:42 ntfsresize.txt
+-rw-r--r--    1 root     root        67446 Jun 17 12:13 parted.txt
+
+rescue/usr/share/keymaps:
+total 22
+drwxr-xr-x    2 root     root         1024 Apr 29  2002 .
+drwxr-xr-x    6 root     root         1024 Jun 16 11:44 ..
+-rw-r--r--    1 root     root          805 Feb 21  2002 be.bmap.gz
+-rw-r--r--    1 root     root          833 Feb 21  2002 br.bmap.gz
+-rw-r--r--    1 root     root          900 Feb 21  2002 cf.bmap.gz
+-rw-r--r--    1 root     root          908 Feb 21  2002 de.bmap.gz
+-rw-r--r--    1 root     root          813 Feb 21  2002 dk.bmap.gz
+-rw-r--r--    1 root     root          869 Feb 21  2002 es.bmap.gz
+-rw-r--r--    1 root     root          796 Feb 21  2002 fi.bmap.gz
+-rw-r--r--    1 root     root          792 Feb 21  2002 fr.bmap.gz
+-rw-r--r--    1 root     root          864 Feb 21  2002 gr.bmap.gz
+-rw-r--r--    1 root     root          772 Feb 21  2002 he.bmap.gz
+-rw-r--r--    1 root     root          938 Feb 21  2002 hu.bmap.gz
+-rw-r--r--    1 root     root          893 Feb 21  2002 it.bmap.gz
+-rw-r--r--    1 root     root          833 Feb 21  2002 jp.bmap.gz
+-rw-r--r--    1 root     root          814 Feb 21  2002 no.bmap.gz
+-rw-r--r--    1 root     root          913 Feb 21  2002 pl.bmap.gz
+-rw-r--r--    1 root     root          808 Apr 29  2002 pt.bmap.gz
+-rw-r--r--    1 root     root          674 Feb 21  2002 ru.bmap.gz
+-rw-r--r--    1 root     root          784 Feb 21  2002 se.bmap.gz
+-rw-r--r--    1 root     root          869 Feb 21  2002 uk.bmap.gz
+-rw-r--r--    1 root     root          859 Feb 21  2002 us.bmap.gz
+
+rescue/usr/share/man:
+total 89
+drwxr-xr-x    2 root     root         1024 Jun 17 12:36 .
+drwxr-xr-x    6 root     root         1024 Jun 16 11:44 ..
+-rw-r--r--    1 root     root         9243 Jun 17 12:33 e2fsck
+-rw-r--r--    1 root     root         5859 Jun 17 12:35 e3
+-rw-r--r--    1 root     root        10384 Jun 17 12:34 fdisk
+-rw-r--r--    1 root     root        16284 Apr 24  2002 gpart
+-rw-r--r--    1 root     root        10816 Jun 17 12:33 mke2fs
+-rw-r--r--    1 root     root         4871 Jun 17 12:19 ntfsresize
+-rw-r--r--    1 root     root         3635 Jun 17 15:50 parted
+-rw-r--r--    1 root     root         7170 Jun 17 12:07 reiserfsck
+-rw-r--r--    1 root     root        14069 Jun 17 12:33 tune2fs
+
+rescue/usr/share/terminfo:
+total 3
+drwxr-xr-x    3 root     root         1024 Aug 15  1998 .
+drwxr-xr-x    6 root     root         1024 Jun 16 11:44 ..
+drwxr-xr-x    2 root     root         1024 Jun 25  2001 l
+
+rescue/usr/share/terminfo/l:
+total 6
+drwxr-xr-x    2 root     root         1024 Jun 25  2001 .
+drwxr-xr-x    3 root     root         1024 Aug 15  1998 ..
+-rw-r--r--    1 root     root         1576 Dec  5  2000 linux
+-rw-r--r--    1 root     root         1566 Dec  5  2000 linux-m
+
+rescue/var:
+total 5
+drwxr-xr-x    5 root     root         1024 Jul 25  2000 .
+drwxr-xr-x   13 root     root         1024 Jun 17 17:07 ..
+drwxr-xr-x    2 root     root         1024 Jan 26  2000 lock
+drwxr-xr-x    2 root     root         1024 Feb  8  2000 log
+drwxr-xr-x    2 root     root         1024 Jul 25  2000 run
+
+rescue/var/lock:
+total 2
+drwxr-xr-x    2 root     root         1024 Jan 26  2000 .
+drwxr-xr-x    5 root     root         1024 Jul 25  2000 ..
+
+rescue/var/log:
+total 2
+drwxr-xr-x    2 root     root         1024 Feb  8  2000 .
+drwxr-xr-x    5 root     root         1024 Jul 25  2000 ..
+
+rescue/var/run:
+total 2
+drwxr-xr-x    2 root     root         1024 Jul 25  2000 .
+drwxr-xr-x    5 root     root         1024 Jul 25  2000 ..
+-rw-r--r--    1 root     root            0 Jan 18  1999 utmp

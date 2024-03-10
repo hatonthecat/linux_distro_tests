@@ -1,0 +1,26 @@
+Begin3
+Title:		tomsrtbt
+Version:	2.0.103
+Entered-date:	04MAY02
+Description:	"The most GNU/Linux on one floppy." (Distribution/panic disk).
+		1.72MB boot/root rescue/tools diskette for your shirt pockets.
+		Supports ide, scsi, tape, network adaptors, PCMCIA, much more.
+		About 100 utility programs and tools for fixing and restoring.
+		See tomsrtbt.FAQ for a list of stuff that is included.  Not a
+		script, just the diskette image packed up chock full of stuff.
+		Easy to customize startup and scripts for complete rebuilding.
+		Also good as learn-unix-on-a-floppy as it has mostly what you
+		expect- vi,      , lua, sed, sh, manpages- loaded on ramdisks.
+		One installer runs under GNU/Linux, another in DOS, one to CD.
+Keywords:	rescue recovery emergency floppy panic bootdisk tomsrtbt help
+Author: 	tom@toms.net (Tom Oehser)
+Maintained-by:	tom@toms.net (Tom Oehser)
+Primary-site:	www.toms.net /rb
+		1 kB home.html
+Alternate-site:	sunsite.unc.edu /pub/Linux/system/recovery
+		1722 kB tomsrtbt-2.0.103.tar.gz
+		1722 kB tomsrtbt-2.0.103.dos.zip
+		1722 kB tomsrtbt-2.0.103.ElTorito.288.img.bz2
+Copying-policy:	GPL
+End
+

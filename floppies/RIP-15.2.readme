@@ -1,0 +1,424 @@
+=========================================================================
+Kent Robotti <dwilson24@nyc.rr.com> 3-25-2006
+
+                  (R)ecovery (I)s (P)ossible! (v15.2)
+
+The bootable CD image `RIP-15.2.iso' can be written to a CD disk,
+using cdrecord etc.
+
+The kernel v2.6.16 has IDE/SATA/SCSI support.
+
+The kernel also has LVM1/2, RAID, and Ethernet/Cable/DSL networking support.
+
+These are some of the programs it contains (partimage/partimaged, parted,
+dump/restore, reiserfsck, fsck.reiser4, fdisk, cfdisk, sfdisk, mke2fs,
+e2fsck, tune2fs, debugfs, jfs_mkfs, jfs_fsck, mkfs.xfs, xfs_repair,
+xfsdump/xfsrestore, cdrecord/dvdrecord, mkisofs, dvd+rw-format, growisofs,
+ntfsresize, mkntfs, ntfsclone, ntfsmount, lynx, links, mutt, fetchmail, ncftp,
+lftp, epic4 irc, naim, tmsnc, tin, slrn, telnet, wget, curl, zgv, testdisk,
+rsync, udp-sender/receiver, lde, blesstivo, rtvpatch, mfstool, chntpw, cmospwd,
+grub, grubconfig, lilo, smartctl, memtest86+, ddrescue, dd_rescue, acpitool,
+dmidecode, ethtool, lshw, mc, mcedit, star, kexec, lvm, evms, evmsn, ssh/sshd,
+dmraid, zsplit/unzsplit, splitpipe/joinpipe, fscat, sshfs, mksquashfs/
+unsquashfs, cdrskin).
+
+The programs (fetchmail, curl, wget, ssh/sshd, mutt, links, lynx, msmtp,
+tmsnc, slrn, and lftp) have SSL support.
+
+It includes the CD/DVD UDF filesystem packet writing tools (cdrwtool,
+mkudffs, and pktsetup).
+
+The 'reiserfsck' and 'fsck.reiser4' programs are used to check and repair
+a Linux reiserfs and reiser4 filesystem.
+
+The 'xfs_repair' program is used to repair a Linux xfs filesystem.
+
+The 'jfs_fsck' program is used to check and repair a Linux jfs filesystem.
+
+The 'e2fsck' program is used to check and repair a Linux ext2 or ext3
+filesystem.
+
+The 'ntfsresize' program non-destructively resizes Windows XP/2000/NT4
+or Windows Server 2003 NTFS filesystems. Read /usr/doc/RIP/ntfsresize.txt
+on the rescue system.
+
+The 'ntfsmount' program will enable you to write to a Windows NTFS filesystem.
+
+# ntfsmount /dev/hda1 /mnt/win        "Mount NTFS partition read-write!"
+# ntfsmount /dev/hda1 /mnt/win -o ro  "Mount NTFS partition read-only!"
+
+The 'parted' program is used for creating, destroying, resizing (fat16/32,
+ext2/3, reiserfs v3.6), checking and copying partitions, and the file
+systems on them. This is useful for creating space for new operating
+systems, reorganising disk usage, copying data between hard disks and
+disk imaging.
+
+The partition image program 'partimage' saves partitions in the ext2,
+ext3, reiserfs, jfs, xfs, ufs, ntfs, fat16 and fat32 formats to an image
+file. Only used blocks are copied to save space and increase the speed.
+The image file can be compressed, in gzip or bzip2 formats.
+
+============ WinNT/XP password change program! ==============
+
+The chntpw program will enable you to view some information and
+change user passwords in a Windows NT/XP SAM userdatabase file.
+
+Read /usr/doc/RIP/chntpw/README.
+
+There's also 'cmospwd' which is a CMOS/BIOS password recovery tool.
+Read /usr/doc/RIP/cmospwd.txt.
+
+========= Writing RIP-15.2.iso to a CD, using Linux or Windows! ==========
+
+You can use 'cdrecord/dvdrecord' to write 'RIP-15.2.iso' to a CD
+or DVD disk under Linux.
+
+The example below assumes an IDE CD writer on device 0,0,0 with a 4x speed.
+
+# cdrecord -scanbus  "To find the device your CD writer is on!"
+
+Cdrecord 2.01 () Copyright (C) 1995-2004 Jorg Schilling
+scsibus0:
+	0,0,0	  0) 'HP      ' 'CD-Writer+ 9100c' 'H2,1' Removable CD-ROM
+
+# cdrecord -v blank=fast -tao -data speed=4 dev=0,0,0 RIP-15.2.iso
+
+Only use the 'blank=fast' option if the CD-RW disk has something on it.
+
+Use the multi-session option and you can use the remaining space on the CD-R/RW.
+
+# cdrecord -v blank=fast -multi -tao -data speed=4 dev=0,0,0 RIP-15.2.iso
+
+ATTENTION! You should use 'dev=/dev/hdX' with v2.6 and later kernels.
+For example, if your CD drive is on /dev/hdc.
+# cdrecord -v blank=fast -multi -tao -data speed=4 dev=/dev/hdc RIP-15.2.iso
+
+You don't use the blank option with a CD-R write once disk.
+
+If you want to use Windows to write RIP-15.2.iso to a CD, follow the
+instructions below! These instructions come from the Mandrake Linux
+website.
+
+With Easy CD Creator:
+--------------------
+Open Easy CD Creator
+Go to "File" then to "Create CD from disc image"
+make sure to change the bottom drop down menu ("Files of type:")
+to say "ISO image files"
+
+It will do the rest after you browse to the *.iso file
+(Thanks for zacheyer)
+
+With WinOnCD:
+------------
+you can select a "track-image" project when you click the New button.
+So long as you are in track mode, not file-system mode (how that looks
+depends on whether you have 3.0 or 3.5) then dragging a track image file
+onto the CD window should accept it as a raw track. WinOnCD uses .RAW as
+its own extension.
+(Thanks Rick Jones)
+
+With Nero Burning Rom:
+----------------------
+Open Nero.
+Close the wizard if it is started automatically. Go to "File"
+then to "Burn Image...". In the next dialog, click on "Image Files
+(*.nrg)" and select "All files (*.*)". Choose the .iso file and accept.
+In the following dialog make sure:
+- Type of Image is: Data Mode 1
+- Block size: 2048
+- Image header: 0
+- Image trailer: 0
+- All the checkboxes are unactive.
+Click "OK". 
+In the next dialog check that the "write" and "finalize" option are active.
+Click on "Write".
+(Thanks Antonio Asensi)
+
+You can then boot the CD disk if the BIOS supports it, and is set to boot
+from the cdrom drive first.
+
+========================= Booting from DOS/Win9x ==========================
+
+It can also be booted from a DOS/Win9x system.
+
+You must be in DOS mode, shutdown Windows and restart in DOS mode.
+
+Have the RIP CD or USB drive ready, in this example it's e.
+
+C:\ e:
+E:\ cd boot
+E:\boot> rip  "For help!"
+E:\boot> rip rescue
+
+-----------------------------------------------------------------
+
+You can also copy rootfs.cgz, grub.exe, and kernel to a directory on
+the system, and boot it from there.
+
+c:\ mkdir riplinux
+
+Create a batch file \riplinux\linux.bat, with this in it.
+
+@echo off
+grub --config-file=(hd0,0)/riplinux/menu.lst
+
+The '(hd0,0)' assumes your DOS/Win9x system is on /dev/hda1 or /dev/sda1!
+
+Create a \riplinux\menu.lst file, with this in it.
+
+  title Linux
+  root (hd0,0)
+  kernel /riplinux/kernel root=/dev/ram0 rw
+  initrd /riplinux/rootfs.cgz
+
+c:\riplinux> linux  "Boot Linux system!"
+
+If you want to use loadlin to boot it, copy loadlin.exe and initrd.gz
+to c:\riplinux.
+
+Create a batch file \riplinux\linux.bat, with this in it.
+
+@echo off
+loadlin kernel initrd=initrd.gz rip_dev=/dev/hda1,/riplinux/rootfs.cgz \
+init=/linuxrc root=/dev/ram0 rw
+
+The '/dev/hda1' assumes your DOS/Win9x system is on /dev/hda1!
+
+NOTE: grub.exe and grldr are in /boot/grub4dos on RIP-15.2.iso
+
+========================= Booting from WinXP ==========================
+
+Copy GRLDR to the root directory of drive C: of Windows NT/2000/XP and
+append to C:\BOOT.INI this line:
+
+	C:\GRLDR="Start GRUB"
+
+The next time you boot you'll have the option of booting GRUB or Windows.
+
+The GRLDR should be in the same directory as BOOT.INI and NTLDR.
+Even if the drive letter of this disk has been changed to other
+than C by Windows device manager, it seems you still have to use
+the letter C here in BOOT.INI, otherwise, NTLDR might fail to
+locate the GRLDR file.
+
+Get isox.zip and unzip it!
+Put RIP-15.2.???.iso in the same directory as xiso.bat!
+Read the README and then run xiso.bat!
+
+You should have this after isox.exe extracts the RIP ISO to \riplinux.
+
+c:\riplinux\boot\rootfs.cgz etc.
+c:\riplinux\boot\grub4dos\grldr etc.
+c:\riplinux\boot\makeboot\makeboot.exe etc.
+c:\riplinux\boot\doc\rip.txt etc.
+
+c:\ copy c:\riplinux\grub4dos\grldr c:\
+c:\ copy c:\riplinux\grub4dos\menu.lst c:\
+
+The '(hd0,0)' in 'menu.lst' assumes your WinXP system is on /dev/hda1
+or /dev/sda1!
+
+If it doesn't work remove C:\GRLDR="Start GRUB" from BOOT.INI, and
+forget about it.
+=============================== Q & A =================================
+
+Q. Is it possible to change something, or add shell scripts and/or
+   packages to the system?
+
+A. To remaster RIP and install an add-on package.
+
+The add-on package must have a '.tgz' (tar/gzip) extension, and be packed
+for extraction/installation from '/' on the Linux system.
+
+It can be a self-made, third-party, or Slackware package.
+
+# mkdir /rip1 /rip2 
+# mount -o loop RIP-15.2.iso /rip1
+# cp -a /rip1/* /rip2
+# umount /rip1 ; rmdir /rip1
+# mkdir /rip2/boot/1
+# cd /rip2/boot/1
+/rip2/boot/1# gzip -dc ../rootfs.cgz | cpio -iumdv
+
+/rip2/boot/1# sbin/installpkg -root . /path-to-package/package.tgz
+
+Remove the old system.
+
+/rip2/boot/1# rm ../rootfs.cgz
+
+Then cpio/gzip the new system.
+
+/rip2/boot/1# find . | bin/cpio -v -o -H newc | gzip -9 >../rootfs.cgz
+                       ^^^
+        "Use the RIP cpio 'bin/cpio' here!"
+
+# rm -rf /rip2/boot/1
+# mkdir /rip-iso
+# cd /rip2 
+/rip2# sh boot/mkiso.sh grub . /rip-iso rip.iso
+
+Write /rip-iso/rip.iso to a CD!
+
+Note: If rip.iso doesn't boot create it again, this way:
+      /rip2# sh boot/mkiso.sh isolinux . /rip-iso rip.iso
+      Everything's the same, except it will use a different bootloader.
+
+You can now delete the /rip2 directory.
+# rm -rf /rip2
+
+Note: You can also have the add-on package(s) on any media and install
+      it after the system boots. This is probably the best way to do it,
+      because 'rootfs.cgz' is loaded into memory (which is freed after
+      it's extracted), so it's best to keep it small.
+
+You could put the add-on package(s) in /boot/pkg on the RIP CD, or any
+media.
+
+If you pass this to the kernel 'rip_pkg=/dev/hdc,/boot/pkg', when the
+system boots it will mount /dev/hdc and prompt you to install any *.tgz
+packages it finds in /boot/pkg.
+
+If you pass this to the kernel 'rip_pkg=/dev/hdc,/boot/pkg,noprompt', you
+won't be prompted.
+
+You can pass that to the kernel in /boot/grub/menu.lst or /boot/isolinux/
+isolinux.cfg (if using isolinux as the bootloader).
+
+Q. Is it possible to replace the kernel?
+
+The replacement kernel must have this support builtin.
+
+CONFIG_SHMEM=y
+CONFIG_BLK_DEV_RAM=y
+CONFIG_BLK_DEV_INITRD=y
+CONFIG_ISO9660_FS=y
+CONFIG_EXT2_FS=y
+CONFIG_FAT_FS=y
+CONFIG_MSDOS_FS=y "MSDOS and/or VFAT for USB Flash drive access!"
+CONFIG_VFAT_FS=y
+CONFIG_PROC_FS=y
+CONFIG_TMPFS=y
+
+A. # mkdir /rip1 /rip2 
+   # mount -o loop RIP-15.2.iso /rip1
+   # cp -a /rip1/* /rip2
+   # umount /rip1 ; rmdir /rip1
+
+   Replace the kernel in the /rip2/boot directory.
+
+   Create and write /rip-iso/rip.iso to a CD as described above!
+
+NOTE: If you want *initramfs* to use TMPFS instead of RAMFS, apply
+      the patch "inittmpfs.diff" to the kernel source.
+      http://www.tux.org/pub/people/kent-robotti/looplinux/rip
+
+====================================================================
+
+Q. Is it possible to install the system on my hard drive?
+
+A. You need to create a Linux partition using 'fdisk' etc., then
+   you need to put a ext3 etc. filesystem on it, then you need
+   to mount the partition and extract 'rootfs.cgz' to it.
+
+   This example assumes you created a Linux partition on /dev/hda2,
+   with a ext3 filesystem.
+
+--------------------------------------------------------------------
+   You can resize a Windows XP NTFS partition, using 'ntfsresize'.
+
+   If you resize Windows you'll have room on your hard drive for Linux.
+
+   For example, you have a 120 GB Windows partition on /dev/hda1 and you
+   want to resize it to 80 GB.
+
+   # ntfsresize -n -s 80000M /dev/hda1  "Resize to 80 GB! (test run)"
+   # ntfsresize -s 80000M /dev/hda1     "Resize to 80 GB! (for real)"
+
+   # fdisk /dev/hda
+   Command: d
+   Command: n
+   p "Primary partition!"
+   Partition number: 1
+   First cylinder: "Press enter for default!"
+   Last cylinder: +80000M
+   Command: t
+   Hex code: 7
+   Command: a
+   Partition number: 1
+   Command: n
+   p "Primary partition!"
+   Partition number: 2
+   First cylinder: "Press enter for default!"
+   Last cylinder:  "Press enter for default!"
+   Command: p
+   Command: w "Write table to disk and exit, or q to Quit!"
+
+   # mke2fs -j /dev/hda2  "Create ext3 filesystem on /dev/hda2!"
+
+   The next time you boot Windows, allow it to run 'chkdsk'!
+
+--------------------------------------------------------------------
+
+   Mount the RIP CD or ISO image that has /boot/rootfs.cgz on it.
+
+   # mount -rt iso9660 /dev/hdd /mnt/cdrom   "Mount CD!"
+   # mount -o loop RIP-15.2.iso /mnt/cdrom   "Mount ISO image!"
+   # mount -t ext3 /dev/hda2 /mnt/linux
+   # cd /mnt/linux
+   /mnt/linux# gzip -dc /mnt/cdrom/boot/rootfs.cgz | cpio -iumdv
+             # cp /mnt/cdrom/boot/kernel /mnt/linux/boot
+
+   Add this line to the top of the /mnt/linux/etc/fstab file.
+
+   /dev/hda2    /    ext3    defaults  1   1
+
+   # rm /mnt/linux/init  "Remove /init link!!!"
+
+   You'll need to use GRUB etc. to boot it.
+
+   From the RIP CD GRUB menu, you could do this to boot the Linux
+   partition on /dev/hda2.
+
+   Press the `c' key to get a command prompt.
+
+   grub> root (hd0,1)
+   grub> kernel /boot/kernel root=/dev/hda2 ro
+   grub> boot
+
+NOTE: You can use the Linux system on the RIP CD to create the Linux
+      partition, and extract rootfs.cgz to it.
+
+NOTE: RIP is based on Slackware and you can install packages from Slackware
+      10.2 or later. Only use /sbin/installpkg on RIP to install Slackware
+      packages 'installpkg package_name.tgz'.
+
+  ------------------------------------------------------------------
+  You can install a Slackware Linux distribution on a ext2, ext3, jfs,
+  reiserfs, reiser4, or xfs formatted partition.
+
+  # setup  "Read HELP!"
+
+  You need the Slackware ISO images 'slackware-10.2-install-d1.iso
+  and slackware-10.2-install-d2.iso' on CD or DVD! You need at least
+  'slackware-10.2-install-d1.iso'!
+
+  You can also install Slackware from a partition on your hard drive
+  that has the directories (a, ap, etc.) with the Slackware tgz packages,
+  or over NFS. It's basically the same as standard Slackware setup!
+
+  The filesystem on the partition can be any the kernel supports, at
+  least read-only!
+
+  Slackware doesn't currently support reiser4, if you want to install
+  Slackware on a reiser4 partition you'll have to use the RIP kernel
+  to boot it. When asked by setup for a kernel to install choose
+  "rip_cdrom (Use the kernel from the RIP CD)".
+  -------------------------------------------------------------------
+
+========================================================================
+          If you want to boot RIP from a USB Flash/Pen drive.
+========================================================================
+
+Read the USB README.
+========================================================================

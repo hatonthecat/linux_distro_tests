@@ -1,0 +1,35 @@
+Begin3
+Title:           fbsd-iso                     
+Version:         1.0.3
+Entered-date:    01JAN2002
+Description:     Small FreeBSD system for the purpose of system booting
+                 or repairing, a boot/rescue system.
+                 You can put this system on a cd disk and boot it.
+		 It's more or less designed for non-networked, stand-alone,
+		 home pc hard drive boot/rescue/backup/maintenance!
+		 It has support for these filesystems.
+                 ext2     <Linux filesystem, read-write>
+                 iso9660  <Cdrom filesystem, read-only>
+                 msdos    <Dos/Win9x filesystem, read-write>
+                 ufs      <FreeBSD, NetBSD, & OpenBSD filesystem, read-write>
+                 It has support for IDE and SCSI hard drives!
+		 You need at least 8mb of RAM and a 486dx CPU to boot it!
+		 You need to 'gzip -d fbsd-iso-1.0.3.bin.gz' it first! 
+                 You can then write it to a cd using 'cdrecord' or 'burncd' etc.
+                 The default is to boot the kernel.gz on the cd.
+                 boot: 0:fd(0,a)kernel.gz
+                 If you want to boot a freebsd system that's on a partition.
+                 You need to type it in at the boot prompt.
+                 For example if the kernel was here /kernel on the partition.
+                 boot: 0:ad(0,a)/kernel
+                 If you want to boot to single-user mode.
+                 boot: 0:ad(0,a)/kernel -s
+Keywords:        CD FreeBSD Boot/Rescue System!
+Author:          robotti@godmail.com (Kent Robotti)
+Maintained-by:
+Primary-site:    ftp://ibiblio.org/pub/Linux/system/recovery
+                 fbsd-iso-1.0.3.bin.gz 1646Kb
+Alternate-site:
+Platforms:       Linux, Freebsd, or dos/win system.
+Copying-policy:  GPL & BSD
+End
