@@ -209,7 +209,11 @@ Changed VRAM from 9 to 1 (minimum needed, it appears)
 
 [Video](https://github.com/hatonthecat/linux_distro_tests/blob/main/SliTaz%20386%200MB%20VRAM%20and%20then%20no%20display%20controller.mp4) showing OS failing to boot after removing VRAM and then readding 1MB, but removing display controller (2 separate tests)
 
+Note: Windows thinks the base.iso file generated from https://pizza.slitaz.org/tiny/index.php is a virus: 
 
+![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/f48c95b5-adbb-4f23-9a8c-0be58243f13b)
+
+Not sure why. But it deletes it and there it doesn't allow much time to keep the file.  If you are able to scan the file and determine if it is a real virus, or an overactive anti-virus scan, feel free to let me know.
 
  
 PCem
