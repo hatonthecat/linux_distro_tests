@@ -266,13 +266,28 @@ Next test: 4 bottles of 1MB RAM on the wall, 4 bottles of 1MB. You take one down
 
 Result: While more than 2MB was available, it did not let me mount fs with just 2MB+640K.
 
+![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/b6946059-7ea9-4d6f-81d2-e5b4fcc199de)
+That was able to be corrected in the BIOS, and once autoconfig/defaults was selected, saving to CMOS allowed it to reattempt boot on just 2.6MB extended memory (3.3MB):
+
+![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/a3c4a0e2-77e0-44cf-8d8f-0680e41d12c8)
+
+![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/3f34102c-c336-4ac2-90f4-586f1c1dfc7c)
+
+Pressing F1 allows it to continue.
+
+![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/c7cf0ae6-0082-4ba5-b908-01365504f6eb)
+
+So it appears even with just a little over 2MB of extended RAM, it can still attempt to boot, until it fails:
+
+![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/5bd997c5-d21c-4d2b-b9d4-823d12ddfb8b)
+
 This error occured even when adding the 40MB HD that others have been able to run Linux 0.1.1 on:
 
 ![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/62f8a7ae-2066-4883-aa05-646a2ee7fde6)
 
 The idea was that by having the HDD and the floppy there, perhaps it might load less ramdisk onto RAM. Without knowing how to configure what is loaded, I didn't bother to check, at least yet. Why did I use this HDD? It was the only HDD image I already had, and didn't need to download or create another one.
 
-Video posted (placeholder) .
+Video posted (placeholder).
 
 ![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/6326b6eb-052d-4bc5-8b67-66cb9f424b6c)
 
