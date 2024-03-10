@@ -189,6 +189,11 @@ got it to run on 4MB of RAM
  
 [Slitaz minimal 386-screen0.webm](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/b18e6eb1-1567-490c-b345-ac9dee90aacf)
 
+Recording settings in VirtualBox:
+
+![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/a7bca746-4bd8-413b-ada8-1fce3301fd6a)
+(minimum is 32KBps at 8 fps)
+
  
 PCem
 --
