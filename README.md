@@ -147,8 +147,49 @@ I also discovered that my AMD C-50 Netbook, the Acer Aspire 522, supports virtua
 PXE on SliTaz (4-8MB test)
 --
 
+ ![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/1f03eccd-5b17-4ff9-bc11-b500bd8a7425)
+
 [ PXE on SliTaz](https://www.youtube.com/watch?v=OqpwSDJH8rw) video
 
+Tiny SliTaz on 4MB (Day 2)
+--
+![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/17923b31-26f4-4aaf-b683-dd123c8376b1)
+
+Page 2 (none):
+
+![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/65d1d42e-035b-495d-ada6-8e08a22cfe2b)
+
+page 3: (none)
+
+![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/6f13ac82-8dbe-4e2e-a9cb-3c7706bdf3b4)
+
+page 4 (none)
+
+![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/8e46e4d5-f0d1-4087-a359-aae3e70d5a05)
+
+page 5 (changed Pentium to 386)
+
+![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/4f4a4f22-74b2-4661-ac52-b19dacf5871a)
+
+
+![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/718d20da-583e-44e6-83cf-51670202f282)
+
+![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/a1676048-6ef0-4af3-aca4-da8b230f17b1)
+
+17000 Mhz processsor ;)
+
+![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/52ed08ec-5296-4ada-bd6e-f58eb220ed50)
+
+
+got it to run on 4MB of RAM 
+
+![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/7fd9d1fd-7770-4d0e-bfd7-50acd891154c)
+
+ https://en.wikipedia.org/wiki/Time_Stamp_Counter 
+ 
+[Slitaz minimal 386-screen0.webm](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/b18e6eb1-1567-490c-b345-ac9dee90aacf)
+
+ 
 PCem
 --
 
