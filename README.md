@@ -414,15 +414,13 @@ The log files appear to have some more details:
 
 "00:00:04.486940 fHMForced=true - No raw-mode support in this build!" or maybe a memory issue.
 
-
 286 and QNX
 --
 IBM's 286s were tested brifly. There is a 1989 QNX demo file that can connect to the internet on a 286 that I uploaded, but the emulators require the floppy images to have the right sectors to match (sometimes they are pre-configured). I was able to get to the boot screen for a 286, but not yet recognize a QNX disc. One instruction used a 256 byte sector:
 
 https://winworldpc.com/product/qnx/1989-demo
 
-Here is the video: 
-
+Here is the video (the beeping is the emulator indicating disk activity, and can should be muted if is distracting- no voiceover was used): 
 
 https://github.com/hatonthecat/linux_distro_tests/assets/76194453/63b46231-5b27-49c5-919e-1e4a3cffaa7a
 
