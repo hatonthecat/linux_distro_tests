@@ -415,6 +415,37 @@ The log files appear to have some more details:
 "00:00:04.486940 fHMForced=true - No raw-mode support in this build!" or maybe a memory issue.
 
 
+286 and QNX
+--
+IBM's 286s were tested brifly. There is a 1989 QNX demo file that can connect to the internet on a 286 that I uploaded, but the emulators require the floppy images to have the right sectors to match (sometimes they are pre-configured). I was able to get to the boot screen for a 286, but not yet recognize a QNX disc. One instruction used a 256 byte sector:
+
+https://winworldpc.com/product/qnx/1989-demo
+
+Here is the video: 
 
 
+https://github.com/hatonthecat/linux_distro_tests/assets/76194453/63b46231-5b27-49c5-919e-1e4a3cffaa7a
 
+A video showing the QNX demo was made by a YTer few years ago: https://www.youtube.com/watch?v=vx7cw0wSMMY definitely recommended!
+
+"QNX 0.4
+Released in 1981 by Quantum Software Systems Ltd.
+For IBM PC
+
+This a pre-release of QNX, named "QUNIX"
+
+After the login appears, remove the boot disk, insert the CMD disk in
+to drive A:, and insert the USR disk in drive B. Then log in as "/".
+
+These are single sided double density 5.25" floppy disk images.
+
+Important: these are NOT DOS formatted disks, and will not open in
+tools like WinImage. The CMD and USR disks are formatted with 
+256-byte sectors, 16 sectors per track, with an odd sector interleave.
+
+Use ImageDisk to create usable disks. This software has been tested to
+work in the PCE emulator."
+
+From Reddit: "The 256 bytes is the sector size, 26 sectors per track, 77 tracks, that's 2002 sectors total."
+
+Figuring out which settings I can use to match those.
