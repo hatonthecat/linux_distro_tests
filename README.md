@@ -490,8 +490,6 @@ Rob Pike's 5 Rules of Programming
 
 DMD does memory allocation in a bit of a sneaky way. Since compilers are short-lived programs, and speed is of the essence, DMD just mallocs away, and never frees."
 
-Also, https://github.com/rui314/mold?tab=readme-ov-file#mold-a-modern-linker 
-
 Linkers
 --
 
