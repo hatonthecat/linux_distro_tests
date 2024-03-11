@@ -445,3 +445,31 @@ work in the PCE emulator."
 From Reddit: "The 256 bytes is the sector size, 26 sectors per track, 77 tracks, that's 2002 sectors total."
 
 Figuring out which settings I can use to match those.
+
+Day 4
+--
+
+A colleague has notified me of the crunchgen, which is similar to Busybox:
+
+https://man.openbsd.org/crunchgen
+
+Looking up crunchgem further, I found it was compared to allmux in 2018:
+
+https://dl.acm.org/doi/10.1145/3276524
+
+https://github.com/allvm/allvm-tools/blob/master/tools/allmux/allmux.cpp
+
+https://news.ycombinator.com/item?id=18792335
+
+"We did find crunchgen well after the final version of the paper was turned in, so we weren’t able to compare with it.
+One key part of allmux does replicate what you did in crunchgen: combine multiple binaries into one, and dispatching on argv[0]. There are also some important differences (and I wish we had known about the tool in time to discusss these in the paper):
+
+-- crunchgen works on binary code, whereas allmux works on compiler IR (LLVM). Compiler IR enables much more sophisticated compiler optimizations to be applied to the mux’ed (or crunched)/ program. For example, we are able to apply link-time optimizations (LTO) across the application-library boundary for both static and dynamic libraries. In fact, we’re able to get more than 45% code size reductions even for a single application and its libraries using LTO (e.g., see the top chart in Fig. 9 – Single Programs).
+
+-- Judging from the man page online, crunchgen works by parsing Makefiles to understand dependences and by using the DSL to specify libs, libs.so, etc. allmux works by adding passes to the compiler (Clang) and relying on the build process to invoke clang for all compile/link steps for all relevant components. This does limit allmux to needing source.
+
+-- crunchgen does not change the behavior of shared libraries, judging by the man page at least. In contrast, allmux also includes shared libraries (linking them in statically in the mix'ed binary) and deduplicates them across applications. This has two benefits: (1) It speeds up program startup, which can be a valuable win in some scenarios, e.g., using a Mux’ed compiler to build a large system with 1000s of source files (see Fig. 1). (2) It achieves large disk and memory reductions compared with static linking, and even some reductions compared with dynamically shared libraries because of the added benefits of LTO (note that LTO is essentially not applicable to dynamically loaded libraries). The combination of BOTH memory reductions and speed improvements compared with either static or dynamic linking is a key benefit of allmux that the crunchgen approach doesn’t aim to get. Of course, this is limited to predetermined sets of applications and libraries."
+
+Nice presentation: https://tc.gtisc.gatech.edu/feast17/papers/allvm.pdf
+
+crunchgen also has a linux fork: https://github.com/ryao/crunch
