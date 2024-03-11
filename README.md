@@ -1,6 +1,5 @@
 # linux_distro_tests
-A test of various linux live USBs
-
+A test of various linux live USBs. The objective of this repository is to not only test general distros, but to start with an otherwise "standard, fully featured" alternative distro, and then to examine which features can be removed. Distros that can run on less than 1GB will be tested, but the goal is to get linux to run on 2MB of RAM or less. Microcontrollers and microkernels use little no no memory management, thus they may be included, but a hybrid approach to mixing kernel modules may be explored too.
 
 Devuan Daedalus 5.0 
 --
