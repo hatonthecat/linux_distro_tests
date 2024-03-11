@@ -1,0 +1,10 @@
+
+Not all versions of 'dd' can write out the boot kernels without errors, 
+since the last bit of data is unlikely to be a full track.
+
+If you run into problems, you can try:
+
+-- Using RAWRITE.EXE to write them out.
+-- cat bootkern > /dev/(floppy device)
+
+Pat
