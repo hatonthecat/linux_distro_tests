@@ -388,7 +388,7 @@ Initially, I was not able to load with 4MB nor haven't yet- I have not done any 
 
 Tinyroot can be downloaded from: https://github.com/troglobit/tinyroot https://github.com/10maurycy10/tinyroot
 
-I was able to load an editor of "sorts." It doesn't look like vi, althought I haven't used vi enough to know:
+I was able to load the vi editor, a modified one of "sorts." It doesn't look like vi, although I haven't used vi enough to know:
 
 ![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/fd8110f0-274e-426e-af92-a9e2641a9418)
 
