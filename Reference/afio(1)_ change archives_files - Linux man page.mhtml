@@ -1,0 +1,1996 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://linux.die.net/man/1/afio
+Subject: afio(1): change archives/files - Linux man page
+Date: Sun, 10 Mar 2024 19:56:45 -0500
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--qY8xJWHyNuqGmXUxccimAXnA0TSY8Q2amc2qkO8k6Q----"
+
+
+------MultipartBoundary--qY8xJWHyNuqGmXUxccimAXnA0TSY8Q2amc2qkO8k6Q----
+Content-Type: text/html
+Content-ID: <frame-B1D2695ACDA1DF5A2F05A7AA1D4ED9C1@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://linux.die.net/man/1/afio
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3Dwindows-1252">
+<title>afio(1): change archives/files - Linux man page</title>
+<base href=3D"https://linux.die.net/man/1/afio">
+<link rel=3D"canonical" href=3D"https://linux.die.net/man/1/afio">
+<link rel=3D"stylesheet" type=3D"text/css" href=3D"https://linux.die.net/st=
+yle/white.css">
+<link rel=3D"shortcut icon" href=3D"https://linux.die.net/favicon.ico" type=
+=3D"image/x-icon">
+<link href=3D"https://linux.die.net/style/search.xml" rel=3D"search" title=
+=3D"Search the die.net site" type=3D"application/opensearchdescription+xml"=
+>
+<meta name=3D"viewport" content=3D"width=3Ddevice-width,initial-scale=3D1">
+<meta name=3D"description" content=3D"Afio manipulates groups of files, cop=
+ying them within the (collective) filesystem or between the filesystem and =
+an afio archive.">
+
+<meta http-equiv=3D"origin-trial" content=3D"As0hBNJ8h++fNYlkq8cTye2qDLyom8=
+NddByiVytXGGD0YVE+2CEuTCpqXMDxdhOMILKoaiaYifwEvCRlJ/9GcQ8AAAB8eyJvcmlnaW4iO=
+iJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0=
+ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3MTk1MzI3OTksImlzU3ViZG9tYWluIjp0cnV=
+lfQ=3D=3D"><meta http-equiv=3D"origin-trial" content=3D"AgRYsXo24ypxC89CJan=
+C+JgEmraCCBebKl8ZmG7Tj5oJNx0cmH0NtNRZs3NB5ubhpbX/bIt7l2zJOSyO64NGmwMAAACCey=
+JvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV=
+2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3MTk1MzI3OTksImlz=
+U3ViZG9tYWluIjp0cnVlfQ=3D=3D"><meta http-equiv=3D"origin-trial" content=3D"=
+A/ERL66fN363FkXxgDc6F1+ucRUkAhjEca9W3la6xaLnD2Y1lABsqmdaJmPNaUKPKVBRpyMKEhX=
+Yl7rSvrQw+AkAAACNeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZW=
+F0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MTkzNTk5O=
+TksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv=
+=3D"origin-trial" content=3D"A6OdGH3fVf4eKRDbXb4thXA4InNqDJDRhZ8U533U/roYjp=
+4Yau0T3YSuc63vmAs/8ga1cD0E3A7LEq6AXk1uXgsAAACTeyJvcmlnaW4iOiJodHRwczovL2dvb=
+2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rp=
+b25TZXJ2ZXIiLCJleHBpcnkiOjE3MTkzNTk5OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJ=
+kUGFydHkiOnRydWV9"><meta http-equiv=3D"origin-trial" content=3D"As0hBNJ8h++=
+fNYlkq8cTye2qDLyom8NddByiVytXGGD0YVE+2CEuTCpqXMDxdhOMILKoaiaYifwEvCRlJ/9GcQ=
+8AAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV=
+2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3MTk1MzI3OTksImlz=
+U3ViZG9tYWluIjp0cnVlfQ=3D=3D"><meta http-equiv=3D"origin-trial" content=3D"=
+AgRYsXo24ypxC89CJanC+JgEmraCCBebKl8ZmG7Tj5oJNx0cmH0NtNRZs3NB5ubhpbX/bIt7l2z=
+JOSyO64NGmwMAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0ND=
+MiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiO=
+jE3MTk1MzI3OTksImlzU3ViZG9tYWluIjp0cnVlfQ=3D=3D"><meta http-equiv=3D"origin=
+-trial" content=3D"A/ERL66fN363FkXxgDc6F1+ucRUkAhjEca9W3la6xaLnD2Y1lABsqmda=
+JmPNaUKPKVBRpyMKEhXYl7rSvrQw+AkAAACNeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWN=
+rLm5ldDo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleH=
+BpcnkiOjE3MTkzNTk5OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"=
+><meta http-equiv=3D"origin-trial" content=3D"A6OdGH3fVf4eKRDbXb4thXA4InNqD=
+JDRhZ8U533U/roYjp4Yau0T3YSuc63vmAs/8ga1cD0E3A7LEq6AXk1uXgsAAACTeyJvcmlnaW4i=
+OiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQml=
+kZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MTkzNTk5OTksImlzU3ViZG9tYWluIj=
+p0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"></head>
+
+<body>
+<div id=3D"bg">
+<div id=3D"logo">
+<a href=3D"https://www.die.net/"><img src=3D"https://linux.die.net/style/lo=
+go.svg" alt=3D"die.net" width=3D"120" height=3D"120"></a>
+</div>
+<div id=3D"content">
+
+<!-- google_ad_section_start -->
+<h1>afio(1) - Linux man page</h1>
+
+<h2>Name</h2>
+afio - manipulate archives and files
+<h2>Synopsis</h2>
+<b>...</b> | <b>afio -o</b> [ <i>options</i> ] archive : write (create) arc=
+hive<br>
+<b>afio -i</b> [ <i>options</i> ] archive : install (unpack) archive<br>
+<b>afio -t</b> [ <i>options</i> ] archive : list table-of-contents of archi=
+ve<br>
+<b>afio -r</b> [ <i>options</i> ] archive : verify archive against filesyst=
+em<br>
+<b>afio -p</b> [ <i>options</i> ] directory [ ... ] : copy files
+<h2>Description</h2>
+<div id=3D"adright">
+
+<ins class=3D"adsbygoogle" style=3D"display:inline-block;width:336px;height=
+:280px" data-ad-client=3D"ca-pub-5823754184406795" data-ad-slot=3D"71307393=
+64" data-adsbygoogle-status=3D"done" data-ad-status=3D"filled"><div id=3D"a=
+swift_0_host" tabindex=3D"0" title=3D"Advertisement" aria-label=3D"Advertis=
+ement" style=3D"border: none; height: 280px; width: 336px; margin: 0px; pad=
+ding: 0px; position: relative; visibility: visible; background-color: trans=
+parent; display: inline-block;"><iframe id=3D"aswift_0" name=3D"aswift_0" b=
+rowsingtopics=3D"true" style=3D"left:0;position:absolute;top:0;border:0;wid=
+th:336px;height:280px;" sandbox=3D"allow-forms allow-popups allow-popups-to=
+-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-use=
+r-activation" width=3D"336" height=3D"280" frameborder=3D"0" marginwidth=3D=
+"0" marginheight=3D"0" vspace=3D"0" hspace=3D"0" allowtransparency=3D"true"=
+ scrolling=3D"no" allow=3D"attribution-reporting" src=3D"cid:frame-952E065B=
+E73AD8A3D47EC2DAC054D9A4@mhtml.blink" data-google-container-id=3D"a!1" data=
+-google-query-id=3D"CJO9t5iA64QDFf3ArQAd2ZULog" data-load-complete=3D"true"=
+></iframe></div></ins>
+
+</div>
+
+<i>Afio</i> manipulates groups of files, copying them within the (collectiv=
+e) filesystem or
+between the filesystem and an <i>afio</i> archive.
+<p>With <b>-o</b>, reads pathnames from the standard input and writes an <i=
+>archive</i>.
+</p><p>With <b>-t</b>, reads an <i>archive</i> and writes a table-of-conten=
+ts to the standard output.
+</p><p>With <b>-i</b>, installs the contents of an <i>archive</i> relative =
+to the working directory.
+</p><p>With <b>-p</b>, reads pathnames from the standard input and copies t=
+he files to each <i>directory</i>. Cannot be combined with the <b>-Z</b> op=
+tion.
+</p><p>With <b>-r</b>, reads <i>archive</i> and verifies it against the fil=
+esystem. This is useful for verifying tape archives.
+</p><p>Creates missing directories as necessary, with permissions to match =
+their parents.
+</p><p>Removes leading slashes from pathnames, making all paths relative to=
+ the current directory. This is a safety feature to prevent inadvertent ove=
+rwriting of
+system files when doing restores. To suppress this safety feature, the <b>-=
+A</b> option must be used while writing an archive, but also when reading
+(installing), verifying, and cataloging an existing archive.
+</p><p>Supports compression while archiving, with the <b>-Z</b> option. Wil=
+l compress individual files in the archive, not the entire archive datastre=
+am, which
+makes <i>afio</i> compressed archives much more robust than <i>'tar zc'</i>=
+ type archives.
+</p><p>Supports multi-volume archives during interactive operation (i.e., w=
+hen <i>/dev/tty</i> is accessible and <i>SIGINT</i> is not being ignored).
+</p><h2>Archive Portability</h2>
+<i>afio</i> archives are portable between different types of UNIX systems, =
+as they
+contain only ASCII-formatted header information.
+<p>Except in special cases discussed below, <i>afio</i> will create archive=
+s with the same format as ASCII <i><b><a href=3D"https://linux.die.net/man/=
+1/cpio">cpio</a></b>(1)</i> archives. Therefore <i><b><a href=3D"https://li=
+nux.die.net/man/1/cpio" rel=3D"nofollow">cpio</a></b>(1)</i>
+can usually be used to restore an <i>afio</i> archive in the case that <i>a=
+fio</i> is not available on a system. (With most <i>cpio</i> versions, to u=
+npack an
+ASCII format archive, use <i>cpio -c</i>, and for GNU <i><b><a href=3D"http=
+s://linux.die.net/man/1/cpio" rel=3D"nofollow">cpio</a></b>(1)</i> use <i>c=
+pio -H odc</i>.) When unpacking with <i>cpio</i>, any compressed files insi=
+de an
+<i>afio -Z</i> archive are not uncompressed by <i>cpio</i>, but will be cre=
+ated on the file system as compressed files with a .z extension.
+</p><p>Unfortunately, the ASCII cpio archive format cannot represent some f=
+iles and file properties that can be present in a modern UNIX filesystem. I=
+f afio
+creates an archive with such things, then it uses an afio-specific 'large A=
+SCII' header for the files concerned. Archives with large ASCII headers can=
+not be
+unpacked completely by <i>cpio</i> or <i>afio</i> versions before 2.4.8.
+</p><p>When creating an archive, the 'large ASCII' header is used by <i>afi=
+o</i> to cover the following situations:
+</p><blockquote>
+<dl compact=3D"">
+<dt><b>o</b>
+</dt><dd>A file has a size larger than 2 GB
+</dd><dt><b>o</b>
+</dt><dd>The archive contains more than 64K files which have hard links
+</dd><dt><b>o</b>
+</dt><dd>A file, directory, or special file has a UID or GID value larger t=
+han 65535.</dd></dl></blockquote>
+<p>The <b>-5</b> option can be used to always preserve <i>cpio</i> compatib=
+ility, it will cause <i>afio</i> to fail rather than produce an incompatibl=
+e archive
+in the cases above.
+</p><p>Archives made using the (deprecated) <b>-4</b> option are also <b>no=
+t</b> compatible with <i>cpio</i>, but they are compatible with <i>afio</i>=
+ versions
+2.4.4 and later.
+</p><h2>Archive File Format</h2>
+An <i>afio</i> archive file has a simple format. The archive starts with a =
+file header
+for the first file, followed by the contents of the first file (which will =
+either be the exact contents byte-for-byte, or the exact contents in some c=
+ompressed
+format). The data of the first file is immediately followed by the file hea=
+der of the second file, and so on. At the end, there is a special 'end of a=
+rchive'
+header, usually followed by some padding bytes.
+<p>A multi-volume <i>afio</i> archive is simply a normal archive split up i=
+nto multiple parts. There are no special volume-level data headers. This me=
+ans that
+that volumes can be split and merged by external programs, as long as the d=
+ata stays in the correct order. It also implies that the contents of a sing=
+le file
+can cross volume boundaries. Selective restores of files at known volume lo=
+cations can be done by feeding only the needed volumes to <i>afio</i>, prov=
+ided that
+the <b>-k</b> option is used.
+</p><p>The contents of hard linked files are (unless the <b>-l</b> option i=
+s used) only stored once in the archive. The file headers for the second, t=
+hird, and
+later occurence of a hard linked file have no data after them. This makes s=
+elective restores of hard-liked files difficult: if later occurences are to=
+ be
+restored correctly, the first occurence always needs to be selected too.
+</p><h2>Options</h2>
+<dl compact=3D"">
+<dt><b>-@</b> <i>address</i>
+</dt><dd>Send email to <i>address</i> when a volume change (tape change, fl=
+oppy change) is needed, and also when the entire operation is complete. Use=
+s
+<i><b>sendmail</b>(1)</i> to send the mail.
+</dd><dt><b>-a</b>
+</dt><dd>Preserve the last access times (atimes) of the files read when mak=
+ing or verifying an archive. <b>Warning:</b> if this option is used, <i>afi=
+o</i> will
+change the last inode changed times (ctimes) of these files. Thus, this opt=
+ion cannot be used together with an incremental backup scheme that relies o=
+n the
+ctimes being preserved.
+</dd><dt><b>-b</b><i> size</i>
+</dt><dd>Read or write <i>size</i>-character archive blocks. Suffices of <b=
+>b</b>, <b>k</b>, <b>m</b> and <b>g</b> denote multiples of <i>512</i>, <i>=
+kilobytes</i>,
+<i>megabytes</i> and <i>gigabytes</i>, respectively. Defaults to <i>5120</i=
+> for compatibility with <i><b><a href=3D"https://linux.die.net/man/1/cpio"=
+ rel=3D"nofollow">cpio</a></b>(1)</i>. In some cases, notably when using
+<i>ftape</i> with some tape drives, <b>-b 10k</b> is needed for compatibili=
+ty. Note that <b>-b 10k</b> is the default block size used by <i><b><a href=
+=3D"https://linux.die.net/man/1/tar">tar</a></b>(1)</i>, so it
+is usually a good choice if the tape setup is known to work with <i><b><a h=
+ref=3D"https://linux.die.net/man/1/tar" rel=3D"nofollow">tar</a></b>(1)</i>=
+.
+</dd><dt><b>-c</b><i> count</i>
+</dt><dd>Buffer <i>count</i> archive blocks between I/O operations. A large=
+ <i>count</i> is recommended for efficient use with streaming magnetic tape=
+ drives, in
+order to reduce the number of tape stops and restarts.
+</dd><dt><b>-d</b>
+</dt><dd>Don't create missing directories.
+</dd><dt><b>-e</b><i> bound</i>
+</dt><dd>Pad the archive to a multiple of <i>bound</i> characters. Recogniz=
+es the same suffices as <b>-s</b>. Defaults to <i>1x</i> (the <b>-b</b> blo=
+ck size) for
+compatibility with <i><b><a href=3D"https://linux.die.net/man/1/cpio" rel=
+=3D"nofollow">cpio</a></b>(1)</i>.
+</dd><dt><b>-f</b>
+</dt><dd>Spawn a child process to actually write to the archive; provides a=
+ clumsy form of double-buffering. Requires <b>-s</b> for multi-volume archi=
+ve support.
+</dd><dt><b>-g</b>
+</dt><dd>Change to input file directories. Avoids quadratic filesystem beha=
+vior with long similar pathnames. Requires all absolute pathnames, includin=
+g those for
+the <b>-o</b> <i>archive</i> and the <b>-p</b> <i>directories</i>.
+</dd><dt><b>-h</b>
+</dt><dd>Follow symbolic links, treating them as ordinary files and directo=
+ries.
+</dd><dt><b>-j</b>
+</dt><dd>Don't generate sparse filesystem blocks on restoring files. By def=
+ault, <i>afio</i> creates sparse filesystem blocks (with <i><b><a href=3D"h=
+ttps://linux.die.net/man/2/lseek">lseek</a></b>(2)</i>) when possible
+when restoring files from an archive, but not if these files were stored in=
+ a compressed form. Unless stored in a compressed form, sparse files are no=
+t
+archived efficiently: they will take space equal to the full file length. (=
+The sparse file handling in <i>afio</i> does not make much sense except in =
+a
+historical way.)
+</dd><dt><b>-k</b>
+</dt><dd>Rather than complaining about unrecognizable input, skip unreadabl=
+e data (or partial file contents) at the <i>beginning</i> of the archive fi=
+le being read,
+and search for the next valid archive header. This option is needed to deal=
+ with certain types of backup media damage. It is also useful to support qu=
+ick
+selective restores from multi-volume archives, or from searchable block dev=
+ices, if the volume or location of the file to be restored is known in adva=
+nce (see
+the <b>-B</b> option). If, for example, a selective restore is done with th=
+e fourth volume of a multi-volume afio archive, then the <b>-k</b> option n=
+eeds to
+be used, else <i>afio</i> will complain about the input not being a well-fo=
+rmed archive.
+</dd><dt><b>-l</b>
+</dt><dd>With <b>-o</b>, write file contents with each hard link.
+<p>With <b>-t</b>, report hard links.
+</p><p>With <b>-p</b>, attempt to link files rather than copying them.
+</p></dd><dt><b>-m</b>
+</dt><dd>Mark output files with a common current timestamp (rather than wit=
+h input file modification times).
+</dd><dt><b>-n</b>
+</dt><dd>Protect newer existing files (comparing file modification times).
+</dd><dt><b>-s</b><i> size</i>
+</dt><dd>Restrict each portion of a multi-volume archive to <i>size</i> cha=
+racters. This option recognizes the same size suffices as <b>-b</b>. Also, =
+the suffix
+<b>x</b> denotes a multiple of the <b>-b</b> block size (and must follow an=
+y <b>-b</b> specification). <i>size</i> can be a single size or a comma-sep=
+erated
+list of sizes, for example '2m,5m,8m', to specify different sizes for the s=
+ubsequent volumes. If there are more volumes than sizes, the last specified=
+ size is
+used for all remaining volumes. This option is useful with finite-length de=
+vices which do not return short counts at end of media (sigh); output to ma=
+gnetic
+tape typically falls into this category. When an archive is being read or w=
+ritten, using <b>-s</b> causes <i>afio</i> to prompt for the next volume if=
+ the
+specified volume length is reached. The <b>-s</b> option will also cause <i=
+>afio</i> to prompt if there is a premature EOF while reading the input. Th=
+e special
+case <b>-s 0</b> will activate this prompting for the next volume on premat=
+ure EOF without setting a volume length. When writing an archive, <i>afio</=
+i> will
+prompt for the next volume on end-of-media, even without <b>-s 0</b> being =
+supplied, if the device is capable of reporting end-of-media. If the volume
+<i>size</i> specified is not a multiple of the block size set with the <b>-=
+b</b> option, then <i><b>afio</b>(1)</i> will silently round down the volum=
+e size to the
+nearest multiple of the block size. This rounding down can be suppressed us=
+ing the <b>-9</b> option: if <b>-9</b> is used, <i><b>afio</b>(1)</i> will =
+write a small
+block of data, smaller than the <b>-b</b> size, at the end of the volume to=
+ completely fill it to the specified size. Some devices are not able to han=
+dle such
+small block writes.
+</dd><dt><b>-u</b>
+</dt><dd>Report files with unseen links.
+</dd><dt><b>-v</b>
+</dt><dd>Verbose. Report pathnames (to stderr) as they are processed. When =
+used with <b>-t</b>, gives an <i>ls -l</i> style report (including link inf=
+ormation) to
+stdout instead. When used twice (<b>-vv</b>) with <b>-o</b>, gives an <i>ls=
+ -l</i> style report to stdout while writing the archive. (But this use of
+<b>-vv</b> will not work if the archive is also being written to stdout.)
+</dd><dt><b>-w</b><i> filename</i>
+</dt><dd>Treats each line in <i>filename</i> as an <b>-y</b> pattern, see <=
+b>-y</b>.
+</dd><dt><b>-x</b>
+</dt><dd>Retain file ownership and setuid/setgid permissions. This is the d=
+efault for the super-user; he may use <b>-X</b> to override it.
+</dd><dt><b>-y</b><i> pattern</i>
+</dt><dd>Restrict processing of files to names matching shell wildcard patt=
+ern <i>pattern</i>. Use this flag once for each pattern to be recognized. W=
+ith the
+possible exception of the presence of a leading slash, the complete file na=
+me as appearing in the archive table-of-contents must match the pattern, fo=
+r example
+the file name 'etc/passwd' is matched by the pattern '*passwd' but NOT by t=
+he pattern 'passwd'. See <b>'man 7 glob'</b> for more information on shell =
+wildcard
+pattern matching. The only difference with shell wildcard pattern matching =
+is that in <i>afio</i> the wildcards will also match '/' characters in file=
+ names.
+For example the pattern '/usr/src/*' will match the file name '/usr/src/lin=
+ux/Makefile', and any other file name starting with '/usr/src'. Unless the =
+<b>-S</b>
+option is given, any leading slash in the pattern or the filename is ignore=
+d when matching, e.g. <i>/etc/passwd</i> will match <i>etc/passwd</i>. Use =
+<b>-Y</b>
+to supply patterns which are <i>not</i> to be processed. <b>-Y</b> override=
+s <b>-y</b> if a filename matches both. See also <b>-w </b>and <b>-W</b>. S=
+ee also
+the <b>-7</b> option, which can be used to modify the meaning of <b>-y</b>,=
+ <b>-Y</b>, <b>-w</b>, and <b>-W</b> when literal matching without wildcard
+processing is needed. <b>Note:</b> if <i>afio</i> was compiled without usin=
+g the GNU fnmatch library, then the full shell wildcard pattern syntax cann=
+ot be
+used, and matching support is limited to patterns which are a full literal =
+file name and patterns which end in '*'.
+</dd><dt><b>-z</b>
+</dt><dd>Print execution statistics. This is meant for human consumption; u=
+se by other programs is officially discouraged.
+</dd><dt><b>-A</b>
+</dt><dd>Do not turn absolute paths into relative paths. That is don't remo=
+ve the leading slash. Applies to the path names written in an archive, but =
+also to the
+path names read out of an archive during read (install), verify, and catalo=
+ging operations.
+</dd><dt><b>-B</b>
+</dt><dd>If the <b>-v</b> option is used, prints the byte offset of the sta=
+rt of each file in the archive. If your tape drive can start reading at any=
+ position in
+an archive, the output of <b>-B</b> can be useful for doing quick selective=
+ restores.
+</dd><dt><b>-D</b><i> controlscript</i>
+</dt><dd>Set the control script name to <i>controlscript</i>, see the secti=
+on on <b>control files</b> below.
+</dd><dt><b>-E</b><i> [+]filename</i> <b>| -E CS | -E CI</b>
+</dt><dd>While creating an archive with compressed files using the <b>-Z</b=
+> option, disable (attempts at) compression for files with particular exten=
+sions. This
+option can be used to speed up the creation of the archive, by making <i>af=
+io</i> avoid trying to use <i>gzip</i> on files that contain compressed dat=
+a
+already. By default, if no specific <b>-E</b> option is given, all files wi=
+th the extensions<p>
+<i>.Z</i> .z .gz .bz2 .tgz <i>.arc</i> .zip .rar .lzh .lha <i>.uc2</i> .tpz=
+ .taz .tgz .rpm .zoo .deb <i>.gif</i> .jpeg .jpg .tif .tiff .png .pdf <i>.a=
+rj</i>
+.avi .bgb .cab .cpn .hqx .jar <i>.mp3</i> .mpg .mpq .pic .pkz .psn .sit .og=
+g and <i>.smk</i><br>
+will not be compressed. Also by default, the file extension matching is cas=
+e-insensitive (to do the right thing with respect to MS-DOS based filesyste=
+ms). The
+<b>-E</b><i> filename</i> form of this option will replace the default list=
+ of file extensions by reading a new list of file extensions, separated by
+whitespace, from <i>filename</i>. <i>filename</i> may contain comments prec=
+eded by a #. The extensions in <i>filename</i> should usually all start wit=
+h a dot,
+but they do not need to start with a dot, for example the extension 'tz' wi=
+ll match the file name 'hertz'. The <b>-E</b><i> +filename</i> form (with a=
+ + sign
+in front of <i>filename</i>) can be used to specify extensions in addition =
+to the built-in default list, instead of replacing the whole default list. =
+To make
+extension matching case-sensitive, add the special option form <b>-E CS</b>=
+ to the command line. The form <b>-E CI</b> invokes the (default) case-inse=
+nsitive
+comparison. See also the <b>-6</b> option, which offers an additional way t=
+o suppress compression.
+</p></dd><dt><b>-F</b>
+</dt><dd>This is a floppy disk, <b>-s</b> is required. Causes floppy writin=
+g in <b>O_SYNC</b> mode under Linux. With kernel version 1.1.54 and above, =
+this allows
+<i>afio</i> to detect some floppy errors while writing. Uses shared memory =
+if compiled in otherwise mallocs as needed (a 3b1 will not be able to mallo=
+c the
+needed memory w/o shared memory), <i>afio</i> assumes either way you can ma=
+lloc/shmalloc a chunck of memory the size of one disk. Examples: 795k: 3.5"=
+ (720k
+drive), 316k (360k drive)<pre class=3D"code">At the end of each disk this m=
+essage occurs:
+ Ready for disk [#] on [output]
+ (remove the disk when the light goes out)
+ Type "go" (or "GO") when ready to proceed
+ (or "quit" to abort):</pre>
+</dd><dt><b>-G</b><i> factor</i>
+</dt><dd>Specifies the <i><b><a href=3D"https://linux.die.net/man/1/gzip">g=
+zip</a></b>(1)</i> compression speed factor, used when compressing files wi=
+th the <b>-Z</b> option. Factor 1 is the fastest with least
+compression, 9 is slowest with best compression. The default value is 6. Se=
+e also the <i><b><a href=3D"https://linux.die.net/man/1/gzip" rel=3D"nofoll=
+ow">gzip</a></b>(1)</i> manual page. If you have a slow machine or a fast b=
+ackup
+medium, you may want to specify a low value for <i>factor</i> to speed up t=
+he backup. On large (&gt;200k) files, <b>-G 1</b> typically zips twice as f=
+ast as
+<b>-G 6</b>, while still achieving a better result than <i><b><a href=3D"ht=
+tps://linux.die.net/man/1/compress">compress</a></b>(1)</i>. The zip speed =
+for small files is mainly determined by the invocation time of
+<i>gzip</i> (1), see the <b>-T</b> option.
+</dd><dt><b>-H</b> <i>promptscript</i>
+</dt><dd>Specify a script to run, in stead of using the normal prompt, befo=
+re advancing to the next achive volume. The script will be run with the vol=
+ume number,
+archive specification, and the reason for changing to the next volume as ar=
+guments. The script should exit with 0 for OK and 1 for abort, other exit c=
+odes will
+be treated as fatal errors. <i>afio</i> executes the script by taking the <=
+i>promptscript</i> string, appending the arguments, and then calling the sh=
+ell to
+execute the resulting command line. This means that a general-purpose promp=
+t script can be supplied with additional arguments, via the <i>afio</i> com=
+mand
+line, by using a <b>-H</b> option value like -H "generic_promptscript addit=
+ional_arg_1 additional_arg_2".
+</dd><dt><b>-J</b>
+</dt><dd>Try to continue after a media write error when doing a backup (nor=
+mal behavior is to abort with a fatal error).
+</dd><dt><b>-K</b>
+</dt><dd>Verify the output against what is in the memory copy of the disk (=
+-F required). If the writing or verifying fails the following menu pops up<=
+pre class=3D"code">    [Writing/Verify] of disk [disk #] has FAILED!
+<tt>   </tt> Enter 1 to RETRY this disk
+<tt>   </tt> Enter 2 to REFORMAT this disk before a RETRY
+<tt>   </tt> Enter quit to ABORT this backup</pre>
+Currently, <i>afio</i> will not process the answers 1 and 2 in the right wa=
+y. The menu above is only useful in that it signifies that something is wro=
+ng.
+</dd><dt><b>-L</b> <i>Log_file_path</i>
+</dt><dd>Specify the name of the file to log errors and the final totals to=
+.
+</dd><dt><b>-M</b><i> size</i>
+</dt><dd>Specifies the maximum amount of memory to use for the temporary st=
+orage of compression results when using the <b>-Z</b> option. The default i=
+s <b>-M
+250m</b> (250 megabytes). If the compressed version of a file is larger tha=
+n this (or if <i>afio</i> runs out of virtual memory), <i><b><a href=3D"htt=
+ps://linux.die.net/man/1/gzip" rel=3D"nofollow">gzip</a></b>(1)</i> is run =
+twice
+of the file, the first time to determine the length of the result, the seco=
+nd time to get the compressed data itself.
+</dd><dt><b>-P</b><i> progname</i>
+</dt><dd>Use the program <i>progname</i> instead of the standard <i><b><a h=
+ref=3D"https://linux.die.net/man/1/gzip" rel=3D"nofollow">gzip</a></b>(1)</=
+i> for compression and decompression with the <b>-Z</b> option. For example=
+, use the
+options <b>-Z -P bzip2</b> to write and install archives using <i><b><a hre=
+f=3D"https://linux.die.net/man/1/bzip2">bzip2</a></b>(1)</i> compression. I=
+f <i>progname</i> does not have command line options (-c, -d, and
+-&lt;number&gt;) in the style of <i><b><a href=3D"https://linux.die.net/man=
+/1/gzip" rel=3D"nofollow">gzip</a></b>(1)</i> then the <b>-Q</b> option can=
+ be used to supply the right options. The compression program used must hav=
+e the
+property that, if the output file size exceeds the value of the <b>-M</b> o=
+ption, then when the compression program is run for a second time on the sa=
+me input,
+it must produce an output with exactly the same size. (See also the <b>-M</=
+b> option description.) The GnuPG (<b>gpg</b>) encryption program does not =
+satisfy
+this lenght-preserving criterion unless its built-in compression is disable=
+d (see examples in the afio source script3/ directory). See also the <b>-Q<=
+/b>,
+<b>-U</b> and <b>-3</b> options.
+</dd><dt><b>-Q</b><i> opt</i>
+</dt><dd>Pass the option <i>opt</i> to the compression or decompression pro=
+gram used with the <b>-Z</b> option. For passing multiple options, use <b>-=
+Q</b> multiple
+times. If no <b>-Q</b> flag is present, the standard options are passed. Th=
+e standard options are <b>-c -6</b> when the program is called for compress=
+ion and
+<b>-c -d</b> when the program is called for decompression. Use the special =
+case <b>-Q</b> "" if no options at all are to be passed to the program.
+</dd><dt><b>-R</b><i> Disk format command string</i>
+</dt><dd>This is the command that is run when you enter 2 to reformat the d=
+isk after a failed verify. The default (fdformat /dev/fd0H1440) can be chan=
+ged to a given
+system's default by editing the Makefile. You are also prompted for formatt=
+ing whenever a disk change is requested.
+</dd><dt><b>-S</b>
+</dt><dd>Do not ignore a leading slash in the pattern or the file name when=
+ matching <b>-y</b> and <b>-Y</b> patterns. See also <b>-A</b>.
+</dd><dt><b>-T</b><i> threshold</i>
+</dt><dd>Only compress a file when using the <b>-Z</b> option if its length=
+ is at least <i>threshold</i>. The default is <b>-T 0k</b>. This is useful =
+if you have a
+slow machine or a fast backup medium. Specifying <b>-T 3k</b> typically hal=
+ves the number of invocations of <i><b><a href=3D"https://linux.die.net/man=
+/1/gzip" rel=3D"nofollow">gzip</a></b>(1)</i>, saving some 30% computation =
+time,
+while creating an archive that is only 5% longer. The combination <b>-T 8k =
+-G 1</b> typically saves 70% computation time and gives a 20% size increase=
+. The
+latter combination may be a good alternative to not using <b>-Z</b> at all.=
+ These figures of course depend heavily on the kind of files in the archive=
+ and the
+processor - i/o speed ratio on your machine. See also the <b>-2</b> option.
+</dd><dt><b>-U</b>
+</dt><dd>If used with the <b>-Z</b> option, forces compressed versions to b=
+e stored of all files, even if the compressed versions are bigger than the =
+original
+versions, and disregarding any (default) values of the <b>-T</b> and <b>-2<=
+/b> options. This is useful when the <b>-P</b> and <b>-Q</b> options are us=
+ed to
+replace the compression program <i>gzip</i> with an encryption program in o=
+rder to make an archive with encrypted files. Due to internal limitations o=
+f
+<i>afio</i>, use of this flag forces the writing of file content with each =
+hard linked file, rather than only once for every set of hard linked files.
+<b>WARNING:</b> use of the -U option will also cause compression (or whatev=
+er operation the <b>-P</b> option indicates) on files larger than 2 GB, if =
+these are
+present in the input. Not all compression programs might handle such huge f=
+iles correctly (recent Linux versions of gzip, bzip2, and gpg have all been=
+ tested
+and seem to work OK). If your setup is obscure, some testing might be warra=
+nted.
+</dd><dt><b>-W</b><i> filename</i>
+</dt><dd>Treats each line in <i>filename</i> as an <b>-Y</b> pattern, see <=
+b>-Y</b>.
+</dd><dt><b>-Y</b><i> pattern</i>
+</dt><dd>Do <i>not</i> process files whose names match shell wildcard patte=
+rn <i>pattern</i>. See also <b>-y</b> and <b>-W</b>.
+</dd><dt><b>-Z</b>
+</dt><dd>Compress the files that go into the archive when creating an archi=
+ve, or uncompress them again when installing an archive. <i>afio</i> -Z wil=
+l compress
+each file in the archive individually, while keeping the archive headers un=
+compressed. Compared to <i>tar</i> zc style archives, <i>afio</i> -Z archiv=
+es are
+therefore much more fault-tolerant against read errors on the backup medium=
+. When creating an archive with the <i>-Z</i> option, <i>afio</i> will run
+<i>gzip</i> on each file encountered, and, if the result is smaller than th=
+e original, store the compressed version of the file. Requires <i><b><a hre=
+f=3D"https://linux.die.net/man/1/gzip" rel=3D"nofollow">gzip</a></b>(1)</i>=
+ to be
+in your path. Mainly to speed up <i>afio</i> operation, compression is not =
+attempted on a file if: 1) the file is very small (see the <b>-T</b> option=
+), 2) the
+file is very large (see the <b>-2</b> option), 3) the file has a certain ex=
+tension, so it probably contains compressed data already (see the <b>-E</b>=
+ option),
+4) the file pathname matches a certain pattern, as set by the <b>-6</b> opt=
+ion, 5) the file has hard links (this due to an internal limitation of afio=
+, but
+this limitation does not apply if the <b>-l</b> option is also used). Regar=
+dless of the above, if the <b>-U</b> option is used then the compression pr=
+ogram is
+always run, and the compressed result is always stored. When installing an =
+archive with compressed files, the <b>-Z</b> option needs to be used in ord=
+er to
+make afio automatically uncompress the files that it compressed earlier. Th=
+e <b>-P</b> option can be used to do the (un)compression with programs othe=
+r than
+<i>gzip</i>, see the <b>-P</b> (and <b>-Q</b> and <b>-3</b>) options in thi=
+s manpage for details. See also the <b>-G</b> option which provides yet ano=
+ther way
+to tune the compression process.
+</dd><dt><b>-0</b>
+</dt><dd>Use filenames terminated with '\0' instead of '\n'. When used as f=
+ollows: <i>find ... -print0 | afio -o -0 ...</i>, it ensures that any input=
+ filename can
+be handled, even a file name containing newlines. When used as <i>afio -t -=
+0 ... | ...</i>, this allows the table of contents output to be parsed unam=
+biguosly
+even if the filenames contain newlines. The <b>-0</b> option also affects t=
+he parsing of the files supplied by <b>-w file</b> and <b>-W file</b> optio=
+ns: if
+the option <b>-0</b> precedes them in the command line then the pattern lin=
+es contained in the <b>file</b>s should be terminated with '\0' in stead of=
+ '\n'. A
+second use of <b>-0</b> toggles the option. This can be useful when using m=
+ultiple pattern files or when combining with the <b>-t</b> option.
+</dd><dt><b>-1</b><i> warnings-to-ignore</i>
+</dt><dd>Control if <i><b>afio</b>(1)</i> should exit with a nonzero code a=
+fter printing certain warning messages, and if certain warning messages sho=
+uld be printed at
+all. This option is sometimes useful when calling <i><b>afio</b>(1)</i> fro=
+m inside a backup script or program. <i><b>afio</b>(1)</i> will exit with a=
+ nonzero code on
+encountering various 'hard' errors, and also (with the default value of the=
+ <b>-1</b> option) when it has printed certain warning messages during exec=
+ution.
+<i>warnings-to-ignore</i> is a list of letters which determines the behavio=
+r related to warning messages. The default value for this option is <b>-1 m=
+c</b>.
+For <i>afio</i> versions 2.4.3 and earlier, the default was <b>-1 a</b>. Fo=
+r <i>afio</i> versions 2.4.4 and 2.4.5, the default was <b>-1 ''</b>. The d=
+efined
+<i>warnings-to-ignore</i> letters are as follows. <b>a</b> is for for ignor=
+ing <i>a</i>ll possible warnings on exit: if this letter is used, the print=
+ing of a
+warning message will never cause a nonzero exit code. <b>m</b> is for ignor=
+ing in the exit code any warning about <i>m</i>issing files, which will be =
+printed
+when, on creating an archive, a file whose name was read from the standard =
+input is not found. <b>c</b> is for ignoring in the exit code the warning t=
+hat the
+archive being created will not be not fully compatible with <i>c</i>pio or =
+afio versions 2.4.7 or lower. <b>C</b> is the same as <i>c</i>, but in addi=
+tion the
+warning message will not even be printed. <b>M</b> will suppress the printi=
+ng of all warning messages asssociated with <i>M</i>ultivolume archive hand=
+ling,
+messages like "Output limit reached" and "Continuing". <b>r</b> is for igno=
+ring certain warnings during the verify (-r) operation. If this letter is u=
+sed, some
+verification errors that are very probably due to changes in the filesystem=
+, during or after the backup was made, are ignored in determining the exit =
+code. The
+two verification errors that are ignored are: 1) a file in the archive is n=
+o longer present on the filesystem, and 2) the file contents in the archive=
+ and on
+the filesystem are different, but the file lengths or the file modification=
+ times are also different, so the difference in contents is probably due to=
+ the file
+on the file system having been changed. <b>n</b> is for ignoring in the exi=
+t code a particular class of <i>n</i>o-such-file warnings: it ignores these=
+ warnings
+when they happen after the file has already been succesfully opened. This u=
+nusual warning situation can occur when archiving files on Windows smbfs fi=
+lesystems
+-- due to a Windows problem, smbfs files with non-ASCII characters in their=
+ names can sometimes be opened but not read. When the <b>-Z</b> option is u=
+sed, the
+<i>n</i> letter function is (currently) only implemented for files with siz=
+es smaller than indicated by the <b>-T</b> option, so in that case the <b>-=
+T</b>
+option is also needed for this letter to have any effect.
+</dd><dt><b>-2</b> <i>maximum-file-size-to-compress</i>
+</dt><dd>Do not compress any files which are larger than this size when mak=
+ing a compressed archive with the <b>-Z</b> option. The default value is <b=
+>-2 200m</b>
+(200 Megabytes). This maximum size cutoff lowers the risk that a major port=
+ion of a large file will be irrecoverable due to small media errors. If a m=
+edia
+error occurs while reading a file that <i>afio</i> has stored in a compress=
+ed form, then <i>afio</i> and <i>gzip</i> will not be able to restore the e=
+ntire
+remainder of that file. This is usually an acceptable risk for small files.=
+ However for very large files the risk of loosing a large amount of data be=
+cause of
+this effect will usually be too big. The special case <b>-2 0</b> eliminate=
+s any maximum size cutoff.
+</dd><dt><b>-3</b> <i>filedescriptor-nr</i>
+</dt><dd>Rewind the filedescriptor before invoking the (un)compression prog=
+ram if using the <b>-Z</b> option. This is useful when the <b>-P</b> and <b=
+>-Q</b>
+options are used to replace the compression program <i>gzip</i> with some t=
+ypes of encryption programs in order to make or read an archive with encryp=
+ted
+files. The rewinding is needed to interface correctly with some encryption =
+programs that read their key from an open filedescriptor. If the <b>-P</b> =
+program
+name matches 'pgp' or 'gpg', then the <b>-3</b> option <i>must</i> be used =
+to avoid <i><b>afio</b>(1)</i> reporting an error. Use the special case <b>=
+-3 0</b> to
+supress the error message without rewinding any file descriptor. The <b>-3 =
+0</b> option may also be needed to sucessfully read back encrypted archives=
+ made
+with <i>afio</i> version 2.4.5 and older.
+</dd><dt><b>-4</b>
+</dt><dd>(Deprecated, the intended effect of this option is now achieved by=
+ default as long as the <b>-5</b> option is not used. This option could sti=
+ll be useful
+for compatibility with machines running an older version of <i>afio</i>.) W=
+rite archive with the 'extended ASCII' format headers which use 4-byte inod=
+e
+numbers. Archives using the extended ASCII format headers are <b>not</b> co=
+mpatible with any other archiver. This option was useful for reliably creat=
+ing and
+restoring sets of files with many internal hard links, for example a news s=
+pool.
+</dd><dt><b>-5</b>
+</dt><dd>Refuse to create an archive that is incompatible with <i><b><a hre=
+f=3D"https://linux.die.net/man/1/cpio" rel=3D"nofollow">cpio</a></b>(1)</i>=
+. If this option is used, <i>afio</i> will never write any 'large ASCII' fi=
+le headers
+that are incompatible with <i><b><a href=3D"https://linux.die.net/man/1/cpi=
+o" rel=3D"nofollow">cpio</a></b>(1)</i>, but fail with an error code instea=
+d. See the ARCHIVE PORTABILITY section above for more information on the us=
+e of
+'large ASCII' file headers.
+</dd><dt><b>-6 " filename"</b>
+</dt><dd>While creating an archive with compressed files using the <b>-Z</b=
+> option, disable (attempts at) compression for files that match particular=
+ shell
+patterns. This option can be used to speed up the creation of the archive, =
+by making <i>afio</i> avoid trying to use <i>gzip</i> on files that contain
+compressed data already. Reads shell wildcard patterns from <i>filename</i>=
+, treating each line in the file as a pattern. Files whose names match thes=
+e
+patterns are not to be compressed when using the <b>-Z</b> option. Pattern =
+matching is done in exactly the same way as described for the <b>-y</b> opt=
+ion. See
+also the <b>-E</b> option: the (default) settings of the <b>-E</b> option w=
+ill further restrict compression attempts. The <b>-E</b> option controls co=
+mpression
+attempts based on file extensions; the <b>-6</b> option is mainly intended =
+as a method for excluding all files in certain subdirectory trees from comp=
+ression..
+</dd><dt><b>-7</b>
+</dt><dd>Switch between shell wildcard pattern matching and exact name matc=
+hing (without interpreting any wildcard characters) for the patterns suppli=
+ed in the
+<b>-y</b>, <b>-Y</b>, <b>-w</b>, and <b>-W</b> options. If the <b>-7</b> op=
+tion is used in front of any option <b>-y</b>, <b>-Y</b>, <b>-w</b>, or <b>=
+-W</b>,
+then the patterns supplied in these options are not intrerpreted as wildcar=
+d patterns, but as character strings that must match exactly to the file na=
+me,
+except possibly in leading slashes. This option can be useful for handling =
+the exceptional cases where file names in the archive, or the names of file=
+s to be
+archived, contain wildcard characters themselves. For example, <i>find</i> =
+/tmp -print0 | afio -ov -Y '*.jpg' -7 -Y '/tmp/a[12]*4' -0 archive can be u=
+sed to
+archive files all files under /tmp, even files with a '\n' character in the=
+ name, except for .jpg files and the file with the exact name <i>/tmp/a[12]=
+*4</i>. A
+second use of <b>-7</b> toggles the matching for subsequently occuring <b>-=
+y</b>, <b>-Y</b>, <b>-w</b>, and <b>-W</b> back to shell wildcard pattern m=
+atching.
+</dd><dt><b>-9</b>
+</dt><dd>Do not round down any <b>-s</b> volume sizes to the nearest <b>-b<=
+/b> block size. See the <b>-s</b> option.</dd></dl>
+<h2>Notes</h2>
+Special-case archive names:
+<blockquote>
+<dl compact=3D"">
+<dt><b>o</b>
+</dt><dd>Specify <i>-</i> to read or write the standard input or output, re=
+spectively. This disables multi-volume archive handling.
+</dd><dt><b>o</b>
+</dt><dd>Prefix a command string to be executed with an exclamation mark (<=
+i>!</i>). The command is executed once for each archive volume, with its st=
+andard input
+or output piped to <i>afio</i>. It is expected to produce a zero exit code =
+when all is well.
+</dd><dt><b>o</b>
+</dt><dd>Use <i>system:file</i> to access an archive in <i>file</i> on <i>s=
+ystem</i>. This is really just a special case of pipelining. It requires a =
+4.2BSD-style
+remote shell (<i><b>rsh</b>(1C)</i>) and a remote copy of <i>afio</i>.
+</dd><dt><b>o</b>
+</dt><dd>A more elaborate case of the above is <i>[user@]host[%rsh][=3Dafio=
+]:file</i> where the optional <i>user@</i> component specifies the user nam=
+e on the remote
+host, the optional <i>%rsh</i> specifies the (local) name of the remote she=
+ll command to use, and the optional <i>=3Dafio</i> specifies the name of th=
+e remote
+copy of the afio command.
+</dd><dt><b>o</b>
+</dt><dd>Anything else specifies a local file or device. An output file wil=
+l be created if it does not already exist.</dd></dl></blockquote>
+<p>Recognizes obsolete binary <i><b><a href=3D"https://linux.die.net/man/1/=
+cpio" rel=3D"nofollow">cpio</a></b>(1)</i> archives (including those from m=
+achines with reversed byte order), but cannot write them.
+</p><p>Recovers from archive corruption by searching for a valid magic numb=
+er. This is rather simplistic, but, much like a disassembler, almost always=
+ works.
+</p><p>Optimizes pathnames with respect to the current and parent directori=
+es. For example, <i>./src/sh/../misc/afio.c</i> becomes <i>src/misc/afio.c<=
+/i>.
+</p><h2>Control Files</h2>
+<i>Afio</i> archives can contain so-called control files. Unlike normal arc=
+hive entries, a
+control file in not unpacked to the filesystem. A control file has a <i>lab=
+el</i> and some <i>data</i>. When <i>afio</i> encounters a control file in =
+the
+archive it is reading, it will feed the <i>label</i> and <i>data</i> to a s=
+o-called control script. The control script is supplied by the user. It can=
+ perform
+special actions based on the <i>label</i> and <i>data</i> it receives from =
+<i>afio</i>.
+<p><b>Control file labels.</b> The control file mechanism can be used for m=
+any things. Examples are putting archive descriptions at the beginning of t=
+he
+archive and embedding lists of files to move before unpacking the rest or t=
+he archive.
+</p><p>To distinguish between different uses, the <i>label</i> of a control=
+ file should indicate the program that made the contol file and the purpose=
+ of the
+control file data. It should have the form
+</p><pre class=3D"code">programname.kindofdata</pre>where <i>programname</i=
+> is the name of the backup program that generated the control file, and <i=
+>kindofdata</i> is the meaning of the control file data.
+Some examples are
+<pre class=3D"code">tbackup.movelist  tbackup.updatescript
+blebberfiler.archivecontents
+backup_script_of_Joe_User.archivedescription</pre>The user-supplied control=
+ script should look at the label to decide what to do with the control data=
+. This way, control files with unknown labels can be
+ignored, and afio archives maintain some degree of portability between diff=
+erent programs that restore or index them.
+<p>Control file labels that are intended to be portable between different b=
+ackup programs could be defined in the future.
+</p><p><b>Making control files.</b> When making an archive, afio reads a st=
+ream containing the names of the files (directories, ...) to put in the arc=
+hive. This
+stream may also contain 'control file generators', which are lines with the=
+ following format:
+</p><pre class=3D"code">//--sourcename label</pre>Here, the //-- sequence s=
+ignals that a control file is to be made, <i>sourcename</i> is the path to =
+a file containing the control file data, and
+<i>label</i> is the control file label. The <i>sourcename</i> must be a reg=
+ular file or a symlink to a regular file.
+<p>A control file will show up as
+</p><pre class=3D"code">//--CONTROL_FILE/label</pre>in an archive listing, =
+where <i>label</i> is the control file label.
+<p><b>Control scripts.</b> A control script is supplied to afio with the
+</p><p><b>-D</b> <i>controlscript</i>
+</p><p>command line option. The <i>controlscript</i> must be an executable =
+program. The script is run whenever <i>afio</i> encounters a control file w=
+hile doing a
+<b>-i -t</b> or <b>-r</b> operation. Afio will supply the control file <i>l=
+abel</i> as an argument to the script. The script should read the control f=
+ile
+<i>data</i> from its standard input. If the script exits with a non-zero ex=
+it status, <i>afio</i> will issue a warning message.
+</p><p>If a contol file is encountered and no <b>-D</b> option is given, <i=
+>afio</i> will issue a warning message. To suppress the warning message and=
+ ignore all
+control scripts, <b>-D</b> "" can be used.
+</p><p>An example of a control script is
+</p><pre class=3D"code">#!/bin/sh
+if [ $1 =3D "afio_example.headertext" ]; then
+  #the headertext control file is supposed to be packed as the first
+  #entry of the archive
+  echo Archive header:
+  cat -
+  echo Unpack this archive? y/n
+  #stdout is still connected to the tty, read the reply from stdout
+  read yn &lt;&amp;1
+  if [ "$yn" =3D n ]; then
+    #abort
+    kill $PPID
+  fi
+else
+  echo Ignoring unknown control file.
+  cat - &gt;/dev/null
+fi</pre><i>Afio</i> never compresses the control file data when storing it =
+in an archive, even when the <b>-Z</b> option is used. When a control file =
+is encountered
+by <i><b><a href=3D"https://linux.die.net/man/1/cpio" rel=3D"nofollow">cpio=
+</a></b>(1)</i> or an <i>afio</i> with a version number below 2.4.1, the da=
+ta will be unpacked to the filesystem, and named <i>CONTROL_FILE/label</i> =
+where
+<i>label</i> is the control file label.
+<h2>Bugs</h2>
+There are too many options.
+<p>Restricts pathnames to 1023 characters, and 255 meaningful elements (whe=
+re each element is a pathname component separated by a /).
+</p><p>Does not use the same default block size as <i><b><a href=3D"https:/=
+/linux.die.net/man/1/tar" rel=3D"nofollow">tar</a></b>(1)</i>. <i><b><a hre=
+f=3D"https://linux.die.net/man/1/tar" rel=3D"nofollow">tar</a></b>(1)</i> u=
+ses 10 KB, <i>afio</i> uses 5 KB by default. Some tape drives only work wit=
+h a 10
+KB block size, in that case the <i>afio</i> option <b>-b 10k</b> is needed =
+to make the tape work.
+</p><p>There is no sequence information within multi-volume archives. Input=
+ sequence errors generally masquerade as data corruption. A solution would =
+probably be
+mutually exclusive with <i><b><a href=3D"https://linux.die.net/man/1/cpio" =
+rel=3D"nofollow">cpio</a></b>(1)</i> compatibility.
+</p><p>Degenerate uses of symbolic links are mangled by pathname optimizati=
+on. For example, assuming that "usr.src" is a symbolic link to "/usr/src", =
+the pathname
+"usr.src/../bin/cu" is mis-optimized into "bin/cu" (rather than "/usr/bin/c=
+u").
+</p><p>The <i>afio</i> code for handling floppies (<b>-F</b> and <b>-f</b> =
+and <b>-K</b> options) has buggy error handling. <i>afio</i> does not allow=
+ one to retry
+a failed floppy write on a different floppy, and it cannot recover from a v=
+erify error. If the floppy handling code is used and write or verify errors=
+ do
+occur, it is best to restart <i>afio</i> completely. Making backups to flop=
+pies should really be done with a more specialised backup program that wrap=
+s
+<i>afio</i>.
+</p><p>The Linux floppy drivers below kernel version 1.1.54 do not allow <i=
+>afio</i> to find out about floppy write errors while writing. If you are r=
+unning a
+kernel below 1.1.54, <i>afio</i> will happily fail to write to (say) a writ=
+e protected disk and not report anything wrong! The only way to find out ab=
+out write
+errors in this case is by watching the kernel messages, or by switching on =
+the verify (<b>-K</b>) option.
+</p><p>The remote archive facilites (host:/file archive names) have not bee=
+n exhaustively tested. These facilities have seen a lot of real-life use th=
+ough.
+However, there may be bugs in the code for error handling and error reporti=
+ng with remote archives.
+</p><p>An archive created with a command like <i>'find /usr/src/linux -prin=
+t | afio -o ...'</i> will not contain the ownership and permissions of the =
+<i>/usr</i>
+and <i>/usr/src</i> directories. If these directories are missing when rest=
+oring the archive, <i>afio</i> will recreate them with some default ownersh=
+ip and
+permissions.
+</p><p>Afio can not restore time stamps on symlinks. Also, on operating sys=
+tems without an <i><b><a href=3D"https://linux.die.net/man/2/lchown">lchown=
+</a></b>(2)</i> system call, afio can not restore owner/group
+information on symlinks. (Linux has lchown since kernel version 2.1.86.)
+</p><p>Afio tries to restore modification time stamps of directories in the=
+ archive correctly. However, if it exits prematurely, then the modification=
+ times will
+not be restored correctly.
+</p><p>A restore using decompression will fail if the <i>gzip</i> binary us=
+ed by <i>afio</i> is overwritten, by <i>afio</i> or by another program, dur=
+ing the
+restore. The restore will also fail if any shared libraries needed to start=
+ <i>gzip</i> are overwritten during the restore. <i>afio</i> should not nor=
+mally be
+used to overwrite the system files on a running system. If it is used in th=
+is way, a flag like <i>-Y</i> /bin/gzip can often be added to prevent failu=
+re.
+</p><p>The <b>-r</b> option verifies the file contents of the files in the =
+archive against the files on the filesystem, but does not cross-check detai=
+ls like
+permission bits on files, nor does it cross-check that archived directories=
+ or other non-file entities still exist on the filesystem.
+</p><p>There are several problems with archiving hard links. 1) Due to inte=
+rnal limitations, files with hard links cannot be stored in compressed form=
+, unless the
+<b>-l</b> or <b>-U</b> options are used which force each hard linked file t=
+o be stored separately. 2) Archives which contain hard links and which were=
+ made
+with older (pre-2.4.8) versions of <i>afio</i> or with <i>cpio</i> can not =
+always be correctly unpacked. This is really a problem in the archives and =
+not in
+the current version of <i>afio</i>. The risk of incorrect unpacking will be=
+ greater if the number of files or hard links in the archives is larger. 3)=
+ In a
+selective restore, if the selection predicates do not select the first copy=
+ of a file with archive-internal hard links, then all subsequent copies, if
+selected, will not be correctly restored. 4) Unless the <b>-4</b> option is=
+ used, the inode number fields in the archive headers for files with hard l=
+inks of
+the archive will sometimes not contain the actual (least significant 16 bit=
+s of) the inode number of the original file.
+</p><p>Some Linux kernels no not allow one to create a hard link to a symbo=
+lic link. <i>afio</i> will try to re-create such hard links when unpacking =
+an archive,
+but might fail due to kernel restrictions.
+</p><p>Due to internal limitations of <i>afio</i>, the use of the <b>-U</b>=
+ option forces the writing of file content with each hard linked file, rath=
+er than only
+once for every set of hard linked files.
+</p><p>When it is run without super-user priviliges, <i>afio</i> is not abl=
+e to unpack a file into a directory for which it has no write permissions, =
+even if it
+just created that directory itself. This can be a problem when trying to re=
+store directory structures created by some source code control tools like R=
+CS.
+</p><p>When block or character device files are packed into an archive on o=
+ne operating system (e.g. Linux) and unpacked on another operating system, =
+which uses
+different sizes for the major and minor device number data types (e.g. Sola=
+ris), the major and minor numbers of the device files will not be restored
+correctly. This can be a problem if the operating systems share a cross-mou=
+nted filesystem. A workaround is to use <i><b><a href=3D"https://linux.die.=
+net/man/1/tar" rel=3D"nofollow">tar</a></b>(1)</i> for the device files.
+</p><h2>Examples</h2>
+Create an archive with compressed files:<br>
+<i>find .... | afio -o -v -Z /dev/fd0H1440</i>
+<p>Install (unpack) an archive with compressed files:<br>
+<i>afio -i -v -Z achive</i>
+</p><p>Install (unpack) an archive with compressed files, protecting newer =
+existing files:<br>
+<i>afio -i -v -Z -n achive</i>
+</p><p>Create an archive with compressed files on floppy disks:<br>
+<i>find .... | afio -o -v -s 1440k -F -Z /dev/fd0H1440</i>
+</p><p>Create an archive with all file contents encrypted by pgp:<br>
+<i>export PGPPASSFD=3D3</i><br>
+<i>find .... | afio -ovz -Z -U -P pgp -Q -fc -Q +verbose=3D0 -3 3 archive 3=
+&lt;passphrasefile</i>
+</p><p>Create an archive on recordable CDs using the <i>cdrecord</i> utilit=
+y to write each CD:<br>
+<i>find .... | afio -o -b 2048 -s325000x -v '!cdrecord .... -'</i>
+</p><p>Extract a single named file from an archive on /dev/tape:<br>
+<i>afio -i -v -Z -y /home/me/thedir/thefile /dev/tape</i><br>
+(If these do not exist yet, <i>afio</i> will also create the enclosing dire=
+ctories <i>home/me/myfiledir</i> under current working directory.)
+</p><p>Extract files matching a pattern from an archive on /dev/tape:<br>
+<i>afio</i> -i -v -Z -y '/home/me/*' /dev/tape<br>
+(If these do not exist yet, <i>afio</i> will also create the enclosing dire=
+ctories <i>home/me</i> under current working directory.)
+</p><p>If your filesystem cannot handle files larger than 2GB, but you want=
+ to make an archive on that filesystem that is larger than 2GB, you use the=
+ following
+trick to split the archive into multiple files of each 1 GB:<br>
+<i>find</i> /home | afio -o ... - | split -b1024m - archive.<br>
+the files will be called archive.aa, archive.ab, etc. You can restore the w=
+hole archive using:<br>
+<i>cat</i> archive.* | afio -i ... -<br>
+The wildcard expansion by the shell will ensure that <i>cat</i> will read t=
+he parts in the right (alphabetic) order.
+</p><h2>See Also</h2>
+<i><b><a href=3D"https://linux.die.net/man/1/cpio" rel=3D"nofollow">cpio</a=
+></b>(1)</i>, <i><b><a href=3D"https://linux.die.net/man/1/find">find</a></=
+b>(1)</i>, <i><b><a href=3D"https://linux.die.net/man/1/tar" rel=3D"nofollo=
+w">tar</a></b>(1)</i>, <i><b><a href=3D"https://linux.die.net/man/1/compres=
+s" rel=3D"nofollow">compress</a></b>(1)</i>, <i><b><a href=3D"https://linux=
+.die.net/man/1/gzip" rel=3D"nofollow">gzip</a></b>(1)</i>.
+<h2>Web Site and Internet Resources</h2>
+There is no official web site for <i>afio</i>. However, the current
+maintainer does post information on alpha, beta, and production releases at=
+ <a href=3D"http://freecode.com/projects/afio/">http://freecode.com/project=
+s/afio/</a><br>
+The Debian project maintains a binary distribution package of <i>afio</i>, =
+see <a href=3D"http://packages.debian.org/">http://packages.debian.org</a><=
+br>
+Bug reporting on the Debian package can be done to the Debian project, bugs=
+ with a scope beyond Debian will usually also reach the current afio mainta=
+iner
+mentioned below.<br>
+For general bug reporting, patches, suggestions and status inquiries, pleas=
+e e-mail the current afio maintainer. Though the maintenance and distributi=
+on effort
+of <i>afio</i> is Linux-centered, correspondence with respect to the use of=
+ <i>afio</i> on other operating systems is also welcome.<br>
+When mailing the maintainer, please use the word 'afio' somewhere in the su=
+bject line, this lowers the chance that your mail will get accidentally del=
+eted. The
+current maintainer e-mail address is:<br>
+<i><a href=3D"mailto:koen.holtman@ieee.org">koen.holtman@ieee.org</a></i><b=
+r>
+<h2>Authors</h2>
+Mark Brukhartz<br>
+Jeff Buhrt<br>
+Dave Gymer<br>
+Andrew Stevens<br>
+Koen Holtman <b>(current maintainer)</b> <i><a href=3D"mailto:koen.holtman@=
+ieee.org">koen.holtman@ieee.org</a></i><br>
+Anders Baekgaard<br>
+Too many other people to list here have contributed code, patches, ideas, a=
+nd bug reports. Many of these are mentioned in the HISTORY file that is inc=
+luded
+with the sources.
+
+<!-- google_ad_section_end -->
+<h2>Referenced By</h2>
+<b><a href=3D"https://linux.die.net/man/1/cdrskin" rel=3D"nofollow">cdrskin=
+</a></b>(1),
+<b><a href=3D"https://linux.die.net/man/8/mondoarchive" rel=3D"nofollow">mo=
+ndoarchive</a></b>(8),
+<b><a href=3D"https://linux.die.net/man/8/mondorestore" rel=3D"nofollow">mo=
+ndorestore</a></b>(8),
+<b><a href=3D"https://linux.die.net/man/1/xorrecord" rel=3D"nofollow">xorre=
+cord</a></b>(1)
+<div id=3D"adbottom">
+
+<ins class=3D"adsbygoogle" style=3D"display:inline-block;width:336px;height=
+:280px" data-ad-client=3D"ca-pub-5823754184406795" data-ad-slot=3D"87899403=
+13" data-adsbygoogle-status=3D"done"><div id=3D"aswift_1_host" style=3D"bor=
+der: none; height: 280px; width: 336px; margin: 0px; padding: 0px; position=
+: relative; visibility: visible; background-color: transparent; display: in=
+line-block;"></div></ins>
+
+</div>
+
+</div>
+<div id=3D"menu">
+<dl>
+<dt>Site Search</dt>
+<dd>
+<form id=3D"cse-search-box-menu" action=3D"https://www.die.net/search/">
+<input name=3D"q" type=3D"text" size=3D"10">
+
+
+
+
+</form>
+
+</dd></dl>
+
+
+
+<dl>
+<dt>Library</dt>
+<dd><a href=3D"https://linux.die.net/">linux docs</a></dd>
+<dd><a href=3D"https://linux.die.net/man/">linux man pages</a></dd>
+<dd><a href=3D"https://www.die.net/musings/page_load_time/">page load time<=
+/a></dd>
+</dl>
+<dl>
+<dt>Toys</dt>
+<dd><a href=3D"https://www.die.net/earth/">world sunlight</a></dd>
+<dd><a href=3D"https://www.die.net/moon/">moon phase</a></dd>
+<dd><a href=3D"http://trace.die.net/">trace explorer</a></dd>
+</dl>
+
+
+<dl>
+<dt><a href=3D"https://linux.die.net/man/1/"><img src=3D"https://linux.die.=
+net/style/back.gif" alt=3D"Back" width=3D"20" height=3D"22"></a></dt><dd></=
+dd>
+</dl>
+</div></div>
+
+<iframe height=3D"1" width=3D"1" style=3D"position: absolute; top: 0px; lef=
+t: 0px; border: none; visibility: hidden;"></iframe>
+
+<ins class=3D"adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status=3D"=
+done" style=3D"display: none !important;" data-ad-status=3D"unfilled"><div =
+id=3D"aswift_2_host" tabindex=3D"0" title=3D"Advertisement" aria-label=3D"A=
+dvertisement" style=3D"border: none; height: 0px; width: 0px; margin: 0px; =
+padding: 0px; position: relative; visibility: visible; background-color: tr=
+ansparent; display: inline-block;"><iframe id=3D"aswift_2" name=3D"aswift_2=
+" browsingtopics=3D"true" style=3D"left:0;position:absolute;top:0;border:0;=
+width:undefinedpx;height:undefinedpx;" sandbox=3D"allow-forms allow-popups =
+allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-na=
+vigation-by-user-activation" frameborder=3D"0" marginwidth=3D"0" marginheig=
+ht=3D"0" vspace=3D"0" hspace=3D"0" allowtransparency=3D"true" scrolling=3D"=
+no" allow=3D"attribution-reporting" src=3D"cid:frame-0842622DBEBB029B7644FC=
+C98C68243A@mhtml.blink" data-google-container-id=3D"a!3" data-load-complete=
+=3D"true"></iframe></div></ins><iframe src=3D"cid:frame-E50F6635B52198EDAEA=
+516B3D6464C7D@mhtml.blink" width=3D"0" height=3D"0" style=3D"display: none;=
+"></iframe></body><iframe id=3D"google_esf" name=3D"google_esf" src=3D"cid:=
+frame-6B01786C3877DCBCE2A1C3E0C6A01520@mhtml.blink" style=3D"display: none;=
+"></iframe></html>
+------MultipartBoundary--qY8xJWHyNuqGmXUxccimAXnA0TSY8Q2amc2qkO8k6Q----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://linux.die.net/style/white.css
+
+@charset "windows-1252";
+
+body, table { padding: 0px; font-family: verdana, helvetica, arial, sans-se=
+rif; background-color: rgb(255, 255, 255); color: rgb(68, 68, 68); }
+
+body { margin: 0px; background-image: url("data:image/png;base64,iVBORw0KGg=
+oAAAANSUhEUgAAAH4AAAAhAQMAAAAlNY3pAAAABlBMVEVmAABmZmag5upWAAAAE0lEQVQoU2NkQ=
+AUcjKMCowJ4BABBCQEqSqTgLwAAAABJRU5ErkJggg=3D=3D"); background-repeat: repea=
+t-y; background-position: left top; }
+
+table { font-size: 1em; }
+
+#bg { margin: 0px; max-width: 1024px; }
+
+#content { margin: 10px 10px 10px 136px; padding: 0px; font-size: 16px; lin=
+e-height: 1.4; }
+
+#logo, #menu { font-size: 13px; text-align: left; color: rgb(153, 153, 153)=
+; background-color: rgb(102, 0, 0); border: 0px; margin: 0px; position: abs=
+olute; top: 0px; left: 0px; padding: 4px 0px 4px 4px; width: 120px; }
+
+#menu { border-bottom: 1px dashed rgb(0, 0, 0); top: 124px; }
+
+b, strong { font-weight: bold; }
+
+i { font-style: italic; }
+
+a { color: rgb(102, 0, 0); }
+
+hr { height: 1px; border: 0px; color: rgb(102, 0, 0); background-color: rgb=
+(102, 0, 0); }
+
+h1 { text-align: left; font-size: 1.75em; margin-top: 0px; border-bottom: 2=
+px solid rgb(102, 0, 0); line-height: 1.2; }
+
+h2 { font-size: 1.25em; line-height: 1.2; }
+
+img { border: none; }
+
+.shrink { max-width: 100%; height: auto; }
+
+input { border-color: rgb(153, 153, 153); }
+
+pre, tt { font-family: monospace; }
+
+#logo a, #menu a { color: rgb(255, 255, 255); display: block; padding-left:=
+ 8px; text-indent: -8px; text-decoration: none; }
+
+#logo a:hover, #menu a:hover { background-color: rgb(153, 51, 51); }
+
+#menu dl { margin: 8px 0px 8px 4px; padding-left: 0px; text-align: left; }
+
+#menu dd { margin: 0px 0px 0px 8px; padding-left: 0px; }
+
+#menu dt { font-size: 1.25em; }
+
+#menu input { background-color: rgb(255, 204, 204); border-color: rgb(255, =
+204, 204); width: 90%; }
+
+#menu label { font-size: 0.75em; margin-top: 1.5em; display: block; }
+
+#news { margin: 1em 0px; padding: 0px 0.5em 0.5em; background-color: rgb(23=
+8, 238, 238); }
+
+#news dt { text-align: center; font-weight: bold; margin: 0px; padding: 0.5=
+em 0px 0px; }
+
+#news dd { margin: 0px; padding: 0px 0px 0px 3.5em; text-indent: -3.5em; }
+
+.center { text-align: center; }
+
+.source { font-size: 0.75em; font-style: italic; }
+
+.even { background-color: rgb(255, 238, 238); }
+
+.odd { background-color: rgb(238, 238, 238); }
+
+.code { padding: 0px 2em 0px 0px; }
+
+.sidebar { background-color: rgb(255, 238, 238); border: 1px solid rgb(102,=
+ 0, 0); padding: 0.5em 1em; }
+
+.highlight { background-color: rgb(255, 204, 204); }
+
+.error { border: 1px solid rgb(204, 0, 0); padding: 0.5em 1em; color: rgb(2=
+04, 0, 0); }
+
+.button { white-space: nowrap; padding: 0.125em 0.25em; border: 1px solid r=
+gb(102, 102, 102); }
+
+#adlink { background-color: rgb(102, 0, 0); height: 100px; }
+
+#admiddle { margin: 0.5em 3em; }
+
+#adbottom { margin: 1em 0px 4em 0.5em; }
+
+#adright { float: right; margin: 0px 15% 0.5em 1em; }
+
+@media print {
+  body, #bg, #content { margin: 0px; color: rgb(0, 0, 0); background-color:=
+ rgb(255, 255, 255); background-image: none; font-size: 12pt; }
+  pre, tt { font-size: 12pt; }
+  a { text-decoration: underline; }
+  form, #menu, #logo, #admiddle, #adbottom, #adright { display: none; }
+}
+
+@media screen and (max-width: 640px) {
+  body { background-image: none; }
+  #content { margin: 50px 10px 10px; }
+  #logo { padding: 0px; top: -87px; width: 100%; border-bottom: 1px solid r=
+gb(102, 102, 102); }
+  #logo a { padding: 4px 4px 2px 8px; background-image: url("/style/logo.sv=
+g"); background-size: 61px 61px; background-repeat: no-repeat; background-p=
+osition: right 85px; }
+  #menu { font-size: 84%; position: static; width: 100%; border-top: 1px so=
+lid rgb(102, 102, 102); margin: 1em 0px 0px; }
+  #menu dt { margin: 0px 0px 8px; }
+  #menu dd a { padding: 8px 16px; border-width: 1px; border-style: solid; b=
+order-image: initial; border-color: rgb(153, 51, 51) rgb(0, 0, 0) rgb(0, 0,=
+ 0) rgb(153, 51, 51); }
+  #adright { margin: 0px 0px 1em 0.5em; }
+}
+------MultipartBoundary--qY8xJWHyNuqGmXUxccimAXnA0TSY8Q2amc2qkO8k6Q----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://linux.die.net/style/logo.svg
+
+<svg xmlns=3D"http://www.w3.org/2000/svg" height=3D"120" width=3D"120" vers=
+ion=3D"1">
+<path fill=3D"#111" d=3D"M49 43h500V82H49z"/>
+<path fill=3D"#a44" d=3D"M79.064 27.94c6.96 12.46 7.832 26.413 1.945 31.168=
+s-16.302-1.49-23.263-13.948-7.832-26.413-1.945-31.168 16.3 1.49 23.262 13.9=
+48zM73.02 22.772c4.73 12.555-5.08 27.467-21.915 33.307s-34.317.398-39.05-12=
+.157 5.08-27.466 21.915-33.307 34.317-.398 39.05 12.156zM24.582 67.565c-6.4=
+28-10.927-4.028-22.636 5.36-26.153s22.21 2.49 28.637 13.418 4.027 22.635-5.=
+36 26.152-22.21-2.49-28.638-13.417z"/>
+<path fill=3D"#711" d=3D"M76.04 27c0 11.16-12.664 20.204-28.284 20.204S19.4=
+73 38.16 19.473 27 32.136 6.8 47.756 6.8c15.62 0 28.283 9.045 28.283 20.203=
+z"/>
+<path fill=3D"#e77" d=3D"M26.977 43.686c7.302 11.077 11.882 24.8 10.23 30.6=
+5s-8.915 1.61-16.218-9.467-11.884-24.8-10.23-30.65 8.914-1.61 16.217 9.466z=
+"/>
+<path fill=3D"#411" d=3D"M85.02 51.253c2.56 8.985-5.948 21.4-19 27.727s-25.=
+71 4.176-28.27-4.808c-2.558-8.985 5.95-21.398 19.002-27.727s25.71-4.176 28.=
+268 4.808z"/>
+<path fill=3D"#fff" d=3D"M55.32 12.24c0 1.915-2.392 3.466-5.342 3.466-2.95 =
+0-5.342-1.55-5.342-3.465s2.392-3.464 5.342-3.464c2.95 0 5.342 1.552 5.342 3=
+.465zM32.9 22.5c0 1.915-2.39 3.466-5.34 3.466-2.95 0-5.343-1.55-5.343-3.465=
+s2.392-3.464 5.342-3.464c2.95 0 5.34 1.552 5.34 3.465zM48.422 41.037c0 1.91=
+4-2.392 3.465-5.342 3.465-2.95 0-5.342-1.55-5.342-3.465s2.392-3.465 5.342-3=
+.465c2.95 0 5.342 1.552 5.342 3.465zM73.254 30.114c0 1.914-2.392 3.465-5.34=
+2 3.465-2.95 0-5.342-1.552-5.342-3.466s2.392-3.465 5.342-3.465c2.95 0 5.342=
+ 1.55 5.342 3.464zM17.15 37.106c1.632 2.222 2.53 4.536 2 5.168-.527.63-2.28=
+-.66-3.913-2.882s-2.53-4.536-2.003-5.168c.528-.63 2.28.66 3.915 2.882zM18.5=
+28 45.712c1.633 2.222 2.53 4.536 2.002 5.168-.528.63-2.28-.66-3.914-2.882s-=
+2.53-4.536-2.003-5.168c.528-.63 2.28.66 3.915 2.882zM20.598 54.98c1.633 2.2=
+22 2.53 4.536 2.002 5.168-.528.63-2.28-.66-3.914-2.882s-2.53-4.536-2.003-5.=
+168c.528-.63 2.28.66 3.915 2.882zM29.91 52.332c1.633 2.222 2.53 4.536 2.002=
+ 5.168-.528.63-2.28-.66-3.914-2.882s-2.53-4.536-2.003-5.168c.528-.63 2.28.6=
+6 3.915 2.882zM30.945 60.937c1.633 2.222 2.53 4.536 2.002 5.168-.528.63-2.2=
+8-.66-3.914-2.882s-2.53-4.536-2.003-5.168c.528-.63 2.28.66 3.915 2.882zM32.=
+324 69.874c1.633 2.222 2.53 4.536 2.002 5.168-.528.63-2.28-.66-3.914-2.882s=
+-2.53-4.536-2.003-5.168c.527-.63 2.28.66 3.914 2.882zM53.95 72.954c1.134 1.=
+236.04 3.598-2.446 5.275-2.484 1.676-5.417 2.033-6.55.797s-.04-3.6 2.446-5.=
+276c2.484-1.676 5.417-2.033 6.55-.796zM79.127 46.806c1.134 1.236.04 3.598-2=
+.446 5.275-2.483 1.678-5.416 2.035-6.55.8s-.038-3.6 2.447-5.277c2.484-1.677=
+ 5.417-2.034 6.55-.797z"/>
+<path fill=3D"#fff" d=3D"M24.56 115h-2.32v-3.92h-.08c-.28.68-.68 1.28-1.2 1=
+.84s-1.12 1.04-1.76 1.44c-.68.4-1.4.68-2.16.88-.76.24-1.52.32-2.24.32-1.6 0=
+-2.96-.28-4.12-.84s-2.12-1.36-2.88-2.36c-.8-1-1.36-2.16-1.72-3.48-.4-1.32-.=
+56-2.72-.56-4.2-.04-1.44.16-2.84.56-4.16.36-1.32.92-2.48 1.72-3.48.76-1 1.7=
+2-1.8 2.88-2.4 1.16-.56 2.52-.88 4.12-.88.76 0 1.52.12 2.24.28.72.2 1.44.48=
+ 2.08.88s1.2.84 1.68 1.4.88 1.24 1.16 1.96h.08V86.44h2.52V115M8.04 104.68c0=
+ 1.08.12 2.16.36 3.2s.64 2 1.2 2.8c.56.84 1.24 1.52 2.12 2.04.84.52 1.84.76=
+ 3.08.76 1.32 0 2.44-.24 3.36-.76s1.68-1.2 2.24-2.04c.56-.8 1-1.76 1.24-2.8=
+s.4-2.12.4-3.2c0-1.04-.16-2.12-.4-3.16s-.68-2-1.24-2.84c-.56-.8-1.32-1.48-2=
+.24-2s-2.04-.8-3.36-.8c-1.2 0-2.24.28-3.08.8-.88.52-1.56 1.2-2.12 2-.56.84-=
+.96 1.8-1.2 2.84s-.36 2.12-.36 3.16M29.41 86.44h2.52v4.04h-2.52v-4.04m0 7.9=
+2h2.52V115h-2.52V94.36M51.63 103.24c-.04-.96-.2-1.88-.52-2.76s-.72-1.64-1.2=
+8-2.32-1.24-1.24-2.04-1.64-1.72-.64-2.72-.64c-1.04 0-1.96.24-2.76.64s-1.48.=
+96-2.04 1.64-1.04 1.48-1.36 2.36-.56 1.8-.64 2.72h13.36m-13.36 2.12c0 .92.1=
+2 1.88.36 2.84s.68 1.84 1.24 2.6c.52.8 1.24 1.44 2.12 1.92.84.52 1.84.76 3.=
+08.76 1.84 0 3.28-.48 4.32-1.44s1.76-2.24 2.16-3.84h2.52c-.56 2.36-1.52 4.1=
+6-2.96 5.44s-3.44 1.92-6.04 1.92c-1.64 0-3.04-.28-4.24-.84s-2.16-1.36-2.88-=
+2.36c-.76-1-1.32-2.16-1.68-3.48s-.52-2.72-.52-4.2c0-1.32.16-2.68.52-4 .36-1=
+.28.92-2.44 1.68-3.48.72-1.04 1.68-1.84 2.88-2.48s2.6-.96 4.24-.96 3.04.36 =
+4.24 1c1.16.68 2.12 1.56 2.84 2.64s1.28 2.32 1.6 3.72c.28 1.4.44 2.8.4 4.24=
+H38.27M56.862 115v-4.24h3.36V115h-3.36M63.796 94.36h2.52v3.56h.08c.48-1.24 =
+1.32-2.24 2.56-3 1.2-.76 2.56-1.16 4.04-1.16 1.44 0 2.64.2 3.6.56.96.4 1.76=
+.92 2.36 1.6.56.68.96 1.52 1.24 2.48.24 1 .36 2.12.36 3.32V115h-2.52v-12.88=
+c0-.88-.08-1.68-.24-2.44s-.44-1.44-.84-2-.96-1-1.64-1.32-1.52-.48-2.52-.48c=
+-1.04 0-1.92.2-2.72.56s-1.44.84-2 1.48-.96 1.36-1.28 2.24-.48 1.8-.48 2.8V1=
+15h-2.52V94.36M100.16 103.24c-.04-.96-.2-1.88-.52-2.76s-.72-1.64-1.28-2.32-=
+1.24-1.24-2.04-1.64-1.72-.64-2.72-.64c-1.04 0-1.96.24-2.76.64s-1.48.96-2.04=
+ 1.64-1.04 1.48-1.36 2.36-.56 1.8-.64 2.72h13.36m-13.36 2.12c0 .92.12 1.88.=
+36 2.84s.68 1.84 1.24 2.6c.52.8 1.24 1.44 2.12 1.92.84.52 1.84.76 3.08.76 1=
+.84 0 3.28-.48 4.32-1.44s1.76-2.24 2.16-3.84h2.52c-.56 2.36-1.52 4.16-2.96 =
+5.44s-3.44 1.92-6.04 1.92c-1.64 0-3.04-.28-4.24-.84s-2.16-1.36-2.88-2.36c-.=
+76-1-1.32-2.16-1.68-3.48s-.52-2.72-.52-4.2c0-1.32.16-2.68.52-4 .36-1.28.92-=
+2.44 1.68-3.48.72-1.04 1.68-1.84 2.88-2.48s2.6-.96 4.24-.96 3.04.36 4.24 1c=
+1.16.68 2.12 1.56 2.84 2.64s1.28 2.32 1.6 3.72c.28 1.4.44 2.8.4 4.24H86.8M1=
+10.1 94.36h4.2v2.12h-4.2v13.92c0 .84.08 1.48.32 1.96s.8.72 1.72.76c.72 0 1.=
+44-.04 2.16-.12v2.12c-.4 0-.76.04-1.12.04-.4.04-.76.04-1.12.04-1.68 0-2.88-=
+.32-3.52-.96-.68-.64-1-1.88-.96-3.64V96.48h-3.6v-2.12h3.6v-6.2h2.52v6.2"/>
+</svg>=0A
+------MultipartBoundary--qY8xJWHyNuqGmXUxccimAXnA0TSY8Q2amc2qkO8k6Q----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://linux.die.net/style/back.gif
+
+R0lGODlhFAAWAIQAAJSIiKyqqOvh4YRcWrN/f/Xy8MCdns/RzpiZls6trYBFRcOYmP7//KFgYdzE
+wqGjoP///////////////////////////////////////////////////////////////yH5BAEA
+ABAALAAAAAAUABYAAAVjICSOZGmeSIoAw4mqauuOcD2LtT3n+ssjj4Dr9zgwGDcA7FE4Im8QZaDp
+LC1MCqPzSDI8RY0Fdft1bMfkKsScbh8dEIHbnYjP23CR/H4sNEpoaQIELmxbDoRQCV9QJYmNkCch
+ADs=
+
+------MultipartBoundary--qY8xJWHyNuqGmXUxccimAXnA0TSY8Q2amc2qkO8k6Q----
+Content-Type: text/html
+Content-ID: <frame-AF0B68284EE41F8EAC7AC470FF9016A8@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3DUTF-8"></head><body></body></html>
+------MultipartBoundary--qY8xJWHyNuqGmXUxccimAXnA0TSY8Q2amc2qkO8k6Q----
+Content-Type: text/html
+Content-ID: <frame-6B01786C3877DCBCE2A1C3E0C6A01520@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://googleads.g.doubleclick.net/pagead/html/r20240306/r20190131/zrt_lookup_nohtml_fy2021.html
+
+<!DOCTYPE html><html><head><meta http-equiv=3D"Content-Type" content=3D"tex=
+t/html; charset=3DUTF-8">
+</head><body></body></html>
+------MultipartBoundary--qY8xJWHyNuqGmXUxccimAXnA0TSY8Q2amc2qkO8k6Q----
+Content-Type: text/html
+Content-ID: <frame-952E065BE73AD8A3D47EC2DAC054D9A4@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-5823754184406795&output=html&h=280&slotname=7130739364&adk=1862536188&adf=3894714692&pi=t.ma~as.7130739364&w=336&lmt=1710118589&format=336x280&url=https%3A%2F%2Flinux.die.net%2Fman%2F1%2Fafio&wgl=1&uach=WyJXaW5kb3dzIiwiMTAuMC4wIiwieDg2IiwiIiwiMTIyLjAuNjI2MS4xMTIiLG51bGwsMCxudWxsLCI2NCIsW1siQ2hyb21pdW0iLCIxMjIuMC42MjYxLjExMiJdLFsiTm90KEE6QnJhbmQiLCIyNC4wLjAuMCJdLFsiR29vZ2xlIENocm9tZSIsIjEyMi4wLjYyNjEuMTEyIl1dLDBd&dt=1710118589128&bpp=3&bdt=326&idt=227&shv=r20240306&mjsv=m202403040101&ptt=9&saldr=aa&abxe=1&correlator=282066934597&frm=20&pv=2&ga_vid=1816911955.1710118589&ga_sid=1710118589&ga_hid=1697592948&ga_fc=1&ga_wpids=UA-50820-6&u_tz=-300&u_his=3&u_h=1080&u_w=1920&u_ah=1040&u_aw=1920&u_cd=24&u_sd=1&dmc=8&adx=546&ady=354&biw=1106&bih=929&scr_x=0&scr_y=0&eid=44759876%2C44759927%2C44759837%2C42532523%2C95326315%2C95321957%2C31081572%2C95324161%2C95325784%2C95326914%2C31078663%2C31078665%2C31078668%2C31078670&oid=2&pvsid=4016333650844622&tmod=1732324087&uas=0&nvt=1&ref=https%3A%2F%2Fwww.google.com%2F&fc=896&brdim=759%2C16%2C759%2C16%2C1920%2C0%2C1139%2C1025%2C1123%2C929&vis=1&rsz=%7C%7CleE%7C&abl=CS&pfx=0&fu=0&bc=31&bz=1.01&td=1&psd=W251bGwsbnVsbCxudWxsLDNd&nt=1&ifi=1&uci=a!1&fsb=1&dtd=241
+
+<!DOCTYPE html><html><head><meta http-equiv=3D"Content-Type" content=3D"tex=
+t/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/css" href=3D=
+"cid:css-492100fb-52e9-4753-940d-3072c02bf89b@mhtml.blink" /><link rel=3D"s=
+tylesheet" type=3D"text/css" href=3D"cid:css-1f72c771-ff48-4be8-9441-c674b9=
+957cdc@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"ci=
+d:css-81c8ba40-438b-4bb8-a1b3-6aa51cd49e3d@mhtml.blink" /><link rel=3D"styl=
+esheet" type=3D"text/css" href=3D"cid:css-d0f91131-8b44-476e-a7b9-ee80ec09a=
+570@mhtml.blink" /><meta data-asoch-meta=3D"[[[&quot;btnClk&quot;,[null,nul=
+l,null,null,8]],[&quot;ad0&quot;,[null,&quot;https://www.googleadservices.c=
+om/pagead/aclk?sa=3DL\u0026ai=3DCumPrvVbuZdPqIf2Bt7UP2auukArc4NmEdsu8of_HEc=
+G3iumdDhABIIeJ9QFgyaaEiPCjrBWgAeag-NACyAECqAMByAPJBKoEzgFP0D7FidtDZUKtBU-Bg=
+lqvGFmsh4Z8-2-w_LTeztc05T3zrWeq2FbOjJ6MjBXWpre6FKdQkHLciOfbuCTM0qiSOk9UGC_N=
+gYg2T9jJq5KJqicAbbsQLZKT1P-HWRJS5XkvAkdndkcrD4AotK0ObRVsWfOpNkfqdM2ePnp3e7s=
+rXpPZGwk3jaI17-3xEt38oRrSPDOvHY7EqwMlzU9-gxCtRgOYMpsakQmG4mJ77H9hpLgQ6gXM6k=
+xP3G12MKG6haLxav4jOm7vODPkw9oincAEgbSxmacEiAXmqKn2QKAGAoAHgt-HrwGoB9m2sQKoB=
+6--sQKoB9XJG6gHpr4bqAeOzhuoB5PYG6gH7paxAqgH_p6xAqgHmgaoB_PRG6gHltgbqAeqm7EC=
+qAeDrbECqAfgvbECqAf_nrECqAffn7ECqAfKqbECqAfrpbECqAfqsbECqAeZtbECqAe-t7EC2Ac=
+B0ggtCIDhgEAQARgeMgSLgoAOOg6A0ICAgIAEgMCAgICgKEi9_cE6WJSitZiA64QDsQntcWMRN5=
+z5z4AKAZgLAcgLAdoMEQoLEKCPr-bFxcqg6QESAgEDqg0CVVPIDQHYEwzQFQH4FgGAFwGyGAkSA=
+v1OGAIiAQA\u0026ae=3D1\u0026ase=3D2\u0026gclid=3DEAIaIQobChMIk723mIDrhAMV_c=
+CtAB3ZlQuiEAEYASAAEgKX4fD_BwE\u0026num=3D1\u0026cid=3DCAQSPAB7FLtq8wbGg9ozl=
+vZ19Rze8KFO8S2jkAi0GpF_d9TlD15XF744SGXJLblXo4u79swNwR1X7hH_aDYMDhgB\u0026si=
+g=3DAOD64_17_fK_LhwTSqRYlYxT3mAOpz-gKg\u0026client=3Dca-pub-582375418440679=
+5\u0026rf=3D2\u0026adurl=3Dhttps://geteasypdf.com/pdf/lp5/%3Fmain%3Dheadlin=
+e3%26lower%3Dheadline3%26utm_source%3Doh-gdn%26utm_medium%3D147961174529%26=
+utm_campaign%3D17428010086%26utm_term%3Dlinux.die.net%26utm_content%3D66687=
+7689088%26gclid%3DEAIaIQobChMIk723mIDrhAMV_cCtAB3ZlQuiEAEYASAAEgKX4fD_BwE&q=
+uot;,null,null,17,null,null,[null,&quot;https://geteasypdf.com/pdf/lp5/?mai=
+n=3Dheadline3\u0026lower=3Dheadline3&quot;,&quot;&quot;],&quot;https://goog=
+leads.g.doubleclick.net/pagead/interaction/?ai=3DCumPrvVbuZdPqIf2Bt7UP2auuk=
+Arc4NmEdsu8of_HEcG3iumdDhABIIeJ9QFgyaaEiPCjrBWgAeag-NACyAECqAMByAPJBKoEzgFP=
+0D7FidtDZUKtBU-BglqvGFmsh4Z8-2-w_LTeztc05T3zrWeq2FbOjJ6MjBXWpre6FKdQkHLciOf=
+buCTM0qiSOk9UGC_NgYg2T9jJq5KJqicAbbsQLZKT1P-HWRJS5XkvAkdndkcrD4AotK0ObRVsWf=
+OpNkfqdM2ePnp3e7srXpPZGwk3jaI17-3xEt38oRrSPDOvHY7EqwMlzU9-gxCtRgOYMpsakQmG4=
+mJ77H9hpLgQ6gXM6kxP3G12MKG6haLxav4jOm7vODPkw9oincAEgbSxmacEiAXmqKn2QKAGAoAH=
+gt-HrwGoB9m2sQKoB6--sQKoB9XJG6gHpr4bqAeOzhuoB5PYG6gH7paxAqgH_p6xAqgHmgaoB_P=
+RG6gHltgbqAeqm7ECqAeDrbECqAfgvbECqAf_nrECqAffn7ECqAfKqbECqAfrpbECqAfqsbECqA=
+eZtbECqAe-t7EC2AcB0ggtCIDhgEAQARgeMgSLgoAOOg6A0ICAgIAEgMCAgICgKEi9_cE6WJSit=
+ZiA64QDsQntcWMRN5z5z4AKAZgLAcgLAdoMEQoLEKCPr-bFxcqg6QESAgEDqg0CVVPIDQHYEwzQ=
+FQH4FgGAFwGyGAkSAv1OGAIiAQA\u0026sigh=3D0-TE0pzJYJQ\u0026cid=3DCAQSPAB7FLtq=
+8wbGg9ozlvZ19Rze8KFO8S2jkAi0GpF_d9TlD15XF744SGXJLblXo4u79swNwR1X7hH_aDYMDg&=
+quot;,null,&quot;_top&quot;,null,null,null,null,1]]],1,null,null,&quot;aw0&=
+quot;]"><meta http-equiv=3D"origin-trial" content=3D"AqgsqKkFpW6rufE+US5aH7=
+0P+FAXd+rJo4/JhHS0tUc0EF+uOPe2QL7m4iGY8q+jPdirnGzoVc1gKg9Te+E3OgIAAAB7eyJvc=
+mlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQXR0cmlidXRp=
+b25SZXBvcnRpbmdDcm9zc0FwcFdlYiIsImV4cGlyeSI6MTcxNDUyMTU5OSwiaXNTdWJkb21haW4=
+iOnRydWV9"><meta http-equiv=3D"origin-trial" content=3D"ArYcxyJSLOkWhsN3xLI=
+G+rNZJl3GEMEV1HJXMI7TfGoA4ffSCG6Ak9Pu5lL4/b8+uCihOf8DgZfPTeXKz98FkAYAAACBey=
+JvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ=
+XR0cmlidXRpb25SZXBvcnRpbmdDcm9zc0FwcFdlYiIsImV4cGlyeSI6MTcxNDUyMTU5OSwiaXNT=
+dWJkb21haW4iOnRydWV9"><meta http-equiv=3D"origin-trial" content=3D"AxjhRadL=
+CARYRJawRjMjq4U8V8okQvSnrBIJWdMajuEkN3/DfVAcLcFhMVrUWnOXagwlI8dQD84FwJDGj9o=
+hqAYAAABveyJvcmlnaW4iOiJodHRwczovL2dvb2dsZWFkc2VydmljZXMuY29tOjQ0MyIsImZlYX=
+R1cmUiOiJGZXRjaExhdGVyQVBJIiwiZXhwaXJ5IjoxNzI1NDA3OTk5LCJpc1RoaXJkUGFydHkiO=
+nRydWV9"></head><body leftmargin=3D"0" topmargin=3D"0" marginwidth=3D"0" ma=
+rginheight=3D"0" style=3D"background-color:transparent" class=3D"jar"><div =
+id=3D"google-center-div"><div id=3D"google_image_div" style=3D"height: 280p=
+x; width: 336px; overflow:hidden; position:relative" class=3D"GoogleActiveV=
+iewElement" data-google-av-cxn=3D"https://pagead2.googlesyndication.com/pcs=
+/activeview?xai=3DAKAOjsuCc6Scc8tzslbdGIfjRezUhusxzgTmXo9JgjBa8VIpOvErdkxAd=
+IIuurzLKJLsmjJhPizSOSP6kufC5qJV2NQmOdR6aUl9FW6vP-LkUshYwaXTdOPc48P46bTrWXbC=
+7D7kEso0wTw-WQrQrP3XWGZ7D--RTO24cigbDCQ6vQkFwyQ&amp;sai=3DAMfl-YQ2vA-ClP_ZY=
+WXIBHZgMYoF1p3L9V2I6xgCyMTrjdotVVlVA5zRTFGdAtCNrS00S01FKr2mrdRL8WLRKYljtvwG=
+tL7BnKFaOG7P9wh32pfnnzKk1Vqzcp-lssux&amp;sig=3DCg0ArKJSzImsuPtSDFxnEAE&amp;=
+cid=3DCAQSPAB7FLtq8wbGg9ozlvZ19Rze8KFO8S2jkAi0GpF_d9TlD15XF744SGXJLblXo4u79=
+swNwR1X7hH_aDYMDhgB" data-google-av-adk=3D"1862536188" data-google-av-metad=
+ata=3D"la=3D0&amp;xdi=3D0&amp;" data-google-av-ufs-integrator-metadata=3D"C=
+pMBCkFtb2RlbF9wZXJzb25fY291bnRyeV9jb2RlX1VTX3BlcnNvbl9yZWdpb25fY29kZV80OTRj=
+NWYzNjM4MzIuanNvbhIaQ0pPOXQ1aUE2NFFERmYzQXJRQWQyWlVMb2cYASIfCJgWEJulARiDhT4=
+g19OmBCgCMAI4AV1mZiY_YOqfDCiaqoaQ-v____8BMJqqhpACEvUDCuoDaHR0cHM6Ly9wYWdlYW=
+QyLmdvb2dsZXN5bmRpY2F0aW9uLmNvbS9wY3MvYWN0aXZldmlldz94YWk9QUtBT2pzdUNjNlNjY=
+zh0enNsYmRHSWZqUmV6VWh1c3h6Z1RtWG85SmdqQmE4VklwT3ZFcmRreEFkSUl1dXJ6TEtKTHNt=
+akpoUGl6U09TUDZrdWZDNXFKVjJOUW1PZFI2YVVsOUZXNnZQLUxrVXNoWXdhWFRkT1BjNDhQNDZ=
+iVHJXWGJDN0Q3a0VzbzB3VHctV1FyUXJQM1hXR1o3RC0tUlRPMjRjaWdiRENRNnZRa0Z3eVEmc2=
+FpPUFNZmwtWVEydkEtQ2xQX1pZV1hJQkhaZ01Zb0YxcDNMOVYySTZ4Z0N5TVRyamRvdFZWbFZBN=
+XpSVEZHZEF0Q05yUzAwUzAxRktyMm1yZFJMOFdMUktZbGp0dndHdEw3Qm5LRmFPRzdQOXdoMzJw=
+Zm5uektrMVZxemNwLWxzc3V4JnNpZz1DZzBBcktKU3pJbXN1UHRTREZ4bkVBRSZjaWQ9Q0FRU1B=
+BQjdGTHRxOHdiR2c5b3psdloxOVJ6ZThLRk84UzJqa0FpMEdwRl9kOVRsRDE1WEY3NDRTR1hKTG=
+JsWG80dTc5c3dOd1IxWDdoSF9hRFlNRGhnQhIAGgAgASgA" data-google-av-override=3D"=
+-1" data-google-av-dm=3D"2" data-google-av-aid=3D"0" data-google-av-naid=3D=
+"1" data-google-av-slift=3D"" data-google-av-cpmav=3D"" data-google-av-btr=
+=3D"" data-google-av-itpl=3D"4" data-google-av-rs=3D"2" data-google-av-flag=
+s=3D"[&quot;x%278440'9efotm(&amp;753374%2bejvf/%27844>'9wuvb$&amp;56533>!=
+=3D|vqc)!273794&amp;<qqvb/%<1735020!=3Dnehu`/!364=3D5051!9abk{a($160210:3&a=
+mp;<cbotf+*0150034:%2bejvf/%72;17613!=3Defdwa*'76463;21$?ebkpb$&amp;0366717=
+>*>bgipf+!3=3D712363%9aihwc)!7202<217'9efotm(&amp;20061;48&amp;>`dopb/%<170=
+7200!=3D8(&amp;2005575?&amp;>`dopb/%<170642?!=3D|vqc)!7201;=3D50'9wuvb$&amp=
+;03641654*>bgipf+!3=3D731103%9aihwc)!7200?073'9efotm(&amp;2004?51;&amp;>`do=
+pb/%<17>474>!=3Dnehu`/!36406412!9abk{a($167745;=3D&amp;<cbotf+*01254133%2pv=
+s`/!36383624!9abk{a($167574>7&amp;<qqvb/%<104203?!=3Dnehu`/!363:<332!9abk{a=
+($167437:3&amp;<cbotf+*012635?1%2bejvf/%72>5<22;!=3Defdwa{&quot;]" data-cre=
+ative-load-listener=3D""><a id=3D"aw0" target=3D"_top" href=3D"https://www.=
+googleadservices.com/pagead/aclk?nis=3D4&amp;sa=3DL&amp;ai=3DCumPrvVbuZdPqI=
+f2Bt7UP2auukArc4NmEdsu8of_HEcG3iumdDhABIIeJ9QFgyaaEiPCjrBWgAeag-NACyAECqAMB=
+yAPJBKoEzgFP0D7FidtDZUKtBU-BglqvGFmsh4Z8-2-w_LTeztc05T3zrWeq2FbOjJ6MjBXWpre=
+6FKdQkHLciOfbuCTM0qiSOk9UGC_NgYg2T9jJq5KJqicAbbsQLZKT1P-HWRJS5XkvAkdndkcrD4=
+AotK0ObRVsWfOpNkfqdM2ePnp3e7srXpPZGwk3jaI17-3xEt38oRrSPDOvHY7EqwMlzU9-gxCtR=
+gOYMpsakQmG4mJ77H9hpLgQ6gXM6kxP3G12MKG6haLxav4jOm7vODPkw9oincAEgbSxmacEiAXm=
+qKn2QKAGAoAHgt-HrwGoB9m2sQKoB6--sQKoB9XJG6gHpr4bqAeOzhuoB5PYG6gH7paxAqgH_p6=
+xAqgHmgaoB_PRG6gHltgbqAeqm7ECqAeDrbECqAfgvbECqAf_nrECqAffn7ECqAfKqbECqAfrpb=
+ECqAfqsbECqAeZtbECqAe-t7EC2AcB0ggtCIDhgEAQARgeMgSLgoAOOg6A0ICAgIAEgMCAgICgK=
+Ei9_cE6WJSitZiA64QDsQntcWMRN5z5z4AKAZgLAcgLAdoMEQoLEKCPr-bFxcqg6QESAgEDqg0C=
+VVPIDQHYEwzQFQH4FgGAFwGyGAkSAv1OGAIiAQA&amp;ae=3D1&amp;ase=3D2&amp;gclid=3D=
+EAIaIQobChMIk723mIDrhAMV_cCtAB3ZlQuiEAEYASAAEgKX4fD_BwE&amp;num=3D1&amp;cid=
+=3DCAQSPAB7FLtq8wbGg9ozlvZ19Rze8KFO8S2jkAi0GpF_d9TlD15XF744SGXJLblXo4u79swN=
+wR1X7hH_aDYMDhgB&amp;sig=3DAOD64_17_fK_LhwTSqRYlYxT3mAOpz-gKg&amp;client=3D=
+ca-pub-5823754184406795&amp;rf=3D2&amp;nb=3D17&amp;adurl=3Dhttps://geteasyp=
+df.com/pdf/lp5/%3Fmain%3Dheadline3%26lower%3Dheadline3%26utm_source%3Doh-gd=
+n%26utm_medium%3D147961174529%26utm_campaign%3D17428010086%26utm_term%3Dlin=
+ux.die.net%26utm_content%3D666877689088%26gclid%3DEAIaIQobChMIk723mIDrhAMV_=
+cCtAB3ZlQuiEAEYASAAEgKX4fD_BwE" data-asoch-targets=3D"ad0" attributionsrc=
+=3D""><img src=3D"https://tpc.googlesyndication.com/simgad/1469926592644781=
+2150?sqp=3D4sqPyQQrQikqJwhfEAEdAAC0QiABKAEwCTgDQPCTCUgAUAFYAWBfcAJ4AcUBLbKd=
+Pg&amp;rs=3DAOga4qlUJ8DFKaO-Ssb8MNepZQTxOLMrgQ" border=3D"0" width=3D"336" =
+alt=3D"" class=3D"img_ad"></a><div id=3D"abgc" class=3D"abgc" dir=3D"ltr"><=
+div id=3D"abgb" class=3D"abgb"><div class=3D"il-wrap"><div class=3D"il-icon=
+"><svg xmlns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.or=
+g/1999/xlink" viewBox=3D"0 0 15 15"><circle cx=3D"6" cy=3D"6" r=3D"0.67"></=
+circle><path d=3D"M4.2,11.3Q3.3,11.8,3.3,10.75L3.3,4.1Q3.3,3.1,4.3,3.5L10.4=
+,7.0Q12.0,7.5,10.4,8.0L6.65,10.0L6.65,7.75a0.65,0.65,0,1,0,-1.3,0L5.35,10.7=
+5a0.9,0.9,0,0,0,1.3,0.8L12.7,8.2Q13.7,7.5,12.7,6.7L3.3,1.6Q2.2,1.3,1.8,2.5L=
+1.8,12.5Q2.2,13.9,3.3,13.3L4.8,12.5A0.3,0.3,0,1,0,4.2,11.3Z"></path></svg><=
+/div></div></div><div id=3D"abgs" class=3D"abgs"><a id=3D"abgl" class=3D"ab=
+gl" href=3D"https://adssettings.google.com/whythisad?source=3Ddisplay&amp;r=
+easons=3DATItlYM8bcdq85N_Doi_IcLWKlXfY2bS0o2cI2hprHRppuLpOBaYWSe_kgCL0oBfUn=
+sJT98YEP5f6v32blmC1izy11RAiuGu3lOWtlomfxFcSeM4lmAFU8zNLcEDngBg_qBqa8Sa-f30f=
+BEsQXnGkKOP_EHChbdZmvPdfom4KSDpVJUsoaCGlmUJ0RHyfEmk5x9J2CQrVHpvw1UQkohHIvdu=
+Wh9UQ64AAE7V8Fu5Qs1jDbz8tz_VIIlfG2S0_MGiu09KvF0piT5SLPM6JIxbpDqxCM2_PxNHXr7=
+9_uiqho-rIGnmP9q0_JQRuCFVRLnSmA4rA9YPntMa6jfa8RsLKZSHiDhEoIGsJeybLRrAaqHiKQ=
+_PfNixkWCNq3BvZxj8lTW7oFAmh8roUu3cQL1YCT_U8W9vKtbdvoCjYY539G84OiuNIYbayWcN7=
+-09H2Jtd2J4OUr7mvih_GJ5KQumJexK4P1jEwJNkSyHjTchHZpOw83PEbvmTaiomGH4_f5TlOev=
+gu__L8gK1_fHt6jyG9Za8Hl1H49i9H6GeN6F-zG55dDj3qhfo-H9oVFT3xlgIL3aoCUJJkJBkUW=
+Ny5P3BP6ZGWoqBEgwAYJbMrGml5urMX6f2jtx8BaB5NO0OrRdWUThX3s0EMblUeLnjdpDEr1Zxw=
+MoxfkyLlk7SIvki_UaqwAjIlRHYqrDY_Qy1T0rBOJtEJylH_CrKgGb3aWQ1pbhN6YwBJH8f_Hpn=
+zrx9-hXZ4w4LEDPU1uKYynCSCtf13UTa5cMprasccCjSi3R3D4a30Oun1YtlYFdfcOhJ831jjkZ=
+CJnY-QNFq8Xy_K52sQrkRgGA4cFkMTYJKpCLFsdPPs_XYZ-6s2WrmvZPUfV26k5ClcN2U5bz3cV=
+oE4ibv66QEEaglqjVbeQv5s_wuIYY_HZokZFQoAjnE_M1Pxjw54TLiYawqCsFevhmZiYniY7CUT=
+e-TBzmz4MPeeAr-4w9UJgJdPmq4G2FhriwGuPZAz0ixiRZrZWpsWcFnVRho8lpkGf66IkavQbVk=
+hi2AC1DCeHUA-M83MquOHZ-YUfHytG52nBFLu1Rz7-qflK5nkMg9TFL6KUDQlM6qxbxF5to3PPT=
+yQSgeblxE105pc0mLvbQ7TBLm8hf0y7oJk3901uu5TPr45NMWWviTINaks5P2J4Hj8ECUAWTVMS=
+lMKngtvgrn4tN1ldejPS3e3kSMCelaYPpBCeJMXN4PnY45Y1ZbJnLDV_fKT95TOYIzg-7SobwCH=
+QyyELvhzNIxB_iJSaXMGXL55GWC7Ky7U2nTuWge7z3b8wGEDooFQLYN_yiJO67DmJABN_fzP2ci=
+k6nOCY775ShFd3Sl8l9MAIHTJhhgx897SVgfguCU7q3cqaHeuwVBELaaGqDmETqWCY2o6uS5rNU=
+fGfm_WxfylSVrLPBey-QcPB9JWqCFdl4ltw4KAiRS61bY61_zMywYK6-MayERM_oQxoDJGaLQIh=
+w4N6S_5-_WBxV8QiBk6knJ7NXp_VMbsbGnPaosKlwoQIEAQX3StAe3oLqVuw8UzTXS-mPSWB7V6=
+JdK_t_r2MQCxOQa0GNLkdCNfqzD-8XVus5CD-Xs9ykzFDK_oa1FRu2poQaGGQ_piwRgmgiC3Bt3=
+OJxMbe6XINKhpGHR2bEFStRCB7SQvlQzmQXZ1Pbdbx9sm7iwCIyK6GlbxXsqvgyHAny3l8cDisZ=
+HczfdvQTD96lcDOs0IRor8j2kb2tGFCur5PG5xvBSIMQILqgHUV9TnHQGUlhrlVq1LuU43xTpHk=
+96aNseIZEfKQwftY9yQ0OVaeOBVYXge1cFescUV9HR9pdmd1nSdi7nvcYnDYEMGWK7Q&amp;opi=
+=3D122715837" target=3D"_blank"><div class=3D"il-wrap exp"><div class=3D"il=
+-text"><svg xmlns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.=
+w3.org/1999/xlink" viewBox=3D"0 0 59 16"><path d=3D"M4.51 4.24L8.02 12.83L6=
+.73 12.83L5.72 10.21L2.14 10.21L1.19 12.83L-0.01 12.83L3.29 4.24L4.51 4.24Z=
+M2.46 9.31L5.38 9.31L5.38 9.31Q4.32 6.52 4.19 6.14L4.19 6.14L4.19 6.14Q4.05=
+ 5.77 3.89 5.13L3.89 5.13L3.86 5.13L3.86 5.13Q3.70 6 3.42 6.74L3.42 6.74L2.=
+46 9.31ZM13.83 4.24L13.83 12.83L12.85 12.83L12.85 12.04L12.83 12.04L12.83 1=
+2.04Q12.26 12.97 11.11 12.97L11.11 12.97L11.11 12.97Q9.97 12.97 9.20 12.07L=
+9.20 12.07L9.20 12.07Q8.44 11.16 8.44 9.72L8.44 9.72L8.44 9.72Q8.44 8.21 9.=
+16 7.34L9.16 7.34L9.16 7.34Q9.88 6.47 11.06 6.47L11.06 6.47L11.06 6.47Q12.1=
+8 6.47 12.76 7.32L12.76 7.32L12.78 7.32L12.78 4.24L13.83 4.24ZM11.22 12.11L=
+11.22 12.11L11.22 12.11Q11.91 12.11 12.39 11.54L12.39 11.54L12.39 11.54Q12.=
+87 10.97 12.87 9.81L12.87 9.81L12.87 9.81Q12.87 8.68 12.43 8.00L12.43 8.00L=
+12.43 8.00Q11.99 7.33 11.17 7.33L11.17 7.33L11.17 7.33Q10.35 7.33 9.93 7.99=
+L9.93 7.99L9.93 7.99Q9.52 8.65 9.52 9.72L9.52 9.72L9.52 9.72Q9.52 10.49 9.7=
+4 11.03L9.74 11.03L9.74 11.03Q9.97 11.57 10.37 11.84L10.37 11.84L10.37 11.8=
+4Q10.78 12.11 11.22 12.11ZM21.74 9.81L22.88 10.10L22.88 10.10Q22.50 11.55 2=
+1.57 12.26L21.57 12.26L21.57 12.26Q20.63 12.97 19.32 12.97L19.32 12.97L19.3=
+2 12.97Q17.21 12.97 16.25 11.65L16.25 11.65L16.25 11.65Q15.29 10.33 15.29 8=
+.47L15.29 8.47L15.29 8.47Q15.29 6.42 16.42 5.25L16.42 5.25L16.42 5.25Q17.55=
+ 4.09 19.34 4.09L19.34 4.09L19.34 4.09Q20.59 4.09 21.48 4.73L21.48 4.73L21.=
+48 4.73Q22.37 5.37 22.73 6.60L22.73 6.60L21.62 6.86L21.62 6.86Q21.33 5.96 2=
+0.76 5.51L20.76 5.51L20.76 5.51Q20.19 5.06 19.32 5.06L19.32 5.06L19.32 5.06=
+Q17.92 5.06 17.19 5.99L17.19 5.99L17.19 5.99Q16.46 6.91 16.46 8.46L16.46 8.=
+46L16.46 8.46Q16.46 10.25 17.23 11.13L17.23 11.13L17.23 11.13Q17.99 12 19.2=
+2 12L19.22 12L19.22 12Q20.23 12 20.86 11.46L20.86 11.46L20.86 11.46Q21.49 1=
+0.91 21.74 9.81L21.74 9.81ZM29.23 8.89L29.23 12.83L28.17 12.83L28.17 8.90L2=
+8.17 8.90Q28.17 8.14 27.84 7.76L27.84 7.76L27.84 7.76Q27.51 7.38 26.86 7.38=
+L26.86 7.38L26.86 7.38Q26.21 7.38 25.71 7.83L25.71 7.83L25.71 7.83Q25.20 8.=
+27 25.20 9.43L25.20 9.43L25.20 12.83L24.15 12.83L24.15 4.24L25.20 4.24L25.2=
+0 7.32L25.20 7.32Q25.95 6.47 27.08 6.47L27.08 6.47L27.08 6.47Q27.68 6.47 28=
+.23 6.71L28.23 6.71L28.23 6.71Q28.78 6.96 29.00 7.47L29.00 7.47L29.00 7.47Q=
+29.23 7.98 29.23 8.89L29.23 8.89ZM33.35 6.47L33.35 6.47L33.35 6.47Q34.61 6.=
+47 35.44 7.29L35.44 7.29L35.44 7.29Q36.27 8.11 36.27 9.62L36.27 9.62L36.27 =
+9.62Q36.27 11.46 35.37 12.21L35.37 12.21L35.37 12.21Q34.48 12.97 33.35 12.9=
+7L33.35 12.97L33.35 12.97Q32.17 12.97 31.31 12.19L31.31 12.19L31.31 12.19Q3=
+0.44 11.41 30.44 9.72L30.44 9.72L30.44 9.72Q30.44 8.08 31.28 7.27L31.28 7.2=
+7L31.28 7.27Q32.12 6.47 33.35 6.47ZM33.35 12.11L33.35 12.11L33.35 12.11Q34.=
+25 12.11 34.72 11.44L34.72 11.44L34.72 11.44Q35.19 10.77 35.19 9.68L35.19 9=
+.68L35.19 9.68Q35.19 8.51 34.66 7.92L34.66 7.92L34.66 7.92Q34.13 7.33 33.35=
+ 7.33L33.35 7.33L33.35 7.33Q32.55 7.33 32.03 7.93L32.03 7.93L32.03 7.93Q31.=
+52 8.53 31.52 9.72L31.52 9.72L31.52 9.72Q31.52 10.90 32.04 11.50L32.04 11.5=
+0L32.04 11.50Q32.57 12.11 33.35 12.11ZM38.55 6.61L38.55 12.83L37.49 12.83L3=
+7.49 6.61L38.55 6.61ZM38.55 4.24L38.55 5.43L37.49 5.43L37.49 4.24L38.55 4.2=
+4ZM44.20 10.55L45.25 10.68L45.25 10.68Q45.05 11.87 44.31 12.42L44.31 12.42L=
+44.31 12.42Q43.58 12.97 42.66 12.97L42.66 12.97L42.66 12.97Q41.30 12.97 40.=
+56 12.08L40.56 12.08L40.56 12.08Q39.83 11.20 39.83 9.73L39.83 9.73L39.83 9.=
+73Q39.83 8.52 40.25 7.79L40.25 7.79L40.25 7.79Q40.68 7.06 41.31 6.76L41.31 =
+6.76L41.31 6.76Q41.95 6.47 42.66 6.47L42.66 6.47L42.66 6.47Q43.62 6.47 44.3=
+0 6.97L44.30 6.97L44.30 6.97Q44.98 7.46 45.14 8.43L45.14 8.43L44.12 8.59L44=
+.12 8.59Q43.96 7.96 43.61 7.65L43.61 7.65L43.61 7.65Q43.25 7.33 42.70 7.33L=
+42.70 7.33L42.70 7.33Q41.82 7.33 41.36 7.96L41.36 7.96L41.36 7.96Q40.90 8.5=
+8 40.90 9.71L40.90 9.71L40.90 9.71Q40.90 10.86 41.35 11.48L41.35 11.48L41.3=
+5 11.48Q41.80 12.11 42.64 12.11L42.64 12.11L42.64 12.11Q43.32 12.11 43.71 1=
+1.72L43.71 11.72L43.71 11.72Q44.10 11.33 44.20 10.55L44.20 10.55ZM51.56 9.9=
+8L51.56 9.98L46.90 9.98L46.90 9.98Q46.97 11.02 47.49 11.56L47.49 11.56L47.4=
+9 11.56Q48.02 12.11 48.80 12.11L48.80 12.11L48.80 12.11Q49.41 12.11 49.82 1=
+1.79L49.82 11.79L49.82 11.79Q50.23 11.47 50.44 10.82L50.44 10.82L51.53 10.9=
+6L51.53 10.96Q51.26 11.93 50.56 12.45L50.56 12.45L50.56 12.45Q49.86 12.97 4=
+8.80 12.97L48.80 12.97L48.80 12.97Q47.40 12.97 46.61 12.11L46.61 12.11L46.6=
+1 12.11Q45.83 11.26 45.83 9.77L45.83 9.77L45.83 9.77Q45.83 8.30 46.59 7.38L=
+46.59 7.38L46.59 7.38Q47.36 6.47 48.74 6.47L48.74 6.47L48.74 6.47Q49.42 6.4=
+7 50.05 6.77L50.05 6.77L50.05 6.77Q50.68 7.07 51.12 7.78L51.12 7.78L51.12 7=
+.78Q51.56 8.50 51.56 9.98ZM46.96 9.12L50.48 9.12L50.48 9.12Q50.41 8.17 49.8=
+9 7.75L49.89 7.75L49.89 7.75Q49.37 7.33 48.74 7.33L48.74 7.33L48.74 7.33Q48=
+ 7.33 47.52 7.83L47.52 7.83L47.52 7.83Q47.04 8.33 46.96 9.12L46.96 9.12ZM57=
+.33 8.21L56.30 8.35L56.30 8.35Q56.23 7.84 55.89 7.58L55.89 7.58L55.89 7.58Q=
+55.55 7.33 54.94 7.33L54.94 7.33L54.94 7.33Q54.33 7.33 53.96 7.54L53.96 7.5=
+4L53.96 7.54Q53.59 7.74 53.59 8.13L53.59 8.13L53.59 8.13Q53.59 8.50 53.89 8=
+.66L53.89 8.66L53.89 8.66Q54.18 8.82 55.05 9.05L55.05 9.05L55.05 9.05Q56.04=
+ 9.30 56.53 9.49L56.53 9.49L56.53 9.49Q57.02 9.69 57.29 10.03L57.29 10.03L5=
+7.29 10.03Q57.56 10.38 57.56 11.00L57.56 11.00L57.56 11.00Q57.56 11.84 56.8=
+8 12.40L56.88 12.40L56.88 12.40Q56.20 12.97 55.07 12.97L55.07 12.97L55.07 1=
+2.97Q53.88 12.97 53.22 12.47L53.22 12.47L53.22 12.47Q52.55 11.97 52.40 10.9=
+7L52.40 10.97L53.45 10.81L53.45 10.81Q53.53 11.46 53.93 11.78L53.93 11.78L5=
+3.93 11.78Q54.33 12.11 55.05 12.11L55.05 12.11L55.05 12.11Q55.75 12.11 56.1=
+2 11.82L56.12 11.82L56.12 11.82Q56.48 11.53 56.48 11.11L56.48 11.11L56.48 1=
+1.11Q56.48 10.83 56.31 10.66L56.31 10.66L56.31 10.66Q56.14 10.49 55.89 10.4=
+0L55.89 10.40L55.89 10.40Q55.63 10.32 54.74 10.10L54.74 10.10L54.74 10.10Q5=
+3.42 9.79 53.00 9.33L53.00 9.33L53.00 9.33Q52.57 8.88 52.57 8.26L52.57 8.26=
+L52.57 8.26Q52.57 7.48 53.19 6.97L53.19 6.97L53.19 6.97Q53.81 6.47 54.86 6.=
+47L54.86 6.47L54.86 6.47Q55.97 6.47 56.59 6.91L56.59 6.91L56.59 6.91Q57.21 =
+7.34 57.33 8.21L57.33 8.21Z"></path></svg></div><div class=3D"il-icon"><svg=
+ xmlns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.org/1999=
+/xlink" viewBox=3D"0 0 15 15"><circle cx=3D"6" cy=3D"6" r=3D"0.67"></circle=
+><path d=3D"M4.2,11.3Q3.3,11.8,3.3,10.75L3.3,4.1Q3.3,3.1,4.3,3.5L10.4,7.0Q1=
+2.0,7.5,10.4,8.0L6.65,10.0L6.65,7.75a0.65,0.65,0,1,0,-1.3,0L5.35,10.75a0.9,=
+0.9,0,0,0,1.3,0.8L12.7,8.2Q13.7,7.5,12.7,6.7L3.3,1.6Q2.2,1.3,1.8,2.5L1.8,12=
+.5Q2.2,13.9,3.3,13.3L4.8,12.5A0.3,0.3,0,1,0,4.2,11.3Z"></path></svg></div><=
+/div></a></div></div><div id=3D"cbb" class=3D"cbb" tabindex=3D"0" role=3D"b=
+utton"><svg xmlns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.=
+w3.org/1999/xlink" viewBox=3D"0 0 15 15"><path d=3D"M3.25,3.25l8.5,8.5M11.7=
+5,3.25l-8.5,8.5"></path></svg></div><div id=3D"mute_panel" class=3D"mute_pa=
+nel" aria-hidden=3D"true"><div id=3D"abgac" class=3D"abgac" aria-hidden=3D"=
+true"><div id=3D"mlsc" class=3D"mlsc"><svg class=3D"mls" viewBox=3D"50 50 1=
+00 100"><circle class=3D"mlsd" cx=3D"100" cy=3D"100" r=3D"30" fill=3D"none"=
+ stroke=3D"#9E9E9E" stroke-width=3D"3"></circle></svg></div></div></div></d=
+iv></div><div style=3D"display: none; position: absolute; z-index: 21474836=
+47; width: 100%; height: 100%; top: 0px; left: 0px;"></div><img src=3D"http=
+s://www.google.com/ads/measurement/l?ebcid=3DALh7CaTdV2DMFuBSvPYw6yo0hPXBZz=
+fY0R4Vv4lDB6-wOJcz5hoZiPB9hJFTWtbfjDj4EO2wETTq" style=3D"display:none;" alt=
+=3D""><div style=3D"display:none" data-google-query-id=3D"CJO9t5iA64QDFf3Ar=
+QAd2ZULog"></div><div style=3D"bottom:0;right:0;width:86px;height:250px;bac=
+kground:initial !important;position:absolute !important;max-width:100% !imp=
+ortant;max-height:100% !important;pointer-events:none !important;image-rend=
+ering:pixelated !important;z-index:2147483647;background-image:url('data:im=
+age/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAAWBAMAAACrl3iAAAAABlBMVEUAAAD+=
+AciWmZzWAAAAAnRSTlMAApidrBQAAAB9SURBVBjTdZABDsMwDALZD/j/a5cZcGm1OpGjKJicDfy=
+PjwKVzwlwXumd2ygw64hyGwU5GT7Z6nFsNSqvd0jsH5INRhtuoFjs/fua9uW2MFIp1z6mNAqFLX=
+Nga/TZE6TFIZW/OapLqkDqixSueZ0gaoLVas+OHgrvE8TFji8pSgWr8Sk6pAAAAABJRU5ErkJgg=
+g=3D=3D') !important;"></div><iframe src=3D"cid:frame-A43207FCCFA3931BAA791=
+C085F3C9DFF@mhtml.blink" style=3D"display: none;"></iframe> <iframe framebo=
+rder=3D"0" style=3D"height: 0px; width: 0px; position: absolute;"></iframe>=
+</body></html>
+------MultipartBoundary--qY8xJWHyNuqGmXUxccimAXnA0TSY8Q2amc2qkO8k6Q----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-492100fb-52e9-4753-940d-3072c02bf89b@mhtml.blink
+
+@charset "utf-8";
+
+a { color: rgb(0, 0, 0); }
+
+.img_ad:hover { filter: brightness(120%); }
+------MultipartBoundary--qY8xJWHyNuqGmXUxccimAXnA0TSY8Q2amc2qkO8k6Q----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-1f72c771-ff48-4be8-9441-c674b9957cdc@mhtml.blink
+
+@charset "utf-8";
+
+html, body { width: 100%; height: 100%; }
+
+body { display: table; text-align: center; }
+
+#google-center-div { display: table-cell; font-size: 0px; line-height: 0; }
+
+#google_image_div { display: inline-block; }
+------MultipartBoundary--qY8xJWHyNuqGmXUxccimAXnA0TSY8Q2amc2qkO8k6Q----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-81c8ba40-438b-4bb8-a1b3-6aa51cd49e3d@mhtml.blink
+
+@charset "utf-8";
+
+div { margin: 0px; padding: 0px; }
+
+.abgc { display: block; height: 15px; position: absolute; right: 17px; top:=
+ 1px; text-rendering: geometricprecision; z-index: 2147483646; }
+
+.abgb { display: inline-block; height: 15px; }
+
+.abgc, .jar .abgc, .jar .cbb { opacity: 1; }
+
+.abgc { cursor: pointer; }
+
+.cbb { cursor: pointer; height: 15px; width: 15px; z-index: 2147483646; bac=
+kground-color: rgb(255, 255, 255); opacity: 0; }
+
+.cbb svg { position: absolute; top: 0px; right: 0px; height: 15px; width: 1=
+5px; stroke: rgb(0, 174, 205); fill: rgb(0, 174, 205); stroke-width: 1.25; =
+}
+
+.cbb:hover { cursor: pointer; }
+
+.cbb:hover { background-color: rgb(88, 88, 90); }
+
+.cbb:hover svg { stroke: rgb(255, 255, 255); }
+
+.abgb { position: absolute; right: 0px; top: 0px; }
+
+.cbb { position: absolute; right: 1px; top: 1px; }
+
+.abgs { display: none; height: 100%; }
+
+.abgl { text-decoration: none; }
+
+.abgs svg, .abgb svg { display: inline-block; height: 15px; width: auto; ve=
+rtical-align: top; }
+
+.abgc .il-wrap { background-color: rgb(255, 255, 255); height: 15px; white-=
+space: nowrap; }
+
+.abgc .il-wrap.exp { border-bottom-left-radius: 5px; }
+
+.abgc .il-text, .abgc .il-icon { display: inline-block; }
+
+.abgc .il-text { padding-right: 1px; padding-left: 5px; height: 15px; width=
+: 55px; }
+
+.abgc .il-icon { height: 15px; width: 15px; }
+
+.abgc .il-text svg { fill: rgb(0, 0, 0); }
+
+.abgc .il-icon svg { fill: rgb(0, 174, 205); }
+------MultipartBoundary--qY8xJWHyNuqGmXUxccimAXnA0TSY8Q2amc2qkO8k6Q----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-d0f91131-8b44-476e-a7b9-ee80ec09a570@mhtml.blink
+
+@charset "utf-8";
+
+.mute_panel { z-index: 2147483646; }
+
+.abgac { position: absolute; left: 0px; top: 0px; z-index: 2147483646; disp=
+lay: none; width: 100%; height: 100%; background-color: rgb(250, 250, 250);=
+ }
+
+.mlsc { height: 100%; display: flex; justify-content: center; align-items: =
+center; }
+
+.mls { animation: 2s linear 0s infinite normal none running mlskf; height: =
+50%; width: 50%; }
+
+.mlsd { stroke-dasharray: 1, 189; stroke-dashoffset: 0; animation: 1.4s eas=
+e-in-out 0s infinite normal none running mlsdkf; }
+
+@keyframes mlskf {=20
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes mlsdkf {=20
+  0% { stroke-dasharray: 1, 189; stroke-dashoffset: 0; }
+  50% { stroke-dasharray: 134, 189; stroke-dashoffset: -53px; }
+  100% { stroke-dasharray: 134, 189; stroke-dashoffset: -188px; }
+}
+------MultipartBoundary--qY8xJWHyNuqGmXUxccimAXnA0TSY8Q2amc2qkO8k6Q----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://tpc.googlesyndication.com/simgad/14699265926447812150?sqp=4sqPyQQrQikqJwhfEAEdAAC0QiABKAEwCTgDQPCTCUgAUAFYAWBfcAJ4AcUBLbKdPg&rs=AOga4qlUJ8DFKaO-Ssb8MNepZQTxOLMrgQ
+
+iVBORw0KGgoAAAANSUhEUgAAAVAAAAEYCAMAAAA9PV7qAAADAFBMVEX////t9P/2+f7+/v8APZL+
+/v78/f8ZcPbZ2NcZGRnt8//y9/7FxcXa6P73+v42Njbg7P7R4/7V5f79/f/y9v75+/6MjIzi4uIn
+JydSUlLn8f/9/v81NTXn8P7h7P5vb2/6/P/x8fH5+/+Mt/r5/P/n7/+pqanp8f/y9//o8P/x9/9+
+fn72+f9TU1PV5f3j4+PU1NTZ6P2oqKj5+v79/P/Gxsaamprt9P7n7//7/f/9/v5ERET6+//0+P/i
+7f5wcHC3t7fj7v/R4v5hYWH+///x9v7c6v74+//u9f/2+f/w8PDr8//Q4/6oyfxSk/jb6f76+/5v
+pvmLi4sneff1+v72+v9hnfk2gvfG3P3w9f4nJbre6/5CivhSlPg0gvd+rvnl7/4sCIqawPsMqr8u
+DbgkMLy30vzw9v83Ba0oHbwJsb9TlPjm8P/X5/4B3fwiOr0FvPIlQrby9v8rFboIuMDF2/0Mor4g
+RL0Hse4EyMAPWswYbL0Ufr4uFLUOmb4EwfVgYGAsHrYeU7v//v7x9v8HvsAGwM8ZYb0Shr0eTb4z
+FLDU5f4DzsEIw8AC1eZdhsIA4/8Wdb4FvN0sFZsFuelZdssoM69zndMIstopE45CPJ0C1cByqPoD
+0dcUZ+UW5P0Sjb19rvkQkb7F2/wcWb4MmOhubm4vHbAeW7kHsuNbacr+/f/o8P4B2PMBQJkC0Pcp
+Lb9KudAhTLgmLqJeUalf7v/K3fcEwud07fzw/f+wsOQJpOwaQq1HP8DMxOoIts8KrM+Iac6jweOm
+9f7G9PUnXKach9g25voJyvGO6PwPiuAcT6JjW8a9td8JrsdVba0KoNtHvNuB6d8h3sdfMLpHEbAZ
+3OTx8vrg+/tSIrZQfLvm4vaFlt280fCcvu8gP80ZXtcPvMFUecUVb9sTfeFkkNDk6feU3+OVseA0
+hMYwkMYunMYiq+MpQ6VbWqvD5u5w6t9B4tqxz/yg8udmoflQJbqdgdUsZLMcUdNwnOZ4vvAsVsGG
+zd7U3esShMuvp9RoZOhMAAAc1klEQVR42u2dCXgb1bWAx1Ztd5CInCieGVlyRqMYWUG2IxQsf7Zs
+RUQ4zmcn2HHi9JkEcAKEQE0IUJZS4CVNeYXQAi2FQjegrIVAy6OldIXu+/q6vS5f+72u7722b9/X
+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
+AAAASUVORK5CYII=
+
+------MultipartBoundary--qY8xJWHyNuqGmXUxccimAXnA0TSY8Q2amc2qkO8k6Q----
+Content-Type: text/html
+Content-ID: <frame-0842622DBEBB029B7644FCC98C68243A@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-5823754184406795&output=html&adk=1812271804&adf=3025194257&lmt=1710118589&plaf=1%3A2%2C2%3A2%2C7%3A2&plat=1%3A128%2C2%3A128%2C3%3A128%2C4%3A128%2C8%3A128%2C9%3A32776%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1048576%2C32%3A32%2C41%3A32%2C42%3A32&format=0x0&url=https%3A%2F%2Flinux.die.net%2Fman%2F1%2Fafio&pra=7&wgl=1&easpi=0&asro=0&aseiel=1~2~4~6~8~9~10~11~12~13~14~15~16~17&uach=WyJXaW5kb3dzIiwiMTAuMC4wIiwieDg2IiwiIiwiMTIyLjAuNjI2MS4xMTIiLG51bGwsMCxudWxsLCI2NCIsW1siQ2hyb21pdW0iLCIxMjIuMC42MjYxLjExMiJdLFsiTm90KEE6QnJhbmQiLCIyNC4wLjAuMCJdLFsiR29vZ2xlIENocm9tZSIsIjEyMi4wLjYyNjEuMTEyIl1dLDBd&dt=1710118589134&bpp=1&bdt=333&idt=242&shv=r20240306&mjsv=m202403040101&ptt=9&saldr=aa&abxe=1&prev_fmts=336x280&nras=1&correlator=282066934597&frm=20&pv=1&ga_vid=1816911955.1710118589&ga_sid=1710118589&ga_hid=1697592948&ga_fc=1&ga_wpids=UA-50820-6&u_tz=-300&u_his=3&u_h=1080&u_w=1920&u_ah=1040&u_aw=1920&u_cd=24&u_sd=1&dmc=8&adx=-12245933&ady=-12245933&biw=1106&bih=929&scr_x=0&scr_y=0&eid=44759876%2C44759927%2C44759837%2C42532523%2C95326315%2C95321957%2C31081572%2C95324161%2C95325784%2C95326914%2C31078663%2C31078665%2C31078668%2C31078670&oid=2&pvsid=4016333650844622&tmod=1732324087&uas=0&nvt=1&fsapi=1&ref=https%3A%2F%2Fwww.google.com%2F&fc=896&brdim=759%2C16%2C759%2C16%2C1920%2C0%2C1139%2C1025%2C1123%2C929&vis=1&rsz=%7C%7Cs%7C&abl=NS&fu=32768&bc=31&bz=1.01&td=1&psd=W251bGwsbnVsbCxudWxsLDNd&nt=1&ifi=3&uci=a!3&fsb=1&dtd=245
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3DUTF-8"></head><body marginwidth=3D"0" marginheight=3D"0"></body></html>
+------MultipartBoundary--qY8xJWHyNuqGmXUxccimAXnA0TSY8Q2amc2qkO8k6Q----
+Content-Type: text/html
+Content-ID: <frame-E50F6635B52198EDAEA516B3D6464C7D@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.google.com/recaptcha/api2/aframe
+
+<!DOCTYPE html><html><head><meta http-equiv=3D"Content-Type" content=3D"tex=
+t/html; charset=3DUTF-8"></head><body><img src=3D"https://pagead2.googlesyn=
+dication.com/pagead/sodar?id=3Dsodar2&amp;v=3D225&amp;li=3Dgda_r20240306&am=
+p;jk=3D4016333650844622&amp;rc=3D"></body></html>
+------MultipartBoundary--qY8xJWHyNuqGmXUxccimAXnA0TSY8Q2amc2qkO8k6Q----
+Content-Type: text/html
+Content-ID: <frame-A43207FCCFA3931BAA791C085F3C9DFF@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3DUTF-8">
+<meta http-equiv=3D"origin-trial" content=3D"AxjhRadLCARYRJawRjMjq4U8V8okQv=
+SnrBIJWdMajuEkN3/DfVAcLcFhMVrUWnOXagwlI8dQD84FwJDGj9ohqAYAAABveyJvcmlnaW4iO=
+iJodHRwczovL2dvb2dsZWFkc2VydmljZXMuY29tOjQ0MyIsImZlYXR1cmUiOiJGZXRjaExhdGVy=
+QVBJIiwiZXhwaXJ5IjoxNzI1NDA3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9"></head>
+
+<body>
+ =20
+
+
+
+</body></html>
+------MultipartBoundary--qY8xJWHyNuqGmXUxccimAXnA0TSY8Q2amc2qkO8k6Q----
+Content-Type: text/html
+Content-ID: <frame-57FE7FD09DB8741196BB0D4DAAF3861A@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-5823754184406795&output=html&h=280&slotname=7130739364&adk=1862536188&adf=3894714692&pi=t.ma~as.7130739364&w=336&lmt=1710118589&format=336x280&url=https%3A%2F%2Flinux.die.net%2Fman%2F1%2Fafio&wgl=1&uach=WyJXaW5kb3dzIiwiMTAuMC4wIiwieDg2IiwiIiwiMTIyLjAuNjI2MS4xMTIiLG51bGwsMCxudWxsLCI2NCIsW1siQ2hyb21pdW0iLCIxMjIuMC42MjYxLjExMiJdLFsiTm90KEE6QnJhbmQiLCIyNC4wLjAuMCJdLFsiR29vZ2xlIENocm9tZSIsIjEyMi4wLjYyNjEuMTEyIl1dLDBd&dt=1710118589128&bpp=3&bdt=326&idt=227&shv=r20240306&mjsv=m202403040101&ptt=9&saldr=aa&abxe=1&correlator=282066934597&frm=20&pv=2&ga_vid=1816911955.1710118589&ga_sid=1710118589&ga_hid=1697592948&ga_fc=1&ga_wpids=UA-50820-6&u_tz=-300&u_his=3&u_h=1080&u_w=1920&u_ah=1040&u_aw=1920&u_cd=24&u_sd=1&dmc=8&adx=546&ady=354&biw=1106&bih=929&scr_x=0&scr_y=0&eid=44759876%2C44759927%2C44759837%2C42532523%2C95326315%2C95321957%2C31081572%2C95324161%2C95325784%2C95326914%2C31078663%2C31078665%2C31078668%2C31078670&oid=2&pvsid=4016333650844622&tmod=1732324087&uas=0&nvt=1&ref=https%3A%2F%2Fwww.google.com%2F&fc=896&brdim=759%2C16%2C759%2C16%2C1920%2C0%2C1139%2C1025%2C1123%2C929&vis=1&rsz=%7C%7CleE%7C&abl=CS&pfx=0&fu=0&bc=31&bz=1.01&td=1&psd=W251bGwsbnVsbCxudWxsLDNd&nt=1&ifi=1&uci=a!1&fsb=1&dtd=241
+
+<!DOCTYPE html><html><head><meta http-equiv=3D"Content-Type" content=3D"tex=
+t/html; charset=3DUTF-8"></head><body></body></html>
+------MultipartBoundary--qY8xJWHyNuqGmXUxccimAXnA0TSY8Q2amc2qkO8k6Q------
