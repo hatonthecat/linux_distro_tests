@@ -343,6 +343,11 @@ Creating a new PCem config for the 386 reset the config (a copy), or deleting th
 
 The 40MHz CPU only takes less than a couple minutes to load the console.
 
+Day 3 update: vi seems to be baked into Tiny Slitaz, and can even run on 3MB:
+
+![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/f1c55ed1-eb7a-4d17-b6d9-24a2a555f75f)
+
+
 Linux 0.1.1
 --
 I have also been made aware of Linux 0.1.1: https://github.com/Retro-Linux/Oldest-Linux-Ever 
