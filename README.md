@@ -449,7 +449,7 @@ Figuring out which settings I can use to match those.
 Day 4
 --
 
-A colleague has notified me of the crunchgen, which is similar to Busybox:
+A colleague has notified me of crunchgen, which is similar to Busybox:
 
 https://man.openbsd.org/crunchgen
 
