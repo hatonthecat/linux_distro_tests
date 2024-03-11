@@ -416,16 +416,15 @@ The log files appear to have some more details:
 
 286 and QNX
 --
-IBM's 286s were tested brifly. There is a 1989 QNX demo file that can connect to the internet on a 286 that I uploaded, but the emulators require the floppy images to have the right sectors to match (sometimes they are pre-configured). I was able to get to the boot screen for a 286, but not yet recognize a QNX disc. One instruction used a 256 byte sector:
-
-https://winworldpc.com/product/qnx/1989-demo
+IBM's 286s were tested briefly. There is a 1989 QNX demo file that can connect to the internet on a 286 that I mirrored in this repository from Winworld: https://winworldpc.com/product/qnx/1989-demo, but the emulators require the floppy images to have the right sectors to match (sometimes they are pre-configured). I was able to get to the boot screen for a 286, but not yet recognize a QNX disc. One instruction used a 256 byte sector:
 
 Here is the video (the beeping is the emulator indicating disk activity, and can should be muted if is distracting- no voiceover was used): 
 
 https://github.com/hatonthecat/linux_distro_tests/assets/76194453/63b46231-5b27-49c5-919e-1e4a3cffaa7a
 
-A video showing the QNX demo was made by a YTer few years ago: https://www.youtube.com/watch?v=vx7cw0wSMMY definitely recommended!
+A video showing the QNX demo working successfully was made by a YTer few years ago: https://www.youtube.com/watch?v=vx7cw0wSMMY definitely recommended to check out!
 
+An earlier demo?
 "QNX 0.4
 Released in 1981 by Quantum Software Systems Ltd.
 For IBM PC
