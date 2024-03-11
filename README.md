@@ -473,3 +473,28 @@ One key part of allmux does replicate what you did in crunchgen: combine multipl
 Nice presentation: https://tc.gtisc.gatech.edu/feast17/papers/allvm.pdf
 
 crunchgen also has a linux fork: https://github.com/ryao/crunch
+
+https://github.com/rui314/8cc A Small C Compiler (no longer active), succeeded by
+
+https://github.com/rui314/chibicc 
+
+"chibicc is yet another small C compiler that implements most C11 features. Even though it still probably falls into the "toy compilers" category just like other small compilers do, chibicc can compile several real-world programs, including Git, SQLite, libpng and chibicc itself, without making modifications to the compiled programs. Generated executables of these programs pass their corresponding test suites. So, chibicc actually supports a wide variety of C11 features and is able to compile hundreds of thousands of lines of real-world C code correctly."
+
+"lcc: Another small C compiler. The creators wrote a book about the internals of lcc, which I found a good resource to see how a compiler is implemented.
+
+An Incremental Approach to Compiler Construction
+
+Rob Pike's 5 Rules of Programming
+
+[1] https://www.drdobbs.com/cpp/increasing-compiler-speed-by-over-75/240158941
+
+DMD does memory allocation in a bit of a sneaky way. Since compilers are short-lived programs, and speed is of the essence, DMD just mallocs away, and never frees."
+
+Also, https://github.com/rui314/mold?tab=readme-ov-file#mold-a-modern-linker 
+
+Linkers
+--
+
+https://github.com/rui314/mold?tab=readme-ov-file#mold-a-modern-linker 
+
+https://lld.llvm.org/ "a production-quality linker used by various operating systems and large-scale build systems."
