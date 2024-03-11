@@ -373,3 +373,23 @@ PalmOS needs a kernel with a particular set of primitives. We already discussed 
 I ended up writing my own kernel. It is simple, and works well. It will run on any Cortex-M class CPU, supports multithreading with priorities, precise timers, mutexes, semaphores, event groups, mailboxes, and all the primitives PalmOS wants like ability to force-pause threads, and ability to disable task switching. It also takes advantage of the MPU to add some basic safety like stack guards. Also, there is great (& fast) support for thread local storage, which comes in handy later. Why write my own kernel, aren't there enough out there? None of the ones out there really had the primitives I needed and bolting them on would take just as long."
 
 A hybrid linux kernel may be explored, as has in the past: https://en.wikipedia.org/wiki/Palm_OS#Modernization
+
+Day 3
+--
+Virtual Box was used to test a few OSes today. HelenOS is a microkernel which is interesting. Other microkernels Are QNX and Contiki, but I will try those some other time. I was able to get Tinyroot, which is kind of like the SliTaz minimal install I did yesterday but a few extra tools bundled in, and still under 1.44MB. Another OS/boot disk I found was tomsrtbt and cramdisk, which were mid to late-90s bootdisks that preceded LiveCDs and thumbdrives. Some of the concepts in them carried over to the later toolkits, which makes them interesting. I also found out that one of the early releases of Slackware (with a 1.x kernel) said it *could* run on as low as 2MB of RAM, and since kernels have been known to pare down to as little as 300KB (uClibc), It will be interesting to test these out on a 386 VM that allows me to set it to 2MB (such as PCem, or Qemu). I read of another emulator 
+
+Tinyroot
+--
+Initially, I was not able to load with 4MB- I have not done any optimization tests today- just gathered more information about old boot disks which are still marginally useful (I assume they are more than that too). 4MB of RAM didn't appear to work, so I tried with 64MB of RAM. This also uses a 64-bit kernel, which leads me to think it has some other memory requirements that do not allow it run very low.  As a proof of concept kernel, the file is only 1.2MB but the memory environment might be much higher, even if it is not utilizing it. 
+
+![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/03ff82fb-007b-4d85-aea4-0ace7c9ed1a8)
+
+![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/691fdfb9-2dd7-455f-bb34-d2251e927e2e)
+
+Tinyroot can be downloaded from: https://github.com/troglobit/tinyroot https://github.com/10maurycy10/tinyroot
+
+I was able to load an editor of "sorts." It doesn't look like vi, althought I haven't used vi enough to know:
+
+![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/fd8110f0-274e-426e-af92-a9e2641a9418)
+
+I also recorded a short video, which will be uploaded or embedded.
