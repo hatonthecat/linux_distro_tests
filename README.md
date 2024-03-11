@@ -392,4 +392,19 @@ I was able to load the vi editor, a modified one of "sorts." It doesn't look lik
 
 ![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/fd8110f0-274e-426e-af92-a9e2641a9418)
 
-I also recorded a short video, which will be uploaded or embedded.
+I also recorded a short video of tinyroot running in 32MB of RAM, which is embedded here (you'll need an h.264 decoder for it to play smoothly on your device (common today), but it encodes more in 10MB:
+
+https://github.com/hatonthecat/linux_distro_tests/assets/76194453/35d44f83-f2b5-4e03-8337-fe3ac449ce28
+
+I might have gotten 16MB of RAM to run a couple times. The error I get when it doesn't run is this:
+
+https://github.com/hatonthecat/linux_distro_tests/assets/76194453/aa3d40ef-8a79-4b92-ae95-8482e936b4f7
+
+The log files appear to have some more details: 
+
+"00:00:04.486940 fHMForced=true - No raw-mode support in this build!" or maybe a memory issue.
+
+
+
+
+
