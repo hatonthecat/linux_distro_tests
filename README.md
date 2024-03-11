@@ -421,7 +421,7 @@ Here is the video (the beeping is the emulator indicating disk activity, and can
 
 https://github.com/hatonthecat/linux_distro_tests/assets/76194453/63b46231-5b27-49c5-919e-1e4a3cffaa7a
 
-A video showing the QNX demo working successfully was made by a YTer few years ago: https://www.youtube.com/watch?v=vx7cw0wSMMY definitely recommended to check out!
+A video showing a different, newer featured, 1.44MB (not the 360K 286) QNX demo working successfully on a 386 was made by a YTer few years ago: https://www.youtube.com/watch?v=vx7cw0wSMMY Also definitely recommended to check out! https://winworldpc.com/product/qnx/144mb-demo
 
 An earlier demo?
 "QNX 0.4
