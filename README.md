@@ -388,9 +388,14 @@ Initially, I was not able to load with 4MB nor haven't yet- I have not done any 
 
 Tinyroot can be downloaded from: https://github.com/troglobit/tinyroot https://github.com/10maurycy10/tinyroot
 
-I was able to load the vi editor, a modified one of "sorts." It doesn't look like vi, although I haven't used vi enough to know:
+I was able to load the vi editor, a modified one of "sorts." It ~~doesn't~~ looks like vi, ~~although I haven't used vi enough to know:~~
 
 ![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/fd8110f0-274e-426e-af92-a9e2641a9418)
+
+The standard vi (I was thinking of the vim greet screen, which is why I didn't originally recognize it)
+![image](https://github.com/hatonthecat/linux_distro_tests/assets/76194453/ebeb431b-b84d-4f72-bd27-ae4329988eef)
+
+https://en.wikipedia.org/wiki/Vi_(text_editor)
 
 I also recorded a short video of tinyroot running in 32MB of RAM, which is embedded here (you'll need an h.264 decoder for it to play smoothly on your device (common today), but it encodes more in 10MB:
 
