@@ -532,3 +532,9 @@ Back in the day, the only form of entertainment during installation was to stare
 The video playback was not as slow as this- it might just be the emulator or virtual video card that isn't optimized for this system.
 
 I've attached a 15MB file which shows it running in 8MB after installation. See [here](https://github.com/hatonthecat/linux_distro_tests/blob/main/Windows%2098-screen0.webm).
+
+I may have discovered the reason for slow frame rate. VBox was set to VGA, which supported only 16 color mode. While my PC had 640x480, I recall it supported 16-bit color, which was more than 256 color. THe video didn't play well in 16 color, and a demo I tried to play (Golf, not the video, from the CD Rom), said the error was that I didn't have 256 colors. When I went to Screensaver settings, only 16 colors was the max:
+
+[Windows 98-screen0.webm](https://github.com/user-attachments/assets/7e6b009d-9315-4d54-a5d1-4f53b29a937d)
+
+If I am able to locate the driver from disc, I might be able to find it from the included virtual CD rom, Otherwise, it may be easier to reinstall windows 98 and let it auto-recognize the Virtualbox SVGA adapter, or use an XGA adapter that supports more than 16 colors...
