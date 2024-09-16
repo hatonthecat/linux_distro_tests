@@ -496,3 +496,15 @@ Linkers
 https://github.com/rui314/mold?tab=readme-ov-file#mold-a-modern-linker 
 
 https://lld.llvm.org/ "a production-quality linker used by various operating systems and large-scale build systems."
+
+9-16-24
+--
+Tried a few distros under 128MB RAM
+
+Had started with Tiny Core and SliTaz, but then checked DSL to see if it ran any differently on a 64 bit machine using a 32-bit Virtualbox 5.2
+
+[dsl 4-screen0.webm](https://github.com/user-attachments/assets/95d59f9c-4164-4f79-bac1-54791358eb2f)
+
+![image](https://github.com/user-attachments/assets/ae73b143-1b1d-4593-b2cf-a43a8967f7ce)
+
+Of note is that changing to 640x480 resolution in the 2nd half of the video instead of the default 1024x768 actually makes the built-in Virtual Box recorder a lot less skippy. The intgerated video, an HD 4000 from 2012-era, even on an i7 (3rd gen), is not as smooth or capable as AMD's hardware-based AVC encoder, so any performance improvement is definitely welcome.
