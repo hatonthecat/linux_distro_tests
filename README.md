@@ -539,9 +539,11 @@ I may have discovered the reason for slow frame rate. VBox was set to VGA, which
 
 If I am able to locate the driver from disc, I might be able to find it from the included virtual CD rom, Otherwise, it may be easier to reinstall windows 98 and let it auto-recognize the Virtualbox SVGA adapter, or use an XGA adapter that supports more than 16 colors...
 
-I was able to update the frame rate to 30fps:
+I was able to update the recording frame rate to 30fps:
 
 ![image](https://github.com/user-attachments/assets/366a140e-0295-4383-abbd-baca46365454)
+
+It had no effect on the slow video playback, but helps with the sizing of the recorded video (no bars around video)
 
 Keep in mind, 60-70fps was possible even in 1998. It seems one of the issues that VirtualBox has with compatibility is that it needs at least 18MB of RAM to run its "own" way:
 
