@@ -526,4 +526,4 @@ Here is with RAM changed to 8MB and 1MB VRAM (just as I was able to do in the pa
 
 The video playback was not as slow as this- it might just be the emulator or virtual video card that isn't optimized for this system.
 
-I've attached a 15MB file which shows it running in 8MB after installation.
+I've attached a 15MB file which shows it running in 8MB after installation. See [here](https://github.com/hatonthecat/linux_distro_tests/blob/main/Windows%2098-screen0.webm).
