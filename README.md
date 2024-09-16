@@ -551,7 +551,13 @@ Keep in mind, 60-70fps was possible even in 1998. It seems one of the issues tha
 
 This is one of the reasons to use a different emulator, which more accurately represents the era (some of the Vbox settings include PII, intead of P1)
 
+Using PCEm17, I loaded a Packard Bell Motherboard ROM:
 
+![image](https://github.com/user-attachments/assets/f8d71a45-aa0a-488c-93d3-34a322612ea0)
+
+Setting up the BIOS for the Windows 95 Startup Disc:
+
+![image](https://github.com/user-attachments/assets/2938f32e-ac21-4190-8ec9-e393547fe0d1)
 
 
 
