@@ -572,3 +572,17 @@ This tutorial was helpful for refreshing some of my memory:
 https://olistutorials.wordpress.com/2017/02/25/setting-up-pcem-for-windows-95-games/comment-page-2/
 
 time to run the setup CD from D:
+
+![Screenshot from 2024-09-16 18-26-13](https://github.com/user-attachments/assets/56917c6c-d7ac-4a04-be8c-e7866dc60493)
+
+![Screenshot from 2024-09-16 18-33-19](https://github.com/user-attachments/assets/bf1c935c-fe28-4060-88fc-56f489f30b5b)
+
+![Screenshot from 2024-09-16 18-34-21](https://github.com/user-attachments/assets/d089f9a1-d59f-4e72-bd69-adfbd4cd2370)
+
+![Screenshot from 2024-09-16 18-41-08](https://github.com/user-attachments/assets/e3ad6678-1ce8-43f2-818b-556561a529b4) I experienced [dithering](https://en.wikipedia.org/wiki/Dither) before I knew it was a thing.
+
+"Dither is an intentionally applied form of noise used to randomize quantization error, preventing large-scale patterns such as color banding in images. Dither is routinely used in processing of both digital audio and video data, and is often one of the last stages of mastering audio to a CD.
+
+A common use of dither is converting a grayscale image to black and white, so that the density of black dots in the new image approximates the average gray level in the original."
+
+A resourceful way to create images in low disk space. While Windows 95 may seem dated by today's standards, it still raised the bar in terms of expectations and performance.
