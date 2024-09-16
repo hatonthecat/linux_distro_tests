@@ -579,10 +579,23 @@ time to run the setup CD from D:
 
 ![Screenshot from 2024-09-16 18-34-21](https://github.com/user-attachments/assets/d089f9a1-d59f-4e72-bd69-adfbd4cd2370)
 
-![Screenshot from 2024-09-16 18-41-08](https://github.com/user-attachments/assets/e3ad6678-1ce8-43f2-818b-556561a529b4) I experienced [dithering](https://en.wikipedia.org/wiki/Dither) before I knew it was a thing.
+![Screenshot from 2024-09-16 18-41-08](https://github.com/user-attachments/assets/e3ad6678-1ce8-43f2-818b-556561a529b4) 
+
+I experienced [dithering](https://en.wikipedia.org/wiki/Dither) before I knew it was a thing.
 
 "Dither is an intentionally applied form of noise used to randomize quantization error, preventing large-scale patterns such as color banding in images. Dither is routinely used in processing of both digital audio and video data, and is often one of the last stages of mastering audio to a CD.
 
 A common use of dither is converting a grayscale image to black and white, so that the density of black dots in the new image approximates the average gray level in the original."
 
 A resourceful way to create images in low disk space. While Windows 95 may seem dated by today's standards, it still raised the bar in terms of expectations and performance.
+
+Macintoshes weren't the only intuitive PCs:
+
+![Screenshot from 2024-09-16 18-44-14](https://github.com/user-attachments/assets/c7ca8cfb-f45e-4a90-b4a9-60f09eb10615)
+
+Some PCem Stats:
+
+![image](https://github.com/user-attachments/assets/5dcd5dac-ddde-49f0-a21f-6abc145d45f4)
+
+
+
