@@ -524,6 +524,11 @@ https://winworldpc.com/product/windows-98/98-second-edition
 Here is with RAM changed to 8MB and 1MB VRAM (just as I was able to do in the past):
 ![image](https://github.com/user-attachments/assets/b7f5fb68-cf1b-4790-a6b5-9b59f5dce09f)
 
+Back in the day, the only form of entertainment during installation was to stare at pixellated animations of drums moving while waiting for a setup to complete:
+
+![image](https://github.com/user-attachments/assets/491b477f-de79-44da-ab84-a01a01cae60d)
+
+
 The video playback was not as slow as this- it might just be the emulator or virtual video card that isn't optimized for this system.
 
 I've attached a 15MB file which shows it running in 8MB after installation. See [here](https://github.com/hatonthecat/linux_distro_tests/blob/main/Windows%2098-screen0.webm).
