@@ -507,4 +507,14 @@ Had started with Tiny Core and SliTaz, but then checked DSL to see if it ran any
 
 ![image](https://github.com/user-attachments/assets/ae73b143-1b1d-4593-b2cf-a43a8967f7ce)
 
+This test is not actually a linux distro, but I was comparing my memory of how well Windows 95 & 98 ran on my ancient 90s era PCs. I had 8MB of RAM and 1.0GB HDD ATA 100 disk and wanted to test Windows 95, but Virtualbox requires a virtual startup disk (floppy), so I just tried out Windows 98, which had a 16MB RAM requirement, but I recall being able to install it on 8MB if I remember correctly. The default installation on this Virtual Box was 64MB of RAM, but I will change that to 8MB to test in the subsequent video after the one below:
+
+[Windows 98-screen0.webm](https://github.com/user-attachments/assets/7ac534c7-75a6-4605-8c99-8af7c6e87106)
+
+I can also test other emulators like x86Box and PCEm, but I will see how well(or bad) virtual box is until then. I've already experienced a few crashes, but I hadn't thought it might be related to that.
+https://86box.net/
+According to WinWorld:
+"Note: VMWare and VirtualBox can be problematic with Windows 9x. You may need to disable various acceleration features first, or consider emulators like x86Box or PCem."
+https://winworldpc.com/product/windows-98/98-second-edition
+
 Of note is that changing to 640x480 resolution in the 2nd half of the video instead of the default 1024x768 actually makes the built-in Virtual Box recorder a lot less skippy. The intgerated video, an HD 4000 from 2012-era, even on an i7 (3rd gen), is not as smooth or capable as AMD's hardware-based AVC encoder, so any performance improvement is definitely welcome.
