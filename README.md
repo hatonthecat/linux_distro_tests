@@ -538,3 +538,18 @@ I may have discovered the reason for slow frame rate. VBox was set to VGA, which
 [Windows 98-screen0.webm](https://github.com/user-attachments/assets/7e6b009d-9315-4d54-a5d1-4f53b29a937d)
 
 If I am able to locate the driver from disc, I might be able to find it from the included virtual CD rom, Otherwise, it may be easier to reinstall windows 98 and let it auto-recognize the Virtualbox SVGA adapter, or use an XGA adapter that supports more than 16 colors...
+
+I was able to update the frame rate to 30fps:
+
+![image](https://github.com/user-attachments/assets/366a140e-0295-4383-abbd-baca46365454)
+
+Keep in mind, 60-70fps was possible even in 1998. It seems one of the issues that VirtualBox has with compatibility is that it needs at least 18MB of RAM to run its "own" way:
+
+![image](https://github.com/user-attachments/assets/b4b32959-5da9-4ec9-93da-4550a5dfa20f)
+
+This is one of the reasons to use a different emulator, which more accurately represents the era (some of the Vbox settings include PII, intead of P1)
+
+
+
+
+
