@@ -559,5 +559,16 @@ Setting up the BIOS for the Windows 95 Startup Disc:
 
 ![image](https://github.com/user-attachments/assets/2938f32e-ac21-4190-8ec9-e393547fe0d1)
 
+Repeating a process I've done 25 years ago:
 
+![Screenshot from 2024-09-16 17-53-30](https://github.com/user-attachments/assets/10de98f6-f18b-42eb-a6dc-55ae5d55fa50)
 
+![Screenshot from 2024-09-16 17-55-00](https://github.com/user-attachments/assets/b151d12d-5196-464a-a95c-3bd5310b51ad)
+
+![Screenshot from 2024-09-16 17-56-14](https://github.com/user-attachments/assets/684b35db-567b-4fc1-a0e5-339d6a9b7b0c)
+
+This tutorial was helpful for refreshing some of my memory: 
+
+https://olistutorials.wordpress.com/2017/02/25/setting-up-pcem-for-windows-95-games/comment-page-2/
+
+time to run the setup CD from D:
