@@ -623,3 +623,19 @@ They were the good times
 ![image](https://github.com/user-attachments/assets/231dc89c-983d-487d-9270-6e6393b94112)
 
 
+Back to linux distros
+----
+Useful tips for a performance-oriented Pi Zero:
+
+https://www.jeffgeerling.com/blog/2022/install-raspberry-pi-oss-desktop-environment-over-lite-install
+
+https://raspberrytips.com/upgrade-raspbian-lite-to-desktop/
+
+this is basically what I tried to do with the DietPi edition early last year- install a window manager over the server edition/headless dietPi minimal: https://www.youtube.com/watch?v=rOaYlQ8tasY&list=PLKvMTg3KKwP3awRI0W6-OwX09Ij5LRnqZ but I found it too time consuming. Perhaps the Raspbian Lite edition will have a few more conveniences. But these seem most convenient:
+
+---
+sudo apt install xserver-xorg raspberrypi-ui-mods
+
+sudo tasksel
+
+---
