@@ -569,7 +569,7 @@ Repeating a process I've done 25 years ago:
 
 This tutorial was helpful for refreshing some of my memory: 
 
-https://olistutorials.wordpress.com/2017/02/25/setting-up-pcem-for-windows-95-games/comment-page-2/
+https://olistutorials.wordpress.com/2017/02/25/setting-up-pcem-for-windows-95-games/comment-page-2/ I've attached it [here too](https://github.com/hatonthecat/linux_distro_tests/blob/main/Setting%20up%20PCem%20for%20Windows%2095%20games%20%E2%80%93%20The%20Oligopolist's%20Tutorials.pdf); Post install note is that I did not need to complete some of the optional steps later on- for example, I did not use the Daemon tool, just the PCEm. and the transfer of files from E to C seems to have avoided manually transferring .cab files that could not be found later on.
 
 time to run the setup CD from D:
 
