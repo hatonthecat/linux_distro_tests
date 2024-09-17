@@ -639,3 +639,21 @@ sudo apt install xserver-xorg raspberrypi-ui-mods
 sudo tasksel
 
 ---
+
+![image](https://github.com/user-attachments/assets/ee251b19-b6fe-436f-bd45-ccdb22a33bf2)
+
+
+Despite those convenient commands, I am curious how well it will perform when the 12 Verstion of Debian's Raspberry Pi, Bookworm, is 500MB:
+
+![image](https://github.com/user-attachments/assets/ff4a22b0-09f4-4450-a1a5-151a9fb7b267)
+
+With the DietPi only being 211MB, and Raspberry Pi being nearly 250% larger, I am doubtful the Bookworm or even the earlier version, Debian version: 11 (bullseye)
+Size: 366MB, will work much faster: 
+
+![image](https://github.com/user-attachments/assets/ff68c219-ada4-4ec7-8361-1baa14e039c6)
+
+![image](https://github.com/user-attachments/assets/219c8bce-ad01-4262-8814-55290d6012ac)
+
+
+
+
