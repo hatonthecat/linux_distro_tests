@@ -603,3 +603,16 @@ Here it is loading Windows:
 
 [Pcem 2024-09-16 19-00-42-51.webm](https://github.com/user-attachments/assets/6dcfd444-7d77-4362-94fa-a03a4fec3bc6)
 
+[windows chime](https://github.com/user-attachments/assets/0d88649c-34c8-4010-a0cb-1b5c27c5004a) 
+
+[video demo playback
+](https://github.com/user-attachments/assets/91f0ac18-7183-4295-9d8e-c40b9dc6c045)
+
+[Hover!
+](https://github.com/user-attachments/assets/ddae5df6-d1da-4efc-81dc-886859e25c1c)
+
+[Hover!](https://github.com/user-attachments/assets/b8d9631b-3e8d-4a65-965e-6143cd97d3f2) Part 2
+
+[Return of the Arcade
+](https://github.com/user-attachments/assets/db3e62e0-cce9-4b98-a84a-aee3082ac53c)
+
