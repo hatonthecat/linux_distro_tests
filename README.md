@@ -643,7 +643,7 @@ sudo tasksel
 ![image](https://github.com/user-attachments/assets/ee251b19-b6fe-436f-bd45-ccdb22a33bf2)
 
 
-Despite those convenient commands, I am curious how well it will perform when the 12 Verstion of Debian's Raspberry Pi, Bookworm, is 500MB:
+Despite those convenient commands, I am curious how well it will perform when the 12th Version of Debian's Raspberry Pi, Bookworm, is 500MB:
 
 ![image](https://github.com/user-attachments/assets/ff4a22b0-09f4-4450-a1a5-151a9fb7b267)
 
