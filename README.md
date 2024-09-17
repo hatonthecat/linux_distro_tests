@@ -616,3 +616,10 @@ Here it is loading Windows:
 [Return of the Arcade
 ](https://github.com/user-attachments/assets/db3e62e0-cce9-4b98-a84a-aee3082ac53c)
 
+They were the good times
+
+![image](https://github.com/user-attachments/assets/c22cb862-8195-4542-90aa-5862ac854f01)
+
+![image](https://github.com/user-attachments/assets/231dc89c-983d-487d-9270-6e6393b94112)
+
+
