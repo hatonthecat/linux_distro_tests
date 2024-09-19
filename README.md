@@ -654,6 +654,4 @@ Size: 366MB, will work much faster:
 
 ![image](https://github.com/user-attachments/assets/219c8bce-ad01-4262-8814-55290d6012ac)
 
-
-
-
+![Dietpi on 3B+](https://github.com/user-attachments/assets/cab3fe7a-3c75-4aab-b576-d4b8767f70c2)
