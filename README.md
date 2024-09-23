@@ -656,14 +656,14 @@ Size: 366MB, will work much faster:
 
 ![Dietpi on 3B+](https://github.com/user-attachments/assets/cab3fe7a-3c75-4aab-b576-d4b8767f70c2)
 
-9-22-2024
+9-22-2024 - PiCore & Raspup
 --
 
 Got picore (TinyCore Linux) to load on my Raspberry Pi and was able to StartX (first time on a Zero: https://www.youtube.com/watch?v=oE4cbIP5ieQ
 
 using this tutorial: https://www.novaspirit.com/2018/01/09/tiny-core-raspberry-pi-zero-w-install/
 
-http://tinycorelinux.net/13.x/armv6/r... 13.1.0
+http://tinycorelinux.net/13.x/armv6/releases/RPi/ 13.1.0
 
 Also re-ran Raspup 8.2.1. on the Pi0: https://www.youtube.com/watch?v=4KrOSmPjozU 
 (much slower- but slightly better than last year's test)
