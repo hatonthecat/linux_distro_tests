@@ -632,7 +632,9 @@ It loads on 3MB in Safe Mode with 3 apps running:
 
 ![Screenshot from 2024-09-26 15-22-18](https://github.com/user-attachments/assets/f377b069-e49f-48c6-8bd7-70196b0a1eb6)
 
-Safe Mode is a 16 color mode, which doesn't allow apps that require 256 color, such as the Pacman Arcade Trial, but it's really interesting knowing it works when an Ambiq Micro can run on 
+Safe Mode is a 16 color mode, which doesn't allow apps that require 256 color, such as the Pacman Arcade Trial, but it's really interesting knowing it works when an Ambiq Micro can run on 3.75MB.
+
+![Screenshot from 2024-09-26 15-42-48](https://github.com/user-attachments/assets/3f01ffc5-721e-4052-ba21-c7652259393c)
 
 There are x86 emulators for ARM but it's unclear whether there is any microcontroller suppport (e.g. M55)
 
