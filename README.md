@@ -640,12 +640,17 @@ It loads on 3MB in Safe Mode with 3 apps running:
 
 Safe Mode is a 16 color mode, which doesn't allow apps that require [256 color](https://en.wikipedia.org/wiki/List_of_video_game_console_palettes#:~:text=The%20Picture%20Processing%20Unit%20(PPU)%20used%20in%20the%20Super%20Nintendo,up%20to%20256%20simultaneous%20colors.), such as the Pacman Arcade Trial, but it's really interesting knowing it works when an Ambiq Micro can run on 3.75MB.
 
+![Screenshot from 2024-09-26 16-19-55](https://github.com/user-attachments/assets/fce59382-8bc5-4eea-87b8-91109efc7d88)
+
+![Screenshot from 2024-09-26 16-19-55](https://github.com/user-attachments/assets/9df09b57-4879-47b6-a31f-c5bdf966ce1a)
+
+
+
 ![Screenshot from 2024-09-26 15-42-48](https://github.com/user-attachments/assets/3f01ffc5-721e-4052-ba21-c7652259393c)
 
 There are x86 emulators for ARM but it's unclear whether there is any microcontroller suppport (e.g. M55)
 
 https://www.techspot.com/news/103082-prism-emulator-make-x86-applications-run-faster-arm.html#:~:text=Prism%20will%20make%20emulated%20(x86,switch%20to%20Apple%20Silicon%20machines.
-https://ambiq.com/wp-content/uploads/2023/03/Apollo510-SoC-Product-Brief.pdf
 
 https://en.wikipedia.org/wiki/Box86
 "Box86 is an emulator for x86 userspace tools on ARM Linux systems, allowing such systems to execute video games and other programs that have been compiled for x86 Linux systems.[2][3] Box86 is an alternative to QEMU for user-mode emulation. Box86 also provides dynamic recompilation as well as functionality to intercept dynamic library calls and forward them to equivalent native libraries, allowing applications to run significantly faster than if they were fully emulated.
