@@ -642,9 +642,7 @@ Safe Mode is a 16 color mode, which doesn't allow apps that require [256 color](
 
 ![Screenshot from 2024-09-26 16-19-55](https://github.com/user-attachments/assets/fce59382-8bc5-4eea-87b8-91109efc7d88)
 
-![Screenshot from 2024-09-26 16-19-55](https://github.com/user-attachments/assets/9df09b57-4879-47b6-a31f-c5bdf966ce1a)
-
-
+![Screenshot from 2024-09-26 16-24-03](https://github.com/user-attachments/assets/0fcb3876-3048-411d-ab17-78edc6c4a6c7)
 
 ![Screenshot from 2024-09-26 15-42-48](https://github.com/user-attachments/assets/3f01ffc5-721e-4052-ba21-c7652259393c)
 
