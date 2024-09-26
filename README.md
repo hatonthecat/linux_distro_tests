@@ -622,6 +622,12 @@ They were the good times
 
 ![image](https://github.com/user-attachments/assets/231dc89c-983d-487d-9270-6e6393b94112)
 
+9-26-24: I tested whether Win 95 can run on 4MB of RAM and 2MB. It loads on 4MB, but it recommends adding more. It doesn't load on 2MB:
+
+![Screenshot from 2024-09-26 14-36-45](https://github.com/user-attachments/assets/b5802015-6562-48a2-8e43-d8a59bee404b)
+
+![Screenshot from 2024-09-26 14-40-11](https://github.com/user-attachments/assets/d178732e-ce7f-4c14-8f57-89f1d38a7f09)
+
 
 Back to linux distros
 ----
@@ -655,6 +661,8 @@ Size: 366MB, will work much faster:
 ![image](https://github.com/user-attachments/assets/219c8bce-ad01-4262-8814-55290d6012ac)
 
 ![Dietpi on 3B+](https://github.com/user-attachments/assets/cab3fe7a-3c75-4aab-b576-d4b8767f70c2)
+
+
 
 9-22-2024 - PiCore & Raspup
 --
