@@ -501,6 +501,9 @@ https://lld.llvm.org/ "a production-quality linker used by various operating sys
 --
 Tried a few distros under 128MB RAM
 
+![VirtualBox_slitazLO_26_09_2024_14_26_04](https://github.com/user-attachments/assets/555eeaef-958d-4bb3-bc5e-05332c0ed297)
+
+
 Had started with Tiny Core and SliTaz, but then checked DSL to see if it ran any differently on a 64 bit machine using a 32-bit Virtualbox 5.2
 
 [dsl 4-screen0.webm](https://github.com/user-attachments/assets/95d59f9c-4164-4f79-bac1-54791358eb2f)
@@ -622,7 +625,10 @@ They were the good times
 
 ![image](https://github.com/user-attachments/assets/231dc89c-983d-487d-9270-6e6393b94112)
 
-9-26-24: I tested whether Win 95 can run on 4MB of RAM and 2MB. It loads on 4MB, but it recommends adding more. It doesn't load on 2MB:
+9-26-24 Windows 95
+----
+
+I tested whether Win 95 can run on 4MB of RAM and 2MB. It loads on 4MB, but it recommends adding more. It doesn't load on 2MB:
 
 ![Screenshot from 2024-09-26 14-36-45](https://github.com/user-attachments/assets/b5802015-6562-48a2-8e43-d8a59bee404b)
 
