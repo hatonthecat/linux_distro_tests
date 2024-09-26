@@ -628,6 +628,31 @@ They were the good times
 
 ![Screenshot from 2024-09-26 14-40-11](https://github.com/user-attachments/assets/d178732e-ce7f-4c14-8f57-89f1d38a7f09)
 
+It loads on 3MB in Safe Mode with 3 apps running:
+
+![Screenshot from 2024-09-26 15-22-18](https://github.com/user-attachments/assets/f377b069-e49f-48c6-8bd7-70196b0a1eb6)
+
+Safe Mode is a 16 color mode, which doesn't allow apps that require 256 color, such as the Pacman Arcade Trial, but it's really interesting knowing it works when an Ambiq Micro can run on 
+
+There are x86 emulators for ARM but it's unclear whether there is any microcontroller suppport (e.g. M55)
+
+https://www.techspot.com/news/103082-prism-emulator-make-x86-applications-run-faster-arm.html#:~:text=Prism%20will%20make%20emulated%20(x86,switch%20to%20Apple%20Silicon%20machines.
+https://ambiq.com/wp-content/uploads/2023/03/Apollo510-SoC-Product-Brief.pdf
+
+https://en.wikipedia.org/wiki/Box86
+"Box86 is an emulator for x86 userspace tools on ARM Linux systems, allowing such systems to execute video games and other programs that have been compiled for x86 Linux systems.[2][3] Box86 is an alternative to QEMU for user-mode emulation. Box86 also provides dynamic recompilation as well as functionality to intercept dynamic library calls and forward them to equivalent native libraries, allowing applications to run significantly faster than if they were fully emulated.
+
+Box86 also has limited support for running Wine, allowing users to run x86 Windows apps on ARM devices like the Raspberry Pi."
+
+https://box86.org/2024/08/box64-and-risc-v-in-2024/
+
+https://ambiq.com/wp-content/uploads/2023/03/Apollo510-SoC-Product-Brief.pdf
+
+![image](https://github.com/user-attachments/assets/6a4f6a21-994d-4410-b4b5-954ecc0bac62)
+
+So getting the HAL to run on M55 to boot Box86 with Windows95 in Safe Mode with 3MB of RAM, seems doable, running at 250MHz to emulate a 50MHZ-100MHZ machine (though usually a 10-20x machine speed is needed)
+
+
 
 Back to linux distros
 ----
