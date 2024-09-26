@@ -674,7 +674,8 @@ Also re-ran Raspup 8.2.1. on the Pi0: https://www.youtube.com/watch?v=4KrOSmPjoz
 
 ![image](https://github.com/user-attachments/assets/2768cb3f-c22f-44c4-99ea-fdd420216db0)
 
-This completely oversimplified [tutorial](https://arm.slitaz.org/codex/pibook.html#install) explains nothing on how to set up three boot partitions, which if they were simple enough, would be more user-accessible. But that problem is not unique to this distro.
+This completely oversimplified [tutorial](https://arm.slitaz.org/codex/pibook.html#install) explains nothing on how to set up three partitions, which if they were simple enough, would be more user-accessible. But that problem is not unique to this distro.
 
 ![94rqr1 (1)](https://github.com/user-attachments/assets/6cd855f8-5491-4d0b-9905-0439ce6ba0df)
 
+![image](https://github.com/user-attachments/assets/f173871d-32a8-405a-8dbe-042ba3acd92f)
