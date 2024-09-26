@@ -638,7 +638,7 @@ It loads on 3MB in Safe Mode with 3 apps running:
 
 ![Screenshot from 2024-09-26 15-22-18](https://github.com/user-attachments/assets/f377b069-e49f-48c6-8bd7-70196b0a1eb6)
 
-Safe Mode is a 16 color mode, which doesn't allow apps that require 256 color, such as the Pacman Arcade Trial, but it's really interesting knowing it works when an Ambiq Micro can run on 3.75MB.
+Safe Mode is a 16 color mode, which doesn't allow apps that require [256 color](https://en.wikipedia.org/wiki/List_of_video_game_console_palettes#:~:text=The%20Picture%20Processing%20Unit%20(PPU)%20used%20in%20the%20Super%20Nintendo,up%20to%20256%20simultaneous%20colors.), such as the Pacman Arcade Trial, but it's really interesting knowing it works when an Ambiq Micro can run on 3.75MB.
 
 ![Screenshot from 2024-09-26 15-42-48](https://github.com/user-attachments/assets/3f01ffc5-721e-4052-ba21-c7652259393c)
 
