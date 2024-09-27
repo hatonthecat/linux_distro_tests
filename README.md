@@ -729,10 +729,17 @@ This completely oversimplified [tutorial](https://arm.slitaz.org/codex/pibook.ht
 
 https://distro.ibiblio.org/baslinux/ can run in as little as 3MB
 
+https://distro.ibiblio.org/baslinux/library.html 
+
+"Most Linux applications use shared libraries; that is, they expect a standard set of subroutines (library) to be present.  Currently glibc2 is the standard Linux library -- nearly every application requires it.
+BasicLinux does not have glibc2.  In order to reduce the load on old PCs, BL3 uses a much smaller library, libc5, which was the standard Linux library in the late 1990s.  All Slackware 3.x and 4.0 packages use libc5 (as do RedHat and Debian packages of the same era).
+
+libc5 is a perfectly good library, and most users will find everything they need in the Slackware 4.0 packages or in the BL3 add-on packages.  However, if you wish to use Linux software from another source, you will probably need to upgrade the library."
+
 I tried installing it  on PCEm with 386 and 486 roms but it seems a little complicated booting into DOS, so I tried to load FreeDos. Interestingly, one of the bootdisks showed MenuetOS, which I am not sure was running under the layer of a different bootdisk/livecd.
 https://www.menuetos.net/M32.htm May give it another look at some other time.
 
-I learn kernel/software/system design by circumstantial inferences. That is, I read about how other people talk about software components to understand not just terminology, but historical and active relationships between certain libraries (e.g. libc, gclib2, musl, etc). I prefer the spacetime continuuum model- all information and software exists in a 4D space, rather than it being locked to some prior past. All information is intelligible. "ible", emphasis on the possible. 
+I learn kernel/software/system design by circumstantial inferences. That is, I read about how other people talk about software components to understand not just terminology, but historical and active relationships between certain libraries (e.g. libc, gclibc2, musl, etc). I prefer the spacetime continuuum model- all information and software exists in a 4D space, rather than it being locked to some prior past. All information is intelligible. "ible", emphasis on the possible. 
 
 Referring back to Landley's notes, I found 8 references in 2100+ pages
 
