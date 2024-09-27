@@ -732,3 +732,22 @@ https://distro.ibiblio.org/baslinux/ can run in as little as 3MB
 I tried installing it  on PCEm with 386 and 486 roms but it seems a little complicated booting into DOS, so I tried to load FreeDos. Interestingly, one of the bootdisks showed MenuetOS, which I am not sure was running under the layer of a different bootdisk/livecd.
 https://www.menuetos.net/M32.htm May give it another look at some other time.
 
+I learn kernel/software/system design by circumstantial inferences. That is, I read about how other people talk about software components to understand not just terminology, but historical and active relationships between certain libraries (e.g. libc, gclib2, musl, etc). I prefer the spacetime continuuum model- all information and software exists in a 4D space, rather than it being locked to some prior past. All information is intelligible. "ible", emphasis on the possible. 
+
+Referring back to Landley's notes, I found 8 references in 2100+ pages
+
+[August 24, 2008](https://landley.net/notes-2008.html#24-08-2008)
+
+[October 10, 2009](https://landley.net/notes-2009.html#25-10-2009)
+
+[January 12, 2010]:(https://landley.net/notes-2010.html#12-01-2010)
+
+[April 23, 2014](https://landley.net/notes-2014.html#23-04-2014)
+
+[April 12, 2021](https://landley.net/notes-2021.html#12-04-2021)
+
+[April 29, 2022](https://landley.net/notes-2022.html#29-04-2022)
+
+While there are lots of reasons why a newer library may benefit a modern chipset, there are also benefits to using or starting development from an older library. For example, if multithreading is so embedded in the kernel, and one wants to run a kernel for a single core processor, it might be a lot simpler to use a kernel library that is optimized for single core. It's also possible that there are some performance improvements in a newer kernel that could be backported to libc5, but that isn't trivial. 
+
+
