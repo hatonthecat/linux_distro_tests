@@ -724,7 +724,7 @@ This completely oversimplified [tutorial](https://arm.slitaz.org/codex/pibook.ht
 
 ![image](https://github.com/user-attachments/assets/f173871d-32a8-405a-8dbe-042ba3acd92f)
 
-9-27-2-2024 Basic Lnux (libc5) and non-linux MenuetOS (32-bit)
+9-27-2-2024 Basic Linux (libc5) and non-linux MenuetOS (32-bit)
 --
 
 https://distro.ibiblio.org/baslinux/ can run in as little as 3MB
