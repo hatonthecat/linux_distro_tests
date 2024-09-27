@@ -741,7 +741,7 @@ https://www.menuetos.net/M32.htm May give it another look at some other time.
 
 I learn kernel/software/system design by circumstantial inferences. That is, I read about how other people talk about software components to understand not just terminology, but historical and active relationships between certain libraries (e.g. libc, gclibc2, musl, etc). I prefer the spacetime continuuum model- all information and software exists in a 4D space, rather than it being locked to some prior past. All information is intelligible. "ible", emphasis on the possible. 
 
-Referring back to Landley's notes, I found 8 references in 2100+ pages
+Referring back to Landley's notes, I found 8 references in 2100+ pages ([image](https://github.com/hatonthecat/linux_distro_tests/tree/main/libc5) version)
 
 [August 24, 2008](https://landley.net/notes-2008.html#24-08-2008)
 
