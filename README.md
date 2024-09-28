@@ -760,7 +760,7 @@ While there are lots of reasons why a newer library may benefit a modern chipset
 9/28/2024 libc5, glibc, elibc, and others
 --
 
-(Some of these links are anecdotal and more for researching the history of the transition from libc5 to gclib2 and newer. I have no preference towards any of these libraries, including some of the journal/mailing list ramblings advocating for one or another.) 
+(Some of these links are [anecdotal](https://en.wikipedia.org/wiki/Anecdotal_evidence#Scientific_context) and more for researching the history of the transition from libc5 to gclib2 and newer. I have no preference towards any of these libraries, including some of the journal/mailing list ramblings advocating for one or another.) 
 
 https://en.wikipedia.org/wiki/Dietlibc https://www.fefe.de/dietlibc/ 
 
