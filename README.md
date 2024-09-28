@@ -757,4 +757,43 @@ Referring back to Landley's notes, I found 8 references in 2100+ pages ([image](
 
 While there are lots of reasons why a newer library may benefit a modern chipset, there are also benefits to using or starting development from an older library. For example, if multithreading is so embedded in the kernel, and one wants to run a kernel for a single core processor, it might be a lot simpler to use a kernel library that is optimized for single core. It's also possible that there are some performance improvements in a newer kernel that could be backported to libc5, but that isn't trivial. 
 
+9/28/2024 libc5, glibc, elibc, and others
+--
 
+https://en.wikipedia.org/wiki/Dietlibc https://www.fefe.de/dietlibc/ 
+
+https://en.wikipedia.org/wiki/Bionic_(software)
+
+https://en.wikipedia.org/wiki/Newlib https://www.sourceware.org/newlib/
+
+https://en.wikipedia.org/wiki/Klibc https://mirrors.edge.kernel.org/pub/linux/libs/klibc/2.0/
+
+https://udrepper.livejournal.com/7326.html https://lists.debian.org/debian-devel/2005/09/msg00109.html
+
+https://en.wikipedia.org/wiki/Glibc#Fork_and_variant
+
+https://en.wikipedia.org/wiki/Gnulib https://www.gnu.org/software/gnulib/
+
+https://www.gnu.org/software/libc/
+
+https://en.wikipedia.org/wiki/GLib https://gitlab.gnome.org/GNOME/glib (as if there aren't enough g's and libs)
+
+https://en.wikipedia.org/wiki/UClibc https://www.uclibc.org/ 
+
+https://en.wikipedia.org/wiki/Musl https://musl.libc.org/
+
+libc5 (libc.so.5)
+https://www.man7.org/linux/man-pages/man7/libc.7.html
+https://www.linuxquestions.org/questions/slackware-14/running-libc5-binaries-547804/
+https://lists.debian.org/debian-devel/2005/09/msg00109.html
+https://distro.ibiblio.org/baslinux/library.html 
+https://linuxgazette.net/issue35/tag/libc.html (1998)
+
+"The linux kernel is completely independent of your libc version. You can run a 1.2.x, 2.0.x and 2.1.x kernels with libc4, libc5 and glibc (libc6). You can switch among kernels mostly with impunity and you can have all of these libc's on the system concurrently. (The dlopen stuff will resolve the problems according to how each binary was linked).
+The few gotchyas in this:
+Really old kernels (1.2.x) used a different presentation of key nodes under /proc. Thus the procps utilities (like 'ps' and 'top') from that era would core dump when executed under a newer kernel (with an incompatible proc representation). I don't know if the newer procps suite will gracefully deal with the obsolete proc format or not. I should check that some time.
+The format of the utmp and wtmp files has changed between libc5 and glibc. This is completely unrelated to the kernel. However, it means that all utmp/wtmp using programs must be linked against or or the other library. Those won't co-exist gracefully.
+(I imagine you could isolated all your libc5/utmp/wtmp programs under a chroot or some silly thing --- but I doubt that's going to be useful in practice).
+There is a list of all of "Linux 2.1 Required Utility Program Upgrades" at LinuxHQ:
+http://www.linuxhq.com/pgmup21.html
+... with convenient links to the tar.gz file for each of them. I have run 2.1.12x kernels without upgrading any of these and without any mishaps. I'd probably eliminate some of minor quirks and Ooops' that I've see --- and I'll get around to that when I get the time."
