@@ -799,3 +799,33 @@ The format of the utmp and wtmp files has changed between libc5 and glibc. This 
 There is a list of all of "Linux 2.1 Required Utility Program Upgrades" at LinuxHQ:
 http://www.linuxhq.com/pgmup21.html
 ... with convenient links to the tar.gz file for each of them. I have run 2.1.12x kernels without upgrading any of these and without any mishaps. I'd probably eliminate some of minor quirks and Ooops' that I've see --- and I'll get around to that when I get the time."
+
+Raspberry Pi Debian Lite   
+----
+
+Out of Curiosity, I tried installing the "lite" version of Debian:
+
+I don't remember if it was 0.4 or 0.9GB, but when I installed it, it took up nearly 2GB of the microSD card (the other Lite version with Desktops require 4.4GB or even 10.6GB for the full version)
+
+![image](https://github.com/user-attachments/assets/a466dbfc-903d-45a8-869b-f821bfa071f6)
+
+THen I ran the following guide from the prevous Geerling post:
+
+"sudo apt install xserver-xorg raspberrypi-ui-mods"
+
+That took an additional 1GB of disk space- fine since I had a 4GB SD card that I was booting from a USB adapter, since accessing the microSD slot with my attached DSI ribbon cable was hard to remove, and I didn't want to constantly remove it whenever I needed to format the drive for a bad install, as will be soon seen. Some of the packages failed to install, although I was able to retry one of the recommended commands= not the "fix" one but retrying under sudo. I should have tried the other one first because maybe it would reattempt without exiting the installation setup. So i was left with an incomplete installation. That wasn't all.
+
+""Then run sudo raspi-config and change the system boot option to boot to desktop, instead of the CLI. Then reboot, and you should be in the graphical environment!".
+
+The first part of this worked fine, and I probably would have been fine had I ignored Raspberry Pi's own config "recommendation" that install lightDM (even giving me the sudo apt-install light DM" instruction, just because, without saying whether I had to, or that it was even a good idea. It just told me to, and being a fruity Raspberry Pi follower, obliged without much thought. Well, I failed the Turing Test, because, not because it required another 250MB of disk space to install "lightDM," but after nearly 15 minutes, it finally completed installing in the commmand line, and it was time for reboot. I wanted to select the autologin option (desktop), although I hadn't tried the other one. I suppose I could try that one 
+
+After restarting, even though I selected the autologin, it turns out I didn't complete the setup (because Rasppi wanted me to install lightdm and I exited the last setup) and was at the CLI again, due to an installation file not completing the last time. So after rebooting I re-ran raspi-config, selected the auto-login, and finished setup, only to be prompted with the login, for my username and pw. So either the "recommended" install of lightdm overrode the other install, or it ignored my preference (which could be an option and compatible with lightdm). But either way, lightdm just accepted the correct user name and password, went to a black screen, as if trying to load the window manager/xserver/xfce/whatever, nd returned right back to the login prompt, and did nothing. So not only do I have no way of rebooting the PC to drop to shell, I have to format the drive again because lite edition of debian ended up taking nearly the full size of the 4.4GB size needed to load the desktop edition (legacy), only to not work. 
+
+They could have at least told me that there are other (actually) "light" DMs.
+
+Something like this: https://www.baeldung.com/linux/display-managers-install-uninstall
+
+A competent linux user wouldn't need to explain this, but assumes the average user doesn't want to use XDM, which was developed first in 1988. No one is interested in history, except for me. I will try out XDM in my next format, because I bet that will just work (or maybe it is preinstalled in the other version I didn't try before I installed lightDM).
+
+
+
