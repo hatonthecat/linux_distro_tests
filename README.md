@@ -809,11 +809,11 @@ I don't remember if it was 0.4 or 0.9GB, but when I installed it, it took up nea
 
 ![image](https://github.com/user-attachments/assets/a466dbfc-903d-45a8-869b-f821bfa071f6)
 
-THen I ran the following guide from the prevous Geerling post:
+Then I ran the following guide from the prevous Geerling post:
 
 "sudo apt install xserver-xorg raspberrypi-ui-mods"
 
-That took an additional 1GB of disk space- fine since I had a 4GB SD card that I was booting from a USB adapter, since accessing the microSD slot with my attached DSI ribbon cable was hard to remove, and I didn't want to constantly remove it whenever I needed to format the drive for a bad install, as will be soon seen. Some of the packages failed to install, although I was able to retry one of the recommended commands= not the "fix" one but retrying under sudo. I should have tried the other one first because maybe it would reattempt without exiting the installation setup. So i was left with an incomplete installation. That wasn't all.
+That took an additional 1GB of disk space- fine since I had a 4GB SD card that I was booting from a USB adapter, since accessing the microSD slot with my attached DSI ribbon cable was hard to remove (tested on a 3B+), and I didn't want to constantly remove it whenever I needed to format the drive for a bad install, as will be soon seen. Some of the packages failed to install, although I was able to retry one of the recommended commands= not the "fix" one but retrying under sudo. I should have tried the other one first because maybe it would reattempt without exiting the installation setup. So i was left with an incomplete installation. That wasn't all.
 
 ""Then run sudo raspi-config and change the system boot option to boot to desktop, instead of the CLI. Then reboot, and you should be in the graphical environment!".
 
