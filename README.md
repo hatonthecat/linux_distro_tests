@@ -831,4 +831,8 @@ So after being on the login prompt, before formatting the drive, I found an esca
 
 That dropped me out of the GUI and fortunately i could uninstall lightdm as the first thing I wanted to do. "sudo apt remove lightdm" Only 779KB will be removed... I thought the last time I installed it it took 250MB of dependencies. Some linux committee probably thought it was a good idea that dependencies shouldn't automatically be removed when something is uninstalled. Has a distro ever made that connection? A friendly prompt like, "Hey, we noticed you installed this GIGANTIC dependency package(s) when you installed this lightweight module, would you like to remvoe all that junk too?" Thanks.
 
+After removing lightdm, I didn't appear to have a window mamager. FLWM and FLTK didn't work, although FLWM installed. 
 
+Sudo apt-get install XDM installed something. After installing, it didn't start right away. But it did load, albeit a bit buggy. Still didn't get past the login screen. Apparently I installed the dm but no window toolkit. So I installed LXDE:
+
+ apt-get install lxdm || apt-get install lxdm-gtk3 (you probably need to type sudo apt-get install lxdm", then lxde
