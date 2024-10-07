@@ -836,3 +836,5 @@ After removing lightdm, I didn't appear to have a window mamager. FLWM and FLTK 
 Sudo apt-get install XDM installed something. After installing, it didn't start right away. But it did load, albeit a bit buggy. Still didn't get past the login screen. Apparently I installed the dm but no window toolkit. So I installed LXDE:
 
  apt-get install lxdm || apt-get install lxdm-gtk3 (you probably need to type sudo apt-get install lxdm", then lxde
+
+edit: I got FLWM and LXDE working. Links2 loaded and Midori is installing.
