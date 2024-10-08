@@ -842,6 +842,7 @@ edit: I got FLWM and LXDE working. Links2 loaded and Midori is installing.
 10/8/2024
 --
 This literally was my thought process yesterday:
+
 ![image](https://github.com/user-attachments/assets/59e085d2-2101-4455-8405-827159526913)
 
 I found forums that actually asked this same question- whether it's for containers or a vanilla distro is the same:
