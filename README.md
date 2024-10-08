@@ -838,3 +838,30 @@ Sudo apt-get install XDM installed something. After installing, it didn't start 
  apt-get install lxdm || apt-get install lxdm-gtk3 (you probably need to type sudo apt-get install lxdm", then lxde
 
 edit: I got FLWM and LXDE working. Links2 loaded and Midori is installing.
+
+10/8/2024
+--
+This literally was my thought process yesterday:
+![image](https://github.com/user-attachments/assets/59e085d2-2101-4455-8405-827159526913)
+
+I found forums that actually asked this same question- whether it's for containers or a vanilla distro is the same:
+
+https://stackoverflow.com/questions/19106284/how-do-you-globally-uninstall-all-dependencies-listed-in-package-json-npm
+
+"@UgoRobain good question. As it turns out, some dependencies get really deep. On the NTFS file system (Windows), at least, it has problems removing directories where the path name is longer than some kind of limit, leaving these phantom directories that you can't remove. Fortunately, npm uninstall takes care of that, which is why this trick is useful. – 
+jedmao
+ CommentedSep 22, 2014 at 23:45"
+
+https://superuser.com/questions/1781444/how-does-dependency-uninstalls-occur-while-uninstalling-a-software-in-os
+
+Sometimes, there will be some very dogmatic responses that don't recognize the issue, but eventually identify the actual question addressed:
+
+"First of all.. one OS is not another.. and one package manager is not another. Your question implies that they are related and they are not. The OS has NOTHING to do with brew. Last time I checked, Brew had an autoremove feature that would remove dependencies. Fist uninstall package A .. then run brew autoremove to clean up unneeded dependencies. It's been quite a while since using a mac but I seem to remember this is how it is done. – 
+Señor CMasMas
+ CommentedApr 29, 2023 at 1:57
+I was trying to imply the same point as you. Installing a package from website or homebrew have these two different approaches. Would someone expect every software developer or distributor do its own thing or there are some rules (not so strict apparently) around this issue. – 
+yokus
+ CommentedApr 30, 2023 at 2:03
+Correct.. not so strict ;-) This is true for every package manager I know of but some are more strict than others. – 
+Señor CMasMas
+ CommentedMay 1, 2023 at 14:53"
