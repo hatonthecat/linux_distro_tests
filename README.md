@@ -841,6 +841,9 @@ edit: I got FLWM and LXDE working. Links2 loaded and Midori is installing.
 
 10/8/2024
 --
+
+A bit of history. In 2007,I  had compketed college, and it was my first year where I didn't have exams due. This was a bittersweet time, as I had still wanted to be in grad school, but that is another story which I told on a different repository. It was also the first year I actually had time to learn Ubuntu. There was my first exposure to the Synaptic Package Manager, a term that I loved because it was a very apt (pun intended) metaphor for how memories are stored- in a bundle of synapses rather than a single "file." Thus my intrest in this distro development is for newbs who like Ubuntu or accessible linux but aren't that tech-unsavvy to want to not know what's under the hood. A GUI that can assist in listing the nested tree structure of all the apps before and after an install is helpful in restoring the "original' disk space that was there before the application(s) were installed. While some processes are irreversible, such as system logs that show processes, the system's "institutional memory" (see engineer's blog post in my other repository on that) has no interest in storing the name of the program that installed all the dependencies on most or all distributions. Thus to minimize the need of doing a complete system restore or a format, an installtion log that tracks all the dependencies that were added with each install should also log which applications required them, so that when/if the application gets unininstalled, the system can run a check to see if any other program installed since then also uses that dependency (and even prompt the user if they want to uninstall those, but that might be unrelated). This way, if there are no other programs that also use that dependency, the systemm SHOULD inform the user that no other apps are using those dependencies, and remind them that those dependencies were installed just for that application at that time, and that those now optional /agnostic dependencies, despite not being tied to that app anymore, can be optionally removed from the system disk. This allows the storage of the disk not to pile up quickly with unused dependencies which will often never be used unless a similar program needs it (e.g. .NET or Java Runtime) . In my case, I want to uninstall Xorg, and only reinstall a lighter package that might not need the entire package..Whether I can achieve that is an entirely different matter. For example, I might not need Xvesa driver since that is only for legacy hardware (e.g. ones that use VGA out)
+
 This literally was my thought process yesterday:
 
 ![image](https://github.com/user-attachments/assets/59e085d2-2101-4455-8405-827159526913)
@@ -866,3 +869,5 @@ yokus
 Correct.. not so strict ;-) This is true for every package manager I know of but some are more strict than others. – 
 Señor CMasMas
  CommentedMay 1, 2023 at 14:53"
+
+
