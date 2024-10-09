@@ -872,4 +872,25 @@ Correct.. not so strict ;-) This is true for every package manager I know of but
 Señor CMasMas
  CommentedMay 1, 2023 at 14:53"
 
+8/9/2024
+--
 https://youtu.be/5zuP409mj2A Raspberry Pi Lite Edition (7/2024 distro)
+
+Ubuntu 4.10 Warty Wartog
+---
+![image](https://github.com/user-attachments/assets/cda42625-a7ee-48cc-a921-9e7bd28c1f39)
+
+Tried running Ubuntu on a RAMdisc without a swap file nor a 1.5GB disc. It appears to run a lot slower. It also seemed to borrow 20MB of system RAM for video memory, despite allocating 32MB for that. Whe I selected 64MB of RAM, it stated that it only recognized 44MB of RAM, thus I need to increase the RAM to 85MB+ to avoid the error. 
+
+[Ubuntu 4.10-screen0.webm](https://github.com/user-attachments/assets/d8fe7cc9-3278-43e6-a410-341b5d59c2b0)
+
+The recording and video freezes after around 3:30. After running the OS around 96MB, it reserved only 4MB. In actuality, it needs around 72MB, so the 64BMB requirement is a bit optimistic in typical use cases. 
+
+https://old-releases.ubuntu.com/releases/warty/
+
+https://www.opensourcefeed.org/ubuntu-classic-ubuntu-4.10/ (written by Open**)
+
+"Ubuntu 4.10 Warty Warthog, released on October 20, 2004, was the first-ever official version of Ubuntu, a  Linux distribution developed and maintained by Canonical. Although it has been almost two decades since its release, Warty Warthog is still remembered by many as a milestone in the history of Linux and open-source software.
+
+ Installation and System Requirements
+Ubuntu 4.10 Warty Warthog was designed to run on x86-based personal computers, including both 32-bit and 64-bit architectures. The minimum system requirements were modest, with just 64 MB of RAM and 1.5 GB of hard disk space required for a full installation."
