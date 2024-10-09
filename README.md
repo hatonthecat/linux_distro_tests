@@ -887,7 +887,7 @@ Tried running Ubuntu on a RAMdisc without a swap file nor a 1.5GB disc. It appea
 
 [Ubuntu 4.10-screen0.webm](https://github.com/user-attachments/assets/d8fe7cc9-3278-43e6-a410-341b5d59c2b0)
 
-The recording and video freezes after around 3:30. After running the OS around 96MB, it reserved only 4MB. In actuality, it needs around 72MB, so the 64BMB requirement is a bit optimistic in typical use cases. 
+The recording and video freezes after around 3:30. After running the OS around 96MB, it reserved only 4MB. In actuality, it needs around 72MB, so the 64MB requirement is a bit optimistic in typical use cases. 
 
 https://old-releases.ubuntu.com/releases/warty/
 
