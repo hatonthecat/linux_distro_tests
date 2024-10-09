@@ -872,4 +872,4 @@ Correct.. not so strict ;-) This is true for every package manager I know of but
 Señor CMasMas
  CommentedMay 1, 2023 at 14:53"
 
-
+https://youtu.be/5zuP409mj2A Raspberry Pi Lite Edition (7/2024 distro)
