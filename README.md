@@ -876,7 +876,7 @@ Señor CMasMas
 --
 https://youtu.be/5zuP409mj2A Raspberry Pi Lite Edition (7/2024 distro)
 
-Ubuntu 4.10 Warty Wartog
+Ubuntu 4.10 Warty Warthog
 ---
 ![image](https://github.com/user-attachments/assets/cda42625-a7ee-48cc-a921-9e7bd28c1f39)
 
