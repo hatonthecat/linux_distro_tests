@@ -882,11 +882,16 @@ Ubuntu 4.10 Warty Wartog
 
 Tried running Ubuntu on a RAMdisc without a swap file nor a 1.5GB disc. It appears to run a lot slower. It also seemed to borrow 20MB of system RAM for video memory, despite allocating 32MB for that. Whe I selected 64MB of RAM, it stated that it only recognized 44MB of RAM, thus I need to increase the RAM to 85MB+ to avoid the error. 
 
+![image](https://github.com/user-attachments/assets/b0e03ff9-8c3d-4d6d-8eba-39e099bf4c96)
+
+
 [Ubuntu 4.10-screen0.webm](https://github.com/user-attachments/assets/d8fe7cc9-3278-43e6-a410-341b5d59c2b0)
 
 The recording and video freezes after around 3:30. After running the OS around 96MB, it reserved only 4MB. In actuality, it needs around 72MB, so the 64BMB requirement is a bit optimistic in typical use cases. 
 
 https://old-releases.ubuntu.com/releases/warty/
+
+I lowered the resolution to limit freezing.
 
 https://www.opensourcefeed.org/ubuntu-classic-ubuntu-4.10/ (written by Open**)
 
