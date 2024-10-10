@@ -899,3 +899,14 @@ https://www.opensourcefeed.org/ubuntu-classic-ubuntu-4.10/ (written by Open**)
 
  Installation and System Requirements
 Ubuntu 4.10 Warty Warthog was designed to run on x86-based personal computers, including both 32-bit and 64-bit architectures. The minimum system requirements were modest, with just 64 MB of RAM and 1.5 GB of hard disk space required for a full installation."
+
+10/10/2024
+--
+"CMD? But there's no GUI!"
+
+![image](https://github.com/user-attachments/assets/e91eb4c0-9553-4b30-b71d-82f96533e303)
+
+![image](https://github.com/user-attachments/assets/24ddfab3-f4c1-47a2-afbc-d445e74d6c4f)
+
+
+
