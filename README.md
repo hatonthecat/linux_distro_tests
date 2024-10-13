@@ -908,5 +908,44 @@ Ubuntu 4.10 Warty Warthog was designed to run on x86-based personal computers, i
 
 ![image](https://github.com/user-attachments/assets/24ddfab3-f4c1-47a2-afbc-d445e74d6c4f)
 
+10/12/2024
+---
+
+DemoLinux https://youtu.be/8ZIIklSzlFw 
+https://www.ventoy.net/en/index.html
+
+Trying out some old distros:
+https://soft.lafibre.info/
+
+https://www.linux-distros.com/category/1998-2002/page/6/
+
+"Mandrake 5.3 (ISO)
+The new release includes software so new it’s almost scary – KDE 1.1; Last release with Kernel 2.0 series.
+
+Mandrake-5.3
+
+Linux Distro: Mandrake 5.3 (Venice)
+Type: Stable
+Date: July 1998
+Kernel: 2.0.34
+Feature: First release."
+
+I plan to try out Mandrake on PCEm or VirtualBox, provided I can get a bootdisk and/or CD ROM drive to load it correctly. It ran in as little as 16MB of RAM: https://www.youtube.com/watch?v=d4JjhrtqcnQ
+
+https://en.wikipedia.org/wiki/ZipSlack
+
+"ZipSlack was a specially compiled release of the Slackware Linux distribution that was designed to be lightweight and portable. It was distributed in a ZIP archive along with the Slackware release.
+
+"Minimum requirements
+When downloaded, ZipSlack required approximately 100 megabytes of disk space and an Intel 80386 or compatible CPU. ZipSlack was able to run with a minimum of four megabytes of memory with an add-on supplied by Slackware.[3] However, at least eight to sixteen megabytes were the recommended minimum requirement with the possibility of more if the X Window System or other GUI software was going to be used with it.
+
+The UMSDOS file system needed to be hosted on a FAT filesystem.
+
+Caveats
+The archive, which contained the ZipSlack distribution, was too big to be decompressed with a 16-bit application such as the older versions of PKZIP for DOS systems.[4] Instead, software such as a 32-bit DOS version of Info-ZIP compiled with a DOS extender, Info-ZIP on Linux, WinZip, 7-Zip, or another similarly capable utility on Microsoft Windows needed to be used. Alternatively, the system could be booted on a live CD version of Slackware and the standard zip utility provided with the distribution used."
+
+https://en.wikipedia.org/wiki/Slackware#Releases  (RAM requirements were as little as 4MB- getting ZipSlack to run would be interesting too- 
+
+DSL 2024 https://youtu.be/KEbW5tFrLXc
 
 
