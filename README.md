@@ -948,4 +948,26 @@ https://en.wikipedia.org/wiki/Slackware#Releases  (RAM requirements were as litt
 
 DSL 2024 https://youtu.be/KEbW5tFrLXc
 
+SUSE Linux 8.2 with unknown filesystem (Searching for cramFS in the wild)
+--
+https://www.youtube.com/watch?v=CIKHwsSQC4s
 
+https://www.zdnet.com/article/what-is-immutable-linux-heres-why-youd-run-an-immutable-linux-distro/
+
+https://archive.org/details/debian_3.1r8_i386
+
+https://www.broadcom.com/support/knowledgebase/1211161490111/debian-linux-sarge-3.1-kernels-2.4.27-and-2.6.8
+
+"Unlike a compressed image of a conventional file system, a cramfs image can be used as it is, i.e. without first decompressing it. For this reason, some Linux distributions use cramfs for initrd images (Debian 3.1 in particular) and installation images (SUSE Linux in particular), where there are constraints on memory and image size." https://en.wikipedia.org/wiki/Cramfs
+https://www.kernel.org/doc/Documentation/filesystems/cramfs.txt
+
+https://docs.kernel.org/filesystems/cramfs.html
+
+https://en.wikipedia.org/wiki/OpenSUSE#Historic_(1994-2005)
+"Since the acquisition by Novell in 2003 and with the advent of openSUSE, this has been reversed: starting with version 9.2, an unsupported one-DVD ISO image of SUSE Professional was made available for download. "
+
+Which version of SUSE uses cramFS? 
+
+Maybe somewhere around 6-8.2? 
+
+https://archive.org/details/SuSE8.2LiveEvalI386IntRC2 (I am leaning towards <2.6)
