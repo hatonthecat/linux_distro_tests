@@ -1,0 +1,394 @@
+
+<!-- saved from url=(0055)http://www.roylongbottom.org.uk/dhrystone%20results.htm -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Dhrystone Benchmark Results - Roy Longbottom's PC benchmark Collection</title>
+
+<meta name="GENERATOR" content="Hand Coded">
+<meta name="description" content="Roy Longbottom&#39;s PC benchmark Collection - Dhrystone Benchmark Results On PCs">
+</head>
+<body bgcolor="#DDDDDD">
+<center><img alt="Title" src="./Dhrystone Benchmark Results - Roy Longbottom&#39;s PC benchmark Collection_files/title.gif" border="0"></center>
+<table bgcolor="#FFFFE0" cellspacing="0" cellpadding="3" width="770" align="center" border="0">
+ <tbody><tr>
+  <td><br>
+<font face="Verdana" size="2">
+<a name="anchorStart"></a>
+<center><h2>
+<a href="http://www.linkedin.com/pub/roy-longbottom/58/9b3/ba2" title="Click for Roy Longbottom at Linkedin"><img alt="Roy Longbottom at Linkedin" src="./Dhrystone Benchmark Results - Roy Longbottom&#39;s PC benchmark Collection_files/linkedin.gif" border="0" ==""></a> 
+Dhrystone Benchmark Results On PCs</h2></center>
+</font>
+<br>
+  <table bordercolor="#00ffff" cellspacing="0" cellpadding="3" width="95%" align="center" border="1">
+   <tbody><tr align="CENTER">
+    <td width="33%"><font face="Verdana" size="2"><a href="http://www.roylongbottom.org.uk/dhrystone%20results.htm#anchorWin">Windows PC Results</a></font>
+    </td>
+    <td width="33%"><font face="Verdana" size="2"><a href="http://www.roylongbottom.org.uk/dhrystone%20results.htm#anchorLinux">Linux Results</a></font>
+    </td>
+    <td width="33%"><font face="Verdana" size="2"><a href="http://www.roylongbottom.org.uk/dhrystone%20results.htm#anchorAndroid">Android Results</a></font>
+    </td>
+   </tr>
+    <tr align="CENTER">
+    <td><font face="Verdana" size="2"><a href="http://www.roylongbottom.org.uk/dhrystone%20results.htm#anchorAndroid">Raspberry Pi Results</a></font>
+    </td>
+    <td><font face="Verdana" size="2"><a href="http://www.roylongbottom.org.uk/dhrystone%20results.htm#anchor16bit">DOS and OS/2 Results</a></font>
+    </td>
+    <td><br>
+    </td>
+   </tr>
+ </tbody></table>
+<br>
+<table cellspacing="0" cellpadding="3" width="95%" align="center" border="0">
+ <tbody><tr>
+  <td>
+   <font face="Verdana" size="2">
+   <h4>Description</h4>
+   <p>The Dhrystone "C" benchmark provides a measure of integer performance (no floating point instructions). It became the key standard benchmark from 1984, with the growth of Unix systems. The first version was produced by Reinhold P. Weicker in ADA and translated to "C" by Rick Richardson.
+   </p><p>Two versions are available - Dhrystone versions 1.1 and 2.1. The second version was produced to avoid over-optimisation problems encountered with version 1. Although it is recommended that advanced optimisation levels should be avoided with the latter, it is clear from published results that the recommendation is usually ignored. 
+   </p><p>This document contains results of optimised and non-optimised versions of Dhrystone 1 and 2 on PCs. 
+      The pre-compiled benchmarks can be found in <a href="http://www.roylongbottom.org.uk/benchnt.zip"> BenchNT.zip</a> which also contains the source codes, providing further explanatory comments.
+      DOS versions are available in <a href="http://www.roylongbottom.org.uk/dostests.zip">DosTests.zip</a>, some to run via OS/2 in <a href="http://www.roylongbottom.org.uk/os2tests.zip">OS2Tests.zip</a> and a 16 bit version in <a href="http://www.roylongbottom.org.uk/cb16bit.zip"> cb16bit.zip</a>.
+      Then there is  <a href="http://www.roylongbottom.org.uk/index.htm">My Main Page</a> for other PC benchmarks and results.
+   </p><p>Original versions of the benchmark gave performance ratings in terms of Dhrystones per second. This was later changed to VAX MIPS by dividing Dhrystones per second by 1757, the DEC VAX 11/780 result.
+   </p><p><b>Dhrystone Reference</b> - Reinhold P. Weicker, CACM Vol 27, No 10, 10/84,pg.1013
+   <br> 
+   <br>
+   <br>
+   </p><h4>Results</h4>
+   <p>The following is a sample of results. Performance tends to be proportional to CPU MHz for a given type of processor.   
+      Details of cache sizes and range of CPU MHz can be found in <a href="http://www.roylongbottom.org.uk/cpuspeed.htm">CPUSpeed.htm</a>. 
+      Results include those from DOS and Windows compilations that produce very similar speed measurements.  OS/2 and 16 bit results are included at the bottom of the table.
+   </p><p>Later results are for new optimised compilations via Microsoft 32 bit and 64 bit compilers, the latter with integer variables declared as 32 and 64 bits.
+    Results for 32 bit integers show that 64 bit compilations are up to 56% faster than the 32 bit versions. Much of the gain appears to be due to a different translation of the C source code but, with twice as many registers available for optimisation at 64 bits, there could be some performance improvement. Regarding 64 bit compilations, the versions using 64 bit integers were both slower than with 32 bit integers. by 27% in one case. This might be due to the higher volume of data from cache with 64 bit words but limited compilations were inconclusive when some of the code was omitted.
+      The EXE files can be found in <a href="http://www.roylongbottom.org.uk/win64.zip">Win64.zip</a> and C/C++ source code in <a href="http://www.roylongbottom.org.uk/newsource.zip">NewSource.zip</a>.
+   </p><p>Results from compilations, following others for 32 bit and 64 bit tests, are from a later Microsoft compiler, with samples that include an Intel Atom based tablet, using Windows 10. 
+   </p><p>Other results are for the same code ported to 32-Bit and 64-Bit Linux using the supplied GCC compiler (all free software) - see 
+   <a href="http://www.roylongbottom.org.uk/linux%20benchmarks.htm">linux benchmarks.htm</a>
+   and download benchmark execution files, source code, compile and run instructions in 
+   <a href="http://www.roylongbottom.org.uk/classic_benchmarks.tar.gz">classic_benchmarks.tar.gz</a>. 
+   Using Windows the file downloaded wrongly as classic_benchmarks.tar.tar but was fine when renamed  classic_benchmarks.tar.gz. Results are shown separately 
+   <a href="http://www.roylongbottom.org.uk/dhrystone%20results.htm#anchorLinux">below</a>.
+   </p><p>Later conversions were varieties to run on Android tablets and phones on ARM CPUs. These use a Java front end for starting and displaying results, with the compiled C code for calculations. Download
+   <a href="http://www.roylongbottom.org.uk/Dhrystone2.apk"> Dhrystone2.apk</a>
+   and
+   <a href="http://www.roylongbottom.org.uk/Dhrystone2i.apk"> Dhrystone2i.apk</a> 
+   see 
+   <a href="http://www.roylongbottom.org.uk/android%20benchmarks.htm#anchor10"> android benchmarks.htm</a>,   
+   <a href="http://www.roylongbottom.org.uk/android%20native%20ARM-Intel%20benchmarks.htm"> Android Native ARM-Intel Benchmarks.htm</a> 
+   and
+   <a href="http://www.roylongbottom.org.uk/android%2064%20bit%20benchmarks.htm">Android 64 Bit Benchmarks.htm</a>   
+   also 
+   <a href="http://www.roylongbottom.org.uk/dhrystone%20results.htm#anchorAndroid">results here</a>.
+   </p></font><p><font face="Verdana" size="2">Latest benchmark was compiled and run on a Raspberry Pi that uses ARM CPUs and Linux. See  
+   <a href="http://www.roylongbottom.org.uk/Raspberry%20Pi%20Benchmarks.htm">Raspberry Pi Benchmarks.htm</a> 
+   and download from 
+   <a href="http://www.roylongbottom.org.uk/Raspberry_Pi_Benchmarks.zip">Raspberry_Pi_Benchmarks.zip</a>.
+   Then updated (2015), inculding Raspberry Pi 2, exising benchmarks and new version from a later compiler. 
+   Raspberry Pi 3 results were added in 2016. The results are 
+   <a href="http://www.roylongbottom.org.uk/dhrystone%20results.htm#anchorAndroid">also here</a>.
+   Benchmarks and source codes for 64 bit Linux are in 
+   <a href="http://www.roylongbottom.org.uk/Rpi3-64-Bit-Benchmarks.tar.gz">Rpi3-64-Bit-Benchmarks.tar.gz</a>. 
+
+
+    <br><br>
+</font>       
+  <table align="CENTER" border="0" bgcolor="#FFFFFF" cellspacing="0" cellpadding="3" width="75%">
+   <tbody><tr>
+    <td>
+<a name="anchorWin"></a>
+<center><pre>                      Dhry1  Dhry1  Dhry2  Dhry2
+                        Opt  NoOpt    Opt  NoOpt
+                        VAX    VAX    VAX    VAX
+CPU              MHz   MIPS   MIPS   MIPS   MIPS
+
+AMD 80386         40   17.5   4.32   13.7   4.53
+IBM 486D2         50   26.6   7.89   22.4   7.89
+80486 DX2         66   45.1   12.0   35.3   12.4
+IBM 486BL        100   53.9   12.0   40.9   11.8
+AMD 5X86         133   84.5   9.37   84.5   9.42
+Pentium           75    112   19.3   87.1   18.9
+Cyrix P150       120    175   27.9    160   28.3
+Pentium          100    169   31.8    122   32.2
+Cyrix PP166      133    219   38.4    180   39.8
+IBM 6x86         150    234   44.1    188   43.9
+Pentium          133    239   38.3    181   39.0
+Pentium          166    270   43.6    189   43.9
+Cyrix PR233      188    286   46.4    232   45.8
+Pentium          200    353   47.4    269   48.1
+Pentium MMX      200    352   51.4    276   51.0
+AMD K6           200    349   43.1    289   43.3
+Pentium Pro      200    373   92.4    312   91.9
+Celeron A        300    553    133    484    136
+Pentium II       300    544    132    477    136
+AMD K62          500    778   77.8    606   76.8
+AMD K63          450    804   76.3    645   77.4
+Pentium II       450    813    199    713    204
+Celeron A        450    828    198    720    202
+Pentium III      450    846    197    722    203
+Pentium III      600   1105    263    959    270
+Athlon           600   1316    321    942    316
+Duron            600   1382    350    999    349
+Pentium III     1000   1858    461   1595    465
+PIII Tualatin   1200   2205    546   1907    571
+Pentium 4       1700   2262    239   1843    242
+Athlon Tbird    1000   2282    634   1659    602
+Duron           1000   2288    576   1674    587
+Celeron M       1295   2440    640   2273    645
+Atom            1600   2462    717   1828    728
+Pentium 4       1900   2593    261   2003    269
+Atom            1666   2600    772   1948    780
+P4 Xeon         2200   3028    300   2265    309
+Atom Z8300      1840   3203    904   2686    927
+Athlon 4        1600   3707    956   2830   1004
+Pentium M       1862   4082    954   3933    975
+Ath4 Barton     1800   4181   1061   3172   1099
+Pentium 4E      3000   4379    566   3553    566
+Athlon XP       2080   4826   1228   3700   1312
+Turion 64 M     1900   4972   1186   3742   1150
+Pentium 4       3066   5052    432   4012    434
+Opteron         1991   5077   1268   3985   1223
+Core 2 Duo M    1830   5379    892   4952    966
+Athlon XP       2338   5433   1400   4160   1482
+Athlon 64       2150   5658   1312   4288   1355
+Pentium 4       3678   5787    511   4227    480
+Athlon 64       2211   5798   1348   4462   1312
+Celeron C2 M    2000   5804    932   5275   1050
+Core 2 Duo 1 CP 2400   7145   1198   6446   1251
+Core i5 2467M   @@@@   8338   1183   4752   1148
+Phenom II 1 CP  3000   9462   2250   7615   2253
+Core i7 930     ****   9826   1662   8684   1661
+Core i7 860     ####  10094   1789   9978   1847
+Core i7 3930K   &amp;&amp;&amp;&amp;  13871   1960  11197   1972
+Core i7 4820K   $$$1  14136   1958  11867   1981
+Core i7 4820K   $$$2  14776   2006  11978   2014
+Core i7 3930K   OC    17269   2444  13877   2432
+
+ ####  Rated as 2800 MHz but running at up to   
+       3460 MHz using Turbo Boost               
+ ****  Rated as 2800 MHz but running at up to   
+       3066 MHz using Turbo Boost               
+ @@@@  Rated as 1600 MHz running at up to       
+       2300 MHz using Turbo Boost               
+ &amp;&amp;&amp;&amp;  Rated as 3200 MHz but running at up to   
+       3800 MHz, OC OverClocked ~4730 MHz       
+ $$$1  Rated as 3700 MHz but running at up to   
+       3900 MHz, using Turbo Boost              
+ $$$2  Performance not Balanced Power Setting   
+       for 3900 MHz                             
+   M = Mobile CPU                               
+
+<a href="http://www.roylongbottom.org.uk/dhrystone%20results.htm#anchorStart">To Start</a>
+<b>
+                      Dhry1  Dhry1  Dhry2  Dhry2
+                        Opt  NoOpt    Opt  NoOpt
+                        VAX    VAX    VAX    VAX
+CPU              MHz   MIPS   MIPS   MIPS   MIPS
+
+Later Results 32 and 64 Bit MS Compilers       
+</b>
+Pentium 4  32b1 1900   2613          1795       
+
+Athlon 64  32b1 2211   6104          3720       
+Athlon 64  64b1 2211   8668          5214       
+Athlon 64  64b2 2211   8549          4654       
+
+Core 2 Duo 32b1 2400   8094          5476       
+Core 2 Duo 64b1 2400  12600          8550       
+Core 2 Duo 64b2 2400  11726          6248       
+
+Core i7    64b1 &amp;&amp;&amp;&amp;  33048         18355       
+Core i7    64b2 &amp;&amp;&amp;&amp;  27873         15753       
+
+Core i7    32b1 $$$1  15470         10302       
+Core i7    64b1 $$$1  27113         15580       
+Core i7    64b2 $$$1  22362         13279       
+Core i7    32b1 $$$2  15587         10347       
+Core i7    64b1 $$$2  29291         15756       
+Core i7    64b2 $$$2  23652         13364       
+
+Phenom II  32b1 3000   9768          6006       
+Phenom II  64b1 3000   9862          6878       
+Phenom II  64b2 3000  11837          8006       
+
+ b1 = 32 bit integers, b2 = 64 bit integers    
+ &amp;&amp;&amp;&amp; overclocked i7-3930K see above           
+ $$$1  Turbo Boost &lt; 3900 MHz see above        
+ $$$2  Turbo Boost at 3900 MHz see above       
+<b>
+Later MS Compilers  Version 18.00              
+</b>
+Atom Z8300 32b1 1840                 3044       
+Atom Z8300 64b1 1840                 3201       
+
+Core 2 Mob 32b1 1830                 4546       
+
+Core 2 Duo 32b1 2400                 6587       
+Core 2 Duo 64b1 2400                 5946       
+
+Core i7    32b1 $$$1                12090       
+Core i7    64b1 $$$1                11686       
+
+Phenom II  32b1 3000                 7321       
+Phenom II  64b1 3000                 8137       
+
+<a href="http://www.roylongbottom.org.uk/dhrystone%20results.htm#anchorStart">To Start</a>
+
+<a name="anchorLinux"></a>
+,B.32 Bit and 64 Bit Linux Results from Ubuntu GCC 
+
+                             Dhry1  Dhry1  Dhry2  Dhry2
+                               Opt  NoOpt    Opt  NoOpt
+                              VAX    VAX    VAX    VAX
+CPU                OS   MHz   MIPS   MIPS   MIPS   MIPS
+
+Atom N455     32b  Ub  1666   5485   1198   2055   1194
+Atom N455     64b  Ub  1666   5926   1065   2704   1098
+
+Core 2 Mob    32b  Ub  1830   9876   2602   4833   2584
+Core 2 Mob    64b  Ub  1830  15382   2265   8241   2502
+ 
+Athlon 64     32b  Ub  2211   9034   2286   4580   2347
+Athlon 64     64b  Ub  2211  14783   2243   6873   2580
+
+Core 2 Duo    32b  Ub  2400  13599   3428   5852   3348
+Core 2 Duo    64b  Ub  2400  18738   3643  12265   3288
+
+Phenom II     32b  Ub  3000  13406   3368   6676   3470
+Phenom II     64b  Ub  3000  21996   3908  11982   3826
+Phenom II     64b  Fe  3000  21841   3882  12000   3798
+
+Core i7 930   64b  Ub  ****  24396   5361  16435   5302
+
+Core i7 4820K 32b  Ub  $$$1  29277   7108   16356  7478
+Core i7 4820K 64b  Ub  $$$1  32659   8436   23607  8481
+
+       Ub = Ubuntu Linux,   Fe = Fedora Linux   
+ ****  Rated as 2800 MHz but running at up to   
+       3066 MHz using Turbo Boost               
+ $$$1  Rated as 3700 MHz but running at up to   
+       3900 MHz, using Turbo Boost              
+
+<a href="http://www.roylongbottom.org.uk/dhrystone%20results.htm#anchorStart">To Start</a>
+
+<a name="anchorAndroid"></a>
+<b>
+ Android Results Compiled By Native Development Kit
+ Also results for Raspberry Pi &amp; Linux
+
+                                     Opt     NoOpt
+ System   ARM    MHz   Android       Vax       Vax
+                                    MIPS      MIPS
+</b>
+  T5  MIPS CPU  1000     4.0.1        56 E        
+  T1    926EJ    800       2.2       356       196
+  T2    v7-A9    800     2.3.4       962       458
+  P13   v7-A9   1200     4.1.2      1491          
+  T7    v7-A9   1300a    4.1.2      1610       810
+  T4    v7-A9   1500a    4.0.3      1650       786
+  P11   v7-A9v3 1400     4.0.4      1937       866
+  T11*I v7-A15  2000b    4.2.2      2533          
+  T11   v7-A15  2000b    4.2.2      3189      1504
+  T21*I QU-800  2150     4.4.3      3319          
+  T21   QU-800  2150     4.4.3      3854      1628
+
+  A1*C  Z3745   1866     4.4.2      1840      1310
+  A1*I  Z3745   1866     4.4.2      2451          
+  A1*I  Z8300   1840     5.1.1      2430          
+
+  ARM   v8-A53  1300     5.0.2      1683          
+  ARM*I v8-A53  1300     5.0.2      1423          
+  ARM*I v8-A53  1300     5.1        1493          
+  ARM*I v8-A53  1500     6.0.1      1649          
+  R1=Atom Z8300 1840     6.0.1      2390          
+  R2    Core i7 3900     6.0.1     10489          
+<b>
+  64 Bit Version                                  </b>
+  ARM  v8-A53*I 1300     5.0.2      2569          
+  ARM  v8-A53*I 1300     5.1        2658          
+  R1=Atom Z8300 1840     6.0.1      3769          
+  R2    Core i7 3900     6.0.1     17003          
+
+   System - T = Tablet, P = Phone, E = Emulator?  
+   a running at 1500, b at 1700                   
+  *I Atom Native Intel/ARM version                
+  *C Atom using Intel to ARM conversion           
+  QU = Qualcomm CPU                               
+  R1, R2 Android via REMIX for PC                 
+
+ <b>Raspberry Pi           Linux</b>                   
+  ARM  1176      700     3.6.11      847          
+  ARM  1176     1000     3.6.11     1226          
+
+  <b>Raspberry Pi 2</b>                                  
+  ARM V7A       900      3.18.5     1538          
+  ARM v7A      1000      3.18.5     1694          
+ <b>gcc 4.8</b>                                        
+  ARM V7A       900      3.18.5     1667          
+  ARM V7A      1000      3.18.5     1852          
+
+  <b>Raspberry Pi 3, 32 Bit</b>                          
+  ARM v8-A53   1200      4.1.19     2201          
+  <b>gcc 4.8</b>                                         
+  ARM v8-A53   1200      4.1.19     2469          
+
+  <b>Raspberry Pi 3, 64 Bit</b>                          
+  <b>OpenSuse</b>                                        
+  ARM v8-A53   1200      4.4.36     3536          
+  <b>Gentoo</b>                                          
+  ARM v8-A53   1200      4.10.0     3475          
+
+NOTE: ARM's own results are much faster than these
+- different compiler and optimisation?
+
+<a href="http://www.roylongbottom.org.uk/dhrystone%20results.htm#anchorStart">To Start</a>
+
+<a name="anchor16bit"></a>
+<b>16 Bit Results
+
+                      Dhry1  Dhry1  Dhry2  Dhry2
+                        Opt  NoOpt    Opt  NoOpt
+                        VAX    VAX    VAX    VAX
+CPU              MHz   MIPS   MIPS   MIPS   MIPS
+</b>
+80486 DX2         66     29     14     18      8
+Pentium          100     89     41     78     42
+Pentium Pro      200    176     95    164     94
+Celeron M       1295    705                     
+Pentium 4E      3000    754                     
+Athlon 4        2080   1256                     
+Core i7 4820K   3700   1832                     
+<b>
+OS/2 Results
+</b>
+80486             75     37      9     35      9
+IBM 80486BL      100     54     12     41     12
+80486 DX2         66     59     12     48     12
+Cyrix P150       120    175     28    160     28
+Pentium Pro      150    276     53    218     52
+Pentium Pro      166    307     59    242     57
+Pentium Pro      200    362     69    285     67
+
+<a href="http://www.roylongbottom.org.uk/dhrystone%20results.htm#anchorStart">To Start</a>
+
+</pre>
+</center>
+  </td>
+ </tr>
+</tbody></table>
+  </p></td>
+ </tr>
+</tbody></table>
+<br><br><br>
+<center>
+<a href="http://www.linkedin.com/pub/roy-longbottom/58/9b3/ba2" title="Click for Roy Longbottom at Linkedin"><img alt="Roy Longbottom at Linkedin" src="./Dhrystone Benchmark Results - Roy Longbottom&#39;s PC benchmark Collection_files/linkedin.gif" border="0" ==""></a> 
+<b>Roy Longbottom February 2017</b>
+<br><br>
+The Internet Home for my PC Benchmarks is via the link<br>
+<a href="http://www.roylongbottom.org.uk/">Roy Longbottom's PC Benchmark Collection</a>
+<br>
+</center> 
+<br><br><br>
+  </td>
+ </tr>
+</tbody></table>
+
+</body></html>
