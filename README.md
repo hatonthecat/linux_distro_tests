@@ -997,6 +997,12 @@ https://alexandrugroza.ro/microelectronics/system-design/isa-80386dx-sbmc/index.
 
 https://www.youtube.com/watch?v=wVgITS8aLzc Pocket 386 - A NEW Modern Windows 95 & MS-DOS Laptop - Review & Unboxing (2022) 
 
+Review: https://arstechnica.com/gadgets/2024/08/a-few-weeks-with-the-pocket-386-an-early-90s-style-half-busted-retro-pc/ 
+
+"There are two big reasons for a machine like this to exist. For people like me, they're fun curiosities, a way to play with some retro hardware and software that doesn't require actually finding, buying, and making space for actual vintage hardware. It's an opportunity to revisit a time when this technology was newer and simpler (and, at least for me, a time when it was easier to be optimistic and excited about it). There are also people with vintage software or accessories they want to keep using and who (for one reason or another) can't use modern hardware or an emulator to do it.
+
+The Pocket 386 is a poor fit for either audience, too flakey and frustrating for hobbyists and too inconsistent and unstable for anyone who genuinely needs to rely on it for anything. I actually kind of liked using the Book 8088 as a distraction-free glorified electronic typewriter; there's a version of the Pocket 386 that could fill the same niche, but this particular laptop doesn't do it for me."
+
 https://theretroweb.com/chipsets/182
 
 https://www.youtube.com/watch?v=ZyjeVx_YOLE  386SX-40 Single Board Computer with ALI M6117C Embedded CPU - Testing & Gaming (2021) 
