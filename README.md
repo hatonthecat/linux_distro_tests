@@ -971,3 +971,19 @@ Which version of SUSE uses cramFS?
 Maybe somewhere around 6-8.2? 
 
 https://archive.org/details/SuSE8.2LiveEvalI386IntRC2 (I am leaning towards <2.6)
+
+486 processors
+--
+
+https://www.tinytransistors.net/2020/11/21/intel-486sx/
+
+https://x86.fr/investigating-ssmecs-state-micro-486s-with-the-uca/ 
+
+https://www.youtube.com/watch?v=2eogea9lbcM Windows 95 on a 486SX 25MHz (2010)
+
+https://en.m.wikipedia.org/wiki/List_of_x86_manufacturers#x86-processors_for_embedded_designs_only
+
+386
+--
+
+https://alexandrugroza.ro/microelectronics/system-design/isa-80386dx-sbmc/index.html 
