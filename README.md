@@ -994,3 +994,18 @@ https://en.m.wikipedia.org/wiki/List_of_x86_manufacturers#x86-processors_for_emb
 --
 
 https://alexandrugroza.ro/microelectronics/system-design/isa-80386dx-sbmc/index.html 
+
+https://www.youtube.com/watch?v=wVgITS8aLzc Pocket 386 - A NEW Modern Windows 95 & MS-DOS Laptop - Review & Unboxing (2022) 
+
+https://theretroweb.com/chipsets/182
+
+https://www.youtube.com/watch?v=ZyjeVx_YOLE  386SX-40 Single Board Computer with ALI M6117C Embedded CPU - Testing & Gaming (2021) 
+ 
+https://theretroweb.com/motherboards/s/unknown-ac-486-model-pqfp
+
+https://news.ycombinator.com/item?id=36213067 https://en.wikipedia.org/wiki/ALi_Corporation https://www.nvidia.com/en-us/drivers/uli-m6117c/  https://www.eetimes.com/sis-acquires-rise-cpu-technology-2/  https://www.cnet.com/tech/tech-industry/sis-eyes-intel-compatible-chips-with-rise-deal/
+
+"The Vortex86 ones are based on RISE, but this is a M6117, which originated at ALI (Acer Labs), which became ULI, which was bought by Nvidia (https://www.nvidia.com/en-us/drivers/uli-m6117c/), and then at some point ended up at DM&P
+Edit: and indeed you can see this in the PCB pics, one says ALI under the DM&P lettering and the other has an Nvidia logo in the same spot"  https://www.globalamericaninc.com/manuals/3001116.pdf 
+
+"SiS said it is the “only company in the world besides Intel with a full platform of 3C technologies including CPU, core logic, multimedia and connectivity, plus its own fab.” SiS is the largest chip set supplier in Taiwan."  https://www.electronicsweekly.com/news/archived/resources-archived/sis-licences-the-x86-microprocessor-technology-from-rise-1999-10/ "The company did not say how much it paid for the Rise technology. Rise has developed Celeron clone chips but it has found it tough to proceed with its business plan of becoming a supplier of low priced X86 microprocessors because of Intel’s aggressive cost cutting on its low-end Celeron family."
