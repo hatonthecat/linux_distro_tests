@@ -979,9 +979,16 @@ https://www.tinytransistors.net/2020/11/21/intel-486sx/
 
 https://x86.fr/investigating-ssmecs-state-micro-486s-with-the-uca/ 
 
+"The results are surprising once again. The SM486DX266 requires half the power of any Intel 486DX2 based on the aB0-Stepping (SX807 and SX911). Intel’s aB0-Stepping (ID 0x435) is built on the P650 process (CHMOS V – 0.8 µm). However, the power consumption of the SSMEC CPU suggests it matches a more advanced process, such as the Intel P652 (0.6 µm) process used in later 486DX4 models. At 75 MHz, an Intel 486DX4 (0.6 µm) requires about 2.3W. When clocked down to 66 MHz, this almost perfectly matches the 1.95W of the SM486DX266. No genuine Intel DX2 CPUs have ever used a process more advanced than P648 (0.8 µm), making this finding quite interesting."
+
+
 https://www.youtube.com/watch?v=2eogea9lbcM Windows 95 on a 486SX 25MHz (2010)
 
+https://www.youtube.com/watch?v=LxOY5IIC0uo Win 95 on a 486 (DX?) (2022)
+
+
 https://en.m.wikipedia.org/wiki/List_of_x86_manufacturers#x86-processors_for_embedded_designs_only
+
 
 386
 --
