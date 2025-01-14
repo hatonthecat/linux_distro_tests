@@ -1017,6 +1017,10 @@ The 486SX averges around 13MIPS
 
 http://www.roylongbottom.org.uk/dhrystone%20results.htm#anchorWin
 
+![image](https://github.com/user-attachments/assets/839d74a2-77ea-4fbd-beae-a728f14eb776)
+
+https://www.researchgate.net/publication/377383708_Raspberry_Pi_5_Benchmarks_and_Stress_Tests
+
 https://alexandrugroza.ro/microelectronics/system-design/isa-80386dx-sbmc/index.html 
 
 https://www.youtube.com/watch?v=wVgITS8aLzc Pocket 386 - A NEW Modern Windows 95 & MS-DOS Laptop - Review & Unboxing (2022) 
