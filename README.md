@@ -989,6 +989,18 @@ https://www.youtube.com/watch?v=LxOY5IIC0uo Win 95 on a 486 (DX?) (2022)
 
 https://en.m.wikipedia.org/wiki/List_of_x86_manufacturers#x86-processors_for_embedded_designs_only
 
+https://youtu.be/Ga_DCFnH6OI Windows 95 Install on a 486SX 40MHz (PCEm)
+
+8MB RAM
+AMI WinBIOS 486
+Am486SX/40
+Installed with a 512KB Video Card
+"The CL-GD5402 was an ISA Super VGA chipset, also branded as AcuMOS VGA2, or AVGA2. The chip was a mild upgrade on the AcuMOS AVGA1, with AVGA2 able to support up to 512 KB of video memory and running at 65 MHz over the AVGA1's 256 KB of memory and 42 MHz."
+[https://dosdays.co.uk/topics/Manufact...](https://dosdays.co.uk/topics/Manufacturers/cirruslogic/clgd5402.php)
+
+Like the AVGA1, the AVGA2 was sold on the basis of low price rather than high performance, but despite this, the AVGA2 turned out decent performance. The higher memory capacity meant the chipset could support all the AVGA1's video modes in addition to 640 x 480 in 256 colours, 800 x 600 in 256 colours and 1024 x 768 in 16 colours (non-interlaced)"
+
+This is a bit slower than my first PC, but I was interested in getting something to run Windows 95 on a 486. While a 512K video card might have been common with an early 486 or late 386, it is probably better to pair it with a 1-2MB Video card at the very least. Installing the right video card makes all the difference- my 1MB video card on P54C could play back most of the video fine, but the 100MHz boost probably helped too. For non-video applications though, this 512K card is probably fine for Windows 95, although this PCem test only supports 16 colors, I think because the driver hadn't been installed.
 
 386
 --
