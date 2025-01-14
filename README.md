@@ -1031,6 +1031,10 @@ Review: https://arstechnica.com/gadgets/2024/08/a-few-weeks-with-the-pocket-386-
 
 The Pocket 386 is a poor fit for either audience, too flakey and frustrating for hobbyists and too inconsistent and unstable for anyone who genuinely needs to rely on it for anything. I actually kind of liked using the Book 8088 as a distraction-free glorified electronic typewriter; there's a version of the Pocket 386 that could fill the same niche, but this particular laptop doesn't do it for me."
 
+https://github.com/hatonthecat/linux_distro_tests/blob/main/Screenshot_20250114-102919~2.png the 386SX and DX both used 275,000 transistors, but as 1988 was a year where portable devices used batteries with low energy-density and lifespan, the 800,000 transistor 386SL made sense. Today, the 386SX could be produced on 1.6nm in a TSMC or intel foundry, nearly 1/1000th the size, and would not need the extra power saving circuitry. 
+
+the 486 added 8KB cache, but is it worth an extra 900,000 transistors? and how many transistors is 8MB RAM?
+
 https://theretroweb.com/chipsets/182
 
 https://www.youtube.com/watch?v=ZyjeVx_YOLE  386SX-40 Single Board Computer with ALI M6117C Embedded CPU - Testing & Gaming (2021) 
