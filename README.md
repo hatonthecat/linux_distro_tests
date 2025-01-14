@@ -1008,8 +1008,14 @@ Confirmed, I was only using a standard display adapter:
 
 On the plus side, isn't amazing that MS Windows 95 can play a slideshow of a Weezer song using 64K of video memory? Drivers here: https://dosdays.co.uk/media/cirrus_logic/CS5402_AVGA/avga2_drivers.zip
 
+The 486SX averges around 13MIPS
+
 386
 --
+
+![image](https://github.com/user-attachments/assets/84bc3549-c107-47cf-904b-02316a18f5f4) 
+
+http://www.roylongbottom.org.uk/dhrystone%20results.htm#anchorWin
 
 https://alexandrugroza.ro/microelectronics/system-design/isa-80386dx-sbmc/index.html 
 
