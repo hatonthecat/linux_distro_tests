@@ -1025,6 +1025,19 @@ https://alexandrugroza.ro/microelectronics/system-design/isa-80386dx-sbmc/index.
 
 https://www.youtube.com/watch?v=wVgITS8aLzc Pocket 386 - A NEW Modern Windows 95 & MS-DOS Laptop - Review & Unboxing (2022) 
 
+My tests on 386 emulator:
+
+https://youtu.be/TzB_LQ8jun0?feature=shared (Part 1)
+https://youtu.be/83eiLicpsTM?feature=shared (Part 2)
+
+supplemental inspirational material:
+
+https://youtu.be/LiGhPD0GXhM?feature=shared it was Chubby Checker who sang this song, but Harry Belafonte who did the limbo (1963):
+
+https://photos.com/featured/limbo-belafonte-hulton-archive.html?srsltid=AfmBOorZwnkhkW4T-ULUyGrEQwUyaz6V-Eazreg8ICnBHktToW9uLt5W
+
+[How low can you go? ](https://en.wikipedia.org/wiki/File:John_Cage_(1988).jpg)
+
 Review: https://arstechnica.com/gadgets/2024/08/a-few-weeks-with-the-pocket-386-an-early-90s-style-half-busted-retro-pc/ 
 
 "There are two big reasons for a machine like this to exist. For people like me, they're fun curiosities, a way to play with some retro hardware and software that doesn't require actually finding, buying, and making space for actual vintage hardware. It's an opportunity to revisit a time when this technology was newer and simpler (and, at least for me, a time when it was easier to be optimistic and excited about it). There are also people with vintage software or accessories they want to keep using and who (for one reason or another) can't use modern hardware or an emulator to do it.
