@@ -1002,6 +1002,12 @@ Like the AVGA1, the AVGA2 was sold on the basis of low price rather than high pe
 
 This is a bit slower than my first PC, but I was interested in getting something to run Windows 95 on a 486. While a 512K video card might have been common with an early 486 or late 386, it is probably better to pair it with a 1-2MB Video card at the very least. Installing the right video card makes all the difference- my 1MB video card on P54C could play back most of the video fine, but the 100MHz boost probably helped too. For non-video applications though, this 512K card is probably fine for Windows 95, although this PCem test only supports 16 colors, I think because the driver hadn't been installed.
 
+Confirmed, I was only using a standard display adapter:
+
+![image](https://github.com/user-attachments/assets/fca0ac95-261f-490e-ad21-0018d22600cf)
+
+On the plus side, isn't amazing that MS Windows 95 can play a slideshow of a Weezer song using 64K of video memory? Drivers here: https://dosdays.co.uk/media/cirrus_logic/CS5402_AVGA/avga2_drivers.zip
+
 386
 --
 
