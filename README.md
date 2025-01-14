@@ -989,7 +989,7 @@ https://www.youtube.com/watch?v=LxOY5IIC0uo Win 95 on a 486 (DX?) (2022)
 
 https://en.m.wikipedia.org/wiki/List_of_x86_manufacturers#x86-processors_for_embedded_designs_only
 
-https://youtu.be/Ga_DCFnH6OI Windows 95 Install on a 486SX 40MHz (PCEm)
+https://youtu.be/Ga_DCFnH6OI Windows 95 Install on a 486SX 40MHz (PCEm), 47minutes
 
 8MB RAM
 AMI WinBIOS 486
