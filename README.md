@@ -975,6 +975,12 @@ https://archive.org/details/SuSE8.2LiveEvalI386IntRC2 (I am leaning towards <2.6
 486 processors
 --
 
+https://github.com/eivindbohler/tinyllama2
+https://github.com/rasteri/weeCee (486/586-like) 
+https://retrodreams.ca/products/itx-llama-mainboard
+"Pixel x86: A New Mini MS-DOS & Windows Gaming PC!" 
+https://www.youtube.com/watch?v=B8WfiRRvQXo https://pixelx86.com/ 
+   
 https://www.tinytransistors.net/2020/11/21/intel-486sx/
 
 https://x86.fr/investigating-ssmecs-state-micro-486s-with-the-uca/ 
@@ -1023,7 +1029,10 @@ https://www.researchgate.net/publication/377383708_Raspberry_Pi_5_Benchmarks_and
 
 https://alexandrugroza.ro/microelectronics/system-design/isa-80386dx-sbmc/index.html 
 
+https://hexus.net/tech/news/cpu/113735-via-zhaoxin-zx-family-x86-processors-roadmap-shared/ 
+
 https://www.youtube.com/watch?v=wVgITS8aLzc Pocket 386 - A NEW Modern Windows 95 & MS-DOS Laptop - Review & Unboxing (2022) 
+https://arstechnica.com/gadgets/2024/08/a-few-weeks-with-the-pocket-386-an-early-90s-style-half-busted-retro-pc/
 
 My tests on 386 emulator:
 
