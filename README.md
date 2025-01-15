@@ -1029,10 +1029,16 @@ https://www.researchgate.net/publication/377383708_Raspberry_Pi_5_Benchmarks_and
 
 https://alexandrugroza.ro/microelectronics/system-design/isa-80386dx-sbmc/index.html 
 
-https://hexus.net/tech/news/cpu/113735-via-zhaoxin-zx-family-x86-processors-roadmap-shared/ 
+https://hexus.net/tech/news/cpu/113735-via-zhaoxin-zx-family-x86-processors-roadmap-shared/ (2018)
+
+"Taiwan's VIA Technologies holds an x86 development license but seems to have been rather quiet for a number of years in this respect. The last thing HEXUS published regarding VIA x86 processors was back in the summer of 2014 when it announced a new version of its 2008 vintage Isaiah x86 compatible processor was about to be released. That was an initiative meant to combat Intel Atom Bay Trail and/or AMD Kabini processors in the low-power entry level netbook/tablet territory.
+
+Behind the scenes VIA has been working in partnership with a Shanghai Municipal Government founded fab-less semiconductor company by the name of Zhaoxin since 2013. The pair have worked through x86 three architecture updates (ZX-A, ZX-B, and ZX-C) together and have just recently released their first ZX-D processors, the KX-5000 family.""
 
 https://www.youtube.com/watch?v=wVgITS8aLzc Pocket 386 - A NEW Modern Windows 95 & MS-DOS Laptop - Review & Unboxing (2022) 
 https://arstechnica.com/gadgets/2024/08/a-few-weeks-with-the-pocket-386-an-early-90s-style-half-busted-retro-pc/
+
+""At the heart of the Pocket 386 is an ALi M6117C chip, which combines the 40 MHz 80386 SX core with a Ali M1217B chipset that obviates the need for a separate chipset to handle communication with RAM, the video card, the hard drive, and other accessories. Today, it’s common for all of these components to reside on the same CPU package or in the same piece of silicon, but the M6117C is actually a specialized chip made years after the 386’s heyday for use in industrial and embedded systems. Luckily for us, consumer DOS and Windows operating systems don’t really know the difference.""
 
 My tests on 386 emulator:
 
