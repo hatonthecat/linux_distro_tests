@@ -1075,3 +1075,11 @@ https://news.ycombinator.com/item?id=36213067 https://en.wikipedia.org/wiki/ALi_
 Edit: and indeed you can see this in the PCB pics, one says ALI under the DM&P lettering and the other has an Nvidia logo in the same spot"  https://www.globalamericaninc.com/manuals/3001116.pdf 
 
 "SiS said it is the “only company in the world besides Intel with a full platform of 3C technologies including CPU, core logic, multimedia and connectivity, plus its own fab.” SiS is the largest chip set supplier in Taiwan."  https://www.electronicsweekly.com/news/archived/resources-archived/sis-licences-the-x86-microprocessor-technology-from-rise-1999-10/ "The company did not say how much it paid for the Rise technology. Rise has developed Celeron clone chips but it has found it tough to proceed with its business plan of becoming a supplier of low priced X86 microprocessors because of Intel’s aggressive cost cutting on its low-end Celeron family."
+
+
+DSL 2024 RC7 tests
+--
+
+https://www.youtube.com/watch?v=EQl8KcaqaR8 88MB RAM
+
+https://www.youtube.com/watch?v=6j3f3XiBItE&list=PLKvMTg3KKwP28Ap7eqeuZWc-sQO7Ydinq&index=39 96MB RAM-256MB Playlist
