@@ -23,6 +23,7 @@ I found the screw that it mentions:
 
 ![P1020387](https://github.com/user-attachments/assets/e129fe97-4654-45cb-bed3-d471694a17e4)
 
-![Battery removed](https://github.com/user-attachments/assets/7ce5cd07-8366-4c69-8c77-073f438b679f)
+![Battery removed](https://github.com/user-attachments/assets/a821af2d-b658-4d57-b37b-da53d673ca1a)
+
 
 Now I just need to install an OS.
