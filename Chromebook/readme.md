@@ -27,3 +27,23 @@ I found the screw that it mentions:
 
 
 Now I just need to install an OS.
+
+
+https://unix.stackexchange.com/questions/786872/64-bit-linux-and-x86-64-v1-micro-architecture
+
+https://coolstar.org/chromebook/windows-install.html (instructions for Full UEFI (regardless of a Windows or Linux install) 
+
+https://etcher.balena.io/#download-etcher
+
+https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+2955U+%40+1.40GHz&id=2073 
+
+https://www.videocardbenchmark.net/gpu.php?gpu=Intel+4th+Generation+Haswell+HD&id=3730
+
+https://www.techpowerup.com/cpu-specs/celeron-2955u.c1722 
+No AVX, oh well. Still supports virtualization at least. It is still better than an Atom and even a C-50/ E-350. Intel 4th Gen HD Graphics are comparable to HD 4000. My expected performance: https://youtu.be/SG0MvvLwKYo There is only a 16GB soldered SSD, so installing it will be tricky, unless I opt to use the SD slot for a 32 or 64GB card (provided linux recognizes the driver). 
+
+![image](https://github.com/user-attachments/assets/080113d7-ec74-42e3-af9f-166eb5c460a1)
+
+"The Intel Celeron 2955U is a mobile processor with 2 cores, launched in September 2013. It is part of the Celeron lineup, using the Haswell architecture with Socket G2 (988B). Celeron 2955U has 2 MB of L3 cache and operates at 1400 MHz. Intel is making the Celeron 2955U on a 22 nm production node using 1,400 million transistors. The multiplier is locked on Celeron 2955U, which limits its overclocking potential.
+With a TDP of 15 W, the Celeron 2955U consumes very little energy. Intel's processor supports DDR3 memory with a dual-channel interface. This processor features the Intel HD integrated graphics solution.
+Hardware virtualization is available on the Celeron 2955U, which greatly improves virtual machine performance."
