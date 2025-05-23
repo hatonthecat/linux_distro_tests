@@ -1,7 +1,8 @@
 Purchased from Goodwill in 2022
 
 
-Toshiba 13.3 inch CB30-A3120 Chromebook, Celeron 2955U 1.4GHz 2GB, 16GB SSD	Toshiba 13.3 inch CB30-A3120 Chromebook, Celeron 2955U 1.4GHz 2GB, 16GB SSD
+Toshiba 13.3 inch CB30-A3120 Chromebook, Celeron 2955U 1.4GHz 2GB, 16GB SSD	
+
 $14.00 
 Qty: 1
 
