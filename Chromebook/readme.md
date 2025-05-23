@@ -66,3 +66,7 @@ There was a small metallic sticker on the firmware Write Protection(WP) screwhol
 It is small enough to fit into 16GB but I might opt for another distro to install on the SSD. KDE always has a lot of software included and something more lightweight will be ideal. 
 
 Installing it ran into a slight issue: I didn't disable SecureBoot, which it required: "Newer machines with UEFI boot mechanism must have "Secure Boot" disabled." https://exegnulinux.net/ while I could simply disable it, I might search for a different distro that has the certificate signed. Not that it's a big deal..
+
+I recorded most of the process. A little trial and error: https://www.youtube.com/playlist?list=PLKvMTg3KKwP1LnchxOVuWaVq1rCkvbMeV
+
+I also am currently installing Linux Mint but will check if the 20GB HDD minimum is a hard minimum. 
