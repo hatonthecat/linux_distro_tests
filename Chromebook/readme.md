@@ -64,3 +64,5 @@ Update 3:53pm:
 There was a small metallic sticker on the firmware Write Protection(WP) screwhole that had to be removed to ensure the copper contacts grounded and the write protection was finally disabled. Coreboot enabled Full UEFI and I was able to load a LiveUSB of https://sourceforge.net/projects/exegnulinux/
 
 It is small enough to fit into 16GB but I might opt for another distro to install on the SSD. KDE always has a lot of software included and something more lightweight will be ideal. 
+
+Installing it ran into a slight issue: I didn't disable SecureBoot, which it required: "Newer machines with UEFI boot mechanism must have "Secure Boot" disabled." https://exegnulinux.net/ while I could simply disable it, I might search for a different distro that has the certificate signed. Not that it's a big deal..
