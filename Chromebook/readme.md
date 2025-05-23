@@ -50,3 +50,10 @@ No AVX, oh well. Still supports virtualization at least. It is still better than
 "The Intel Celeron 2955U is a mobile processor with 2 cores, launched in September 2013. It is part of the Celeron lineup, using the Haswell architecture with Socket G2 (988B). Celeron 2955U has 2 MB of L3 cache and operates at 1400 MHz. Intel is making the Celeron 2955U on a 22 nm production node using 1,400 million transistors. The multiplier is locked on Celeron 2955U, which limits its overclocking potential.
 With a TDP of 15 W, the Celeron 2955U consumes very little energy. Intel's processor supports DDR3 memory with a dual-channel interface. This processor features the Intel HD integrated graphics solution.
 Hardware virtualization is available on the Celeron 2955U, which greatly improves virtual machine performance."
+
+I got into devloper mode, but it's having trouble recognizing Write Protection is disable. Probably need to unplug the laptop and ensure no copper contacts are allowing the connection to remain with write protection. Disabling it in software didn't work, and produced this error:
+https://mail.coreboot.org/pipermail/flashrom/2013-December/011933.html
+
+https://flashrom.flashrom.narkive.com/Oj2ljryK/trouble-disabling-write-protection-on-chromebook
+
+https://www.reddit.com/r/chromeos/comments/wu0suk/how_do_i_disable_write_protection_on_this/
