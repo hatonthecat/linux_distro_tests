@@ -40,7 +40,7 @@ https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+2955U+%40+1.40GHz&id=2073
 https://www.videocardbenchmark.net/gpu.php?gpu=Intel+4th+Generation+Haswell+HD&id=3730
 
 https://www.techpowerup.com/cpu-specs/celeron-2955u.c1722 
-No AVX, oh well. Still supports virtualization at least. It is still better than an Atom and even a C-50/ E-350. Intel 4th Gen HD Graphics are comparable to HD 4000. My expected performance: https://youtu.be/SG0MvvLwKYo There is only a 16GB soldered SSD, so installing it will be tricky, unless I opt to use the SD slot for a 32 or 64GB card (provided linux recognizes the driver). 
+No AVX, oh well. Still supports virtualization at least. It is still better than an Atom and even a C-50/ E-350. Intel 4th Gen HD Graphics are comparable to HD 4000. My expected performance: https://youtu.be/SG0MvvLwKYo There is only a 16GB soldered SSD, so installing a lightweight OS will be tricky, unless I opt to use the SD slot for a 32 or 64GB card (provided linux recognizes the driver). 
 
 ![image](https://github.com/user-attachments/assets/080113d7-ec74-42e3-af9f-166eb5c460a1)
 
