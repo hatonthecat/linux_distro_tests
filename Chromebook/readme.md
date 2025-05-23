@@ -8,7 +8,7 @@ Qty: 1
 
 https://www.cnet.com/reviews/toshiba-chromebook-review/ 
 
-The battery never worked, as advertised, but I had an old 19V adapter for a netbook so I didn't have to spend extra money to get it working, and not frequent enough to want to have two 19V adapters for netbooks I barely use.  I was able to run [Crouton](https://github.com/dnschneid/crouton) linux with Xfce for a while, but it got old and have been willing to risk a brick with a hardware root.
+The battery never worked, as advertised ( I knew what I was getting in to), but I had an old 19V adapter for a netbook so I didn't have to spend extra money to get it working, and not frequent enough to want to have two 19V adapters for netbooks I barely use.  I was able to run [Crouton](https://github.com/dnschneid/crouton) linux with Xfce for a while, but it got old and have been willing to risk a brick with a hardware root.
 
 Enter Mr Chromebox (a coreboot):
 
