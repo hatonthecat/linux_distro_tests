@@ -57,3 +57,10 @@ https://mail.coreboot.org/pipermail/flashrom/2013-December/011933.html
 https://flashrom.flashrom.narkive.com/Oj2ljryK/trouble-disabling-write-protection-on-chromebook
 
 https://www.reddit.com/r/chromeos/comments/wu0suk/how_do_i_disable_write_protection_on_this/
+
+Update 3:53pm:
+--
+
+There was a small metallic sticker on the firmware Write Protection(WP) screwhole that had to be removed to ensure the copper contacts grounded and the write protection was finally disabled. Coreboot enabled Full UEFI and I was able to load a LiveUSB of https://sourceforge.net/projects/exegnulinux/
+
+It is small enough to fit into 16GB but I might opt for another distro to install on the SSD. KDE always has a lot of software included and something more lightweight will be ideal. 
