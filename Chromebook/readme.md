@@ -83,3 +83,7 @@ Despite the old 2 threaded CPU and no working battery, it actually has some adva
 https://www.howtogeek.com/how-to-get-gog-galaxy-on-linux/
 Also, Bottles: https://www.howtogeek.com/running-windows-apps-on-linux-with-bottles/
 
+I installed Void Linux 2-2025 on a 4GB SD Card, and so far, it's the fastest and modern distro that I could find. RAM utilization averages around 500MB and it only requires 5GB of disc space with Xfce (less without) Mirror: https://mirrors.servercentral.com/voidlinux/live/20250202/
+The enterprise edition I downloaded first (April 2025 version), but I realize it required a license, and has an "activate" notice in the bottom right, similar to Windows distros that haven't yet been activated.
+
+Downloading the 2-2025 "free" edition of Xfce + Void + musl 
