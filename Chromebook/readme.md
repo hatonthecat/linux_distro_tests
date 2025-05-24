@@ -81,4 +81,5 @@ Will remove the OS and install something lighter so that closer to 10GB is left 
 
 Despite the old 2 threaded CPU and no working battery, it actually has some advantages from my Lenovo ThinkPad E420. It's much thinner, lighter, has a better integrated video, and the screen is much clearer than the faded Thinkpad Edge screen. The Thinkpad looks ok only when the saturation and brightness are turned up all the way, and that isn't too great for the eyes. There's probably a few lightweight OSes that can get a dock like Cairo or Latte working on a 16GB SSD, but most modern distros need at least 20GB. It might be simpler to start with a minimal install, even a server distro and then add eyecandy later. The GPU can definitely handle it. Also, Steam doesn't recognize external SD cards as drives, so it is not simple to just add a SD or USB drive. There might be a fix for that and there are other GOG clients such as minigalaxy: https://sharkwouter.github.io/minigalaxy/
 https://www.howtogeek.com/how-to-get-gog-galaxy-on-linux/
+Also, Bottles: https://www.howtogeek.com/running-windows-apps-on-linux-with-bottles/
 
