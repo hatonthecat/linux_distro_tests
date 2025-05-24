@@ -40,6 +40,8 @@ https://etcher.balena.io/#download-etcher
 
 https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+2955U+%40+1.40GHz&id=2073 
 
+https://www.intel.com/content/www/us/en/products/sku/75608/intel-celeron-processor-2955u-2m-cache-1-40-ghz/specifications.html
+
 https://www.videocardbenchmark.net/gpu.php?gpu=Intel+4th+Generation+Haswell+HD&id=3730
 
 https://www.techpowerup.com/cpu-specs/celeron-2955u.c1722 
@@ -73,3 +75,10 @@ I also am currently installing Linux Mint but will check if the 20GB HDD minimum
 
 Update: Mint runs fine, but there is barely 200MB left after running updates, installing Steam+ its own updates and removing Firefox, Thunderbird, Rhythmbox, Timeshift, LibreOffice and a few other small apps. There is really little space left over since Mesa drivers are an additional 700MB. The only game I was able to play (fit) from my library was [Osmos](https://youtube.com/shorts/I_Em127Z_0o), a 30MB 2009 game with little 3D acceleration. But at least I was able to run it and at 60fps. 
 Will remove the OS and install something lighter so that closer to 10GB is left over. 
+
+5-24-2025 Review
+--
+
+Despite the old 2 threaded CPU and no working battery, it actually has some advantages from my Lenovo ThinkPad E420. It's much thinner, lighter, has a better integrated video, and the screen is much clearer than the faded Thinkpad Edge screen. The Thinkpad looks ok only when the saturation and brightness are turned up all the way, and that isn't too great for the eyes. There's probably a few lightweight OSes that can get a dock like Cairo or Latte working on a 16GB SSD, but most modern distros need at least 20GB. It might be simpler to start with a minimal install, even a server distro and then add eyecandy later. The GPU can definitely handle it. Also, Steam doesn't recognize external SD cards as drives, so it is not simple to just add a SD or USB drive. There might be a fix for that and there are other GOG clients such as minigalaxy: https://sharkwouter.github.io/minigalaxy/
+https://www.howtogeek.com/how-to-get-gog-galaxy-on-linux/
+
