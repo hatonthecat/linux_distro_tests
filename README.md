@@ -1,7 +1,3 @@
-![image](https://github.com/user-attachments/assets/fa63f898-d6af-4a19-bb19-875e0a4ee7c8)
-
-(& Chrome OS too)
-
 # linux_distro_tests
 A test of various linux live USBs. The objective of this repository is to not only test general distros, but to start with an otherwise "standard, fully featured" alternative distro, and then to examine which features can be removed. Distros that can run on less than 1GB will be tested, but the goal is to get linux to run on 8MB of RAM or less. Microcontrollers and microkernels use little to no memory management, thus they may be included, but a hybrid approach to mixing kernel modules may be explored too.
 
@@ -951,6 +947,22 @@ The archive, which contained the ZipSlack distribution, was too big to be decomp
 https://en.wikipedia.org/wiki/Slackware#Releases  (RAM requirements were as little as 4MB- getting ZipSlack to run would be interesting too- 
 
 DSL 2024 https://youtu.be/KEbW5tFrLXc
+
+Mandrake 5.1/RedHat 5.1
+
+<img width="1031" height="813" alt="image" src="https://github.com/user-attachments/assets/b05f5e80-0ca9-4800-a4e2-e77553e7e08f" />
+
+https://studio.youtube.com/video/8udtDbCeOwE/edit
+
+https://www.linux-distros.com/mandrake-5-1/ (faster download speed than IA) Still working on getting the SCSI virtual drive setup 
+
+"Linux-Mandrake is an updated Linux-RH 5.1 GPL, with KDE 1.0 fully integrated and preconfigured in it. Those two parts have been (not so much) modified and improved to work properly together.
+
+In Linux-Mandrake, you’ll find all the RH 5.1 good softs provided with the RH 5.1 : Emacs 20.2 the famous text editor, Apache 1.2.6 the famous web-server, Netscape 4.05 the famous web browser etc. We also have been kind enough to put _Gimp 1.0_, the Photoshop- clone in Linux-Mandrake 5.1 🙂
+I sincerely believe that Linux-Mandrake is one of the most powerful Linux-distribution, and certainly the easiest to use."
+
+alternate distro build https://archive.org/details/mandrake-5.1-i386
+
 
 SUSE Linux 8.2 with unknown filesystem (Searching for cramFS in the wild)
 --
