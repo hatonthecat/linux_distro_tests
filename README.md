@@ -955,7 +955,10 @@ Mandrake 5.1/RedHat 5.1 with 16MB RAM
 
 <img width="1031" height="813" alt="image" src="https://github.com/user-attachments/assets/b05f5e80-0ca9-4800-a4e2-e77553e7e08f" />
 
-https://studio.youtube.com/video/8udtDbCeOwE/edit
+https://www.youtube.com/watch?v=8udtDbCeOwE
+
+[Red.webm](https://github.com/user-attachments/assets/637c5145-995d-44ad-918b-5f95285c9cdc)
+
 
 https://www.linux-distros.com/mandrake-5-1/ (faster download speed than IA) Still working on getting the SCSI virtual drive setup - I know, the video showed I picked SATA- the first test was just to see if it would post at all with just 16MB RAM, which was common during the era. I was using 33MB of RAM for previous reasons- I have plans to use another VM but for now, VirtualBox is fine.
 
