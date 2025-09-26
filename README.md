@@ -919,8 +919,10 @@ https://soft.lafibre.info/
 
 https://www.linux-distros.com/category/1998-2002/page/6/
 
-"Mandrake 5.3 (ISO)
-The new release includes software so new it’s almost scary – KDE 1.1; Last release with Kernel 2.0 series.
+Mandrake 5.3 (ISO)
+--
+
+"The new release includes software so new it’s almost scary – KDE 1.1; Last release with Kernel 2.0 series.
 
 Mandrake-5.3
 
@@ -948,18 +950,28 @@ https://en.wikipedia.org/wiki/Slackware#Releases  (RAM requirements were as litt
 
 DSL 2024 https://youtu.be/KEbW5tFrLXc
 
-Mandrake 5.1/RedHat 5.1
+Mandrake 5.1/RedHat 5.1 with 16MB RAM
+--
 
 <img width="1031" height="813" alt="image" src="https://github.com/user-attachments/assets/b05f5e80-0ca9-4800-a4e2-e77553e7e08f" />
 
 https://studio.youtube.com/video/8udtDbCeOwE/edit
 
-https://www.linux-distros.com/mandrake-5-1/ (faster download speed than IA) Still working on getting the SCSI virtual drive setup 
+https://www.linux-distros.com/mandrake-5-1/ (faster download speed than IA) Still working on getting the SCSI virtual drive setup - I know, the video showed I picked SATA- the first test was just to see if it would post at all with just 16MB RAM, which was common during the era. I was using 33MB of RAM for previous reasons- I have plans to use another VM but for now, VirtualBox is fine.
 
 "Linux-Mandrake is an updated Linux-RH 5.1 GPL, with KDE 1.0 fully integrated and preconfigured in it. Those two parts have been (not so much) modified and improved to work properly together.
 
 In Linux-Mandrake, you’ll find all the RH 5.1 good softs provided with the RH 5.1 : Emacs 20.2 the famous text editor, Apache 1.2.6 the famous web-server, Netscape 4.05 the famous web browser etc. We also have been kind enough to put _Gimp 1.0_, the Photoshop- clone in Linux-Mandrake 5.1 🙂
 I sincerely believe that Linux-Mandrake is one of the most powerful Linux-distribution, and certainly the easiest to use."
+
+<img width="300" height="225" alt="image" src="https://github.com/user-attachments/assets/17e71664-3ea0-4ae1-b7b0-8a10bb7e439a" />
+
+
+Linux Distro: Mandrake 5.1 (Venice)
+Type: Stable
+Date: July 1998
+Kernel: 2.0.34
+Feature: First release.
 
 alternate distro build https://archive.org/details/mandrake-5.1-i386
 
