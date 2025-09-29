@@ -1121,6 +1121,8 @@ https://www.youtube.com/watch?v=6j3f3XiBItE&list=PLKvMTg3KKwP28Ap7eqeuZWc-sQO7Yd
 9-29-2025 DSL 4.4
 ---
 
+Playlist: https://www.youtube.com/watch?v=z11n4iPuq0Q&list=PLKvMTg3KKwP3BMXcv8D6ZGBBv8kYJDfqg
+
 [DSLSLLS-2025-09-29T05-12-41-981926100Z.webm](https://github.com/user-attachments/assets/00492088-6d18-46ad-8c7d-85ee6471ce81)
 
 [DSLSLLS-2025-09-29T06-17-58-148783500Z.webm](https://github.com/user-attachments/assets/d24272a9-84a1-4e0e-a6c1-d4e8fafcf564)
