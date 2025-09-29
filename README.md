@@ -1124,3 +1124,7 @@ https://www.youtube.com/watch?v=6j3f3XiBItE&list=PLKvMTg3KKwP28Ap7eqeuZWc-sQO7Yd
 [DSLSLLS-2025-09-29T05-12-41-981926100Z.webm](https://github.com/user-attachments/assets/00492088-6d18-46ad-8c7d-85ee6471ce81)
 
 [DSLSLLS-2025-09-29T06-17-58-148783500Z.webm](https://github.com/user-attachments/assets/d24272a9-84a1-4e0e-a6c1-d4e8fafcf564)
+
+16MB RAM XVesa 640x480 4-bit color:
+
+[DSL 4.11Syslinux-2025-09-29T14-55-00-782726900Z.webm](https://github.com/user-attachments/assets/de5e8879-8706-4f48-bdac-9ddfb86a68d2)
