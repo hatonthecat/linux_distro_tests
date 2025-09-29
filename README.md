@@ -1111,6 +1111,9 @@ Edit: and indeed you can see this in the PCB pics, one says ALI under the DM&P l
 DSL 2024 RC7 tests
 --
 
+<img width="640" height="480" alt="VirtualBox_DSLSLLS_29_09_2025_00_55_00" src="https://github.com/user-attachments/assets/03f186df-4319-4118-975d-b26195854ea5" />
+
+
 https://www.youtube.com/watch?v=EQl8KcaqaR8 88MB RAM
 
 https://www.youtube.com/watch?v=6j3f3XiBItE&list=PLKvMTg3KKwP28Ap7eqeuZWc-sQO7Ydinq&index=39 96MB RAM-256MB Playlist
