@@ -1114,3 +1114,10 @@ DSL 2024 RC7 tests
 https://www.youtube.com/watch?v=EQl8KcaqaR8 88MB RAM
 
 https://www.youtube.com/watch?v=6j3f3XiBItE&list=PLKvMTg3KKwP28Ap7eqeuZWc-sQO7Ydinq&index=39 96MB RAM-256MB Playlist
+
+9-29-2025 DSL 4.4
+---
+
+[DSLSLLS-2025-09-29T05-12-41-981926100Z.webm](https://github.com/user-attachments/assets/00492088-6d18-46ad-8c7d-85ee6471ce81)
+
+[DSLSLLS-2025-09-29T06-17-58-148783500Z.webm](https://github.com/user-attachments/assets/d24272a9-84a1-4e0e-a6c1-d4e8fafcf564)
