@@ -1140,3 +1140,13 @@ https://youtu.be/tPzTjkfVJ7E  DSL 1.1 16MB RAM
 [DSLSLLS-2025-10-01T19-59-50-615191500Z.webm](https://github.com/user-attachments/assets/f5ddd806-4d43-4ce8-aa98-9b0e0778df82)
 
 Virtual Box subtracts 3MB from the emulator's detected RAM, so I increased it to 19MB to appear as 16MB. Depending on how much RAM is actually being used, I included both figures to help you decide how much is actually needed. 5MB of VRAM was selected (on 32 Bit Virtual Box)
+
+Kolibri OS
+--
+
+I haven't tested this OS in a while, but it does work, maybe on as little as 8MB of RAM:
+
+https://www.youtube.com/watch?v=JXulxHKxED4
+
+https://www.youtube.com/watch?v=LjvG54xszoY 
+
