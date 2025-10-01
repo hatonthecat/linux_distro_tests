@@ -1,0 +1,21 @@
+Only in /Volumes/NO NAME/programs/system/cpu/trunk: CPU
+diff -ru programs/system/cpu/trunk/cpu.asm /Volumes/NO NAME/programs/system/cpu/trunk/cpu.asm
+--- programs/system/cpu/trunk/cpu.asm	2021-12-29 17:16:20.000000000 +0000
++++ /Volumes/NO NAME/programs/system/cpu/trunk/cpu.asm	2021-12-29 19:11:52.000000000 +0000
+@@ -400,14 +400,14 @@
+         mcall   SF_SYSTEM,SSF_GET_CPU_FREQUENCY
+         xor     edx,edx
+         mov     ebx,100
+-        div     ebx
++        ;div     ebx
+ ;eax = number of operation for 1% now
+ ;calculate process cpu usage percent
+         mov     ebx,eax
+         mov     eax,[process_info_buffer+process_information.cpu_usage]
+ ;       cdq
+         xor     edx,edx ; for CPU more 2 GHz - mike.dld
+-        div     ebx
++        ;div     ebx
+         mov     [cpu_percent],eax
+ ;set text color to display process information
+ ;0%     : black
