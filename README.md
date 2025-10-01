@@ -1135,3 +1135,6 @@ Playlist: https://www.youtube.com/watch?v=z11n4iPuq0Q&list=PLKvMTg3KKwP3BMXcv8D6
 --
 
 https://youtu.be/tPzTjkfVJ7E  DSL 1.1 16MB RAM 
+
+
+[DSLSLLS-2025-10-01T19-59-50-615191500Z.webm](https://github.com/user-attachments/assets/f5ddd806-4d43-4ce8-aa98-9b0e0778df82)
