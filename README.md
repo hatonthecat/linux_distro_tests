@@ -1162,3 +1162,10 @@ i586-compatible CPU[6] (with slight changes can run on i486 machine[12])
 8 MB of RAM[13]" https://board.kolibrios.org/viewtopic.php?t=4615
 https://board.kolibrios.org/viewtopic.php?t=4615 (486 hack)
 
+I know it might sound silly, but approaching Intel with a request to manufacture a Pentium at 14A and 8MB RAM might sound silly, since they would probably not even consider your email/request.
+
+https://www.tweaktown.com/news/107875/intel-increases-asmls-new-high-na-euv-machine-orders-ready-for-14a-process-against-tsmc/index.html 
+
+But this could actually solar power on very little wafer space, and considering the wafers will cost $45,000 each, 1mmm^2 could actually maximize the profit to sell a higher number (even if it using more sawspace for the cuts if they actually have more chips per wafer. https://www.reddit.com/r/pcmasterrace/comments/1l1ub0q/tsmcs_14nm_process_also_called_angstrom_will_make/ - a P54C with 12-16MB RAM in 1mm^2 could run many apps... 
+<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/64d362b4-e1a8-4eda-a8cd-34463824ad39" />
+
