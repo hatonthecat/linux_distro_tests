@@ -1166,6 +1166,25 @@ I know it might sound silly, but approaching Intel with a request to manufacture
 
 https://www.tweaktown.com/news/107875/intel-increases-asmls-new-high-na-euv-machine-orders-ready-for-14a-process-against-tsmc/index.html 
 
-But this could actually solar power on very little wafer space, and considering the wafers will cost $45,000 each, 1mmm^2 could actually maximize the profit to sell a higher number (even if it using more sawspace for the cuts if they actually have more chips per wafer. https://www.reddit.com/r/pcmasterrace/comments/1l1ub0q/tsmcs_14nm_process_also_called_angstrom_will_make/ - a P54C with 12-16MB RAM in 1mm^2 could run many apps... 
+But this could actually solar power on very little wafer space, and considering the wafers will cost $45,000 each, 1mmm^2 could actually maximize the profit to sell a higher number (even if it using more sawspace for the cuts if they actually have more chips per wafer. https://www.reddit.com/r/pcmasterrace/comments/1l1ub0q/tsmcs_14nm_process_also_called_angstrom_will_make/ 
+
+<img width="792" height="139" alt="image" src="https://github.com/user-attachments/assets/0fec3828-1710-4176-bc71-2cb2c1dfc4b2" />
+
+
+- a P54C with 12-16MB RAM in 1mm^2 could run many apps...  
 <img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/64d362b4-e1a8-4eda-a8cd-34463824ad39" />
 
+https://www.tomshardware.com/tech-industry/tsmc-explores-using-510x515-mm-rectangular-silicon-wafers-tripling-the-usable-area-of-current-300mm-diameter-tech 
+
+3. Final chip count
+Due to these factors, the total number of usable 1mm chips is significantly less than the theoretical maximum (approximately 70,000). Industry estimates for small chips like 1mm x 1mm on a 300mm wafer generally put the number around 50,000.
+
+
+On a 300mm wafer, approximately 50,000 1mm square chips can be manufactured after accounting for the space needed for sawing and testing. The "3nm" designation refers to the chip's fabrication process and does not affect the physical number of chips that fit on the wafer. Why "3nm" is not relevant to the number of chips The term "\(3\text{nm}\)" describes the process node technology used to build the chips, not their physical size. A smaller number, such as \(3\text{nm}\), indicates that transistors are smaller, more powerful, and more energy-efficient, allowing for higher density and more complex circuitry within a chip. It does not, however, determine the overall dimensions of the final 1mm x 1mm chip. Calculating the number of chips on a wafer 1. Wafer area A 300mm wafer is a circular piece of silicon with a diameter of 300 millimeters.The area of a 300mm wafer is approximately \(70,695\text{\ mm}^{2}\) (Area = \(\pi \times r^{2}\), where \(r=150\text{\ mm}\)). 2. Accounting for unusable space Since the chips are square and the wafer is round, some area at the edges cannot be used.Additionally, a "scribe line" of about \(0.1\text{\ mm}\) is needed between each chip for the saw blade to cut them apart.Wafer test sites also consume a small portion of the overall surface area. 3. Final chip countDue to these factors, the total number of usable 1mm chips is significantly less than the theoretical maximum (approximately 70,000). Industry estimates for small chips like 1mm x 1mm on a 300mm wafer generally put the number around 50,000.  
+
+<img width="950" height="1263" alt="image" src="https://github.com/user-attachments/assets/baa12caf-98b4-4042-a6ba-39acaf55a4c3" />
+
+
+<img width="576" height="267" alt="image" src="https://github.com/user-attachments/assets/df21a946-28fc-4766-9e2c-3cbb48fe1390" /> 
+
+(2007) https://www.eetimes.com/how-many-silicon-chips-are-there-on-a-300-mm-wafer/
