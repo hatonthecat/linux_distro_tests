@@ -1130,3 +1130,8 @@ Playlist: https://www.youtube.com/watch?v=z11n4iPuq0Q&list=PLKvMTg3KKwP3BMXcv8D6
 16MB RAM XVesa 640x480 4-bit color:
 
 [DSL 4.11Syslinux-2025-09-29T14-55-00-782726900Z.webm](https://github.com/user-attachments/assets/de5e8879-8706-4f48-bdac-9ddfb86a68d2)
+
+10-01-2025
+--
+
+https://youtu.be/tPzTjkfVJ7E  DSL 1.1 16MB RAM 
