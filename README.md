@@ -1144,9 +1144,13 @@ Virtual Box subtracts 3MB from the emulator's detected RAM, so I increased it to
 Kolibri OS
 --
 
-I haven't tested this OS in a while, but it does work, maybe on as little as 8MB of RAM:
+I haven't tested this OS in a while, but it does work, maybe on as little as 8MB of RAM: https://kolibrios.org/en/  Use Firefox as Chrome blocks the .7z download. It works on 8MB (although some programs won't run on that little RAM). Many do, however, including IRC!
 
 https://www.youtube.com/watch?v=JXulxHKxED4
 
 https://www.youtube.com/watch?v=LjvG54xszoY 
+
+https://youtu.be/c-nL0IOH8nc
+
+[Kolibri OS-2025-10-01T21-19-20-090335800Z.webm](https://github.com/user-attachments/assets/609094e7-0862-4771-89ba-71cb68c39021)
 
