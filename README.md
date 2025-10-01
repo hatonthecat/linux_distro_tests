@@ -1154,3 +1154,11 @@ https://youtu.be/c-nL0IOH8nc
 
 [Kolibri OS-2025-10-01T21-19-20-090335800Z.webm](https://github.com/user-attachments/assets/609094e7-0862-4771-89ba-71cb68c39021)
 
+https://en.wikipedia.org/wiki/KolibriOS#Supported_hardware
+
+"System requirements are:
+
+i586-compatible CPU[6] (with slight changes can run on i486 machine[12])
+8 MB of RAM[13]" https://board.kolibrios.org/viewtopic.php?t=4615
+https://board.kolibrios.org/viewtopic.php?t=4615 (486 hack)
+
