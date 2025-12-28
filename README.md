@@ -1197,3 +1197,9 @@ On a 300mm wafer, approximately 50,000 1mm square chips can be manufactured afte
 <img width="576" height="267" alt="image" src="https://github.com/user-attachments/assets/df21a946-28fc-4766-9e2c-3cbb48fe1390" /> 
 
 (2007) https://www.eetimes.com/how-many-silicon-chips-are-there-on-a-300-mm-wafer/
+
+xwoaf
+--
+https://github.com/hatonthecat/Pokey-Linux/tree/main/XServers
+
+https://youtu.be/GkATOFdkScI
