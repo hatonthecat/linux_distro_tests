@@ -19,4 +19,5 @@ The system seems to have frozen , so I restarted it once.
 [Pcem 2026-01-22 18-47-11-01.webm](https://github.com/user-attachments/assets/f95bfd6e-b146-4863-9135-e141b8de1ba2)
 
 Login Prompt (successful boot and running top)
+
 [Pcem 2026-01-22 18-51-30-82.webm](https://github.com/user-attachments/assets/865abbf8-05d1-4352-aa0b-b9e69d89be36)
