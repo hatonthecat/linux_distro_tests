@@ -30,6 +30,8 @@ Epson PC AX3 - Am386SX- 40MHz
 
 The entire bootup process isn't captured because FRAPs freezes recording sometimes when the screen refreshes a different terminal page
 
-[Epson AX3 3.5MB RAM.webm](https://github.com/user-attachments/assets/347bf951-e0cc-42f5-a7f3-10317731b624) 1st 10 seconds of first bootup, then 30 seconds just before login
+[Epson AX3 3.5MB RAM.webm](https://github.com/user-attachments/assets/347bf951-e0cc-42f5-a7f3-10317731b624)
+
+1st 10 seconds of first bootup, then 30 seconds just before login
 
 [Epson PC AX3- Am386SX-40MHz 3.5MB RAM Linux on PCem.webm](https://github.com/user-attachments/assets/02133f0b-e1b2-4312-aa99-2b00ee2d5ff3)
