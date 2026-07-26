@@ -1219,3 +1219,4 @@ username: gnome
 password: gnomehistory
 [GNOME 1.4-screen0 MB 8MB RAM login.webm](https://github.com/user-attachments/assets/2c353b71-b110-48b3-8ac7-487f9e322f91)
 
+[GNOME 1.4 1-screen0.webm](https://github.com/user-attachments/assets/2634fef3-f243-4238-825a-583502321151)
