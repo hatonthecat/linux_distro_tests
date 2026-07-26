@@ -1210,3 +1210,12 @@ http://www.tinycorelinux.net/downloads.html
 
 https://forum.tinycorelinux.net/index.php/topic,28008.0.html Release Notes 
 https://www.youtube.com/watch?v=onHcw5EC6-A
+
+RedHatLinux 7.2 w/GNOME 1.4 (via .ova)
+===============
+
+https://download.gnome.org/misc/
+username: nome
+password: gnomehistory
+[GNOME 1.4-screen0 MB 8MB RAM login.webm](https://github.com/user-attachments/assets/2c353b71-b110-48b3-8ac7-487f9e322f91)
+
