@@ -1200,7 +1200,26 @@ On a 300mm wafer, approximately 50,000 1mm square chips can be manufactured afte
 
 xwoaf
 --
-https://github.com/hatonthecat/Pokey-Linux/tree/main/XServers
+https://github.com/hatonthI used several tutorials:
+
+https://www.youtube.com/watch?v=jSy-9QRTvRs
+
+https://www.youtube.com/watch?v=jz4M15wtOHk
+
+https://archive.org/download/caldera-openlinux-1.3
+
+Initially I tried VirtualBox but it did not recognize the architecture, despite selecting 32 bit instructions. 
+
+"package _____.rpm is for a different architecture..." etcetera. I even tried editing the configuration file in GNOMEboxes to i686 from x86_64 (it wouldn't accept i386) on my 64 bit Rocky linux but had the same issue.
+
+Qemu does work, but I tend to lean on the GUI wrapper like QtEmu:
+https://sourceforge.net/projects/qtemu/
+
+https://gekk.info/blog/main/installing-caldera-openlinux-13-on-qemu.html
+
+https://zerker.ca/home/openlinux13.html This was a very helpful tutorial , although I wasn't super prioritizing the SVGA compatibility and didn't get the "StartX" option for Xserver to work, only the KDE option (see next video, Part 2 of 2).
+
+https://virtuallyfun.com/2013/03/27/caldera-open-linux/ecat/Pokey-Linux/tree/main/XServers
 
 https://youtu.be/GkATOFdkScI
 
@@ -1226,3 +1245,50 @@ password: gnomehistory
 12MB RAM & 1MB VRAM
 
 [GNOME 1.4 1-screen0.webm](https://github.com/user-attachments/assets/a0060a09-4d0c-4743-9621-79fabd6dc472)
+
+Caldera Linux 1.3 (libc5) 1998
+==============================
+
+Caldera OpenLinux 1.3 in QEMU: https://www.youtube.com/playlist?list=PLT5unWACEiH8 
+
+I was able to get kde and Xserver to run (the latter look several reboots)- I installed all packages, which was around 975MB (I used a 1.5GB disk)
+
+https://archive.org/download/caldera-openlinux-1.3
+
+Disc 1 is the ISO. Disk 2 is the source code. You can also torrent it (click View All and select the .torrent file).
+
+This was the first tutorial I watched:
+
+https://www.youtube.com/watch?v=jSy-9QRTvRs
+
+https://www.youtube.com/watch?v=jz4M15wtOHk
+
+However, it was a bit incomplete, so I found more tutorials (below).
+
+I used this 32 bit Qemu: https://qemu.weilnetz.de/w32/
+
+Initially I tried VirtualBox 5.2 (last 32 bit version) but it did not recognize the architecture, despite selecting 32 bit instructions. 
+
+Initially, I got this error when installing it yesterday night:
+"package _____.rpm is for a different architecture..." etcetera. I even tried editing the configuration file in GNOMEboxes to i686 from x86_64 (it wouldn't accept i386) on my 64 bit Rocky linux but had the same issue (similar to this:
+https://www.linuxquestions.org/questions/linux-general-1/suse-6-1-installation-error-42506/#post207783
+https://superuser.com/questions/1840679/error-trying-to-install-s-u-s-e-linux-5-2-in-virtualbox-7-0-16)
+
+So I switched to Windows to test 32 bit VMs (Rocky Linux seemed to have some SELinux locks on VirtualBox and I wasn't able to get it to run, or there was a kvm setting misconfigured and didn't know where to look). 
+
+I tend to lean on the GUI wrapper like QtEmu:
+https://sourceforge.net/projects/qtemu/ 
+I tried virt-manager (another GUI wrapper for Qemu on Rocky Linux) before switching to Windows and the "different architecture error also appeared during the installation when it tries to copy files to disc):
+
+https://gekk.info/blog/main/installing-caldera-openlinux-13-on-qemu.html
+
+https://zerker.ca/home/openlinux13.html This was a very helpful tutorial , although I wasn't super prioritizing the SVGA compatibility and didn't get the "StartX" option for Xserver to work, only the KDE option (see next video, Part 2 of 2).
+
+https://virtuallyfun.com/2013/03/27/caldera-open-linux/ Additional Caldera files- some are preconfigured for VMs:
+https://tenox.pdp-11.net/os/linux/caldera/
+
+This is also said to work well with OpenLinux 1.3: https://github.com/86Box/86Box
+
+kde in the 90s really tried to look like Windows!
+
+The installation requires at least 12MB of RAM, but after install, it can load with just 8MB!
