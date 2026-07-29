@@ -1292,3 +1292,7 @@ This is also said to work well with OpenLinux 1.3: https://github.com/86Box/86Bo
 kde in the 90s really tried to look like Windows!
 
 The installation requires at least 12MB of RAM, but after install, it can load with just 8MB!
+
+https://github.com/user-attachments/assets/d6a983bf-924a-4f93-9938-476880b4f545
+
+
