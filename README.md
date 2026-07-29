@@ -1278,11 +1278,11 @@ So I switched to Windows to test 32 bit VMs (Rocky Linux seemed to have some SEL
 
 I tend to lean on the GUI wrapper like QtEmu:
 https://sourceforge.net/projects/qtemu/ 
-I tried virt-manager (another GUI wrapper for Qemu on Rocky Linux) before switching to Windows and the "different architecture error also appeared during the installation when it tries to copy files to disc):
+I tried virt-manager (another GUI wrapper for Qemu on Rocky Linux) before switching to Windows and the "different architecture" error also appeared during the installation when it tries to copy files to disc):
 
 https://gekk.info/blog/main/installing-caldera-openlinux-13-on-qemu.html
 
-https://zerker.ca/home/openlinux13.html This was a very helpful tutorial , although I wasn't super prioritizing the SVGA compatibility and didn't get the "StartX" option for Xserver to work, only the KDE option (see next video, Part 2 of 2).
+https://zerker.ca/home/openlinux13.html This was a very helpful tutorial , although I wasn't super prioritizing the SVGA compatibility and didn't get the "StartX" option for Xserver to work (initially), only the KDE option (see next video, Part 2 of 2).
 
 https://virtuallyfun.com/2013/03/27/caldera-open-linux/ Additional Caldera files- some are preconfigured for VMs:
 https://tenox.pdp-11.net/os/linux/caldera/
