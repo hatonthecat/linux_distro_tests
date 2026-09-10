@@ -1230,6 +1230,12 @@ http://www.tinycorelinux.net/downloads.html
 https://forum.tinycorelinux.net/index.php/topic,28008.0.html Release Notes 
 https://www.youtube.com/watch?v=onHcw5EC6-A
 
+TinyCorePure64 http://tinycorelinux.net/17.x/x86_64/release/ on 128MB RAM
+
+http://tinycorelinux.net/ports.html
+
+[TinyCorePure64-17.1.webm](https://github.com/user-attachments/assets/a5d740ba-126f-4617-99b3-928f11012242)
+
 RedHatLinux 7.2 w/GNOME 1.4 (via .ova)
 ===============
 
